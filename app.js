@@ -76,7 +76,10 @@ function playChapterAudio(chapterNum) {
     const book = state.books[bookIdx];
     // Only preloaded books (not custom) have audiobooks
     if (bookIdx < PRELOADED_BOOKS.length) {
-      const path = `audiobook/ch${String(chapterNum).padStart(2, "0")}.mp3`;
+      // Book-specific audiobook directory
+      const bookSlug = book.title.toLowerCase().replace(/[^a-zа-я]/g, "-").slice(0, 20);
+      const path = `audiobook/${bookSlug}/ch${String(chapterNum).padStart(2, "0")}.mp3`;
+      // Fallback to generic path for first book
       state.audioPlayer.src = path;
       state.audioPlayer.play();
     }
