@@ -352,7 +352,60 @@ function fetchWiktionaryDetails(lemma, originalText) {
         if (!ruData || ruData.length === 0) {
           throw new Error("No definition");
         }
-        renderRESTAnalysis(originalText, ruData);
+        
+        // Scan for a link to a base lemma inside the form-of definition HTML
+        let detectedLemma = null;
+        const tempDiv = document.createElement("div");
+        
+        for (const block of ruData) {
+          for (const defObj of block.definitions) {
+            tempDiv.innerHTML = defObj.definition;
+            const link = tempDiv.querySelector(".form-of-definition-link a, .mention a, a[href*='/wiki/']");
+            if (link) {
+              const linkText = (link.textContent || link.innerText).trim();
+              // Validate that the linked text contains Cyrillic (meaning it's the Russian lemma)
+              if (/[а-яёА-ЯЁ]/.test(linkText)) {
+                detectedLemma = linkText.replace(/\u0301/g, "").toLowerCase(); // strip accents and lowercase
+                break;
+              }
+            }
+          }
+          if (detectedLemma) break;
+        }
+
+        // If an inflected form refers to a different base lemma, fetch its definition
+        if (detectedLemma && detectedLemma !== cleanLower) {
+          const lemmaUrl = `https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(detectedLemma)}`;
+          fetch(lemmaUrl)
+            .then(r => r.ok ? r.json() : null)
+            .then(lemmaData => {
+              let lemmaDefs = [];
+              const cleanHtmlText = (html) => {
+                const t = document.createElement("div");
+                t.innerHTML = html;
+                return t.textContent || t.innerText || "";
+              };
+              
+              if (lemmaData && lemmaData.ru) {
+                lemmaData.ru.forEach(b => {
+                  b.definitions.slice(0, 2).forEach(d => {
+                    const cleaned = cleanHtmlText(d.definition);
+                    if (cleaned && !lemmaDefs.includes(cleaned)) {
+                      lemmaDefs.push(cleaned);
+                    }
+                  });
+                });
+              }
+              
+              const translation = lemmaDefs.slice(0, 2).join("; ");
+              renderRESTAnalysis(originalText, ruData, translation);
+            })
+            .catch(err => {
+              renderRESTAnalysis(originalText, ruData);
+            });
+        } else {
+          renderRESTAnalysis(originalText, ruData);
+        }
       })
       .catch(err => {
         if (!isRetry && cleanOriginal !== wordToQuery) {
@@ -389,7 +442,7 @@ function showTooltipError(word, msg) {
   document.getElementById("save-word-btn").addEventListener("click", () => saveWordToVocab(word, "Definition not found. Custom card.", "Unknown"));
 }
 
-function renderRESTAnalysis(originalText, ruData) {
+function renderRESTAnalysis(originalText, ruData, lemmaTranslation = null) {
   const content = document.getElementById("tooltip-content");
   const dictBody = document.getElementById("dict-body");
 
@@ -433,6 +486,18 @@ function renderRESTAnalysis(originalText, ruData) {
   const posString = tooltipPosList.join(" / ");
   const briefDef = tooltipDefsList.slice(0, 2).join("; ");
 
+  let meaningHtml = "";
+  if (lemmaTranslation) {
+    meaningHtml = `<div class="tooltip-definition" style="border-top: 1px dashed var(--border-color); padding-top: 6px; font-weight: 600; color: var(--text-primary);">Translation: ${lemmaTranslation}</div>`;
+    
+    detailedCardHtml += `
+      <div class="dict-body-section" style="margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 8px;">
+        <div class="dict-section-title" style="color: var(--accent-secondary); font-weight: 700;">Base Lemma Meaning</div>
+        <p style="font-size: 0.95rem; color: var(--text-primary); margin-top: 4px;"><strong>${lemmaTranslation}</strong></p>
+      </div>
+    `;
+  }
+
   // Render tooltip bubble
   content.innerHTML = `
     <div class="tooltip-header">
@@ -445,6 +510,7 @@ function renderRESTAnalysis(originalText, ruData) {
     </div>
     <div class="tooltip-grammar">${posString}</div>
     <div class="tooltip-definition">${briefDef}</div>
+    ${meaningHtml}
   `;
 
   // Render analysis sidebar card
@@ -463,7 +529,7 @@ function renderRESTAnalysis(originalText, ruData) {
   // Bind actions
   document.getElementById("tts-word-btn").addEventListener("click", () => speakText(originalText));
   document.getElementById("save-word-btn").addEventListener("click", () => {
-    saveWordToVocab(originalText, briefDef, posString);
+    saveWordToVocab(originalText, lemmaTranslation ? `${briefDef} (${lemmaTranslation})` : briefDef, posString);
   });
   document.getElementById("more-dict-btn").addEventListener("click", () => {
     document.getElementById("dict-drawer").classList.add("open");
