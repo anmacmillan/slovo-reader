@@ -1,4 +1,4 @@
-const CACHE_NAME = "slovo-cache-v1";
+const CACHE_NAME = "slovo-cache-v2";
 const ASSETS = [
   "index.html",
   "styles.css",
@@ -34,11 +34,30 @@ self.addEventListener("activate", (e) => {
   );
 });
 
-// Fetch Event (Cache First, Network Fallback)
+// Fetch Event
 self.addEventListener("fetch", (e) => {
-  // Only handle GET requests and local/font-related assets
   if (e.request.method !== "GET") return;
 
+  const url = new URL(e.request.url);
+
+  // Network First for data.js and dictionary_data.js (keep database/dictionary fresh when online)
+  if (url.pathname.endsWith("data.js") || url.pathname.endsWith("dictionary_data.js")) {
+    e.respondWith(
+      fetch(e.request)
+        .then((networkResponse) => {
+          return caches.open(CACHE_NAME).then((cache) => {
+            cache.put(e.request, networkResponse.clone());
+            return networkResponse;
+          });
+        })
+        .catch(() => {
+          return caches.match(e.request);
+        })
+    );
+    return;
+  }
+
+  // Cache First for static UI assets
   e.respondWith(
     caches.match(e.request).then((cachedResponse) => {
       if (cachedResponse) {

@@ -2750,5 +2750,809 @@ const LOCAL_DICTIONARY = {
   "высоко": {
     "def": "high, aloft, high up; short neuter singular of высо́кий (vysókij) (form of высокий: tall; high-altitude)",
     "grammar": "Adverb / Adjective"
+  },
+  "высокоблагородие": {
+    "def": "(Your, His, Her, Their) Honour/Honor (form of address)",
+    "grammar": "Noun"
+  },
+  "высокое": {
+    "def": "nominative/accusative neuter singular of высо́кий (vysókij) (form of высокий: tall; high-altitude)",
+    "grammar": "Adjective"
+  },
+  "высокой": {
+    "def": "genitive/dative/instrumental/prepositional feminine singular of высо́кий (vysókij) (form of высокий: tall; high-altitude)",
+    "grammar": "Adjective"
+  },
+  "высокую": {
+    "def": "accusative feminine singular of высо́кий (vysókij) (form of высокий: tall; high-altitude)",
+    "grammar": "Adjective"
+  },
+  "высоту": {
+    "def": "accusative singular of высота́ (vysotá) (form of высота: height (distance from bottom to top); altitude, elevation)",
+    "grammar": "Noun"
+  },
+  "высох": {
+    "def": "short masculine singular past indicative perfective of вы́сохнуть (výsoxnutʹ) (form of высохнуть: to dry up, to dry out; to wither)",
+    "grammar": "Verb"
+  },
+  "выспался": {
+    "def": "masculine singular past indicative perfective of вы́спаться (výspatʹsja) (form of выспаться: to sleep in, to sleep one's fill; to get some sleep, to get a good night's sleep, to catch some z's)",
+    "grammar": "Verb"
+  },
+  "выставил": {
+    "def": "masculine singular past indicative perfective of вы́ставить (výstavitʹ) (form of выставить: to put forward, to move out, to put outside, to bring forward, to place in front; to set out, to display, to present)",
+    "grammar": "Verb"
+  },
+  "выстрел": {
+    "def": "shot, gunshot (launching or firing of a projectile; the sound of the firing; the distance that a projectile would fly) (verbal noun of вы́стрелить (výstrelitʹ) ); artillery round (an artillery shell together with its propellant charge) (form of выстрелить: to shoot, to fire; to say or speak intermittently)",
+    "grammar": "Noun"
+  },
+  "выстрелили": {
+    "def": "plural past indicative perfective of вы́стрелить (výstrelitʹ) (form of выстрелить: to shoot, to fire; to say or speak intermittently)",
+    "grammar": "Verb"
+  },
+  "вытирает": {
+    "def": "third-person singular present indicative imperfective of вытира́ть (vytirátʹ) (form of вытирать: to wipe)",
+    "grammar": "Verb"
+  },
+  "вытягивалась": {
+    "def": "feminine singular past indicative imperfective of вытя́гиваться (vytjágivatʹsja) (form of вытягиваться: to stretch, to stretch oneself, to extend oneself; passive of вытя́гивать (vytjágivatʹ))",
+    "grammar": "Verb"
+  },
+  "выучку": {
+    "def": "accusative singular of вы́учка (výučka) (form of выучка: skill; (level of) training, teaching)",
+    "grammar": "Noun"
+  },
+  "выхватил": {
+    "def": "masculine singular past indicative perfective of вы́хватить (výxvatitʹ) (form of выхватить: to snatch out, to snap out)",
+    "grammar": "Verb"
+  },
+  "выхватила": {
+    "def": "feminine singular past indicative perfective of вы́хватить (výxvatitʹ) (form of выхватить: to snatch out, to snap out)",
+    "grammar": "Verb"
+  },
+  "выхватывают": {
+    "def": "third-person plural present indicative imperfective of выхва́тывать (vyxvátyvatʹ) (form of выхватывать: to snatch out, to snap out)",
+    "grammar": "Verb"
+  },
+  "выхода": {
+    "def": "genitive singular of вы́ход (výxod) (form of выход: going out, coming out, leaving, departure, withdrawal; exit, way out)",
+    "grammar": "Noun"
+  },
+  "выходи": {
+    "def": "second-person singular imperative imperfective of выходи́ть (vyxodítʹ); second-person singular imperative perfective of вы́ходить (výxoditʹ) (form of выходить: to go out, to come out, to walk out; to withdraw, to retire)",
+    "grammar": "Verb"
+  },
+  "выходит": {
+    "def": "third-person singular present indicative imperfective of выходи́ть (vyxodítʹ); third-person singular future indicative perfective of вы́ходить (výxoditʹ) (form of выходить: to go out, to come out, to walk out; to withdraw, to retire)",
+    "grammar": "Verb"
+  },
+  "выходить": {
+    "def": "to go out, to come out, to walk out; to withdraw, to retire",
+    "grammar": "Verb"
+  },
+  "выходят": {
+    "def": "third-person plural present indicative imperfective of выходи́ть (vyxodítʹ); third-person plural future indicative perfective of вы́ходить (výxoditʹ) (form of выходить: to go out, to come out, to walk out; to withdraw, to retire)",
+    "grammar": "Verb"
+  },
+  "выше": {
+    "def": "comparative degree of высо́кий (vysókij); comparative degree of высоко́ (vysokó) (form of высоко: high, aloft, high up; short neuter singular of высо́кий (vysókij))",
+    "grammar": "Adverb"
+  },
+  "вышел": {
+    "def": "masculine singular past indicative perfective of вы́йти (výjti) (form of выйти: to exit, to go out; to appear, to be published)",
+    "grammar": "Verb"
+  },
+  "вышла": {
+    "def": "feminine singular past indicative perfective of вы́йти (výjti) (form of выйти: to exit, to go out; to appear, to be published)",
+    "grammar": "Verb"
+  },
+  "вышли": {
+    "def": "plural past indicative perfective of вы́йти (výjti); second-person singular imperative perfective of вы́слать (výslatʹ) (form of выслать: to send, to dispatch, to send forward; to banish, to exile; to deport, to expel)",
+    "grammar": "Verb"
+  },
+  "вышло": {
+    "def": "neuter singular past indicative perfective of вы́йти (výjti) (form of выйти: to exit, to go out; to appear, to be published)",
+    "grammar": "Verb"
+  },
+  "газетам": {
+    "def": "dative plural of газе́та (gazéta) (form of газета: newspaper)",
+    "grammar": "Noun"
+  },
+  "абреками": {
+    "def": "instrumental plural of абре́к (abrɛ́k) (form of абрек: Abrek; a native of the Caucasus)",
+    "grammar": "Noun"
+  },
+  "абреков": {
+    "def": "genitive/accusative plural of абре́к (abrɛ́k) (form of абрек: Abrek; a native of the Caucasus)",
+    "grammar": "Noun"
+  },
+  "авгуры": {
+    "def": "nominative plural of авгу́р (avgúr) (form of авгур: augur, soothsayer (diviner who foretells events by unusual occurrences))",
+    "grammar": "Noun"
+  },
+  "автора": {
+    "def": "genitive/accusative singular of а́втор (ávtor) (form of автор: author; the head of a criminal group)",
+    "grammar": "Noun"
+  },
+  "автором": {
+    "def": "instrumental singular of а́втор (ávtor) (form of автор: author; the head of a criminal group)",
+    "grammar": "Noun"
+  },
+  "ага": {
+    "def": "cane toad (Bufo marinus, now Rhinella marina); agha, master, patron",
+    "grammar": "Noun / Interjection"
+  },
+  "адъютанта": {
+    "def": "genitive/accusative singular of адъюта́нт (adʺjutánt) (form of адъютант: aide-de-camp, adjutant, aide)",
+    "grammar": "Noun"
+  },
+  "адъютантов": {
+    "def": "genitive/accusative plural of адъюта́нт (adʺjutánt) (form of адъютант: aide-de-camp, adjutant, aide)",
+    "grammar": "Noun"
+  },
+  "азамат": {
+    "def": "citizen\n civil, civic; civil, civic",
+    "grammar": "Noun"
+  },
+  "азиатов": {
+    "def": "genitive/accusative plural of азиа́т (aziát) (form of азиат: Asian (person from Asia))",
+    "grammar": "Noun"
+  },
+  "азиаты": {
+    "def": "nominative plural of азиа́т (aziát) (form of азиат: Asian (person from Asia))",
+    "grammar": "Noun"
+  },
+  "акации": {
+    "def": "inflection of ака́ция (akácija):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of акация: acacia (shrub or tree))",
+    "grammar": "Noun"
+  },
+  "акробат": {
+    "def": "acrobat (an athlete who performs acts requiring skill, agility and coordination), tumbler",
+    "grammar": "Noun"
+  },
+  "алгебру": {
+    "def": "accusative singular of а́лгебра (álgebra) (form of алгебра: algebra)",
+    "grammar": "Noun"
+  },
+  "али": {
+    "def": "or",
+    "grammar": "Conjunction"
+  },
+  "аллах": {
+    "def": "god",
+    "grammar": "Noun"
+  },
+  "аллей": {
+    "def": "genitive plural of алле́я (alléja) (form of аллея: alley, path (in a park))",
+    "grammar": "Noun"
+  },
+  "аллеям": {
+    "def": "dative plural of алле́я (alléja) (form of аллея: alley, path (in a park))",
+    "grammar": "Noun"
+  },
+  "аллеями": {
+    "def": "instrumental plural of алле́я (alléja) (form of аллея: alley, path (in a park))",
+    "grammar": "Noun"
+  },
+  "амазонках": {
+    "def": "prepositional plural of амазо́нка (amazónka) (form of амазонка: Amazon; horsewoman)",
+    "grammar": "Noun"
+  },
+  "амура": {
+    "def": "genitive singular of аму́р (amúr) (form of амур: cupid (representation of the god Cupid as a boy with a bow and arrow); handsome boy)",
+    "grammar": "Noun"
+  },
+  "амфитеатром": {
+    "def": "instrumental singular of амфитеа́тр (amfiteátr) (form of амфитеатр: amphitheatre)",
+    "grammar": "Noun"
+  },
+  "ангажировать": {
+    "def": "to engage; to book (an actor, a speaker)",
+    "grammar": "Verb"
+  },
+  "ангажирую": {
+    "def": "inflection of ангажи́ровать (angažírovatʹ):\nfirst-person singular present indicative imperfective\nfirst-person singular future indicative perfective; first-person singular present indicative imperfective (form of ангажировать: to engage; to book (an actor, a speaker))",
+    "grammar": "Verb"
+  },
+  "ангелами": {
+    "def": "instrumental plural of а́нгел (ángel) (form of ангел: angel; an innocent)",
+    "grammar": "Noun"
+  },
+  "англичане": {
+    "def": "nominative plural of англича́нин (angličánin) (form of англичанин: Englishman, English people)",
+    "grammar": "Noun"
+  },
+  "анекдоты": {
+    "def": "nominative/accusative plural of анекдо́т (anekdót) (form of анекдот: joke in the form of a story with a funny punchline/ending; funny incident from one's life resembling such a joke)",
+    "grammar": "Noun"
+  },
+  "арбы": {
+    "def": "genitive singular of арба́ (arbá); nominative/accusative plural of арба́ (arbá) (form of арба: araba (a horse- or bullock-drawn cart with two large wheels))",
+    "grammar": "Noun"
+  },
+  "аристократками": {
+    "def": "instrumental plural of аристокра́тка (aristokrátka) (form of аристократка: female equivalent of аристокра́т (aristokrát): female aristocrat)",
+    "grammar": "Noun"
+  },
+  "аркан": {
+    "def": "lasso, lariat; noose",
+    "grammar": "Noun"
+  },
+  "аркана": {
+    "def": "genitive singular of арка́н (arkán) (form of аркан: lasso, lariat; noose)",
+    "grammar": "Noun"
+  },
+  "армеец": {
+    "def": "soldier, serviceman; army officer or infantryman",
+    "grammar": "Noun"
+  },
+  "армейский": {
+    "def": "army",
+    "grammar": "Adjective"
+  },
+  "армейцев": {
+    "def": "genitive/accusative plural of арме́ец (arméjec) (form of армеец: soldier, serviceman; army officer or infantryman)",
+    "grammar": "Noun"
+  },
+  "армянами": {
+    "def": "instrumental plural of армяни́н (armjanín) (form of армянин: Armenian (citizen, resident, or of heritage))",
+    "grammar": "Noun"
+  },
+  "армянин": {
+    "def": "Armenian (citizen, resident, or of heritage)",
+    "grammar": "Noun"
+  },
+  "аромат": {
+    "def": "aroma, fragrance, scent, perfume",
+    "grammar": "Noun"
+  },
+  "ароматом": {
+    "def": "instrumental singular of арома́т (aromát) (form of аромат: aroma, fragrance, scent, perfume)",
+    "grammar": "Noun"
+  },
+  "арфой": {
+    "def": "instrumental singular of а́рфа (árfa) (form of арфа: harp)",
+    "grammar": "Noun"
+  },
+  "архалук": {
+    "def": "arkhalig",
+    "grammar": "Noun"
+  },
+  "астрологией": {
+    "def": "instrumental singular of астроло́гия (astrológija) (form of астрология: astrology)",
+    "grammar": "Noun"
+  },
+  "аулах": {
+    "def": "prepositional plural of ау́л (aúl) (form of аул: aul (a type of village in the Caucasus or Central Asia))",
+    "grammar": "Noun"
+  },
+  "базар": {
+    "def": "market, bazaar; row, uproar",
+    "grammar": "Noun"
+  },
+  "байдара": {
+    "def": "large fishing boat, cargo boat; (large) canoe, umiak, bidarrah (a large, seaworthy open boat traditionally used by the native inhabitants of Eastern Siberia and Alaska)",
+    "grammar": "Noun"
+  },
+  "бал": {
+    "def": "ball, dance",
+    "grammar": "Noun"
+  },
+  "балалайки": {
+    "def": "inflection of балала́йка (balalájka):\ngenitive singular\nnominative/accusative plural; genitive singular (form of балалайка: balalaika)",
+    "grammar": "Noun"
+  },
+  "бале": {
+    "def": "prepositional singular of бал (bal) (form of бал: ball, dance)",
+    "grammar": "Noun"
+  },
+  "балками": {
+    "def": "instrumental plural of ба́лка (bálka) (form of балка: beam, girder, bar, baulk; gully, (narrow) gorge)",
+    "grammar": "Noun"
+  },
+  "балкон": {
+    "def": "balcony",
+    "grammar": "Noun"
+  },
+  "балкона": {
+    "def": "genitive singular of балко́н (balkón) (form of балкон: balcony)",
+    "grammar": "Noun"
+  },
+  "балконе": {
+    "def": "prepositional singular of балко́н (balkón) (form of балкон: balcony)",
+    "grammar": "Noun"
+  },
+  "балованный": {
+    "def": "past passive imperfective participle of балова́ть (balovátʹ); spoiled, indulgent (form of баловать: to indulge, to spoil, to pet, to pamper; to give a treat)",
+    "grammar": "Participle / Adjective"
+  },
+  "баловать": {
+    "def": "to indulge, to spoil, to pet, to pamper; to give a treat",
+    "grammar": "Verb"
+  },
+  "балу": {
+    "def": "dative singular of бал (bal); locative singular of бал (bal) (form of бал: ball, dance)",
+    "grammar": "Noun"
+  },
+  "балы": {
+    "def": "nominative/accusative plural of бал (bal) (form of бал: ball, dance)",
+    "grammar": "Noun"
+  },
+  "банк": {
+    "def": "bank (financial institution)",
+    "grammar": "Noun"
+  },
+  "банка": {
+    "def": "jar, pot; can, tin (form of банк: bank (financial institution))",
+    "grammar": "Noun"
+  },
+  "баранов": {
+    "def": "genitive/accusative plural of бара́н (barán) (form of баран: ram (male domestic sheep); sheep (an animal from the Ovis genus))",
+    "grammar": "Noun"
+  },
+  "барду": {
+    "def": "dative singular of бард (bard) (form of бард: bard; author singer)",
+    "grammar": "Noun"
+  },
+  "барином": {
+    "def": "instrumental singular of ба́рин (bárin) (form of барин: boyar, barin, nobleman, gentleman, landlord (a rank of aristocracy in Russia); sir, master (a term of address used by a lower-class person for a nobleman, or a third-person reference to a nobleman))",
+    "grammar": "Noun"
+  },
+  "барс": {
+    "def": "leopard",
+    "grammar": "Noun"
+  },
+  "бархатный": {
+    "def": "velvet; velvety",
+    "grammar": "Adjective"
+  },
+  "барыне": {
+    "def": "dative/prepositional singular of ба́рыня (bárynja) (form of барыня: lady, madam, boyar's wife; madam, ma'am (a form of address to a noble woman or landlady))",
+    "grammar": "Noun"
+  },
+  "барыни": {
+    "def": "inflection of ба́рыня (bárynja):\ngenitive singular\nnominative plural; genitive singular (form of барыня: lady, madam, boyar's wife; madam, ma'am (a form of address to a noble woman or landlady))",
+    "grammar": "Noun"
+  },
+  "барышень": {
+    "def": "genitive/accusative plural of ба́рышня (báryšnja) (form of барышня: young lady, miss)",
+    "grammar": "Noun"
+  },
+  "бастиона": {
+    "def": "genitive singular of бастио́н (bastión) (form of бастион: bastion; bulwark (also figuratively))",
+    "grammar": "Noun"
+  },
+  "батальон": {
+    "def": "battalion",
+    "grammar": "Noun"
+  },
+  "батальоне": {
+    "def": "prepositional singular of батальо́н (batalʹón) (form of батальон: battalion)",
+    "grammar": "Noun"
+  },
+  "бахрома": {
+    "def": "fringe (decorative border)",
+    "grammar": "Noun"
+  },
+  "бац": {
+    "def": "bang!, bam!, whack! (a sudden percussive sound, as from an impact, a gunshot, etc.); bam! (a sudden or abrupt occurrence)",
+    "grammar": "Interjection"
+  },
+  "башка": {
+    "def": "pate, noggin, bonce (slang word for head, part of the body)",
+    "grammar": "Noun"
+  },
+  "башки": {
+    "def": "inflection of башка́ (bašká):\ngenitive singular\nnominative/accusative plural; genitive singular (form of башка: pate, noggin, bonce (slang word for head, part of the body))",
+    "grammar": "Noun"
+  },
+  "башня": {
+    "def": "tower; turret (rotating gun installation)",
+    "grammar": "Noun"
+  },
+  "бегает": {
+    "def": "third-person singular present indicative imperfective of бе́гать (bégatʹ) (form of бегать: to run)",
+    "grammar": "Verb"
+  },
+  "бегал": {
+    "def": "masculine singular past indicative imperfective of бе́гать (bégatʹ) (form of бегать: to run)",
+    "grammar": "Verb"
+  },
+  "бегали": {
+    "def": "plural past indicative imperfective of бе́гать (bégatʹ) (form of бегать: to run)",
+    "grammar": "Verb"
+  },
+  "беги": {
+    "def": "second-person singular imperative imperfective/perfective of бежа́ть (bežátʹ) (form of бежать: to run, to be running; to flee, to be fleeing)",
+    "grammar": "Verb"
+  },
+  "беглый": {
+    "def": "fluent, quick, fast; superficial, cursory",
+    "grammar": "Adjective / Noun"
+  },
+  "бегом": {
+    "def": "running, at a run; hastily, urgently (form of бег: run; running (as in athletics or track and field))",
+    "grammar": "Adverb / Interjection / Noun"
+  },
+  "беда": {
+    "def": "misfortune, trouble, disaster, mischief",
+    "grammar": "Noun"
+  },
+  "беден": {
+    "def": "short masculine singular of бе́дный (bédnyj) (form of бедный: poor (having no possessions or money); poor, scanty (having little of a desirable thing))",
+    "grammar": "Adjective"
+  },
+  "бедному": {
+    "def": "dative singular of бе́дный (bédnyj) (form of бедный: poor (having no possessions or money); poor, scanty (having little of a desirable thing))",
+    "grammar": "Noun"
+  },
+  "бедный": {
+    "def": "poor (having no possessions or money); poor, scanty (having little of a desirable thing)",
+    "grammar": "Adjective / Noun"
+  },
+  "беднягу": {
+    "def": "accusative singular of бедня́га (bednjága) (form of бедняга: poor fellow, poor devil, wretch)",
+    "grammar": "Noun"
+  },
+  "бедняков": {
+    "def": "genitive/accusative plural of бедня́к (bednják) (form of бедняк: poor man, pauper; small farmer, poor peasant)",
+    "grammar": "Noun"
+  },
+  "бедствий": {
+    "def": "genitive plural of бе́дствие (bédstvije) (form of бедствие: calamity, disaster)",
+    "grammar": "Noun"
+  },
+  "бежала": {
+    "def": "feminine singular past indicative imperfective/perfective of бежа́ть (bežátʹ) (form of бежать: to run, to be running; to flee, to be fleeing)",
+    "grammar": "Verb"
+  },
+  "бежали": {
+    "def": "plural past indicative imperfective/perfective of бежа́ть (bežátʹ) (form of бежать: to run, to be running; to flee, to be fleeing)",
+    "grammar": "Verb"
+  },
+  "бежало": {
+    "def": "neuter singular past indicative imperfective/perfective of бежа́ть (bežátʹ) (form of бежать: to run, to be running; to flee, to be fleeing)",
+    "grammar": "Verb"
+  },
+  "бездну": {
+    "def": "accusative singular of бе́здна (bézdna) (form of бездна: abyss, deep (a bottomless or unfathomed depth); vast number)",
+    "grammar": "Noun"
+  },
+  "безмолвно": {
+    "def": "silently; mutely, speechlessly (form of безмолвный: mute, silent, speechless)",
+    "grammar": "Adverb / Adjective"
+  },
+  "безобразия": {
+    "def": "inflection of безобра́зие (bezobrázije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of безобразие: ugliness; deformity)",
+    "grammar": "Noun"
+  },
+  "безошибочно": {
+    "def": "correctly, perfectly; unerringly, infallibly",
+    "grammar": "Adverb"
+  },
+  "безумец": {
+    "def": "madman, lunatic; madcap",
+    "grammar": "Noun"
+  },
+  "безумия": {
+    "def": "inflection of безу́мие (bezúmije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of безумие: insanity, madness (state of being insane); folly)",
+    "grammar": "Noun"
+  },
+  "безумный": {
+    "def": "crazy, mad, insane; rash, reckless",
+    "grammar": "Adjective"
+  },
+  "безуспешно": {
+    "def": "unsuccessfully",
+    "grammar": "Adverb"
+  },
+  "беленький": {
+    "def": "diminutive of бе́лый (bélyj, “white”) (form of белый: white; white skinned)",
+    "grammar": "Adjective"
+  },
+  "белизны": {
+    "def": "genitive singular of белизна́ (belizná) (form of белизна: whiteness; bleach)",
+    "grammar": "Noun"
+  },
+  "беловатый": {
+    "def": "whitish",
+    "grammar": "Adjective"
+  },
+  "белой": {
+    "def": "genitive/dative/instrumental/prepositional feminine singular of бе́лый (bélyj); genitive/dative/instrumental/prepositional singular of бе́лая (bélaja) (form of белая: nominative feminine singular of бе́лый (bélyj); female equivalent of бе́лый (bélyj): a female White (member of the White movement; an anticommunist))",
+    "grammar": "Adjective / Noun"
+  },
+  "белы": {
+    "def": "short plural of бе́лый (bélyj); nominative/accusative plural of бел (bɛl, bel) (form of бел: bel (unit of sound intensity); short masculine singular of бе́лый (bélyj))",
+    "grammar": "Adjective / Noun"
+  },
+  "белый": {
+    "def": "white; white skinned",
+    "grammar": "Adjective / Noun"
+  },
+  "белыми": {
+    "def": "instrumental plural of бе́лый (bélyj); instrumental plural of бе́лый (bélyj) and бе́лая (bélaja) (form of белый: white; white skinned)",
+    "grammar": "Adjective / Noun"
+  },
+  "берег": {
+    "def": "bank, shore, coast, beach; land (form of берёг: masculine singular past indicative imperfective of бере́чь (beréčʹ))",
+    "grammar": "Noun / Verb"
+  },
+  "берега": {
+    "def": "genitive singular of бе́рег (béreg); nominative/accusative plural of бе́рег (béreg) (form of берег: bank, shore, coast, beach; land)",
+    "grammar": "Noun"
+  },
+  "береги": {
+    "def": "second-person singular imperative imperfective of бере́чь (beréčʹ) (form of беречь: to guard, to take care of, to keep safe)",
+    "grammar": "Verb"
+  },
+  "берегись": {
+    "def": "second-person singular imperative imperfective of бере́чься (beréčʹsja) (form of беречься: to be careful, to guard oneself, to protect oneself; to beware, to take care, to be on one's guard)",
+    "grammar": "Verb"
+  },
+  "берегите": {
+    "def": "second-person plural imperative imperfective of бере́чь (beréčʹ) (form of беречь: to guard, to take care of, to keep safe)",
+    "grammar": "Verb"
+  },
+  "берегитесь": {
+    "def": "second-person plural imperative imperfective of бере́чься (beréčʹsja) (form of беречься: to be careful, to guard oneself, to protect oneself; to beware, to take care, to be on one's guard)",
+    "grammar": "Verb"
+  },
+  "берегом": {
+    "def": "instrumental singular of бе́рег (béreg) (form of берег: bank, shore, coast, beach; land)",
+    "grammar": "Noun"
+  },
+  "берегу": {
+    "def": "dative singular of бе́рег (béreg); locative singular of бе́рег (béreg) (form of беречь: to guard, to take care of, to keep safe)",
+    "grammar": "Noun / Verb"
+  },
+  "беру": {
+    "def": "first-person singular present indicative of брать (bratʹ, “to take”, imperfective) (form of брать: to take)",
+    "grammar": "Verb"
+  },
+  "берусь": {
+    "def": "first-person singular present indicative imperfective of бра́ться (brátʹsja) (form of браться: to take something with hands, to take (mutually, together) (e.g. each other's hands); to set about; to undertake .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with за (za, + accusative) ‘a task’])",
+    "grammar": "Verb"
+  },
+  "бес": {
+    "def": "demon, devil",
+    "grammar": "Noun"
+  },
+  "бесить": {
+    "def": "to madden, to infuriate, to exasperate",
+    "grammar": "Verb"
+  },
+  "бесконечности": {
+    "def": "inflection of бесконе́чность (beskonéčnostʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of бесконечность: infinity, endlessness; eternity)",
+    "grammar": "Noun"
+  },
+  "бесконечны": {
+    "def": "short plural of бесконе́чный (beskonéčnyj) (form of бесконечный: endless, infinite, unlimited, boundless; eternal)",
+    "grammar": "Adjective"
+  },
+  "беспечностью": {
+    "def": "instrumental singular of беспе́чность (bespéčnostʹ) (form of беспечность: carelessness, unconcern)",
+    "grammar": "Noun"
+  },
+  "беспечный": {
+    "def": "careless, carefree, unconcerned; nonchalant",
+    "grammar": "Adjective"
+  },
+  "беспокоен": {
+    "def": "short masculine singular of беспоко́йный (bespokójnyj) (form of беспокойный: uneasy, restive, anxious; disturbing)",
+    "grammar": "Adjective"
+  },
+  "беспокоило": {
+    "def": "neuter singular past indicative imperfective of беспоко́ить (bespokóitʹ) (form of беспокоить: to bother, to disturb)",
+    "grammar": "Verb"
+  },
+  "беспокоился": {
+    "def": "masculine singular past indicative imperfective of беспоко́иться (bespokóitʹsja) (form of беспокоиться: to worry (about), to be anxious (about), to be uneasy (about); to bother with, to care about)",
+    "grammar": "Verb"
+  },
+  "беспокойства": {
+    "def": "inflection of беспоко́йство (bespokójstvo):\ngenitive singular\nnominative/accusative plural; genitive singular (form of беспокойство: anxiety, concern, uneasiness, nervousness; trouble, bother, annoyance)",
+    "grammar": "Noun"
+  },
+  "беспокойстве": {
+    "def": "prepositional singular of беспоко́йство (bespokójstvo) (form of беспокойство: anxiety, concern, uneasiness, nervousness; trouble, bother, annoyance)",
+    "grammar": "Noun"
+  },
+  "беспокойством": {
+    "def": "instrumental singular of беспоко́йство (bespokójstvo) (form of беспокойство: anxiety, concern, uneasiness, nervousness; trouble, bother, annoyance)",
+    "grammar": "Noun"
+  },
+  "беспокойтесь": {
+    "def": "second-person plural imperative imperfective of беспоко́иться (bespokóitʹsja) (form of беспокоиться: to worry (about), to be anxious (about), to be uneasy (about); to bother with, to care about)",
+    "grammar": "Verb"
+  },
+  "беспокоят": {
+    "def": "third-person plural present indicative imperfective of беспоко́ить (bespokóitʹ) (form of беспокоить: to bother, to disturb)",
+    "grammar": "Verb"
+  },
+  "бесполезно": {
+    "def": "uselessly; short neuter singular of бесполе́зный (bespoléznyj) (form of бесполезный: useless, unavailing, vain)",
+    "grammar": "Adverb / Adjective"
+  },
+  "беспощаден": {
+    "def": "short masculine singular of беспоща́дный (bespoščádnyj) (form of беспощадный: merciless)",
+    "grammar": "Adjective"
+  },
+  "беспощадно": {
+    "def": "mercilessly; short neuter singular of беспоща́дный (bespoščádnyj) (form of беспощадный: merciless)",
+    "grammar": "Adverb / Adjective"
+  },
+  "бессонницей": {
+    "def": "instrumental singular of бессо́нница (bessónnica) (form of бессонница: insomnia, sleeplessness)",
+    "grammar": "Noun"
+  },
+  "бессонницы": {
+    "def": "inflection of бессо́нница (bessónnica):\ngenitive singular\nnominative/accusative plural; genitive singular (form of бессонница: insomnia, sleeplessness)",
+    "grammar": "Noun"
+  },
+  "бестии": {
+    "def": "inflection of бе́стия (béstija):\ngenitive/dative/prepositional singular\nnominative plural; genitive/dative/prepositional singular (form of бестия: rogue, mischievous person, scoundrel)",
+    "grammar": "Noun"
+  },
+  "бестия": {
+    "def": "rogue, mischievous person, scoundrel",
+    "grammar": "Noun"
+  },
+  "бешено": {
+    "def": "madly; frantically, amok (form of бешеный: rabid, mad; furious, frantic, wild)",
+    "grammar": "Adverb / Adjective"
+  },
+  "бешенстве": {
+    "def": "prepositional singular of бе́шенство (béšenstvo) (form of бешенство: hydrophobia, rabies; madness, fury, rage)",
+    "grammar": "Noun"
+  },
+  "бешенство": {
+    "def": "hydrophobia, rabies; madness, fury, rage",
+    "grammar": "Noun"
+  },
+  "бешеный": {
+    "def": "rabid, mad; furious, frantic, wild",
+    "grammar": "Adjective"
+  },
+  "библиотеки": {
+    "def": "inflection of библиоте́ка (bibliotéka):\ngenitive singular\nnominative/accusative plural; genitive singular (form of библиотека: library; bookshelf)",
+    "grammar": "Noun"
+  },
+  "биение": {
+    "def": "beating, beat, throb, pulse",
+    "grammar": "Noun"
+  },
+  "биением": {
+    "def": "instrumental singular of бие́ние (bijénije) (form of биение: beating, beat, throb, pulse)",
+    "grammar": "Noun"
+  },
+  "билет": {
+    "def": "ticket (admission to entertainment or transportation); banknote",
+    "grammar": "Noun"
+  },
+  "билеты": {
+    "def": "nominative/accusative plural of биле́т (bilét) (form of билет: ticket (admission to entertainment or transportation); banknote)",
+    "grammar": "Noun"
+  },
+  "билось": {
+    "def": "neuter singular past indicative imperfective of би́ться (bítʹsja) (form of биться: to fight, to struggle; to hit (against), to knock (against), to strike)",
+    "grammar": "Verb"
+  },
+  "бился": {
+    "def": "masculine singular past indicative imperfective of би́ться (bítʹsja) (form of биться: to fight, to struggle; to hit (against), to knock (against), to strike)",
+    "grammar": "Verb"
+  },
+  "битвами": {
+    "def": "instrumental plural of би́тва (bítva) (form of битва: battle, fight, combat)",
+    "grammar": "Noun"
+  },
+  "битвы": {
+    "def": "inflection of би́тва (bítva):\ngenitive singular\nnominative/accusative plural; genitive singular (form of битва: battle, fight, combat)",
+    "grammar": "Noun"
+  },
+  "битый": {
+    "def": "past passive imperfective participle of бить (bitʹ); beaten (form of бить: to beat; to chime)",
+    "grammar": "Participle / Adjective"
+  },
+  "бишь": {
+    "def": "now",
+    "grammar": "Particle"
+  },
+  "благовонный": {
+    "def": "aromatic",
+    "grammar": "Adjective"
+  },
+  "благодарен": {
+    "def": "short masculine singular of благода́рный (blagodárnyj) (form of благодарный: grateful, thankful (showing thanks); worth doing, worthwhile)",
+    "grammar": "Adjective"
+  },
+  "благодарила": {
+    "def": "feminine singular past indicative imperfective of благодари́ть (blagodarítʹ) (form of благодарить: to thank)",
+    "grammar": "Verb"
+  },
+  "благодарности": {
+    "def": "inflection of благода́рность (blagodárnostʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of благодарность: gratitude, gratefulness, thankfulness)",
+    "grammar": "Noun"
+  },
+  "благодарность": {
+    "def": "gratitude, gratefulness, thankfulness",
+    "grammar": "Noun"
+  },
+  "благодарствуйте": {
+    "def": "thank ye; second-person plural imperative imperfective of благода́рствовать (blagodárstvovatʹ) (form of благодарствовать: to thank)",
+    "grammar": "Interjection / Verb"
+  },
+  "благодеяния": {
+    "def": "inflection of благодея́ние (blagodejánije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of благодеяние: benefit, boon)",
+    "grammar": "Noun"
+  },
+  "благополучия": {
+    "def": "inflection of благополу́чие (blagopolúčije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of благополучие: well-being, prosperity, welfare (state of health, happiness and/or prosperity))",
+    "grammar": "Noun"
+  },
+  "благородие": {
+    "def": "nobleness",
+    "grammar": "Noun"
+  },
+  "благородию": {
+    "def": "dative singular of благоро́дие (blagoródije) (form of благородие: nobleness)",
+    "grammar": "Noun"
+  },
+  "благородного": {
+    "def": "genitive/accusative singular of благоро́дный (blagoródnyj) (form of благородный: noble, aristocratic, wellborn (of the nobility, of the high-born class, especially in Russia before 1917); noble , gentle)",
+    "grammar": "Noun"
+  },
+  "благородное": {
+    "def": "nominative/accusative neuter singular of благоро́дный (blagoródnyj) (form of благородный: noble, aristocratic, wellborn (of the nobility, of the high-born class, especially in Russia before 1917); noble , gentle)",
+    "grammar": "Adjective"
+  },
+  "благородном": {
+    "def": "prepositional singular of благоро́дный (blagoródnyj) (form of благородный: noble, aristocratic, wellborn (of the nobility, of the high-born class, especially in Russia before 1917); noble , gentle)",
+    "grammar": "Noun"
+  },
+  "благородным": {
+    "def": "inflection of благоро́дный (blagoródnyj):\ninstrumental singular\ndative plural; instrumental singular (form of благородный: noble, aristocratic, wellborn (of the nobility, of the high-born class, especially in Russia before 1917); noble , gentle)",
+    "grammar": "Noun"
+  },
+  "благородных": {
+    "def": "genitive/accusative/prepositional plural of благоро́дный (blagoródnyj) (form of благородный: noble, aristocratic, wellborn (of the nobility, of the high-born class, especially in Russia before 1917); noble , gentle)",
+    "grammar": "Noun"
+  },
+  "благосклонно": {
+    "def": "favorably, with favor",
+    "grammar": "Adverb"
+  },
+  "благотворительность": {
+    "def": "charity, philanthropy, welfare",
+    "grammar": "Noun"
+  },
+  "блаженства": {
+    "def": "inflection of блаже́нство (blažénstvo):\ngenitive singular\nnominative/accusative plural; genitive singular (form of блаженство: bliss, beatitude, felicity)",
+    "grammar": "Noun"
+  },
+  "бледен": {
+    "def": "short masculine singular of бле́дный (blédnyj) (form of бледный: pale)",
+    "grammar": "Adjective"
+  },
+  "бледна": {
+    "def": "short feminine singular of бле́дный (blédnyj) (form of бледный: pale)",
+    "grammar": "Adjective"
+  },
+  "бледнее": {
+    "def": "comparative degree of бле́дный (blédnyj); comparative degree of бле́дно (blédno) (form of бледно: short neuter singular of бле́дный (blédnyj))",
+    "grammar": "Adverb"
+  },
+  "бледнеет": {
+    "def": "third-person singular present indicative imperfective of бледне́ть (blednétʹ) (form of бледнеть: to pale, to fade; to turn white, to grow pale)",
+    "grammar": "Verb"
+  },
+  "бледнел": {
+    "def": "masculine singular past indicative imperfective of бледне́ть (blednétʹ) (form of бледнеть: to pale, to fade; to turn white, to grow pale)",
+    "grammar": "Verb"
+  },
+  "бледно": {
+    "def": "short neuter singular of бле́дный (blédnyj) (form of бледный: pale)",
+    "grammar": "Adjective"
   }
 };
