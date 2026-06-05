@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slovo Reader — Parallel Study Library</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- App Shell Container -->
+  <div class="app-container">
+    
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo">
+          <span class="logo-icon">📖</span>
+          <span class="logo-text">SLOVO <span class="logo-sub">READER</span></span>
+        </div>
+      </div>
+      
+      <div class="header-center">
+        <!-- Book Select -->
+        <select id="book-select" class="control-select">
+          <!-- Preloaded books will be injected here -->
+        </select>
+        
+        <!-- Chapter Select -->
+        <select id="chapter-select" class="control-select">
+          <!-- Chapters will be injected here -->
+        </select>
+      </div>
+
+      <div class="header-right">
+        <!-- TTS Speed Indicator -->
+        <div class="tts-speed-control">
+          <span class="speed-label">TTS Speed:</span>
+          <select id="speed-select" class="control-select speed-select">
+            <option value="0.75">0.75x</option>
+            <option value="0.9" selected>0.9x</option>
+            <option value="1.0">1.0x</option>
+            <option value="1.2">1.2x</option>
+          </select>
+        </div>
+        
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="btn-icon" title="Toggle Theme">🌓</button>
+        
+        <!-- Vocabulary List Toggle -->
+        <button id="vocab-toggle" class="btn-action" title="Open Vocabulary Notebook">
+          <span class="btn-icon-label">📓</span> My Words (<span id="vocab-count">0</span>)
+        </button>
+
+        <!-- Custom Upload Trigger -->
+        <button id="custom-loader-trigger" class="btn-action btn-secondary" title="Load Custom Text">
+          <span>➕</span> Add Book
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="app-workspace">
+      
+      <!-- Split-screen side-by-side reading layout -->
+      <section class="reader-pane" id="reader-pane">
+        <div class="column-header">
+          <div class="column-title-box">
+            <h3 class="column-lang">По-русски</h3>
+            <span class="column-subtitle">Russian Original</span>
+          </div>
+          <div class="column-title-box">
+            <h3 class="column-lang">In English</h3>
+            <span class="column-subtitle">English Translation</span>
+          </div>
+        </div>
+        
+        <!-- Aligned chunks container -->
+        <div class="chunks-container" id="chunks-container">
+          <!-- Generated parallel rows go here -->
+        </div>
+      </section>
+
+      <!-- Slide-out Vocabulary Drawer -->
+      <aside class="sidebar-drawer" id="vocab-drawer">
+        <div class="drawer-header">
+          <h3>📓 Saved Vocabulary</h3>
+          <button id="close-vocab-drawer" class="btn-close">&times;</button>
+        </div>
+        <div class="drawer-body">
+          <div id="vocab-list" class="vocab-list">
+            <!-- Saved words list injected here -->
+          </div>
+          <div class="vocab-actions">
+            <button id="export-vocab" class="btn-action btn-block">📥 Export as Markdown</button>
+            <button id="clear-vocab" class="btn-action btn-danger btn-block">🗑️ Clear All</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Details panel / dictionary sidebar -->
+      <aside class="sidebar-drawer right-drawer" id="dict-drawer">
+        <div class="drawer-header">
+          <h3>🔍 Word Analysis</h3>
+          <button id="close-dict-drawer" class="btn-close">&times;</button>
+        </div>
+        <div class="drawer-body" id="dict-body">
+          <!-- Word lookups go here -->
+          <div class="dict-placeholder">
+            <div class="placeholder-icon">👆</div>
+            <p>Click any Russian word in the text to inspect its translation, grammatical parsing, and hear pronunciation.</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Floating Word Tooltip -->
+    <div id="word-tooltip" class="word-tooltip hidden">
+      <div class="tooltip-arrow"></div>
+      <div class="tooltip-content" id="tooltip-content">
+        <!-- Injected tooltip contents -->
+      </div>
+    </div>
+
+    <!-- Custom Text Loader Modal -->
+    <div class="modal-overlay hidden" id="custom-loader-modal">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3>📚 Load Custom Russian/English Texts</h3>
+          <button id="close-modal" class="btn-close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-desc">Paste or drag-and-drop corresponding Russian and English texts. Our browser-native sentence aligner will segment and align them side-by-side.</p>
+          
+          <div class="form-group">
+            <label for="custom-title">Book Title</label>
+            <input type="text" id="custom-title" class="form-input" placeholder="e.g. Смерть Ивана Ильича">
+          </div>
+          
+          <div class="form-group">
+            <label for="custom-author">Author</label>
+            <input type="text" id="custom-author" class="form-input" placeholder="e.g. Л. Н. Толстой">
+          </div>
+          
+          <div class="modal-split">
+            <div class="split-pane">
+              <label for="custom-russian-text">Russian Text (UTF-8)</label>
+              <textarea id="custom-russian-text" class="form-textarea" placeholder="Paste Russian text here... (Separate chapters with blank lines or markers)"></textarea>
+            </div>
+            <div class="split-pane">
+              <label for="custom-english-text">English Translation (UTF-8)</label>
+              <textarea id="custom-english-text" class="form-textarea" placeholder="Paste English translation here..."></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="btn-load-text" class="btn-action">⚡ Align & Load Book</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <footer class="app-footer">
+      <div class="footer-progress">
+        <span class="progress-label">Reading Progress:</span>
+        <div class="progress-track">
+          <div class="progress-bar" id="reading-progress-bar" style="width: 0%;"></div>
+        </div>
+        <span class="progress-percent" id="progress-percent">0%</span>
+      </div>
+      <div class="footer-info">
+        <span>Yasnaya Polyana Engine v1.0</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
