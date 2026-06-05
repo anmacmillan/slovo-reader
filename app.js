@@ -284,61 +284,64 @@ function renderChapter() {
     const rusSents = segmentSentences(rusChunkText);
     const engSents = segmentSentences(engChunkText);
 
-    // Left Column (Russian)
-    const rusCol = document.createElement("div");
-    rusCol.className = "text-col rus-col";
+    const maxSents = Math.max(rusSents.length, engSents.length);
+    for (let sIdx = 0; sIdx < maxSents; sIdx++) {
+      const rusSent = rusSents[sIdx];
+      const engSent = engSents[sIdx];
 
-    rusSents.forEach((sent, sentIdx) => {
-      const sentSpan = document.createElement("span");
-      sentSpan.className = "sentence-box";
-      sentSpan.dataset.sentId = `ch-${chunkIdx}-s-${sentIdx}`;
-      
-      // Tokenize sentence into clickable word spans
-      const words = tokenizeWords(sent);
-      words.forEach(w => {
-        if (w.isWord) {
-          const wordSpan = document.createElement("span");
-          wordSpan.className = "word-span";
-          wordSpan.textContent = w.text;
-          sentSpan.appendChild(wordSpan);
-        } else {
-          sentSpan.appendChild(document.createTextNode(w.text));
-        }
-      });
+      const sentRow = document.createElement("div");
+      sentRow.className = "sentence-row";
 
-      // Add small TTS play button
-      const playBtn = document.createElement("button");
-      playBtn.className = "tts-play-btn";
-      playBtn.innerHTML = "🔊";
-      playBtn.title = "Speak sentence";
-      playBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        speakText(sent);
-      });
-      sentSpan.appendChild(playBtn);
+      // Russian Sentence
+      if (rusSent) {
+        const rusSpan = document.createElement("span");
+        rusSpan.className = "sentence-box rus-sent";
+        rusSpan.dataset.sentId = `ch-${chunkIdx}-s-${sIdx}`;
 
-      rusCol.appendChild(sentSpan);
-      rusCol.appendChild(document.createTextNode(" "));
-    });
+        const words = tokenizeWords(rusSent);
+        words.forEach(w => {
+          if (w.isWord) {
+            const wordSpan = document.createElement("span");
+            wordSpan.className = "word-span";
+            wordSpan.textContent = w.text;
+            rusSpan.appendChild(wordSpan);
+          } else {
+            rusSpan.appendChild(document.createTextNode(w.text));
+          }
+        });
 
-    // Right Column (English)
-    const engCol = document.createElement("div");
-    engCol.className = "text-col eng-col";
+        // Add small TTS play button
+        const playBtn = document.createElement("button");
+        playBtn.className = "tts-play-btn";
+        playBtn.innerHTML = "🔊";
+        playBtn.title = "Speak sentence";
+        playBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          speakText(rusSent);
+        });
+        rusSpan.appendChild(playBtn);
+        sentRow.appendChild(rusSpan);
+      } else {
+        const emptySpan = document.createElement("span");
+        emptySpan.className = "sentence-box empty-sent";
+        sentRow.appendChild(emptySpan);
+      }
 
-    engSents.forEach((sent, sentIdx) => {
-      const sentSpan = document.createElement("span");
-      sentSpan.className = "sentence-box";
-      // Map sentIdx back to Russian sentIdx proportionally if count differs
-      const mappedIdx = Math.min(sentIdx, rusSents.length - 1);
-      sentSpan.dataset.sentId = `ch-${chunkIdx}-s-${mappedIdx}`;
-      sentSpan.textContent = sent;
-      
-      engCol.appendChild(sentSpan);
-      engCol.appendChild(document.createTextNode(" "));
-    });
+      // English Sentence
+      if (engSent) {
+        const engSpan = document.createElement("span");
+        engSpan.className = "sentence-box eng-sent";
+        engSpan.dataset.sentId = `ch-${chunkIdx}-s-${sIdx}`;
+        engSpan.textContent = engSent;
+        sentRow.appendChild(engSpan);
+      } else {
+        const emptySpan = document.createElement("span");
+        emptySpan.className = "sentence-box empty-sent";
+        sentRow.appendChild(emptySpan);
+      }
 
-    row.appendChild(rusCol);
-    row.appendChild(engCol);
+      row.appendChild(sentRow);
+    }
     container.appendChild(row);
   });
 
@@ -409,6 +412,18 @@ document.addEventListener("click", (e) => {
     activeWordSpan = wordSpan;
     activeWordSpan.classList.add("selected-word");
 
+    // Highlight active sentence
+    document.querySelectorAll(".sentence-box.active-sentence").forEach(el => {
+      el.classList.remove("active-sentence");
+    });
+    const sentenceBox = wordSpan.closest(".sentence-box");
+    if (sentenceBox) {
+      const sentId = sentenceBox.dataset.sentId;
+      document.querySelectorAll(`.sentence-box[data-sent-id="${sentId}"]`).forEach(el => {
+        el.classList.add("active-sentence");
+      });
+    }
+
     const rawWord = wordSpan.textContent;
     const cleanWord = rawWord.toLowerCase().replace(/[^а-яё\-]/g, "");
 
@@ -422,6 +437,9 @@ document.addEventListener("click", (e) => {
       activeWordSpan.classList.remove("selected-word");
       activeWordSpan = null;
     }
+    document.querySelectorAll(".sentence-box.active-sentence").forEach(el => {
+      el.classList.remove("active-sentence");
+    });
   }
 });
 
@@ -492,13 +510,6 @@ function fetchWiktionaryDetails(lemma, originalText) {
     }
   }
 
-  // If we found the English translation, show it
-  if (englishTranslation) {
-    // Render tooltip with the English translation
-    renderBookTranslation(originalText, cleanLower, russianSentence, englishTranslation);
-    return;
-  }
-
   // Fallback to Wiktionary lookup
   const queryApi = (wordToQuery, isRetry = false) => {
     const url = `https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(wordToQuery)}`;
@@ -558,13 +569,13 @@ function fetchWiktionaryDetails(lemma, originalText) {
               }
               
               const translation = lemmaDefs.slice(0, 2).join("; ");
-              renderRESTAnalysis(originalText, ruData, translation);
+              renderRESTAnalysis(originalText, ruData, translation, englishTranslation);
             })
             .catch(err => {
-              renderRESTAnalysis(originalText, ruData);
+              renderRESTAnalysis(originalText, ruData, null, englishTranslation);
             });
         } else {
-          renderRESTAnalysis(originalText, ruData);
+          renderRESTAnalysis(originalText, ruData, null, englishTranslation);
         }
       })
       .catch(err => {
@@ -580,37 +591,7 @@ function fetchWiktionaryDetails(lemma, originalText) {
   queryApi(cleanLower);
 }
 
-function renderBookTranslation(word, lowerCase, rusSentence, engTranslation) {
-  const content = document.getElementById("tooltip-content");
-  const dictBody = document.getElementById("dict-body");
 
-  content.innerHTML = `
-    <div class="tooltip-header">
-      <h4>${word}</h4>
-      <div class="tooltip-buttons">
-        <button class="btn-tooltip-action" id="tts-word-btn" title="Speak word">🔊</button>
-        <button class="btn-tooltip-action" id="save-word-btn" title="Save word">➕</button>
-        <button class="btn-tooltip-action" id="more-dict-btn" title="Detailed Analysis">🔍</button>
-      </div>
-    </div>
-    <div class="tooltip-grammar" style="margin-top: 8px;">
-      <span style="font-size: 0.85rem; color: var(--text-muted);">In the context of this book:</span>
-    </div>
-    <div class="tooltip-definition" style="border-left: 3px solid var(--accent-primary); padding-left: 12px; margin-top: 6px;">
-      <strong style="color: var(--text-primary);">${engTranslation}</strong>
-    </div>
-    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">
-      <em>${rusSentence}</em>
-    </div>
-  `;
-
-  // Bind actions
-  document.getElementById("tts-word-btn").addEventListener("click", () => speakText(word));
-  document.getElementById("save-word-btn").addEventListener("click", () => saveWordToVocab(word, engTranslation, ""));
-  document.getElementById("more-dict-btn").addEventListener("click", () => {
-    document.getElementById("dict-drawer").classList.add("open");
-  });
-}
 
 function showTooltipError(word, msg) {
   const content = document.getElementById("tooltip-content");
@@ -632,7 +613,7 @@ function showTooltipError(word, msg) {
   document.getElementById("save-word-btn").addEventListener("click", () => saveWordToVocab(word, "Definition not found. Custom card.", "Unknown"));
 }
 
-function renderRESTAnalysis(originalText, ruData, lemmaTranslation = null) {
+function renderRESTAnalysis(originalText, ruData, lemmaTranslation = null, contextTranslation = null) {
   const content = document.getElementById("tooltip-content");
   const dictBody = document.getElementById("dict-body");
 
@@ -688,6 +669,19 @@ function renderRESTAnalysis(originalText, ruData, lemmaTranslation = null) {
     `;
   }
 
+  let contextHtml = "";
+  if (contextTranslation) {
+    const displayContext = contextTranslation.length > 100 ? contextTranslation.slice(0, 97) + "..." : contextTranslation;
+    contextHtml = `<div class="tooltip-context" style="border-top: 1px dashed var(--border-color); padding-top: 6px; margin-top: 6px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.3;">Context: "${displayContext}"</div>`;
+    
+    detailedCardHtml += `
+      <div class="dict-body-section" style="margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 8px;">
+        <div class="dict-section-title" style="color: var(--text-muted); font-weight: 700;">Sentence Context</div>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px; line-height: 1.4;">"${contextTranslation}"</p>
+      </div>
+    `;
+  }
+
   // Render tooltip bubble
   content.innerHTML = `
     <div class="tooltip-header">
@@ -701,6 +695,7 @@ function renderRESTAnalysis(originalText, ruData, lemmaTranslation = null) {
     <div class="tooltip-grammar">${posString}</div>
     <div class="tooltip-definition">${briefDef}</div>
     ${meaningHtml}
+    ${contextHtml}
   `;
 
   // Render analysis sidebar card

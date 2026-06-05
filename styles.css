@@ -318,9 +318,9 @@ body {
 
 /* Parallel Chunk Row */
 .chunk-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   padding: 16px;
   border-radius: 12px;
   border: 1px solid transparent;
@@ -334,30 +334,22 @@ body {
   box-shadow: var(--shadow-premium);
 }
 
-/* Left & Right Text columns */
-.text-col {
-  font-family: var(--font-reading);
-  font-size: 1.12rem;
-  line-height: 1.75;
-  color: var(--text-primary);
-  text-align: justify;
-}
-
-.rus-col {
-  direction: ltr;
-}
-
-.eng-col {
-  color: var(--text-secondary);
+/* Parallel Sentence Row */
+.sentence-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 6px 0;
+  align-items: start;
 }
 
 /* Chapter Title Rows */
 .chapter-row-title {
-  grid-column: span 2;
   text-align: center;
   padding: 40px 0 20px 0;
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .chapter-row-title h2 {
@@ -370,12 +362,18 @@ body {
 
 /* Hover highlights for sentences */
 .sentence-box {
-  display: inline;
-  padding: 2px 0;
-  border-radius: 4px;
+  display: inline-block;
+  font-family: var(--font-reading);
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  padding: 4px 8px;
+  border-radius: 6px;
   cursor: pointer;
   transition: var(--transition-fast);
   border-bottom: 1px solid transparent;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .sentence-box:hover {
@@ -386,6 +384,16 @@ body {
 .sentence-box.active-sentence {
   background-color: var(--highlight-sentence);
   border-bottom: 1px solid var(--highlight-sentence-border);
+}
+
+.eng-sent {
+  color: var(--text-secondary);
+}
+
+.empty-sent {
+  visibility: hidden;
+  height: 0;
+  padding: 0;
 }
 
 /* Words */
@@ -969,14 +977,24 @@ body {
   }
 
   .chunk-row {
-    grid-template-columns: 1fr; /* Stack layout on small screens */
-    gap: 8px;
-    padding: 8px;
+    gap: 0;
+    padding: 8px 4px;
   }
   
-  .eng-col {
-    border-top: 1px dashed var(--border-color);
-    padding-top: 6px;
+  .sentence-row {
+    grid-template-columns: 1fr; /* Stack layout on small screens */
+    gap: 6px;
+    padding: 8px 4px;
+    border-bottom: 1px dashed var(--border-color);
+  }
+  
+  .eng-sent {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    padding-left: 12px;
+    border-left: 2px solid var(--border-glow);
+    border-top: none;
+    padding-top: 0;
   }
 
   .sidebar-drawer {
