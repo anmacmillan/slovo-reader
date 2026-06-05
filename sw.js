@@ -1,4 +1,4 @@
-const CACHE_NAME = "slovo-cache-v4";
+const CACHE_NAME = "slovo-cache-v5";
 const ASSETS = [
   "index.html",
   "styles.css",
@@ -51,7 +51,7 @@ self.addEventListener("fetch", (e) => {
           });
         })
         .catch(() => {
-          return caches.match(e.request);
+          return caches.match(e.request, { ignoreSearch: true });
         })
     );
     return;
@@ -59,7 +59,7 @@ self.addEventListener("fetch", (e) => {
 
   // Cache First for static UI assets
   e.respondWith(
-    caches.match(e.request).then((cachedResponse) => {
+    caches.match(e.request, { ignoreSearch: true }).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }

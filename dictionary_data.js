@@ -14156,7 +14156,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "замашку": {
-    "def": "(form of замашка)",
+    "def": "(form of замашка: habit, manners; the male hemp plant)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "заменит": {
@@ -14176,11 +14176,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "заместо": {
-    "def": "",
+    "def": "instead of",
     "grammar": "preposition"
   },
   "замет": {
-    "def": "(form of замета)",
+    "def": "(form of замета: to begin to sweep; to sweep aside/away, to sweep up)",
     "grammar": "noun, feminine, plural, genitive"
   },
   "заметив": {
@@ -14284,7 +14284,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, prepositional"
   },
   "заминаясь": {
-    "def": "(form of заминаться)",
+    "def": "(form of заминаться: passive of замина́ть (zaminátʹ) (form of заминать: to crush, to rumple, to crumple; to hush up))",
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "замке": {
@@ -14312,7 +14312,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "замочком": {
-    "def": "(form of замочек)",
+    "def": "(form of замочек: endearing diminutive of замо́к (zamók, “lock”) (form of замок: castle; lock (fastener that opens with a key, or part of a firearm)))",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "замуж": {
@@ -14452,11 +14452,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "запасные": {
-    "def": "(form of запасный)",
+    "def": "(form of запасный: alternative form of запасно́й (zapasnój) (form of запасной: spare, reserve; auxiliary (supplementary or subsidiary)))",
     "grammar": "adjective, plural, nominative"
   },
   "запастись": {
-    "def": "",
+    "def": "to provide oneself (with), to stock up, to lay in a supply (of); passive of запасти́ (zapastí) (form of запасти: to store up, to lay in a stock (of))",
     "grammar": "infinitive, perfective, intransitive"
   },
   "запах": {
@@ -14476,11 +14476,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, plural, nominative"
   },
   "запевала": {
-    "def": "(form of запевать)",
+    "def": "(form of запевать: to set/give the tune, to lead the singing/choir)",
     "grammar": "verb, imperfective, past, transitive, feminine, singular"
   },
   "запеклась": {
-    "def": "(form of запечься)",
+    "def": "(form of запечься: to bake; (blood) to clot, to coagulate (form of запечь: to bake (in)))",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "запел": {
@@ -14520,7 +14520,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, intransitive"
   },
   "запил": {
-    "def": "(form of запить)",
+    "def": "(form of запить: to wash down (with), to take (after/with), to chase (with); to go on a drinking bout/spree)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "записать": {
@@ -14552,7 +14552,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "записочках": {
-    "def": "(form of записочка)",
+    "def": "(form of записочка: diminutive of запи́ска (zapíska) (form of записка: note, memo (memorandum)))",
     "grammar": "noun, feminine, plural, prepositional"
   },
   "записывает": {
@@ -14708,7 +14708,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "заране": {
-    "def": "(form of зарана)",
+    "def": "(form of зарана: early; from an early age)",
     "grammar": "noun, feminine, singular, dative"
   },
   "заранее": {
@@ -14828,7 +14828,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "засиделись": {
-    "def": "(form of засидеться)",
+    "def": "(form of засидеться: to sit down (for a long time), to stay (for a long time))",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "заслуживает": {
@@ -14980,7 +14980,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, genitive"
   },
   "засыпи": {
-    "def": "(form of засыпь)",
+    "def": "(form of засыпь: second-person singular imperative perfective of засы́пать (zasýpatʹ) (form of засыпать: to fill up; to cover, to bury under))",
     "grammar": "noun, feminine, singular, genitive"
   },
   "засыплет": {
@@ -15012,7 +15012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "затерял": {
-    "def": "(form of затерять)",
+    "def": "(form of затерять: to mislay, to lose)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "затеряться": {
@@ -15040,11 +15040,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "затопали": {
-    "def": "(form of затопать)",
+    "def": "(form of затопать: to begin to stomp/stamp .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘one's feet’])",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "затопало": {
-    "def": "(form of затопать)",
+    "def": "(form of затопать: to begin to stomp/stamp .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘one's feet’])",
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "затопленной": {
@@ -15192,7 +15192,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "зацепившиеся": {
-    "def": "(form of зацепиться)",
+    "def": "(form of зацепиться: to catch (on); to catch hold (of) (form of зацепить: to hook, to grapple, to fasten; to catch (accidentally)))",
     "grammar": "participle, perfective, past, active, intransitive, plural, nominative"
   },
   "зацепил": {
@@ -15200,7 +15200,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "зацепись": {
-    "def": "(form of зацепиться)",
+    "def": "(form of зацепиться: to catch (on); to catch hold (of) (form of зацепить: to hook, to grapple, to fasten; to catch (accidentally)))",
     "grammar": "verb, perfective, intransitive, singular"
   },
   "зачахла": {
@@ -15216,7 +15216,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "зашевелилось": {
-    "def": "(form of зашевелиться)",
+    "def": "(form of зашевелиться: to begin to stir/budge; passive of зашевели́ть (zaševelítʹ) (form of зашевелить: to begin to stir/move))",
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "зашел": {
@@ -15468,7 +15468,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "здравствуй": {
-    "def": "",
+    "def": "hello; second-person singular imperfective imperative of здра́вствовать (zdrávstvovatʹ) (form of здравствовать: to be well, to prosper, to thrive)",
     "grammar": "interjection"
   },
   "здравствуйте": {
@@ -23088,11 +23088,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, plural, nominative"
   },
   "многим": {
-    "def": "(form of многий)",
+    "def": "(form of многий: many)",
     "grammar": "adjective, plural, dative"
   },
   "многих": {
-    "def": "(form of многий)",
+    "def": "(form of многий: many)",
     "grammar": "adjective, plural, genitive"
   },
   "много": {
@@ -32068,11 +32068,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, plural"
   },
   "перекладной": {
-    "def": "",
+    "def": "post-horses, relay-horses",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "перекладных": {
-    "def": "(form of перекладной)",
+    "def": "(form of перекладной: post-horses, relay-horses)",
     "grammar": "adjective, plural, genitive"
   },
   "перекликались": {
@@ -44244,7 +44244,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "родная": {
-    "def": "(form of родный)",
+    "def": "(form of родный: relatives, kin, loved ones)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "родничек": {
@@ -44252,15 +44252,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "родной": {
-    "def": "(form of родный)",
+    "def": "(form of родный: relatives, kin, loved ones)",
     "grammar": "adjective, feminine, singular, genitive"
   },
   "родным": {
-    "def": "(form of родный)",
+    "def": "(form of родный: relatives, kin, loved ones)",
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "родных": {
-    "def": "(form of родный)",
+    "def": "(form of родный: relatives, kin, loved ones)",
     "grammar": "adjective, plural, prepositional"
   },
   "родом": {

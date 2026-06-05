@@ -230,6 +230,21 @@ def download_openrussian_csvs():
             
     return open_russian_db
 
+def find_in_open_russian(lem, open_russian_db):
+    if lem in open_russian_db:
+        return open_russian_db[lem]
+    if lem.endswith(('ой', 'ый', 'ий')):
+        for ending in ['ые', 'ие']:
+            cand = lem[:-2] + ending
+            if cand in open_russian_db:
+                return open_russian_db[cand]
+    if lem.endswith(('ые', 'ие')):
+        for ending in ['ый', 'ий', 'ой']:
+            cand = lem[:-2] + ending
+            if cand in open_russian_db:
+                return open_russian_db[cand]
+    return None
+
 def translate_pymorphy_tag(tag):
     parts = []
     pos = tag.POS
@@ -314,8 +329,9 @@ def main():
     resolved_count = 0
     
     for lem in missing_lemmas:
-        if lem in open_russian_db:
-            trans, grammar = open_russian_db[lem]
+        or_match = find_in_open_russian(lem, open_russian_db)
+        if or_match:
+            trans, grammar = or_match
             save_to_cache(lem, trans, grammar, "")
             resolved_count += 1
         else:
