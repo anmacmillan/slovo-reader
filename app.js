@@ -74,11 +74,9 @@ function playChapterAudio(chapterNum) {
   if (state.audioPlayer && state.books.length > 0) {
     const bookIdx = state.currentBookIndex;
     const book = state.books[bookIdx];
-    // Only preloaded books (not custom) have audiobooks
     if (bookIdx < PRELOADED_BOOKS.length) {
-      // Use book index to find the right audiobook directory
-      const bookPrefix = String(bookIdx).padStart(2, "0");
-      const path = `audiobook/bk${bookPrefix}/ch${String(chapterNum).padStart(2, "0")}.mp3`;
+      const fn = `ch${String(chapterNum).padStart(2, "0")}.mp3`;
+      const path = `audiobook/${fn}`;
       state.audioPlayer.src = path;
       state.audioPlayer.play();
     }
@@ -374,12 +372,46 @@ function fetchWiktionaryDetails(lemma, originalText) {
   const content = document.getElementById("tooltip-content");
   const dictBody = document.getElementById("dict-body");
 
-  // Clean original word and prepare retry forms
+  // Clean original word
   const cleanOriginal = originalText.replace(/[^а-яёА-ЯЁ\-]/g, "");
   const cleanLower = cleanOriginal.toLowerCase();
 
+  // Find the English translation from the book's parallel data
+  const book = state.books[state.currentBookIndex];
+  const chapter = book.chapters[state.currentChapterIndex];
+  
+  // Look through all chunks to find the sentence containing this word
+  let englishTranslation = null;
+  let russianSentence = null;
+  let chunkIndex = -1;
+  
+  // Find the clicked word's parent sentence
+  const wordSpan = document.querySelector(".selected-word");
+  if (wordSpan) {
+    const sentenceBox = wordSpan.closest(".sentence-box");
+    if (sentenceBox) {
+      const sentId = sentenceBox.dataset.sentId;
+      const chunkMatch = sentId.match(/ch-(\d+)-s-(\d+)/);
+      if (chunkMatch) {
+        chunkIndex = parseInt(chunkMatch[1]);
+        const englishChunk = chapter.english[chunkIndex];
+        if (englishChunk) {
+          englishTranslation = englishChunk;
+          russianSentence = chapter.russian[chunkIndex];
+        }
+      }
+    }
+  }
+
+  // If we found the English translation, show it
+  if (englishTranslation) {
+    // Render tooltip with the English translation
+    renderBookTranslation(originalText, cleanLower, russianSentence, englishTranslation);
+    return;
+  }
+
+  // Fallback to Wiktionary lookup
   const queryApi = (wordToQuery, isRetry = false) => {
-    // Wikimedia Wiktionary REST API for structured definitions
     const url = `https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(wordToQuery)}`;
 
     fetch(url)
@@ -395,7 +427,6 @@ function fetchWiktionaryDetails(lemma, originalText) {
           throw new Error("No definition");
         }
         
-        // Scan for a link to a base lemma inside the form-of definition HTML
         let detectedLemma = null;
         const tempDiv = document.createElement("div");
         
@@ -405,9 +436,8 @@ function fetchWiktionaryDetails(lemma, originalText) {
             const link = tempDiv.querySelector(".form-of-definition-link a, .mention a, a[href*='/wiki/']");
             if (link) {
               const linkText = (link.textContent || link.innerText).trim();
-              // Validate that the linked text contains Cyrillic (meaning it's the Russian lemma)
               if (/[а-яёА-ЯЁ]/.test(linkText)) {
-                detectedLemma = linkText.replace(/\u0301/g, "").toLowerCase(); // strip accents and lowercase
+                detectedLemma = linkText.replace(/\u0301/g, "").toLowerCase();
                 break;
               }
             }
@@ -415,7 +445,6 @@ function fetchWiktionaryDetails(lemma, originalText) {
           if (detectedLemma) break;
         }
 
-        // If an inflected form refers to a different base lemma, fetch its definition
         if (detectedLemma && detectedLemma !== cleanLower) {
           const lemmaUrl = `https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(detectedLemma)}`;
           fetch(lemmaUrl)
@@ -451,7 +480,6 @@ function fetchWiktionaryDetails(lemma, originalText) {
       })
       .catch(err => {
         if (!isRetry && cleanOriginal !== wordToQuery) {
-          // If lowercase query failed (e.g. proper nouns), try with original case
           queryApi(cleanOriginal, true);
         } else {
           console.error("REST Wiktionary lookup error for word:", originalText);
@@ -460,8 +488,39 @@ function fetchWiktionaryDetails(lemma, originalText) {
       });
   };
 
-  // Start with lowercase form
   queryApi(cleanLower);
+}
+
+function renderBookTranslation(word, lowerCase, rusSentence, engTranslation) {
+  const content = document.getElementById("tooltip-content");
+  const dictBody = document.getElementById("dict-body");
+
+  content.innerHTML = `
+    <div class="tooltip-header">
+      <h4>${word}</h4>
+      <div class="tooltip-buttons">
+        <button class="btn-tooltip-action" id="tts-word-btn" title="Speak word">🔊</button>
+        <button class="btn-tooltip-action" id="save-word-btn" title="Save word">➕</button>
+        <button class="btn-tooltip-action" id="more-dict-btn" title="Detailed Analysis">🔍</button>
+      </div>
+    </div>
+    <div class="tooltip-grammar" style="margin-top: 8px;">
+      <span style="font-size: 0.85rem; color: var(--text-muted);">In the context of this book:</span>
+    </div>
+    <div class="tooltip-definition" style="border-left: 3px solid var(--accent-primary); padding-left: 12px; margin-top: 6px;">
+      <strong style="color: var(--text-primary);">${engTranslation}</strong>
+    </div>
+    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">
+      <em>${rusSentence}</em>
+    </div>
+  `;
+
+  // Bind actions
+  document.getElementById("tts-word-btn").addEventListener("click", () => speakText(word));
+  document.getElementById("save-word-btn").addEventListener("click", () => saveWordToVocab(word, engTranslation, ""));
+  document.getElementById("more-dict-btn").addEventListener("click", () => {
+    document.getElementById("dict-drawer").classList.add("open");
+  });
 }
 
 function showTooltipError(word, msg) {
