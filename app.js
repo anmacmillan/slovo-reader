@@ -10,6 +10,7 @@ const state = {
   vocabList: [],
   synth: window.speechSynthesis,
   ruVoice: null,
+  frVoice: null,
   activeAudioUtterance: null,
   audioPlayer: null,
   isPlayingChapter: false
@@ -89,6 +90,8 @@ function initVoices() {
     const voices = state.synth.getVoices();
     // Prioritize high-quality Russian voices
     state.ruVoice = voices.find(v => v.lang.startsWith("ru-RU") || v.lang.startsWith("ru")) || null;
+    // Also find a French voice for French sections
+    state.frVoice = voices.find(v => v.lang.startsWith("fr-FR") || v.lang.startsWith("fr")) || null;
   };
   setVoice();
   if (state.synth.onvoiceschanged !== undefined) {
@@ -96,20 +99,37 @@ function initVoices() {
   }
 }
 
-function speakText(text, lang = "ru-RU") {
+function detectLanguage(text) {
+  // Detect the language of the text
+  // French: contains accented chars (à, é, è, etc.) and no Cyrillic
+  if (/[а-яёА-ЯЁ]/.test(text)) return "ru-RU";
+  if (/[àâçéèêëîïôùûœ]/.test(text)) return "fr-FR";
+  // Default to Russian
+  return "ru-RU";
+}
+
+function speakText(text, lang) {
   if (state.synth.speaking) {
     state.synth.cancel();
   }
+  
+  // Auto-detect language if not provided
+  if (!lang) lang = detectLanguage(text);
 
   const speedSelect = document.getElementById("speed-select");
   const rate = speedSelect ? parseFloat(speedSelect.value) : 0.9;
   
   const utterance = new SpeechSynthesisUtterance(text);
+  
+  // Use the correct voice for the detected language
   if (lang.startsWith("ru") && state.ruVoice) {
     utterance.voice = state.ruVoice;
+  } else if (lang.startsWith("fr") && state.frVoice) {
+    utterance.voice = state.frVoice;
   } else {
     utterance.lang = lang;
   }
+  
   utterance.rate = rate;
   
   state.activeAudioUtterance = utterance;
