@@ -11,7 +11,11 @@ EN_URL = "https://www.ibiblio.org/eldritch/ac/sisters.htm"
 
 def fetch_eng():
     import urllib.request
-    resp = urllib.request.urlopen(EN_URL)
+    import ssl
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+    resp = urllib.request.urlopen(EN_URL, context=ctx)
     html = resp.read().decode("utf-8")
     # Find act anchors
     act_starts = []

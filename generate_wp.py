@@ -26,21 +26,27 @@ chapters_data = []
 for ch_idx in [1, 2, 3]:
     ch_text = chapters_raw[ch_idx] if ch_idx < len(chapters_raw) else ""
     
-    # Extract Russian (>) and English (") paragraphs
+    # Split by double newlines into blocks
+    blocks = [b.strip() for b in ch_text.split('\n\n') if b.strip()]
+    
     rus = []
     eng = []
-    for line in ch_text.split("\n"):
-        s = line.strip()
-        if not s:
-            continue
-        # Russian: starts with > or has Cyrillic
-        if s.startswith(">") and re.search(r"[а-яё]", s):
-            rus.append(s[1:].strip())
-        elif re.search(r"[а-яё]", s) and not s.startswith('"'):
-            # Russian text without marker
-            rus.append(s.lstrip(">—«").strip())
-        elif s.startswith('"') and not re.search(r"[а-яё]", s):
-            eng.append(s[1:].strip())
+    
+    # Skip block 0 (it is the CHAPTER header, e.g. "CHAPTER I")
+    for block in blocks[1:]:
+        lines = [l.strip() for l in block.split('\n') if l.strip()]
+        if len(lines) == 2:
+            rus_p = lines[0].lstrip('>').strip()
+            # Clean up leading dashes or quotes if appropriate, but keeping French/Russian intact
+            eng_p = lines[1].lstrip('"').rstrip('"').strip()
+            rus.append(rus_p)
+            eng.append(eng_p)
+        elif len(lines) == 1:
+            # Skip chapter headers like "II", "III", "IV" at the end of chapters
+            if lines[0] in ['I', 'II', 'III', 'IV', 'V', 'VI']:
+                continue
+            rus.append(lines[0].lstrip('>').strip())
+            eng.append("")
     
     chapters_data.append({
         "chapterNum": ch_idx,

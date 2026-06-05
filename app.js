@@ -968,9 +968,6 @@ const GIST_FILE = STORAGE_KEYS.GIST_FILE;
 
 async function githubFetch(url, options = {}) {
   const pat = localStorage.getItem("slovo_github_pat");
-  if (!pat) return null;
-  
-  // Fall back to Calcifer's PAT if available
   const calciferPat = localStorage.getItem("calcifer_github_pat");
   const effectivePat = pat || calciferPat;
   if (!effectivePat) return null;
@@ -1016,13 +1013,22 @@ async function syncProgressToGist() {
       })
     });
     
-    if (!gistId && res && res.ok) {
+    if (!res) {
+      throw new Error("No GitHub Access Token configured. Please set a Personal Access Token (PAT).");
+    }
+    
+    if (!res.ok) {
+      const errText = await res.text();
+      throw new Error(`GitHub API error (${res.status}): ${errText}`);
+    }
+    
+    if (!gistId && res.ok) {
       const gist = await res.json();
       localStorage.setItem(STORAGE_KEYS.GIST_ID, gist.id);
     }
   } catch (e) {
-    // Silent fail — progress is also kept locally
-    console.warn("Gist sync failed:", e);
+    console.error("Gist sync failed:", e);
+    throw e;
   }
 }
 
@@ -1106,8 +1112,22 @@ function bindEvents() {
 
   // Sync progress to Gist
   document.getElementById("sync-gist").addEventListener("click", async () => {
-    await syncProgressToGist();
-    alert("Progress synced to GitHub Gist!");
+    let pat = localStorage.getItem("slovo_github_pat") || localStorage.getItem("calcifer_github_pat");
+    if (!pat) {
+      pat = prompt("To enable progress sync across devices, enter your GitHub Personal Access Token (PAT) with 'gist' scope:");
+      if (pat) {
+        localStorage.setItem("slovo_github_pat", pat.trim());
+      } else {
+        return;
+      }
+    }
+    
+    try {
+      await syncProgressToGist();
+      alert("Progress synced to GitHub Gist!");
+    } catch (err) {
+      alert("Sync failed: " + err.message);
+    }
   });
 
   // Back to Library
