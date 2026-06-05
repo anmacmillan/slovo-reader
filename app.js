@@ -13,7 +13,8 @@ const state = {
   frVoice: null,
   activeAudioUtterance: null,
   audioPlayer: null,
-  isPlayingChapter: false
+  isPlayingChapter: false,
+  syncGistId: null
 };
 
 // LocalStorage Keys
@@ -22,15 +23,22 @@ const STORAGE_KEYS = {
   CUSTOM_BOOKS: "slovo_custom_library",
   THEME: "slovo_active_theme",
   PROGRESS: "slovo_reading_progress",
+  GIST_FILE: "slovo_progress.json",
+  GIST_ID: "slovo_gist_id"
+,
   AUDIOBOOK_DIR: "slovo_audiobook_dir"
 };
 
 // Initialize Application
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
   loadVocabList();
   initVoices();
   initAudioPlayer();
+  
+  // Try to sync progress from Gist
+  await loadProgressFromGist();
+  
   loadLibrary();
   
   // Check if returning from a book
@@ -227,6 +235,13 @@ function renderChapter() {
   const chapter = book.chapters[state.currentChapterIndex];
   const container = document.getElementById("chunks-container");
   container.innerHTML = "";
+  
+  // Sync progress
+  const pct = Math.round((state.currentChapterIndex / book.chapters.length) * 100);
+  syncProgressToGist();
+  
+  // Update local progress marker
+  localStorage.setItem(`book_${state.currentBookIndex}_progress`, state.currentChapterIndex);
 
   // Render Title
   const titleRow = document.createElement("div");
@@ -930,6 +945,101 @@ function splitEqualChunks(paragraphs, n) {
   return chunks;
 }
 
+// ── Gist Synchronisation (Cross-device progress) ────────────────────────────────
+const GIST_FILE = STORAGE_KEYS.GIST_FILE;
+
+async function githubFetch(url, options = {}) {
+  const pat = localStorage.getItem("slovo_github_pat");
+  if (!pat) return null;
+  
+  // Fall back to Calcifer's PAT if available
+  const calciferPat = localStorage.getItem("calcifer_github_pat");
+  const effectivePat = pat || calciferPat;
+  if (!effectivePat) return null;
+  
+  const headers = {
+    "Authorization": `token ${effectivePat}`,
+    "Accept": "application/vnd.github.v3+json",
+    ...options.headers
+  };
+  return fetch(url, { ...options, headers });
+}
+
+async function syncProgressToGist() {
+  const gistId = localStorage.getItem(STORAGE_KEYS.GIST_ID);
+  
+  // Build progress data
+  const progressData = {
+    version: 2,
+    lastUpdated: new Date().toISOString(),
+    books: state.books.map((book, idx) => ({
+      title: book.title,
+      currentChapter: idx === state.currentBookIndex ? state.currentChapterIndex : 0,
+      chaptersRead: parseInt(localStorage.getItem(`book_${idx}_progress`) || "0"),
+      totalChapters: book.chapters.length
+    })),
+    vocab: state.vocabList
+  };
+
+  try {
+    // Write to gist via GitHub API
+    const url = gistId 
+      ? `https://api.github.com/gists/${gistId}`
+      : "https://api.github.com/gists";
+    
+    const method = gistId ? "PATCH" : "POST";
+    
+    const res = await githubFetch(url, {
+      method,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        description: "Slovo Reader reading progress",
+        files: { [GIST_FILE]: { content: JSON.stringify(progressData, null, 2) } }
+      })
+    });
+    
+    if (!gistId && res && res.ok) {
+      const gist = await res.json();
+      localStorage.setItem(STORAGE_KEYS.GIST_ID, gist.id);
+    }
+  } catch (e) {
+    // Silent fail — progress is also kept locally
+    console.warn("Gist sync failed:", e);
+  }
+}
+
+async function loadProgressFromGist() {
+  const gistId = localStorage.getItem(STORAGE_KEYS.GIST_ID);
+  if (!gistId) {
+    // Try to find an existing gist
+    const res = await githubFetch("https://api.github.com/gists");
+    if (res && res.ok) {
+      const gists = await res.json();
+      const found = gists.find(g => g.files && g.files[GIST_FILE]);
+      if (found) {
+        localStorage.setItem(STORAGE_KEYS.GIST_ID, found.id);
+        const content = JSON.parse(found.files[GIST_FILE].content);
+        mergeGistProgress(content);
+      }
+    }
+  }
+}
+
+function mergeGistProgress(cloudData) {
+  if (!cloudData || !cloudData.books) return;
+  
+  // Merge book progress
+  cloudData.books.forEach((cloudBook, idx) => {
+    const localRead = parseInt(localStorage.getItem(`book_${idx}_progress`) || "0");
+    if (cloudBook.chaptersRead > localRead) {
+      localStorage.setItem(`book_${idx}_progress`, cloudBook.chaptersRead);
+    }
+  });
+  
+  // Update progress bars
+  renderSplash();
+}
+
 // ── Progress & Footer Updates ───────────────────────────────────────────────
 function updateProgressBar() {
   const bar = document.getElementById("reading-progress-bar");
@@ -974,6 +1084,12 @@ function bindEvents() {
 
   document.getElementById("close-dict-drawer").addEventListener("click", () => {
     dictDrawer.classList.remove("open");
+  });
+
+  // Sync progress to Gist
+  document.getElementById("sync-gist").addEventListener("click", async () => {
+    await syncProgressToGist();
+    alert("Progress synced to GitHub Gist!");
   });
 
   // Back to Library
