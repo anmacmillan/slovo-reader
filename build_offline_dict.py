@@ -82,12 +82,14 @@ def parse_definition_block(data, word):
             if def_text and def_text not in definitions:
                 definitions.append(def_text)
             
-            # Check for form-of link to detect lemma
-            m = re.search(r'href="/wiki/([^"#]+)"', def_obj.get("definition", ""))
-            if m and not lemma:
-                candidate = urllib.parse.unquote(m.group(1)).replace("_", " ")
+            # Check all links to detect the Russian lemma
+            links = re.findall(r'href="/wiki/([^"#\s]+)(?:#[^"]+)?"', def_obj.get("definition", ""))
+            for link in links:
+                candidate = urllib.parse.unquote(link).replace("_", " ")
                 if re.fullmatch(r'[а-яёА-ЯЁ\-]+', candidate):
                     lemma = candidate.lower()
+                    break
+
 
     pos_str = " / ".join(pos_list)
     brief_def = "; ".join(definitions[:2])

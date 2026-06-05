@@ -49,7 +49,72 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
   
   bindEvents();
+  initImmersiveMode();
 });
+
+// ── Immersive Reader Mode ───────────────────────────────────────────────────
+let immersiveTimer = null;
+const IMMERSIVE_DELAY = 5000; // 5 seconds of inactivity to trigger immersive mode
+
+function initImmersiveMode() {
+  const events = ["mousemove", "touchstart", "scroll", "keydown", "click"];
+  events.forEach(evt => {
+    document.addEventListener(evt, (e) => {
+      const container = document.querySelector(".app-container");
+      if (container.classList.contains("immersive")) {
+        // If in immersive mode, only exit on click/touchstart in top 12% of screen
+        // or on keystrokes/scrolling
+        if (e.type === "click" || e.type === "touchstart") {
+          const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+          if (clientY < window.innerHeight * 0.12) {
+            exitImmersiveMode();
+          }
+        } else if (e.type !== "mousemove") {
+          // Keydown or scroll exits immersive mode immediately
+          exitImmersiveMode();
+        }
+      } else {
+        // Otherwise reset inactivity timer on any action
+        resetImmersiveTimer();
+      }
+    }, { passive: true });
+  });
+
+  // Start initial timer
+  resetImmersiveTimer();
+}
+
+function resetImmersiveTimer() {
+  clearTimeout(immersiveTimer);
+  const container = document.querySelector(".app-container");
+  if (container.classList.contains("immersive")) {
+    container.classList.remove("immersive");
+  }
+  immersiveTimer = setTimeout(enterImmersiveMode, IMMERSIVE_DELAY);
+}
+
+function enterImmersiveMode() {
+  const splash = document.getElementById("splash-screen");
+  if (!splash || !splash.classList.contains("hidden")) return;
+
+  // Don't enter immersive mode if a sidebar drawer is open or word tooltip is visible
+  const isVocabOpen = document.getElementById("vocab-drawer").classList.contains("open");
+  const isDictOpen = document.getElementById("dict-drawer").classList.contains("open");
+  const isTooltipVisible = !document.getElementById("word-tooltip").classList.contains("hidden");
+
+  if (isVocabOpen || isDictOpen || isTooltipVisible) {
+    resetImmersiveTimer();
+    return;
+  }
+
+  document.querySelector(".app-container").classList.add("immersive");
+}
+
+function exitImmersiveMode() {
+  document.querySelector(".app-container").classList.remove("immersive");
+  resetImmersiveTimer();
+}
+
 // ── Theme Management ──────────────────────────────────────────────────────────
 function initTheme() {
   const savedTheme = localStorage.getItem(STORAGE_KEYS.THEME) || "dark";
