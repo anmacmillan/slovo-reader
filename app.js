@@ -155,6 +155,20 @@ function speakText(text, lang) {
 
 // ── Library Loading ───────────────────────────────────────────────────────────
 function loadLibrary() {
+  // Load the preloaded books into state
+  state.books = [...PRELOADED_BOOKS];
+  
+  // Also load any custom books from localStorage
+  const savedCustom = localStorage.getItem(STORAGE_KEYS.CUSTOM_BOOKS);
+  if (savedCustom) {
+    try {
+      const customBooks = JSON.parse(savedCustom);
+      state.books = [...state.books, ...customBooks];
+    } catch (e) {
+      console.error("Error loading custom books:", e);
+    }
+  }
+  
   // Render splash screen with book tiles
   renderSplash();
 }
