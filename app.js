@@ -331,30 +331,42 @@ function showTooltipLoading(anchorEl) {
 function fetchWiktionaryDetails(lemma, originalText) {
   const content = document.getElementById("tooltip-content");
   const dictBody = document.getElementById("dict-body");
-  
-  // English Wiktionary query
-  const url = `https://en.wiktionary.org/w/api.php?action=query&prop=extracts&exintro&explaintext&titles=${encodeURIComponent(lemma)}&redirects=1&format=json&origin=*`;
 
-  fetch(url)
-    .then(r => r.json())
-    .then(data => {
-      const pages = data.query.pages;
-      const pageId = Object.keys(pages)[0];
-      
-      if (pageId === "-1") {
-        // Fallback: search lemma directly
-        showTooltipError(originalText, "No immediate wiktionary definition found.");
-        return;
-      }
-      
-      const extract = pages[pageId].extract;
-      const title = pages[pageId].title;
-      renderAnalysis(title, originalText, extract);
-    })
-    .catch(err => {
-      console.error("Wiktionary lookup error:", err);
-      showTooltipError(originalText, "Failed to load definition (offline or API block).");
-    });
+  // Clean original word and prepare retry forms
+  const cleanOriginal = originalText.replace(/[^а-яёА-ЯЁ\-]/g, "");
+  const cleanLower = cleanOriginal.toLowerCase();
+
+  const queryApi = (wordToQuery, isRetry = false) => {
+    // Wikimedia Wiktionary REST API for structured definitions
+    const url = `https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(wordToQuery)}`;
+
+    fetch(url)
+      .then(r => {
+        if (!r.ok) {
+          throw new Error("404");
+        }
+        return r.json();
+      })
+      .then(data => {
+        const ruData = data.ru || data.en || Object.values(data)[0];
+        if (!ruData || ruData.length === 0) {
+          throw new Error("No definition");
+        }
+        renderRESTAnalysis(originalText, ruData);
+      })
+      .catch(err => {
+        if (!isRetry && cleanOriginal !== wordToQuery) {
+          // If lowercase query failed (e.g. proper nouns), try with original case
+          queryApi(cleanOriginal, true);
+        } else {
+          console.error("REST Wiktionary lookup error for word:", originalText);
+          showTooltipError(originalText, "No direct definition found in Wiktionary. (Russian words are grammar-sensitive).");
+        }
+      });
+  };
+
+  // Start with lowercase form
+  queryApi(cleanLower);
 }
 
 function showTooltipError(word, msg) {
@@ -377,41 +389,51 @@ function showTooltipError(word, msg) {
   document.getElementById("save-word-btn").addEventListener("click", () => saveWordToVocab(word, "Definition not found. Custom card.", "Unknown"));
 }
 
-function renderAnalysis(title, originalText, rawExtract) {
+function renderRESTAnalysis(originalText, ruData) {
   const content = document.getElementById("tooltip-content");
   const dictBody = document.getElementById("dict-body");
 
-  // Basic parse of wiktionary description to separate POS/definition
-  // Look for grammatical clues
-  let pos = "Noun/Verb";
-  let grammar = "Declined Form";
-  
-  if (rawExtract.includes("noun")) {
-    pos = "Noun";
-  } else if (rawExtract.includes("verb")) {
-    pos = "Verb";
-  } else if (rawExtract.includes("adjective")) {
-    pos = "Adjective";
-  } else if (rawExtract.includes("preposition")) {
-    pos = "Preposition";
-  }
+  // Helper to strip HTML tags from definition
+  const cleanHtml = (html) => {
+    const temp = document.createElement("div");
+    temp.innerHTML = html;
+    return temp.textContent || temp.innerText || "";
+  };
 
-  // Attempt to parse grammatical case, gender, tense, aspect
-  const cases = ["nominative", "accusative", "genitive", "dative", "instrumental", "prepositional"];
-  const matchedCases = cases.filter(c => rawExtract.toLowerCase().includes(c));
-  if (matchedCases.length > 0) {
-    grammar = `${matchedCases[0].charAt(0).toUpperCase() + matchedCases[0].slice(1)} case`;
-  } else if (rawExtract.includes("past tense")) {
-    grammar = "Past Tense";
-  } else if (rawExtract.includes("present tense")) {
-    grammar = "Present Tense";
-  }
+  let tooltipPosList = [];
+  let tooltipDefsList = [];
+  let detailedCardHtml = "";
 
-  // Cut extract to first 2-3 sentences for tooltip readability
-  const sentences = rawExtract.split(/[.!?]\s+/);
-  const briefDef = sentences.slice(0, 2).join(". ") + ".";
+  ruData.forEach((block) => {
+    const pos = block.partOfSpeech;
+    if (!tooltipPosList.includes(pos)) {
+      tooltipPosList.push(pos);
+    }
 
-  // Build Tooltip HTML
+    // Extract first 2 definitions for the tooltip
+    block.definitions.slice(0, 2).forEach(defObj => {
+      const cleanDef = cleanHtml(defObj.definition);
+      if (cleanDef && !tooltipDefsList.includes(cleanDef)) {
+        tooltipDefsList.push(cleanDef);
+      }
+    });
+
+    // Compile detailed definitions list for sidebar
+    const cleanDefs = block.definitions.map(d => `<li>${cleanHtml(d.definition)}</li>`).join("");
+    detailedCardHtml += `
+      <div class="dict-body-section" style="margin-top: 14px;">
+        <div class="dict-section-title" style="color: var(--accent-text); font-weight: 700;">${pos}</div>
+        <ol class="dict-def-list" style="margin-left: 20px; margin-top: 6px;">
+          ${cleanDefs}
+        </ol>
+      </div>
+    `;
+  });
+
+  const posString = tooltipPosList.join(" / ");
+  const briefDef = tooltipDefsList.slice(0, 2).join("; ");
+
+  // Render tooltip bubble
   content.innerHTML = `
     <div class="tooltip-header">
       <h4>${originalText}</h4>
@@ -420,33 +442,28 @@ function renderAnalysis(title, originalText, rawExtract) {
         <button class="btn-tooltip-action" id="save-word-btn" title="Save word">➕</button>
       </div>
     </div>
-    <div class="tooltip-grammar">${pos} &bull; ${grammar}</div>
+    <div class="tooltip-grammar">${posString}</div>
     <div class="tooltip-definition">${briefDef}</div>
   `;
 
-  // Build Sidebar Analysis Card (much more detailed view)
+  // Render analysis sidebar card
   dictBody.innerHTML = `
     <div class="dict-entry-card">
-      <div class="dict-entry-header">
+      <div class="dict-entry-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
         <div class="dict-word-text">${originalText}</div>
-        <div class="dict-word-details">
-          <span class="tooltip-grammar">${pos}</span>
-          <span style="font-size: 0.8rem; color: var(--text-secondary);">Lemma: <strong>${title}</strong></span>
+        <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">
+          Grammar: <strong>${posString}</strong>
         </div>
       </div>
-      
-      <div class="dict-body-section">
-        <div class="dict-section-title">Wiktionary Entry</div>
-        <div class="dict-def-list">
-          <p>${rawExtract}</p>
-        </div>
-      </div>
+      ${detailedCardHtml}
     </div>
   `;
 
   // Bind actions
   document.getElementById("tts-word-btn").addEventListener("click", () => speakText(originalText));
-  document.getElementById("save-word-btn").addEventListener("click", () => saveWordToVocab(originalText, briefDef, `${pos} (${grammar})`));
+  document.getElementById("save-word-btn").addEventListener("click", () => {
+    saveWordToVocab(originalText, briefDef, posString);
+  });
 }
 
 // ── Vocabulary Notebook ──────────────────────────────────────────────────────
