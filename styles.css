@@ -937,37 +937,9 @@ body {
 }
 
 /* Responsive Rules for iPads and Mobile Devices */
-@media (max-width: 1024px) {
-  .reader-pane {
-    padding: 20px;
-  }
-  
-  .column-header,
+@media (max-width: 1200px) {
   .chunk-row {
-    gap: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .app-header {
-    flex-wrap: wrap;
-    height: auto;
-    padding: 8px 12px;
-    gap: 8px;
-  }
-  
-  .header-center {
-    order: 3;
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .column-header {
-    display: none; /* Hide column headings on mobile */
-  }
-  
-  .chunk-row {
-    grid-template-columns: 1fr; /* Stack layout on mobile */
+    grid-template-columns: 1fr; /* Stack layout on small screens */
     gap: 8px;
     padding: 8px;
   }
