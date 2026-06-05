@@ -3554,5 +3554,2017 @@ const LOCAL_DICTIONARY = {
   "бледно": {
     "def": "short neuter singular of бле́дный (blédnyj) (form of бледный: pale)",
     "grammar": "Adjective"
+  },
+  "бледностью": {
+    "def": "instrumental singular of бле́дность (blédnostʹ) (form of бледность: pallor, paleness; insipidity, colorlessness)",
+    "grammar": "Noun"
+  },
+  "бледны": {
+    "def": "short plural of бле́дный (blédnyj) (form of бледный: pale)",
+    "grammar": "Adjective"
+  },
+  "бледный": {
+    "def": "pale",
+    "grammar": "Adjective"
+  },
+  "блеска": {
+    "def": "genitive singular of блеск (blesk) (form of блеск: brilliance, glitter, lustre, shine)",
+    "grammar": "Noun"
+  },
+  "блеском": {
+    "def": "instrumental singular of блеск (blesk) (form of блеск: brilliance, glitter, lustre, shine)",
+    "grammar": "Noun"
+  },
+  "блеску": {
+    "def": "dative/partitive singular of блеск (blesk) (form of блеск: brilliance, glitter, lustre, shine)",
+    "grammar": "Noun"
+  },
+  "блеснул": {
+    "def": "masculine singular past indicative perfective of блесну́ть (blesnútʹ) (form of блеснуть: to shine, to glitter, to sparkle, to flash; to be gifted, to shine, to sparkle .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘with something’])",
+    "grammar": "Verb"
+  },
+  "блеснули": {
+    "def": "plural past indicative perfective of блесну́ть (blesnútʹ) (form of блеснуть: to shine, to glitter, to sparkle, to flash; to be gifted, to shine, to sparkle .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘with something’])",
+    "grammar": "Verb"
+  },
+  "блеют": {
+    "def": "third-person plural present indicative imperfective of бле́ять (bléjatʹ) (form of блеять: to bleat)",
+    "grammar": "Verb"
+  },
+  "ближнего": {
+    "def": "genitive singular of бли́жний (blížnij); genitive/accusative singular of бли́жний (blížnij) (form of ближний: near, nearby, neighboring; nearest, next)",
+    "grammar": "Adjective / Noun"
+  },
+  "близ": {
+    "def": "near, in the vicinity of",
+    "grammar": "Preposition"
+  },
+  "близости": {
+    "def": "genitive/dative/prepositional singular of бли́зость (blízostʹ) (form of близость: nearness, proximity, closeness; intimacy)",
+    "grammar": "Noun"
+  },
+  "блистал": {
+    "def": "masculine singular past indicative imperfective of блиста́ть (blistátʹ) (form of блистать: to shine, to glitter, to sparkle; to make a brilliant display (with), to shine (with), to be radiant (with), to be conspicuous (by) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘something’])",
+    "grammar": "Verb"
+  },
+  "блистали": {
+    "def": "plural past indicative imperfective of блиста́ть (blistátʹ) (form of блистать: to shine, to glitter, to sparkle; to make a brilliant display (with), to shine (with), to be radiant (with), to be conspicuous (by) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘something’])",
+    "grammar": "Verb"
+  },
+  "блистало": {
+    "def": "neuter singular past indicative imperfective of блиста́ть (blistátʹ) (form of блистать: to shine, to glitter, to sparkle; to make a brilliant display (with), to shine (with), to be radiant (with), to be conspicuous (by) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘something’])",
+    "grammar": "Verb"
+  },
+  "блондинка": {
+    "def": "female equivalent of блонди́н (blondín): blonde (fair-skinned, fair-haired woman or girl) (form of блондин: blond (fair-skinned, fair-haired man))",
+    "grammar": "Noun"
+  },
+  "блюд": {
+    "def": "genitive plural of блю́до (bljúdo) (form of блюдо: dish, plate; dish, course)",
+    "grammar": "Noun"
+  },
+  "блюдечке": {
+    "def": "prepositional singular of блю́дечко (bljúdečko) (form of блюдечко: diminutive of блю́дце (bljúdce): small saucer, small jam dish)",
+    "grammar": "Noun"
+  },
+  "богатства": {
+    "def": "inflection of бога́тство (bogátstvo):\ngenitive singular\nnominative/accusative plural; genitive singular (form of богатство: wealth, riches; richness, resplendence, gorgeousness)",
+    "grammar": "Noun"
+  },
+  "богатые": {
+    "def": "inflection of бога́тый (bogátyj):\nnominative plural\ninanimate accusative plural; nominative plural (form of богатый: rich, wealthy)",
+    "grammar": "Adjective"
+  },
+  "богаче": {
+    "def": "comparative degree of бога́тый (bogátyj); comparative degree of бога́то (bogáto) (form of богач: rich man)",
+    "grammar": "Adverb / Noun"
+  },
+  "богини": {
+    "def": "inflection of боги́ня (bogínja):\ngenitive singular\nnominative plural; genitive singular (form of богиня: female equivalent of бог (bog): goddess)",
+    "grammar": "Noun"
+  },
+  "бодр": {
+    "def": "short masculine singular of бо́дрый (bódryj) (form of бодрый: cheerful; brisk)",
+    "grammar": "Adjective"
+  },
+  "боевой": {
+    "def": "combat, battle, fighting; live, lethal",
+    "grammar": "Adjective"
+  },
+  "боже": {
+    "def": "vocative singular of бог (box) (form of бог: God; god, idol)",
+    "grammar": "Noun"
+  },
+  "божественный": {
+    "def": "divine, godly, godlike",
+    "grammar": "Adjective"
+  },
+  "боитесь": {
+    "def": "second-person plural present indicative imperfective of боя́ться (bojátʹsja) (form of бояться: to fear, to be afraid .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with genitive ‘of someone/something’ or  accusative ‘of someone’ or infinitive ‘to do something’]; to suffer from, to be vulnerable to)",
+    "grammar": "Verb"
+  },
+  "боишься": {
+    "def": "second-person singular present indicative imperfective of боя́ться (bojátʹsja) (form of бояться: to fear, to be afraid .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with genitive ‘of someone/something’ or  accusative ‘of someone’ or infinitive ‘to do something’]; to suffer from, to be vulnerable to)",
+    "grammar": "Verb"
+  },
+  "бойся": {
+    "def": "second-person singular imperative imperfective of боя́ться (bojátʹsja) (form of бояться: to fear, to be afraid .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with genitive ‘of someone/something’ or  accusative ‘of someone’ or infinitive ‘to do something’]; to suffer from, to be vulnerable to)",
+    "grammar": "Verb"
+  },
+  "бойтесь": {
+    "def": "second-person plural imperative imperfective of боя́ться (bojátʹsja) (form of бояться: to fear, to be afraid .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with genitive ‘of someone/something’ or  accusative ‘of someone’ or infinitive ‘to do something’]; to suffer from, to be vulnerable to)",
+    "grammar": "Verb"
+  },
+  "боком": {
+    "def": "instrumental singular of бок (bok) (form of бок: side (various senses))",
+    "grammar": "Noun"
+  },
+  "болезненно": {
+    "def": "painfully (in a painful manner); short neuter singular of боле́зненный (boléznennyj) (form of болезненный: sickly, ailing, unhealthy; morbid)",
+    "grammar": "Adverb / Adjective"
+  },
+  "болезненный": {
+    "def": "sickly, ailing, unhealthy; morbid",
+    "grammar": "Adjective"
+  },
+  "болезнь": {
+    "def": "disease, sickness, illness; abnormality",
+    "grammar": "Noun"
+  },
+  "болезнью": {
+    "def": "instrumental singular of боле́знь (boléznʹ) (form of болезнь: disease, sickness, illness; abnormality)",
+    "grammar": "Noun"
+  },
+  "болтать": {
+    "def": "to dangle; to shake, to rock, to stir",
+    "grammar": "Verb"
+  },
+  "боль": {
+    "def": "pain, ache; pang, stab, stitch",
+    "grammar": "Noun"
+  },
+  "больная": {
+    "def": "female equivalent of больно́й (bolʹnój): female patient (form of больной: sick, ill; painful)",
+    "grammar": "Noun"
+  },
+  "больны": {
+    "def": "short plural of больно́й (bolʹnój) (form of больной: sick, ill; painful)",
+    "grammar": "Adjective"
+  },
+  "больные": {
+    "def": "nominative plural of больно́й (bolʹnój) (form of больной: sick, ill; painful)",
+    "grammar": "Noun"
+  },
+  "больными": {
+    "def": "instrumental plural of больно́й (bolʹnój) (form of больной: sick, ill; painful)",
+    "grammar": "Noun"
+  },
+  "больных": {
+    "def": "genitive/accusative/prepositional plural of больно́й (bolʹnój) (form of больной: sick, ill; painful)",
+    "grammar": "Noun"
+  },
+  "большей": {
+    "def": "genitive/dative/instrumental/prepositional feminine singular of бо́льший (bólʹšij) (form of больший: comparative degree of большо́й (bolʹšój) and вели́кий (velíkij) bigger, greater)",
+    "grammar": "Adjective"
+  },
+  "большею": {
+    "def": "instrumental feminine singular of бо́льший (bólʹšij) (form of больший: comparative degree of большо́й (bolʹšój) and вели́кий (velíkij) bigger, greater)",
+    "grammar": "Adjective"
+  },
+  "большим": {
+    "def": "inflection of бо́льшее (bólʹšeje):\ninstrumental singular\ndative plural; instrumental singular (form of большой: big, large, great; important)",
+    "grammar": "Noun / Adjective"
+  },
+  "большими": {
+    "def": "instrumental plural of бо́льшее (bólʹšeje) (form of большее: inflection of бо́льший (bólʹšij):\nneuter singular nominative\nneuter singular &amp; mainly inanimate accusative; neuter singular nominative)",
+    "grammar": "Noun"
+  },
+  "большую": {
+    "def": "accusative feminine singular of большо́й (bolʹšój) (form of большой: big, large, great; important)",
+    "grammar": "Adjective"
+  },
+  "бормотал": {
+    "def": "masculine singular past indicative imperfective of бормота́ть (bormotátʹ) (form of бормотать: to mutter, to murmur, to babble, to ramble)",
+    "grammar": "Verb"
+  },
+  "борода": {
+    "def": "beard; chin",
+    "grammar": "Noun"
+  },
+  "бородавка": {
+    "def": "wart (type of growth occurring on the skin)",
+    "grammar": "Noun"
+  },
+  "борт": {
+    "def": "board, side; aircraft, flight",
+    "grammar": "Noun"
+  },
+  "борьба": {
+    "def": "struggle, fight, conflict, combat; wrestling",
+    "grammar": "Noun"
+  },
+  "борьбе": {
+    "def": "dative/prepositional singular of борьба́ (borʹbá) (form of борьба: struggle, fight, conflict, combat; wrestling)",
+    "grammar": "Noun"
+  },
+  "борьбу": {
+    "def": "accusative singular of борьба́ (borʹbá) (form of борьба: struggle, fight, conflict, combat; wrestling)",
+    "grammar": "Noun"
+  },
+  "бостоном": {
+    "def": "instrumental singular of босто́н (bostón) (form of бостон: high-grade woolen cloth; Boston (old card game))",
+    "grammar": "Noun"
+  },
+  "ботинки": {
+    "def": "nominative/accusative plural of боти́нок (botínok) (form of ботинок: lace-boot; high shoe)",
+    "grammar": "Noun"
+  },
+  "боязни": {
+    "def": "inflection of боя́знь (bojáznʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of боязнь: fear, dread)",
+    "grammar": "Noun"
+  },
+  "боялись": {
+    "def": "plural past indicative of боя́ться&nbsp;impf (bojátʹsja) (form of бояться: to fear, to be afraid .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with genitive ‘of someone/something’ or  accusative ‘of someone’ or infinitive ‘to do something’]; to suffer from, to be vulnerable to)",
+    "grammar": "Verb"
+  },
+  "боясь": {
+    "def": "present adverbial imperfective participle of боя́ться (bojátʹsja) (form of бояться: to fear, to be afraid .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with genitive ‘of someone/something’ or  accusative ‘of someone’ or infinitive ‘to do something’]; to suffer from, to be vulnerable to)",
+    "grammar": "Participle"
+  },
+  "бранью": {
+    "def": "instrumental singular of брань (branʹ) (form of брань: scolding, invective, swearing; battle, fight)",
+    "grammar": "Noun"
+  },
+  "брате": {
+    "def": "prepositional/vocative singular of брат (brat) (form of брат: brother; old boy, pal)",
+    "grammar": "Noun"
+  },
+  "бревне": {
+    "def": "prepositional singular of бревно́ (brevnó) (form of бревно: log, beam (trunk of dead tree, cleared of branches); lumber)",
+    "grammar": "Noun"
+  },
+  "бред": {
+    "def": "delirium, ravings; nonsense, baloney",
+    "grammar": "Noun"
+  },
+  "бредить": {
+    "def": "to be delirious, to talk deliriously; to say nonsense",
+    "grammar": "Verb"
+  },
+  "бредишь": {
+    "def": "second-person singular present indicative imperfective of бре́дить (bréditʹ) (form of бредить: to be delirious, to talk deliriously; to say nonsense)",
+    "grammar": "Verb"
+  },
+  "бренчит": {
+    "def": "third-person singular present indicative imperfective of бренча́ть (brenčátʹ) (form of бренчать: to jingle, to clink, to chink (to make a noise of metal or glass clattering against itself); to strum)",
+    "grammar": "Verb"
+  },
+  "брига": {
+    "def": "genitive singular of бриг (brig) (form of бриг: brig)",
+    "grammar": "Noun"
+  },
+  "брода": {
+    "def": "genitive singular of брод (brod) (form of брод: ford)",
+    "grammar": "Noun"
+  },
+  "бродил": {
+    "def": "masculine singular past indicative imperfective of броди́ть (brodítʹ) (form of бродить: to wander, to roam, to ramble; to stroll)",
+    "grammar": "Verb"
+  },
+  "бродила": {
+    "def": "feminine singular past indicative imperfective of броди́ть (brodítʹ) (form of бродить: to wander, to roam, to ramble; to stroll)",
+    "grammar": "Verb"
+  },
+  "бродить": {
+    "def": "to wander, to roam, to ramble; to stroll",
+    "grammar": "Verb"
+  },
+  "бросает": {
+    "def": "third-person singular present indicative imperfective of броса́ть (brosátʹ) (form of бросать: to throw, to drop; to send urgently)",
+    "grammar": "Verb"
+  },
+  "бросается": {
+    "def": "third-person singular present indicative imperfective of броса́ться (brosátʹsja) (form of бросаться: to fling (oneself), to dash, to rush; passive of броса́ть (brosátʹ))",
+    "grammar": "Verb"
+  },
+  "бросались": {
+    "def": "plural past indicative imperfective of броса́ться (brosátʹsja) (form of бросаться: to fling (oneself), to dash, to rush; passive of броса́ть (brosátʹ))",
+    "grammar": "Verb"
+  },
+  "бросая": {
+    "def": "present adverbial imperfective participle of броса́ть (brosátʹ) (form of бросать: to throw, to drop; to send urgently)",
+    "grammar": "Participle"
+  },
+  "бросив": {
+    "def": "short past adverbial perfective participle of бро́сить (brósitʹ) (form of бросить: to throw; to send urgently)",
+    "grammar": "Participle"
+  },
+  "бросилась": {
+    "def": "feminine singular past indicative perfective of бро́ситься (brósitʹsja) (form of броситься: to fling (oneself), to throw oneself on, to dash, to rush; to jump down)",
+    "grammar": "Verb"
+  },
+  "бросились": {
+    "def": "plural past indicative perfective of бро́ситься (brósitʹsja) (form of броситься: to fling (oneself), to throw oneself on, to dash, to rush; to jump down)",
+    "grammar": "Verb"
+  },
+  "бросилось": {
+    "def": "neuter singular past indicative perfective of бро́ситься (brósitʹsja) (form of броситься: to fling (oneself), to throw oneself on, to dash, to rush; to jump down)",
+    "grammar": "Verb"
+  },
+  "бросим": {
+    "def": "first-person plural future indicative perfective of бро́сить (brósitʹ) (form of бросить: to throw; to send urgently)",
+    "grammar": "Verb"
+  },
+  "бросится": {
+    "def": "third-person singular future indicative perfective of бро́ситься (brósitʹsja) (form of броситься: to fling (oneself), to throw oneself on, to dash, to rush; to jump down)",
+    "grammar": "Verb"
+  },
+  "броситься": {
+    "def": "to fling (oneself), to throw oneself on, to dash, to rush; to jump down (form of бросить: to throw; to send urgently)",
+    "grammar": "Verb"
+  },
+  "бросьте": {
+    "def": "second-person plural imperative perfective of бро́сить (brósitʹ) (form of бросить: to throw; to send urgently)",
+    "grammar": "Verb"
+  },
+  "брошенный": {
+    "def": "past passive perfective participle of бро́сить (brósitʹ) (form of бросить: to throw; to send urgently)",
+    "grammar": "Participle"
+  },
+  "брызгами": {
+    "def": "instrumental of бры́зги (brýzgi) (form of брызги: splash; sputter; spray; (fine) drops)",
+    "grammar": "Noun"
+  },
+  "бубен": {
+    "def": "tambourine; face, mug (often used in phrases involving hitting) (form of бубны: diamonds (one of the four suits of playing cards, marked with the symbol ♦); inflection of бу́бна (búbna):\ngenitive singular\nnominative/accusative plural)",
+    "grammar": "Noun"
+  },
+  "будучи": {
+    "def": "present adverbial imperfective participle of быть (bytʹ) (form of быть: to be .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental or nominative]; there be)",
+    "grammar": "Participle"
+  },
+  "будущего": {
+    "def": "genitive singular of бу́дущее (búduščeje) (form of будущее: inflection of бу́дущий (búduščij):\nneuter nominative singular\naccusative neuter singular; neuter nominative singular)",
+    "grammar": "Noun"
+  },
+  "будущей": {
+    "def": "genitive/dative/instrumental/prepositional feminine singular of бу́дущий (búduščij) (form of будущий: future; next, coming, subsequent)",
+    "grammar": "Adjective"
+  },
+  "будущность": {
+    "def": "future (events to come, or one's expected success or fate)",
+    "grammar": "Noun"
+  },
+  "бузины": {
+    "def": "genitive singular of бузина́ (buziná) (form of бузина: elder (tree); elderberry)",
+    "grammar": "Noun"
+  },
+  "бузы": {
+    "def": "inflection of буза́ (buzá):\ngenitive singular\nnominative/accusative plural; genitive singular (form of буза: noisy row, uproar, fuss; boza (a fermented, malted beverage made from millet, buckwheat, oats, or barley, popular in the Crimea and Caucasus. It has a thick consistency and a low alcohol content, usually around 4–6%, and has a slightly acidic sweet flavor))",
+    "grammar": "Noun"
+  },
+  "буквами": {
+    "def": "instrumental plural of бу́ква (búkva) (form of буква: letter (a symbol in an alphabet))",
+    "grammar": "Noun"
+  },
+  "булыжника": {
+    "def": "genitive singular of булы́жник (bulýžnik) (form of булыжник: cobble, cobblestone)",
+    "grammar": "Noun"
+  },
+  "бульвар": {
+    "def": "boulevard, avenue",
+    "grammar": "Noun"
+  },
+  "бульвара": {
+    "def": "genitive singular of бульва́р (bulʹvár) (form of бульвар: boulevard, avenue)",
+    "grammar": "Noun"
+  },
+  "бульваром": {
+    "def": "instrumental singular of бульва́р (bulʹvár) (form of бульвар: boulevard, avenue)",
+    "grammar": "Noun"
+  },
+  "бульвару": {
+    "def": "dative singular of бульва́р (bulʹvár) (form of бульвар: boulevard, avenue)",
+    "grammar": "Noun"
+  },
+  "бумаге": {
+    "def": "dative/prepositional singular of бума́га (bumága) (form of бумага: paper; document)",
+    "grammar": "Noun"
+  },
+  "бумажник": {
+    "def": "wallet; papermaker, worker in the paper industry",
+    "grammar": "Noun"
+  },
+  "бурею": {
+    "def": "instrumental singular of бу́ря (búrja) (form of буря: storm, tempest; present adverbial imperfective participle of бури́ть (burítʹ))",
+    "grammar": "Noun"
+  },
+  "бурку": {
+    "def": "accusative singular of бу́рка (búrka) (form of бурка: a liver chestnut horse (a horse with a dark reddish or reddish-brown coat); burka (male garment from the Caucasus))",
+    "grammar": "Noun"
+  },
+  "бурь": {
+    "def": "genitive plural of бу́ря (búrja) (form of буря: storm, tempest; present adverbial imperfective participle of бури́ть (burítʹ))",
+    "grammar": "Noun"
+  },
+  "бурями": {
+    "def": "instrumental plural of бу́ря (búrja) (form of буря: storm, tempest; present adverbial imperfective participle of бури́ть (burítʹ))",
+    "grammar": "Noun"
+  },
+  "бутылка": {
+    "def": "bottle",
+    "grammar": "Noun"
+  },
+  "бухту": {
+    "def": "accusative singular of бу́хта (búxta) (form of бухта: bay, inlet, cove; coil)",
+    "grammar": "Noun"
+  },
+  "бушует": {
+    "def": "third-person singular present indicative imperfective of бушева́ть (buševátʹ) (form of бушевать: to rage, storm)",
+    "grammar": "Verb"
+  },
+  "бываете": {
+    "def": "second-person plural present indicative imperfective of быва́ть (byvátʹ) (form of бывать: to be; to occur, to happen (repeatedly))",
+    "grammar": "Verb"
+  },
+  "бываешь": {
+    "def": "second-person singular present indicative imperfective of быва́ть (byvátʹ) (form of бывать: to be; to occur, to happen (repeatedly))",
+    "grammar": "Verb"
+  },
+  "бывали": {
+    "def": "plural past indicative imperfective of быва́ть (byvátʹ) (form of бывать: to be; to occur, to happen (repeatedly))",
+    "grammar": "Verb"
+  },
+  "бывают": {
+    "def": "third-person plural present indicative imperfective of быва́ть (byvátʹ) (form of бывать: to be; to occur, to happen (repeatedly))",
+    "grammar": "Verb"
+  },
+  "быка": {
+    "def": "inflection of бык (byk):\ngenitive singular\nanimate accusative singular; genitive singular (form of бык: bull, ox; a big, strong, or stubborn man)",
+    "grammar": "Noun"
+  },
+  "быкам": {
+    "def": "dative plural of бык (byk) (form of бык: bull, ox; a big, strong, or stubborn man)",
+    "grammar": "Noun"
+  },
+  "быки": {
+    "def": "inflection of бык (byk):\nnominative plural\ninanimate accusative plural; nominative plural (form of бык: bull, ox; a big, strong, or stubborn man)",
+    "grammar": "Noun"
+  },
+  "быков": {
+    "def": "inflection of бык (byk):\ngenitive plural\nanimate accusative plural; genitive plural (form of бык: bull, ox; a big, strong, or stubborn man)",
+    "grammar": "Noun"
+  },
+  "бьюсь": {
+    "def": "first-person singular present indicative imperfective of би́ться (bítʹsja) (form of биться: to fight, to struggle; to hit (against), to knock (against), to strike)",
+    "grammar": "Verb"
+  },
+  "ва-банк": {
+    "def": "all in, all out, for broke, doubling down (risking everything, putting everything on the line)",
+    "grammar": "Adverb"
+  },
+  "важности": {
+    "def": "genitive/dative/prepositional singular of ва́жность (vážnostʹ) (form of важность: importance, significance; relevance)",
+    "grammar": "Noun"
+  },
+  "важностью": {
+    "def": "instrumental singular of ва́жность (vážnostʹ) (form of важность: importance, significance; relevance)",
+    "grammar": "Noun"
+  },
+  "важный": {
+    "def": "important; proud, majestic, imposing (important-looking or -seeming)",
+    "grammar": "Adjective"
+  },
+  "вал": {
+    "def": "billow, roller, large wave; rampart, dyke, wall (an earthen embankment, possibly faced with stone, used as a defensive fortification)",
+    "grammar": "Noun"
+  },
+  "вала": {
+    "def": "genitive singular of вал (val) (form of вал: billow, roller, large wave; rampart, dyke, wall (an earthen embankment, possibly faced with stone, used as a defensive fortification))",
+    "grammar": "Noun"
+  },
+  "валу": {
+    "def": "dative singular of вал (val); locative singular of вал (val) (form of вал: billow, roller, large wave; rampart, dyke, wall (an earthen embankment, possibly faced with stone, used as a defensive fortification))",
+    "grammar": "Noun"
+  },
+  "валунов": {
+    "def": "genitive plural of валу́н (valún) (form of валун: boulder; breaker (a wave breaking into foam))",
+    "grammar": "Noun"
+  },
+  "вальса": {
+    "def": "genitive singular of вальс (valʹs) (form of вальс: waltz)",
+    "grammar": "Noun"
+  },
+  "вампир": {
+    "def": "vampire (mythological creature, also figuratively); vampire bat",
+    "grammar": "Noun"
+  },
+  "вампира": {
+    "def": "genitive/accusative singular of вампи́р (vampír) (form of вампир: vampire (mythological creature, also figuratively); vampire bat)",
+    "grammar": "Noun"
+  },
+  "ванне": {
+    "def": "dative/prepositional singular of ва́нна (vánna) (form of ванна: bath, bathtub)",
+    "grammar": "Noun"
+  },
+  "ванной": {
+    "def": "genitive/dative/instrumental/prepositional singular of ва́нная (vánnaja); instrumental singular of ва́нна (vánna) (form of ванна: bath, bathtub)",
+    "grammar": "Noun"
+  },
+  "ванну": {
+    "def": "accusative singular of ва́нна (vánna) (form of ванна: bath, bathtub)",
+    "grammar": "Noun"
+  },
+  "ванны": {
+    "def": "inflection of ва́нна (vánna):\ngenitive singular\nnominative/accusative plural; genitive singular (form of ванна: bath, bathtub)",
+    "grammar": "Noun"
+  },
+  "варился": {
+    "def": "masculine singular past indicative imperfective of вари́ться (varítʹsja) (form of вариться: to be boiling/cooking; passive of вари́ть (varítʹ))",
+    "grammar": "Verb"
+  },
+  "вашему": {
+    "def": "dative masculine/neuter singular of ваш (vaš) (form of ваш: your, yours)",
+    "grammar": "Pronoun"
+  },
+  "вбежал": {
+    "def": "masculine singular past indicative perfective of вбежа́ть (vbežátʹ) (form of вбежать: to come running in, to come rushing in, to run (into))",
+    "grammar": "Verb"
+  },
+  "вбежала": {
+    "def": "feminine singular past indicative perfective of вбежа́ть (vbežátʹ) (form of вбежать: to come running in, to come rushing in, to run (into))",
+    "grammar": "Verb"
+  },
+  "ввели": {
+    "def": "plural past indicative perfective of ввести́ (vvestí) (form of ввести: to introduce; to bring in, to usher in)",
+    "grammar": "Verb"
+  },
+  "вдалеке": {
+    "def": "in the distance, afar (at a great distance)",
+    "grammar": "Adverb"
+  },
+  "вдаль": {
+    "def": "into the distance, long way off",
+    "grammar": "Adverb"
+  },
+  "вдоволь": {
+    "def": "in plenty, in abundance; to one's heart's content",
+    "grammar": "Adverb"
+  },
+  "вдоль": {
+    "def": "along",
+    "grammar": "Preposition"
+  },
+  "вдохнул": {
+    "def": "masculine singular past indicative perfective of вдохну́ть (vdoxnútʹ) (form of вдохнуть: to inhale, to breathe in)",
+    "grammar": "Verb"
+  },
+  "веди": {
+    "def": "name of the Cyrillic letter В, в; second-person singular imperative imperfective of вести́ (vestí) (form of вести: to lead, to preside over, to chair; to drive)",
+    "grammar": "Noun / Verb"
+  },
+  "ведущую": {
+    "def": "accusative singular of веду́щая (vedúščaja) (form of ведущая: nominative feminine singular of веду́щий (vedúščij); female equivalent of веду́щий (vedúščij): female host, anchorwoman, narrator)",
+    "grammar": "Noun"
+  },
+  "веер": {
+    "def": "hand-held fan",
+    "grammar": "Noun"
+  },
+  "вежливо": {
+    "def": "politely, civilly; blandly (form of вежливый: courteous, civil, polite; (about pronoun \"Вы\") formal)",
+    "grammar": "Adverb / Adjective"
+  },
+  "вежливости": {
+    "def": "genitive/dative/prepositional singular of ве́жливость (véžlivostʹ) (form of вежливость: politeness (act of being polite))",
+    "grammar": "Noun"
+  },
+  "везло": {
+    "def": "neuter singular past indicative imperfective of везти́ (veztí) (form of везти: to convey, to carry (by vehicle), to deliver, to transport; to be lucky, to have luck, to work out for, to succeed, to be successful .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘for someone’ and infinitive ‘to do something’])",
+    "grammar": "Verb"
+  },
+  "века": {
+    "def": "genitive singular of век (vek); nominative/accusative plural of век (vek) (form of веко: eyelid)",
+    "grammar": "Noun"
+  },
+  "веке": {
+    "def": "prepositional singular of век (vek); prepositional singular of ве́ко (véko) (form of веко: eyelid)",
+    "grammar": "Noun"
+  },
+  "веки": {
+    "def": "nominative/accusative plural of ве́ко (véko); eyelids; nominative/accusative plural of век (vek); centuries (form of век: century; lifetime)",
+    "grammar": "Noun"
+  },
+  "вела": {
+    "def": "feminine singular past indicative imperfective of вести́ (vestí) (form of вести: to lead, to preside over, to chair; to drive)",
+    "grammar": "Verb"
+  },
+  "велев": {
+    "def": "short past adverbial imperfective participle of веле́ть (velétʹ); short past adverbial perfective participle of веле́ть (velétʹ) (form of велеть: to order, to enjoin, to command .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’ and infinitive ‘to do something’])",
+    "grammar": "Participle"
+  },
+  "велеть": {
+    "def": "to order, to enjoin, to command .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’ and infinitive ‘to do something’]",
+    "grammar": "Verb"
+  },
+  "вели": {
+    "def": "plural past indicative imperfective of вести́ (vestí); second-person singular imperative imperfective/perfective of веле́ть (velétʹ) (form of велеть: to order, to enjoin, to command .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’ and infinitive ‘to do something’])",
+    "grammar": "Verb"
+  },
+  "велик": {
+    "def": "short masculine singular of вели́кий (velíkij); short masculine singular of большо́й (bolʹšój) (form of большой: big, large, great; important)",
+    "grammar": "Adjective / Noun"
+  },
+  "великий": {
+    "def": "large, big; great, outstanding",
+    "grammar": "Adjective"
+  },
+  "великим": {
+    "def": "inflection of вели́кий (velýkyj):\ninstrumental masculine/neuter singular\ndative plural; instrumental masculine/neuter singular (form of великий: large, big; great, outstanding)",
+    "grammar": "Adjective"
+  },
+  "великодушию": {
+    "def": "dative singular of великоду́шие (velikodúšije) (form of великодушие: magnanimity; generosity)",
+    "grammar": "Noun"
+  },
+  "великому": {
+    "def": "masculine/neuter dative/locative singular of вели́кий (velýkyj) (form of великий: large, big; great, outstanding)",
+    "grammar": "Adjective"
+  },
+  "величали": {
+    "def": "plural past indicative imperfective of велича́ть (veličátʹ) (form of величать: to call; to celebrate (with a ceremony or a song))",
+    "grammar": "Verb"
+  },
+  "величины": {
+    "def": "genitive singular of величина́ (veličiná); nominative/accusative plural of величина́ (veličiná) (form of величина: size, magnitude (dimensions or magnitude of a thing); quantity, amount)",
+    "grammar": "Noun"
+  },
+  "величия": {
+    "def": "inflection of вели́чие (velíčije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of величие: grandeur; greatness)",
+    "grammar": "Noun"
+  },
+  "венгерке": {
+    "def": "dative/prepositional singular of венге́рка (vengérka) (form of венгерка: female equivalent of венгр (vengr): Hungarian woman, Hungarian girl; a particular Romani dance)",
+    "grammar": "Noun"
+  },
+  "венец": {
+    "def": "Viennese; crown",
+    "grammar": "Noun"
+  },
+  "вера": {
+    "def": "belief, faith; trust, faith (belief in someone's honesty and reliability)",
+    "grammar": "Noun"
+  },
+  "верблюдов": {
+    "def": "genitive/accusative plural of верблю́д (verbljúd) (form of верблюд: camel)",
+    "grammar": "Noun"
+  },
+  "вере": {
+    "def": "dative/prepositional singular of ве́ра (véra) (form of вера: belief, faith; trust, faith (belief in someone's honesty and reliability))",
+    "grammar": "Noun"
+  },
+  "верил": {
+    "def": "masculine singular past indicative imperfective of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Verb"
+  },
+  "верила": {
+    "def": "feminine singular past indicative imperfective of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Verb"
+  },
+  "верит": {
+    "def": "third-person singular present indicative imperfective of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Verb"
+  },
+  "верите": {
+    "def": "second-person plural present indicative imperfective of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Verb"
+  },
+  "верить": {
+    "def": "to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’] (form of в: The third letter of the Russian alphabet, called вэ (vɛ) and written in the Cyrillic script.; [with prepositional]\n(location) in, at, on)",
+    "grammar": "Verb"
+  },
+  "веришь": {
+    "def": "second-person singular present indicative imperfective of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Verb"
+  },
+  "вернись": {
+    "def": "second-person singular imperative perfective of верну́ться (vernútʹsja) (form of вернуться: to return, to come back (from); to revert (to))",
+    "grammar": "Verb"
+  },
+  "верности": {
+    "def": "inflection of ве́рность (vérnostʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of верность: faithfulness, fidelity, loyalty; chastity)",
+    "grammar": "Noun"
+  },
+  "вернуться": {
+    "def": "to return, to come back (from); to revert (to) (form of вернуть: to return, to give back; to recover, to get back)",
+    "grammar": "Verb"
+  },
+  "веровать": {
+    "def": "to believe (in, especially to believe in God)",
+    "grammar": "Verb"
+  },
+  "верой": {
+    "def": "instrumental singular of ве́ра (véra) (form of вера: belief, faith; trust, faith (belief in someone's honesty and reliability))",
+    "grammar": "Noun"
+  },
+  "версте": {
+    "def": "dative/prepositional singular of верста́ (verstá) (form of верста: verst (unit of length equal to 1,066.8 m), used in many expressions; verst-post, milepost, milestone)",
+    "grammar": "Noun"
+  },
+  "вертелась": {
+    "def": "feminine singular past indicative imperfective of верте́ться (vertétʹsja) (form of вертеться: to turn around, to revolve, to spin; passive of верте́ть (vertétʹ))",
+    "grammar": "Verb"
+  },
+  "вертелись": {
+    "def": "plural past indicative imperfective of верте́ться (vertétʹsja) (form of вертеться: to turn around, to revolve, to spin; passive of верте́ть (vertétʹ))",
+    "grammar": "Verb"
+  },
+  "вертелся": {
+    "def": "masculine singular past indicative imperfective of верте́ться (vertétʹsja) (form of вертеться: to turn around, to revolve, to spin; passive of верте́ть (vertétʹ))",
+    "grammar": "Verb"
+  },
+  "веру": {
+    "def": "accusative singular of ве́ра (véra) (form of вера: belief, faith; trust, faith (belief in someone's honesty and reliability))",
+    "grammar": "Noun"
+  },
+  "верхи": {
+    "def": "nominative/accusative plural of верх (verx) (form of верх: top, upper part, roof, dome, height; summit, apex)",
+    "grammar": "Noun"
+  },
+  "вершин": {
+    "def": "genitive plural of верши́на (veršína) (form of вершина: peak, top, summit; acme, culmination)",
+    "grammar": "Noun"
+  },
+  "вершинами": {
+    "def": "instrumental plural of верши́на (veršína) (form of вершина: peak, top, summit; acme, culmination)",
+    "grammar": "Noun"
+  },
+  "вершинах": {
+    "def": "prepositional plural of верши́на (veršína) (form of вершина: peak, top, summit; acme, culmination)",
+    "grammar": "Noun"
+  },
+  "вершине": {
+    "def": "dative/prepositional singular of верши́на (veršína) (form of вершина: peak, top, summit; acme, culmination)",
+    "grammar": "Noun"
+  },
+  "вершину": {
+    "def": "accusative singular of верши́на (veršína) (form of вершина: peak, top, summit; acme, culmination)",
+    "grammar": "Noun"
+  },
+  "вершины": {
+    "def": "inflection of верши́на (veršína):\ngenitive singular\nnominative/accusative plural; genitive singular (form of вершина: peak, top, summit; acme, culmination)",
+    "grammar": "Noun"
+  },
+  "верят": {
+    "def": "third-person plural present indicative imperfective of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Verb"
+  },
+  "верящий": {
+    "def": "present active imperfective participle of ве́рить (véritʹ) (form of верить: to believe, to trust .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with dative ‘someone’]; to believe, to have faith [with в (v, + accusative) ‘in someone/something’])",
+    "grammar": "Participle"
+  },
+  "весела": {
+    "def": "short feminine singular of весёлый (vesjólyj) (form of весёлый: merry, cheerful, happy, convivial, gleeful, lighthearted; funny)",
+    "grammar": "Adjective"
+  },
+  "веселее": {
+    "def": "comparative degree of весёлый (vesjólyj); comparative degree of ве́село (véselo) (form of весело: merrily, cheerfully; short neuter singular of весёлый (vesjólyj))",
+    "grammar": "Adverb"
+  },
+  "веселость": {
+    "def": "alternative spelling of весёлость (vesjólostʹ) (form of весёлость: cheerfulness, merriment)",
+    "grammar": "Noun"
+  },
+  "веселы": {
+    "def": "short plural of весёлый (vesjólyj) (form of весёлый: merry, cheerful, happy, convivial, gleeful, lighthearted; funny)",
+    "grammar": "Adjective"
+  },
+  "весла": {
+    "def": "genitive singular of весло́ (vesló) (form of весло: oar, paddle, scull; spoon)",
+    "grammar": "Noun"
+  },
+  "вести": {
+    "def": "to lead, to preside over, to chair; to drive (form of весть: news, piece of news, message; tidings; news (presentation of news, e.g. on television))",
+    "grammar": "Verb / Noun"
+  },
+  "ветви": {
+    "def": "inflection of ветвь (vetvʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of ветвь: branch, bough, limb (woody part of a tree arising from the trunk and usually dividing))",
+    "grammar": "Noun"
+  },
+  "ветвями": {
+    "def": "instrumental plural of ветвь (vetvʹ) (form of ветвь: branch, bough, limb (woody part of a tree arising from the trunk and usually dividing))",
+    "grammar": "Noun"
+  },
+  "ветка": {
+    "def": "diminutive of ветвь (vetvʹ, “branch, twig”): small branch, twig; line, branch line, sideline (form of ветвь: branch, bough, limb (woody part of a tree arising from the trunk and usually dividing))",
+    "grammar": "Noun"
+  },
+  "ветки": {
+    "def": "inflection of ве́тка (vétka):\ngenitive singular\nnominative/accusative plural; genitive singular (form of ветка: diminutive of ветвь (vetvʹ, “branch, twig”): small branch, twig; line, branch line, sideline)",
+    "grammar": "Noun"
+  },
+  "ветреный": {
+    "def": "windy; flighty, not serious",
+    "grammar": "Adjective"
+  },
+  "ветров": {
+    "def": "genitive plural of ве́тер (véter); genitive plural of ветр (vetr) (form of ветр: alternative form of ве́тер (véter))",
+    "grammar": "Noun"
+  },
+  "ветром": {
+    "def": "instrumental singular of ве́тер (véter); instrumental singular of ветр (vetr) (form of ветр: alternative form of ве́тер (véter))",
+    "grammar": "Noun"
+  },
+  "вечерний": {
+    "def": "evening",
+    "grammar": "Adjective"
+  },
+  "вещах": {
+    "def": "prepositional plural of вещь (veščʹ) (form of вещь: thing, object; things, belongings, goods, stuff)",
+    "grammar": "Noun"
+  },
+  "вещей": {
+    "def": "genitive plural of вещь (veščʹ) (form of вещь: thing, object; things, belongings, goods, stuff)",
+    "grammar": "Noun"
+  },
+  "вещиц": {
+    "def": "genitive plural of вещи́ца (veščíca) (form of вещица: diminutive of вещь (veščʹ): a small thing (usually skilfully or artistically made); gizmo, trinket, artefact, object)",
+    "grammar": "Noun"
+  },
+  "веяло": {
+    "def": "neuter singular past indicative imperfective of ве́ять (véjatʹ) (form of веять: to blow gently; to wave, to flutter)",
+    "grammar": "Verb"
+  },
+  "взад": {
+    "def": "back",
+    "grammar": "Adverb"
+  },
+  "взаимно": {
+    "def": "mutually, reciprocally; me too (e.g. I'm glad to meet you too) (form of взаимный: mutual, reciprocal)",
+    "grammar": "Adverb / Adjective"
+  },
+  "взаимностью": {
+    "def": "instrumental singular of взаи́мность (vzaímnostʹ) (form of взаимность: reciprocity, mutuality)",
+    "grammar": "Noun"
+  },
+  "взбежал": {
+    "def": "masculine singular past indicative perfective of взбежа́ть (vzbežátʹ) (form of взбежать: to run up (to run in an upward direction, e.g. up a hill))",
+    "grammar": "Verb"
+  },
+  "взбивал": {
+    "def": "masculine singular past indicative imperfective of взбива́ть (vzbivátʹ) (form of взбивать: to beat up, to fluff, to whip, to whisk (e.g. cream))",
+    "grammar": "Verb"
+  },
+  "взбираясь": {
+    "def": "present adverbial imperfective participle of взбира́ться (vzbirátʹsja) (form of взбираться: to climb up, to clamber up)",
+    "grammar": "Participle"
+  },
+  "взвалил": {
+    "def": "masculine singular past indicative perfective of взвали́ть (vzvalítʹ) (form of взвалить: to load (on to), to lift (on to); to burden (with))",
+    "grammar": "Verb"
+  },
+  "взвешиваю": {
+    "def": "first-person singular present indicative imperfective of взве́шивать (vzvéšivatʹ) (form of взвешивать: to weigh (to determine the weight of an object); to weigh (to consider a subject))",
+    "grammar": "Verb"
+  },
+  "взвизгнул": {
+    "def": "masculine singular past indicative perfective of взви́згнуть (vzvízgnutʹ) (form of взвизгнуть: to squeal, to screech, to yelp)",
+    "grammar": "Verb"
+  },
+  "взвилась": {
+    "def": "feminine singular past indicative perfective of взви́ться (vzvítʹsja) (form of взвиться: to go up, to rise, to fly up, to soar; (horse) to rear)",
+    "grammar": "Verb"
+  },
+  "взволновалась": {
+    "def": "feminine singular past indicative perfective of взволнова́ться (vzvolnovátʹsja) (form of взволноваться: to surge, to ripple; to worry, to be upset, to be agitated, to work oneself into a tizzy)",
+    "grammar": "Verb"
+  },
+  "взволнован": {
+    "def": "short masculine singular of взволно́ванный (vzvolnóvannyj) (form of взволнованный: past passive perfective participle of взволнова́ть (vzvolnovátʹ); agitated, uneasy, disturbed, anxious)",
+    "grammar": "Adjective"
+  },
+  "взгляда": {
+    "def": "genitive singular of взгляд (vzgljad) (form of взгляд: glance, look; view, opinion)",
+    "grammar": "Noun"
+  },
+  "взглядам": {
+    "def": "dative plural of взгляд (vzgljad) (form of взгляд: glance, look; view, opinion)",
+    "grammar": "Noun"
+  },
+  "взглядах": {
+    "def": "prepositional plural of взгляд (vzgljad) (form of взгляд: glance, look; view, opinion)",
+    "grammar": "Noun"
+  },
+  "взгляде": {
+    "def": "prepositional singular of взгляд (vzgljad) (form of взгляд: glance, look; view, opinion)",
+    "grammar": "Noun"
+  },
+  "взглядов": {
+    "def": "genitive plural of взгляд (vzgljad) (form of взгляд: glance, look; view, opinion)",
+    "grammar": "Noun"
+  },
+  "взглянула": {
+    "def": "feminine singular past indicative perfective of взгляну́ть (vzgljanútʹ) (form of взглянуть: to glance at, to look at; to take a look (at), to pay attention to)",
+    "grammar": "Verb"
+  },
+  "взглянули": {
+    "def": "plural past indicative perfective of взгляну́ть (vzgljanútʹ) (form of взглянуть: to glance at, to look at; to take a look (at), to pay attention to)",
+    "grammar": "Verb"
+  },
+  "вздернутый": {
+    "def": "alternative spelling of вздёрнутый (vzdjórnutyj) (form of вздёрнутый: past passive perfective participle of вздёрнуть (vzdjórnutʹ); raised up)",
+    "grammar": "Participle / Adjective"
+  },
+  "вздохнув": {
+    "def": "short past adverbial perfective participle of вздохну́ть (vzdoxnútʹ) (form of вздохнуть: to sigh, to take breath)",
+    "grammar": "Participle"
+  },
+  "вздохнул": {
+    "def": "masculine singular past indicative perfective of вздохну́ть (vzdoxnútʹ) (form of вздохнуть: to sigh, to take breath)",
+    "grammar": "Verb"
+  },
+  "вздохнула": {
+    "def": "feminine singular past indicative perfective of вздохну́ть (vzdoxnútʹ) (form of вздохнуть: to sigh, to take breath)",
+    "grammar": "Verb"
+  },
+  "вздрагивал": {
+    "def": "masculine singular past indicative imperfective of вздра́гивать (vzdrágivatʹ) (form of вздрагивать: to start, to startle, to flinch, to wince)",
+    "grammar": "Verb"
+  },
+  "вздрогнет": {
+    "def": "third-person singular future indicative perfective of вздро́гнуть (vzdrógnutʹ) (form of вздрогнуть: to start, to startle, to flinch, to wince)",
+    "grammar": "Verb"
+  },
+  "вздрогнул": {
+    "def": "masculine singular past indicative perfective of вздро́гнуть (vzdrógnutʹ) (form of вздрогнуть: to start, to startle, to flinch, to wince)",
+    "grammar": "Verb"
+  },
+  "вздрогнула": {
+    "def": "feminine singular past indicative perfective of вздро́гнуть (vzdrógnutʹ) (form of вздрогнуть: to start, to startle, to flinch, to wince)",
+    "grammar": "Verb"
+  },
+  "вздрогнуло": {
+    "def": "neuter singular past indicative perfective of вздро́гнуть (vzdrógnutʹ) (form of вздрогнуть: to start, to startle, to flinch, to wince)",
+    "grammar": "Verb"
+  },
+  "вздумаем": {
+    "def": "first-person plural future indicative perfective of взду́мать (vzdúmatʹ) (form of вздумать: to think of (doing), to take it into one's head (to), to decide (to))",
+    "grammar": "Verb"
+  },
+  "вздумается": {
+    "def": "third-person singular future indicative perfective of взду́маться (vzdúmatʹsja) (form of вздуматься: to enter someone's head, to come to someone's mind)",
+    "grammar": "Verb"
+  },
+  "вздумал": {
+    "def": "masculine singular past indicative perfective of взду́мать (vzdúmatʹ) (form of вздумать: to think of (doing), to take it into one's head (to), to decide (to))",
+    "grammar": "Verb"
+  },
+  "вздумали": {
+    "def": "plural past indicative perfective of взду́мать (vzdúmatʹ) (form of вздумать: to think of (doing), to take it into one's head (to), to decide (to))",
+    "grammar": "Verb"
+  },
+  "вздумалось": {
+    "def": "neuter singular past indicative perfective of взду́маться (vzdúmatʹsja) (form of вздуматься: to enter someone's head, to come to someone's mind)",
+    "grammar": "Verb"
+  },
+  "вздыхал": {
+    "def": "masculine singular past indicative imperfective of вздыха́ть (vzdyxátʹ) (form of вздыхать: to sigh, to take breath; to long (for), to sigh (for), to pine (after, for), to yearn (after, for))",
+    "grammar": "Verb"
+  },
+  "вздыхают": {
+    "def": "third-person plural present indicative imperfective of вздыха́ть (vzdyxátʹ) (form of вздыхать: to sigh, to take breath; to long (for), to sigh (for), to pine (after, for), to yearn (after, for))",
+    "grammar": "Verb"
+  },
+  "взмахнув": {
+    "def": "short past adverbial perfective participle of взмахну́ть (vzmaxnútʹ) (form of взмахнуть: to flap, to wave, to strike (with), to make strokes (with))",
+    "grammar": "Participle"
+  },
+  "взобрались": {
+    "def": "plural past indicative perfective of взобра́ться (vzobrátʹsja) (form of взобраться: to climb up, to clamber up)",
+    "grammar": "Verb"
+  },
+  "взобраться": {
+    "def": "to climb up, to clamber up",
+    "grammar": "Verb"
+  },
+  "взойдя": {
+    "def": "short past adverbial perfective participle of взойти́ (vzojtí) (form of взойти: to mount, to go up, to climb, to ascend; to rise)",
+    "grammar": "Participle"
+  },
+  "взор": {
+    "def": "look, glance, gaze; eyes (form of восток: east)",
+    "grammar": "Noun"
+  },
+  "взора": {
+    "def": "genitive singular of взор (vzor) (form of взор: look, glance, gaze; eyes)",
+    "grammar": "Noun"
+  },
+  "взорам": {
+    "def": "dative plural of взор (vzor) (form of взор: look, glance, gaze; eyes)",
+    "grammar": "Noun"
+  },
+  "взором": {
+    "def": "instrumental singular of взор (vzor) (form of взор: look, glance, gaze; eyes)",
+    "grammar": "Noun"
+  },
+  "взору": {
+    "def": "dative singular of взор (vzor) (form of взор: look, glance, gaze; eyes)",
+    "grammar": "Noun"
+  },
+  "взоры": {
+    "def": "nominative/accusative plural of взор (vzor) (form of взор: look, glance, gaze; eyes)",
+    "grammar": "Noun"
+  },
+  "взявши": {
+    "def": "past adverbial perfective participle of взять (vzjatʹ) (form of взять: to take; to choose a direction, to turn)",
+    "grammar": "Participle"
+  },
+  "взявшись": {
+    "def": "past adverbial perfective participle of взя́ться (vzjátʹsja) (form of взяться: to take something with hands, to take (mutually, together) (e.g. each other's hands); to set about; to undertake .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with за (za, + accusative) ‘a task’])",
+    "grammar": "Participle"
+  },
+  "взялось": {
+    "def": "neuter singular past indicative of взя́ться&nbsp;pf (vzjátʹsja) (form of взяться: to take something with hands, to take (mutually, together) (e.g. each other's hands); to set about; to undertake .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with за (za, + accusative) ‘a task’])",
+    "grammar": "Verb"
+  },
+  "вида": {
+    "def": "genitive singular of вид (vid) (form of вид: look, looks, appearance, air; sight, view)",
+    "grammar": "Noun"
+  },
+  "видав": {
+    "def": "short past adverbial imperfective participle of вида́ть (vidátʹ) (form of видать: to see ; iterative of ви́деть (vídetʹ); to be seen)",
+    "grammar": "Participle"
+  },
+  "видала": {
+    "def": "feminine singular past indicative imperfective of вида́ть (vidátʹ) (form of видать: to see ; iterative of ви́деть (vídetʹ); to be seen)",
+    "grammar": "Verb"
+  },
+  "видались": {
+    "def": "plural past indicative imperfective of вида́ться (vidátʹsja) (form of видаться: to see, to meet, to see each other; passive of вида́ть (vidátʹ))",
+    "grammar": "Verb"
+  },
+  "видела": {
+    "def": "feminine singular past indicative imperfective of ви́деть (vídetʹ) (form of видеть: to see (perceive by eyesight); to see (to be able to perceive by eyesight))",
+    "grammar": "Verb"
+  },
+  "видеться": {
+    "def": "to see each other, to meet; to date; to see, to seem (form of видеть: to see (perceive by eyesight); to see (to be able to perceive by eyesight))",
+    "grammar": "Verb"
+  },
+  "видим": {
+    "def": "first-person plural present indicative imperfective of ви́деть (vídetʹ); short masculine singular of ви́димый (vídimyj) (form of видимый: present passive imperfective participle of ви́деть (vídetʹ); visible)",
+    "grammar": "Verb / Adjective"
+  },
+  "видов": {
+    "def": "genitive plural of вид (vid) (form of вид: look, looks, appearance, air; sight, view)",
+    "grammar": "Noun"
+  },
+  "видом": {
+    "def": "instrumental singular of вид (vid) (form of вид: look, looks, appearance, air; sight, view)",
+    "grammar": "Noun"
+  },
+  "виду": {
+    "def": "dative/partitive singular of вид (vid); locative singular of вид (vid) (form of вид: look, looks, appearance, air; sight, view)",
+    "grammar": "Noun"
+  },
+  "видывал": {
+    "def": "masculine singular past indicative imperfective of ви́дывать (vídyvatʹ) (form of видывать: to see ; iterative of ви́деть (vídetʹ))",
+    "grammar": "Verb"
+  },
+  "видя": {
+    "def": "present adverbial imperfective participle of ви́деть (vídetʹ) (form of видеть: to see (perceive by eyesight); to see (to be able to perceive by eyesight))",
+    "grammar": "Participle"
+  },
+  "вилась": {
+    "def": "feminine singular past indicative imperfective of ви́ться (vítʹsja) (form of виться: (hair) to wave, to curl; (plants) to twine (about, round))",
+    "grammar": "Verb"
+  },
+  "вились": {
+    "def": "plural past indicative imperfective of ви́ться (vítʹsja) (form of виться: (hair) to wave, to curl; (plants) to twine (about, round))",
+    "grammar": "Verb"
+  },
+  "вился": {
+    "def": "masculine singular past indicative imperfective of ви́ться (vítʹsja) (form of виться: (hair) to wave, to curl; (plants) to twine (about, round))",
+    "grammar": "Verb"
+  },
+  "вина": {
+    "def": "guilt, fault; blame; veena (form of вино: wine; any strong alcoholic beverage (especially vodka))",
+    "grammar": "Noun"
+  },
+  "вино": {
+    "def": "wine; any strong alcoholic beverage (especially vodka)",
+    "grammar": "Noun"
+  },
+  "виновата": {
+    "def": "short feminine singular of винова́тый (vinovátyj) (form of виноватый: guilty)",
+    "grammar": "Adjective"
+  },
+  "вином": {
+    "def": "instrumental singular of вино́ (vinó) (form of вино: wine; any strong alcoholic beverage (especially vodka))",
+    "grammar": "Noun"
+  },
+  "виною": {
+    "def": "instrumental singular of вина́ (viná); instrumental singular of ви́на (vína) (form of вина: guilt, fault; blame; veena)",
+    "grammar": "Noun"
+  },
+  "винтовку": {
+    "def": "accusative singular of винто́вка (vintóvka) (form of винтовка: rifle)",
+    "grammar": "Noun"
+  },
+  "винтовок": {
+    "def": "genitive plural of винто́вка (vintóvka) (form of винтовка: rifle)",
+    "grammar": "Noun"
+  },
+  "вину": {
+    "def": "dative singular of вино́ (vinó); accusative singular of вина́ (viná) (form of вина: guilt, fault; blame; veena)",
+    "grammar": "Noun"
+  },
+  "висел": {
+    "def": "masculine singular past indicative imperfective of висе́ть (visétʹ) (form of висеть: to hang, to be suspended)",
+    "grammar": "Verb"
+  },
+  "висели": {
+    "def": "plural past indicative imperfective of висе́ть (visétʹ) (form of висеть: to hang, to be suspended)",
+    "grammar": "Verb"
+  },
+  "висело": {
+    "def": "neuter singular past indicative imperfective of висе́ть (visétʹ) (form of висеть: to hang, to be suspended)",
+    "grammar": "Verb"
+  },
+  "висит": {
+    "def": "third-person singular present indicative imperfective of висе́ть (visétʹ) (form of висеть: to hang, to be suspended)",
+    "grammar": "Verb"
+  },
+  "вист": {
+    "def": "piece of news; news",
+    "grammar": "Noun"
+  },
+  "вихре": {
+    "def": "prepositional singular of вихрь (vixrʹ); prepositional singular of вихо́р (vixór) (form of вихор: tuft, forelock, cowlick)",
+    "grammar": "Noun"
+  },
+  "вихря": {
+    "def": "genitive singular of вихрь (vixrʹ); present adverbial imperfective participle of вихри́ть (vixrítʹ) (form of вихрить: to swirl, to spin around)",
+    "grammar": "Noun / Participle"
+  },
+  "вишь": {
+    "def": "syncopic form of ви́дишь (vídišʹ); see!; (just) look, listen; there; oh; now (form of видишь: second-person singular present indicative imperfective of ви́деть (vídetʹ))",
+    "grammar": "Verb / Interjection"
+  },
+  "вкуса": {
+    "def": "genitive singular of вкус (vkus) (form of вкус: taste (one of the sensations produced by the tongue); flavour/flavor, fancy)",
+    "grammar": "Noun"
+  },
+  "вкусе": {
+    "def": "prepositional singular of вкус (vkus) (form of вкус: taste (one of the sensations produced by the tongue); flavour/flavor, fancy)",
+    "grammar": "Noun"
+  },
+  "вкусом": {
+    "def": "instrumental singular of вкус (vkus) (form of вкус: taste (one of the sensations produced by the tongue); flavour/flavor, fancy)",
+    "grammar": "Noun"
+  },
+  "вкусы": {
+    "def": "nominative/accusative plural of вкус (vkus) (form of вкус: taste (one of the sensations produced by the tongue); flavour/flavor, fancy)",
+    "grammar": "Noun"
+  },
+  "владел": {
+    "def": "masculine singular past indicative imperfective of владе́ть (vladétʹ) (form of владеть: to own, to possess, to be master of, to be in possession of .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘something’]; to govern, to control [with instrumental ‘someone/something’])",
+    "grammar": "Verb"
+  },
+  "владеть": {
+    "def": "to own, to possess, to be master of, to be in possession of .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘something’]; to govern, to control [with instrumental ‘someone/something’]",
+    "grammar": "Verb"
+  },
+  "влажный": {
+    "def": "humid, moist, damp",
+    "grammar": "Adjective"
+  },
+  "властей": {
+    "def": "genitive plural of власть (vlastʹ) (form of власть: authority, authorities, power; rule, regime)",
+    "grammar": "Noun"
+  },
+  "власть": {
+    "def": "authority, authorities, power; rule, regime",
+    "grammar": "Noun"
+  },
+  "властью": {
+    "def": "instrumental singular of власть (vlastʹ) (form of власть: authority, authorities, power; rule, regime)",
+    "grammar": "Noun"
+  },
+  "влиянием": {
+    "def": "instrumental singular of влия́ние (vlijánije) (form of влияние: influence, effect; weight, credibility, power)",
+    "grammar": "Noun"
+  },
+  "влюбился": {
+    "def": "masculine singular past indicative perfective of влюби́ться (vljubítʹsja) (form of влюбиться: to fall in love (to come to have feelings of love) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with в (v, + accusative) ‘with someone’]; passive of влюби́ть (vljubítʹ))",
+    "grammar": "Verb"
+  },
+  "влюблена": {
+    "def": "short feminine singular of влюблённый (vljubljónnyj) (form of влюблённый: past passive perfective participle of влюби́ть (vljubítʹ); in love, enamored (affected with love, experiencing love; of a person))",
+    "grammar": "Adjective"
+  },
+  "влюблялись": {
+    "def": "plural past indicative imperfective of влюбля́ться (vljubljátʹsja) (form of влюбляться: to fall in love (to come to have feelings of love) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with в (v, + accusative) ‘with someone’]; passive of влюбля́ть (vljubljátʹ))",
+    "grammar": "Verb"
+  },
+  "влюблялся": {
+    "def": "masculine singular past indicative imperfective of влюбля́ться (vljubljátʹsja) (form of влюбляться: to fall in love (to come to have feelings of love) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with в (v, + accusative) ‘with someone’]; passive of влюбля́ть (vljubljátʹ))",
+    "grammar": "Verb"
+  },
+  "вмешаться": {
+    "def": "to interfere, to intervene, to meddle",
+    "grammar": "Verb"
+  },
+  "вмешиваться": {
+    "def": "to interfere, to intervene; to meddle",
+    "grammar": "Verb"
+  },
+  "вмиг": {
+    "def": "in an instant, in a moment, in a flash, in a twinkling, in no time",
+    "grammar": "Adverb"
+  },
+  "внимали": {
+    "def": "plural past indicative imperfective of внима́ть (vnimátʹ) (form of внимать: to listen (to); to hear; to hark (to); to hearken; to heed, to pay heed)",
+    "grammar": "Verb"
+  },
+  "внимание": {
+    "def": "attention; care, heed",
+    "grammar": "Noun / Interjection"
+  },
+  "вниманием": {
+    "def": "instrumental singular of внима́ние (vnimánije) (form of внимание: attention; care, heed)",
+    "grammar": "Noun"
+  },
+  "внимая": {
+    "def": "present adverbial imperfective participle of внима́ть (vnimátʹ) (form of внимать: to listen (to); to hear; to hark (to); to hearken; to heed, to pay heed)",
+    "grammar": "Participle"
+  },
+  "внутренний": {
+    "def": "inner, interior; domestic",
+    "grammar": "Adjective"
+  },
+  "внутренность": {
+    "def": "interior, inside; pl. internal organs, innards, viscera, entrails, intestines, bowels, garbage, interior",
+    "grammar": "Noun"
+  },
+  "внутреннюю": {
+    "def": "feminine accusative of внутренний (vnutrennij) (form of внутренний: inner, interior; domestic)",
+    "grammar": "Adjective"
+  },
+  "внятно": {
+    "def": "distinctly, clearly, audibly (in context of being heard)",
+    "grammar": "Adverb"
+  },
+  "вовремя": {
+    "def": "in time, on time, timely; opportunely, timely (at the right time)",
+    "grammar": "Adverb"
+  },
+  "вод": {
+    "def": "genitive plural of вода́ (vodá) (form of вода: water; soft drink, soda)",
+    "grammar": "Noun"
+  },
+  "водах": {
+    "def": "prepositional plural of вода́ (vodá) (form of вода: water; soft drink, soda)",
+    "grammar": "Noun"
+  },
+  "воде": {
+    "def": "dative/prepositional singular of вода́ (vodá) (form of вода: water; soft drink, soda)",
+    "grammar": "Noun"
+  },
+  "водили": {
+    "def": "plural past indicative imperfective of води́ть (vodítʹ) (form of водить: to lead, to conduct, to guide; to drive)",
+    "grammar": "Verb"
+  },
+  "водится": {
+    "def": "third-person singular present indicative imperfective of води́ться (vodítʹsja) (form of водиться: to associate with, to play with, to consort with; to be found, to live, to be)",
+    "grammar": "Verb"
+  },
+  "водка": {
+    "def": "vodka; flavored liquor, liqueur",
+    "grammar": "Noun"
+  },
+  "водку": {
+    "def": "accusative singular of во́дка (vódka) (form of водка: vodka; flavored liquor, liqueur)",
+    "grammar": "Noun"
+  },
+  "водопада": {
+    "def": "genitive singular of водопа́д (vodopád) (form of водопад: waterfall)",
+    "grammar": "Noun"
+  },
+  "водопадами": {
+    "def": "instrumental plural of водопа́д (vodopád) (form of водопад: waterfall)",
+    "grammar": "Noun"
+  },
+  "водяные": {
+    "def": "nominative plural of водяно́й (vodjanój) (form of водяной: water; vodyanoy (a water sprite in Slavic mythology))",
+    "grammar": "Noun"
+  },
+  "военных": {
+    "def": "genitive/accusative/prepositional plural of вое́нный (vojénnyj) (form of военный: war; military; martial)",
+    "grammar": "Noun"
+  },
+  "вожжи": {
+    "def": "reins; nominative/accusative plural of вожжа́ (vožžá) (form of вожжа: rein (strap or rope for guiding an animal; also figuratively; usually plural))",
+    "grammar": "Noun"
+  },
+  "возбудится": {
+    "def": "third-person singular future indicative perfective of возбуди́ться (vozbudítʹsja) (form of возбудиться: to become excited, to become aroused, to be turned on; passive of возбуди́ть (vozbudítʹ))",
+    "grammar": "Verb"
+  },
+  "возбудить": {
+    "def": "to excite; to arouse, to rouse, to provoke",
+    "grammar": "Verb"
+  },
+  "возбуждает": {
+    "def": "third-person singular present indicative imperfective of возбужда́ть (vozbuždátʹ) (form of возбуждать: to excite; to arouse, to rouse, to provoke)",
+    "grammar": "Verb"
+  },
+  "возбуждали": {
+    "def": "plural past indicative imperfective of возбужда́ть (vozbuždátʹ) (form of возбуждать: to excite; to arouse, to rouse, to provoke)",
+    "grammar": "Verb"
+  },
+  "возбуждать": {
+    "def": "to excite; to arouse, to rouse, to provoke",
+    "grammar": "Verb"
+  },
+  "возведут": {
+    "def": "third-person plural future indicative perfective of возвести́ (vozvestí) (form of возвести: to raise, to erect; to exponentiate, to raise to a power)",
+    "grammar": "Verb"
+  },
+  "возврата": {
+    "def": "genitive singular of возвра́т (vozvrát) (form of возврат: return (act of returning); restitution, reimbursement)",
+    "grammar": "Noun"
+  },
+  "возвратил": {
+    "def": "masculine singular past indicative perfective of возврати́ть (vozvratítʹ) (form of возвратить: to return, to give back; to recover, to get back)",
+    "grammar": "Verb"
+  },
+  "возвратились": {
+    "def": "plural past indicative perfective of возврати́ться (vozvratítʹsja) (form of возвратиться: to return, to come back; passive of возврати́ть (vozvratítʹ))",
+    "grammar": "Verb"
+  },
+  "возвратился": {
+    "def": "masculine singular past indicative perfective of возврати́ться (vozvratítʹsja) (form of возвратиться: to return, to come back; passive of возврати́ть (vozvratítʹ))",
+    "grammar": "Verb"
+  },
+  "возвратится": {
+    "def": "third-person singular future indicative perfective of возврати́ться (vozvratítʹsja) (form of возвратиться: to return, to come back; passive of возврати́ть (vozvratítʹ))",
+    "grammar": "Verb"
+  },
+  "возвращались": {
+    "def": "plural past indicative imperfective of возвраща́ться (vozvraščátʹsja) (form of возвращаться: to return, to come back)",
+    "grammar": "Verb"
+  },
+  "возвращался": {
+    "def": "masculine singular past indicative imperfective of возвраща́ться (vozvraščátʹsja) (form of возвращаться: to return, to come back)",
+    "grammar": "Verb"
+  },
+  "возвращаясь": {
+    "def": "present adverbial imperfective participle of возвраща́ться (vozvraščátʹsja) (form of возвращаться: to return, to come back)",
+    "grammar": "Participle"
+  },
+  "возвышаются": {
+    "def": "third-person plural present indicative imperfective of возвыша́ться (vozvyšátʹsja) (form of возвышаться: to rise; to tower (above))",
+    "grammar": "Verb"
+  },
+  "возвышенности": {
+    "def": "inflection of возвы́шенность (vozvýšennostʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of возвышенность: (location elevated with respect to the surroundings) altitude, elevation, eminence, height, highness; (landform) hill, hummock, upland)",
+    "grammar": "Noun"
+  },
+  "возгласов": {
+    "def": "genitive plural of во́зглас (vózglas) (form of возглас: exclamation, cry, outcry)",
+    "grammar": "Noun"
+  },
+  "воздерживаться": {
+    "def": "to refrain, to abstain, to keep oneself; to decline, to forbear",
+    "grammar": "Verb"
+  },
+  "воздуха": {
+    "def": "air raid siren; genitive singular of во́здух (vózdux) (form of воздух: air; air, atmosphere)",
+    "grammar": "Noun"
+  },
+  "воздухе": {
+    "def": "prepositional singular of во́здух (vózdux) (form of воздух: air; air, atmosphere)",
+    "grammar": "Noun"
+  },
+  "возле": {
+    "def": "beside, by, near",
+    "grammar": "Preposition"
+  },
+  "возможности": {
+    "def": "inflection of возмо́жность (vozmóžnostʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of возможность: opportunity, chance, potential (chance for advancement, progress or profit); possibility)",
+    "grammar": "Noun"
+  },
+  "возможность": {
+    "def": "opportunity, chance, potential (chance for advancement, progress or profit); possibility",
+    "grammar": "Noun"
+  },
+  "возмутить": {
+    "def": "to outrage, to anger, to make indignant, to trouble",
+    "grammar": "Verb"
+  },
+  "вознаградил": {
+    "def": "masculine singular past indicative perfective of вознагради́ть (voznagradítʹ) (form of вознаградить: to reward; to remunerate)",
+    "grammar": "Verb"
+  },
+  "вознаградить": {
+    "def": "to reward; to remunerate",
+    "grammar": "Verb"
+  },
+  "возобновлял": {
+    "def": "masculine singular past indicative imperfective of возобновля́ть (vozobnovljátʹ) (form of возобновлять: to renew, to resume, to recommence, to revive)",
+    "grammar": "Verb"
+  },
+  "возопиют": {
+    "def": "third-person plural future indicative perfective of возопия́ть (vozopijátʹ) (form of возопиять: to start to cry out)",
+    "grammar": "Verb"
+  },
+  "возражения": {
+    "def": "inflection of возраже́ние (vozražénije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of возражение: objection, rejoinder, retort .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with по (po, + dative) ‘against’])",
+    "grammar": "Noun"
+  },
+  "возразил": {
+    "def": "masculine singular past indicative perfective of возрази́ть (vozrazítʹ) (form of возразить: to object, to mind, to protest)",
+    "grammar": "Verb"
+  },
+  "воинов": {
+    "def": "genitive/accusative plural of во́ин (vóin) (form of воин: soldier, warrior, serviceman, military man)",
+    "grammar": "Noun"
+  },
+  "воинственный": {
+    "def": "warlike, bellicose",
+    "grammar": "Adjective"
+  },
+  "воины": {
+    "def": "nominative plural of во́ин (vóin) (form of воин: soldier, warrior, serviceman, military man)",
+    "grammar": "Noun"
+  },
+  "войдя": {
+    "def": "short past adverbial perfective participle of войти́ (vojtí) (form of войти: to enter, to go in(to) (by foot), to get in(to); to penetrate into)",
+    "grammar": "Participle"
+  },
+  "войне": {
+    "def": "dative/prepositional singular of война́ (vojná) (form of война: war, warfare)",
+    "grammar": "Noun"
+  },
+  "войну": {
+    "def": "accusative singular of война́ (vojná) (form of война: war, warfare)",
+    "grammar": "Noun"
+  },
+  "войти": {
+    "def": "to enter, to go in(to) (by foot), to get in(to); to penetrate into",
+    "grammar": "Verb"
+  },
+  "вокруг": {
+    "def": "round, around, about; around, about",
+    "grammar": "Preposition / Adverb"
+  },
+  "волей": {
+    "def": "instrumental singular of во́ля (vólja) (form of воля: will, willpower; power)",
+    "grammar": "Noun"
+  },
+  "воли": {
+    "def": "inflection of во́ля (vólja):\ngenitive singular\nnominative/accusative plural; genitive singular (form of воля: will, willpower; power)",
+    "grammar": "Noun"
+  },
+  "волн": {
+    "def": "genitive plural of волна́ (volná) (form of волна: wave; wavelength)",
+    "grammar": "Noun"
+  },
+  "волна": {
+    "def": "wave; wavelength",
+    "grammar": "Noun"
+  },
+  "волнами": {
+    "def": "instrumental plural of волна́ (volná) (form of волна: wave; wavelength)",
+    "grammar": "Noun"
+  },
+  "волнение": {
+    "def": "choppiness, roughness; excitement, tizzy",
+    "grammar": "Noun"
+  },
+  "волнения": {
+    "def": "inflection of волне́ние (volnénije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of волнение: choppiness, roughness; excitement, tizzy)",
+    "grammar": "Noun"
+  },
+  "волновалась": {
+    "def": "feminine singular past indicative imperfective of волнова́ться (volnovátʹsja) (form of волноваться: to worry, to be upset, to be agitated; to ripple, to be rough , to billow, to surge)",
+    "grammar": "Verb"
+  },
+  "волновало": {
+    "def": "neuter singular past indicative imperfective of волнова́ть (volnovátʹ) (form of волновать: to agitate, to trouble, to disturb, to worry, to alarm, to upset; to ruffle, to stir)",
+    "grammar": "Verb"
+  },
+  "волновать": {
+    "def": "to agitate, to trouble, to disturb, to worry, to alarm, to upset; to ruffle, to stir",
+    "grammar": "Verb"
+  },
+  "волноваться": {
+    "def": "to worry, to be upset, to be agitated; to ripple, to be rough , to billow, to surge (form of волновать: to agitate, to trouble, to disturb, to worry, to alarm, to upset; to ruffle, to stir)",
+    "grammar": "Verb"
+  },
+  "волнуемый": {
+    "def": "present passive imperfective participle of волнова́ть (volnovátʹ) (form of волновать: to agitate, to trouble, to disturb, to worry, to alarm, to upset; to ruffle, to stir)",
+    "grammar": "Participle"
+  },
+  "волнуют": {
+    "def": "third-person plural present indicative imperfective of волнова́ть (volnovátʹ) (form of волновать: to agitate, to trouble, to disturb, to worry, to alarm, to upset; to ruffle, to stir)",
+    "grammar": "Verb"
+  },
+  "волны": {
+    "def": "genitive singular of волна́ (volná, “wave”); nominative/accusative plural of волна́ (volná, “wave”) (form of волна: wave; wavelength)",
+    "grammar": "Noun"
+  },
+  "волочатся": {
+    "def": "third-person plural present indicative imperfective of волочи́ться (voločítʹsja, “to drag, to trail ”); third-person plural present indicative imperfective of волочи́ться (voločítʹsja, “to chase after ”) (form of волочиться: to drag, to trail, to be dragged/trailed; to run (after), to dangle (after), to chase (after) (esp. a woman))",
+    "grammar": "Verb"
+  },
+  "волочился": {
+    "def": "masculine singular past indicative imperfective of волочи́ться (voločítʹsja) (form of волочиться: to drag, to trail, to be dragged/trailed; to run (after), to dangle (after), to chase (after) (esp. a woman))",
+    "grammar": "Verb"
+  },
+  "волочиться": {
+    "def": "to drag, to trail, to be dragged/trailed; to run (after), to dangle (after), to chase (after) (esp. a woman)",
+    "grammar": "Verb"
+  },
+  "воля": {
+    "def": "will, willpower; power",
+    "grammar": "Noun"
+  },
+  "воображая": {
+    "def": "present adverbial imperfective participle of вообража́ть (voobražátʹ) (form of воображать: to imagine, to fancy; to be conceited; to show off)",
+    "grammar": "Participle"
+  },
+  "воображение": {
+    "def": "imagination, fancy",
+    "grammar": "Noun"
+  },
+  "воображении": {
+    "def": "prepositional singular of воображе́ние (voobražénije) (form of воображение: imagination, fancy)",
+    "grammar": "Noun"
+  },
+  "воображения": {
+    "def": "inflection of воображе́ние (voobražénije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of воображение: imagination, fancy)",
+    "grammar": "Noun"
+  },
+  "вообразил": {
+    "def": "masculine singular past indicative perfective of вообрази́ть (voobrazítʹ) (form of вообразить: to imagine, to fancy)",
+    "grammar": "Verb"
+  },
+  "вообразите": {
+    "def": "second-person plural imperative perfective of вообрази́ть (voobrazítʹ): fancy!, imagine!; second-person plural future indicative perfective of вообрази́ть (voobrazítʹ) (form of вообразить: to imagine, to fancy)",
+    "grammar": "Verb"
+  },
+  "вооружился": {
+    "def": "masculine singular past indicative perfective of вооружи́ться (vooružítʹsja) (form of вооружиться: to arm, to provide, to furnish (oneself); passive of вооружи́ть (vooružítʹ))",
+    "grammar": "Verb"
+  },
+  "вопреки": {
+    "def": "in spite of, contrary to",
+    "grammar": "Preposition"
+  },
+  "вопрос": {
+    "def": "question; matter, issue",
+    "grammar": "Noun"
+  },
+  "вопроса": {
+    "def": "genitive singular of вопро́с (voprós) (form of вопрос: question; matter, issue)",
+    "grammar": "Noun"
+  },
+  "вопросы": {
+    "def": "nominative/accusative plural of вопро́с (voprós) (form of вопрос: question; matter, issue)",
+    "grammar": "Noun"
+  },
+  "ворвались": {
+    "def": "plural past indicative perfective of ворва́ться (vorvátʹsja) (form of ворваться: to rush into, to burst, to enter by force, violently or hurriedly, to intrude)",
+    "grammar": "Verb"
+  },
+  "воровской": {
+    "def": "thieves'; thievish",
+    "grammar": "Adjective"
+  },
+  "ворона": {
+    "def": "crow (bird); cuckoo, gawk, gaper, loafer (form of ворон: raven; genitive/accusative plural of воро́на (voróna))",
+    "grammar": "Noun"
+  },
+  "вороной": {
+    "def": "black; jet-black (form of ворона: crow (bird); cuckoo, gawk, gaper, loafer)",
+    "grammar": "Adjective / Noun"
+  },
+  "ворот": {
+    "def": "collar (of a shirt); winch, windlass, wheel and axle (form of ворота: gate; goal (in many sports, e.g. soccer, an area into which the players attempt to put an object))",
+    "grammar": "Noun"
+  },
+  "ворота": {
+    "def": "gate; goal (in many sports, e.g. soccer, an area into which the players attempt to put an object) (form of ворот: collar (of a shirt); winch, windlass, wheel and axle)",
+    "grammar": "Noun"
+  },
+  "воротами": {
+    "def": "instrumental of воро́та (voróta); instrumental plural of во́рот (vórot) (form of ворот: collar (of a shirt); winch, windlass, wheel and axle)",
+    "grammar": "Noun"
+  },
+  "воротиться": {
+    "def": "to return; passive of вороти́ть (vorotítʹ) (form of воротить: to bring back; to turn away)",
+    "grammar": "Verb"
+  },
+  "воротник": {
+    "def": "collar",
+    "grammar": "Noun"
+  },
+  "воротника": {
+    "def": "genitive singular of воротни́к (vorotník) (form of воротник: collar)",
+    "grammar": "Noun"
+  },
+  "ворочался": {
+    "def": "masculine singular past indicative imperfective of воро́чаться (voróčatʹsja); masculine singular past indicative imperfective of вороча́ться (voročátʹsja) (form of ворочаться: to turn, to toss and turn; to turn, to roll)",
+    "grammar": "Verb"
+  },
+  "ворчать": {
+    "def": "to grumble, to complain, to grouse (at), to snarl (at)",
+    "grammar": "Verb"
+  },
+  "ворчит": {
+    "def": "third-person singular present indicative imperfective of ворча́ть (vorčátʹ) (form of ворчать: to grumble, to complain, to grouse (at), to snarl (at))",
+    "grammar": "Verb"
+  },
+  "воры": {
+    "def": "nominative plural of вор (vor) (form of вор: thief; traitor, apostate, outlaw)",
+    "grammar": "Noun"
+  },
+  "воскликнул": {
+    "def": "masculine singular past indicative perfective of воскли́кнуть (vosklíknutʹ) (form of воскликнуть: to exclaim, to cry)",
+    "grammar": "Verb"
+  },
+  "воскликнула": {
+    "def": "feminine singular past indicative perfective of воскли́кнуть (vosklíknutʹ) (form of воскликнуть: to exclaim, to cry)",
+    "grammar": "Verb"
+  },
+  "воскликнули": {
+    "def": "plural past indicative perfective of воскли́кнуть (vosklíknutʹ) (form of воскликнуть: to exclaim, to cry)",
+    "grammar": "Verb"
+  },
+  "восклицание": {
+    "def": "exclamation (loud calling or crying out; outcry)",
+    "grammar": "Noun"
+  },
+  "восковой": {
+    "def": "wax; waxen; wax-white",
+    "grammar": "Adjective"
+  },
+  "воскресенье": {
+    "def": "Sunday; alternative form of воскресе́ние (voskresénije, “resurrection”) (form of воскресение: resurrection, anastasis)",
+    "grammar": "Noun"
+  },
+  "воспитан": {
+    "def": "short masculine singular of воспи́танный (vospítannyj) (form of воспитанный: past passive perfective participle of воспита́ть (vospitátʹ); well-bred, well-mannered)",
+    "grammar": "Adjective"
+  },
+  "воспитана": {
+    "def": "short feminine singular of воспи́танный (vospítannyj) (form of воспитанный: past passive perfective participle of воспита́ть (vospitátʹ); well-bred, well-mannered)",
+    "grammar": "Adjective"
+  },
+  "воспитание": {
+    "def": "education, upbringing; training",
+    "grammar": "Noun"
+  },
+  "воспитанниками": {
+    "def": "instrumental plural of воспи́танник (vospítannik) (form of воспитанник: foster child; pupil; alumnus)",
+    "grammar": "Noun"
+  },
+  "воспользоваться": {
+    "def": "to use, to utilize .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘something’]; to enjoy [with instrumental ‘health, good fortune, power, privilege, etc.’]",
+    "grammar": "Verb"
+  },
+  "воспоминание": {
+    "def": "memory, remembrance, recollection, flashback; memoirs, reminiscences, memorials",
+    "grammar": "Noun"
+  },
+  "воспоминаний": {
+    "def": "genitive plural of воспомина́ние (vospominánije) (form of воспоминание: memory, remembrance, recollection, flashback; memoirs, reminiscences, memorials)",
+    "grammar": "Noun"
+  },
+  "воспоминания": {
+    "def": "inflection of воспомина́ние (vospominánije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of воспоминание: memory, remembrance, recollection, flashback; memoirs, reminiscences, memorials)",
+    "grammar": "Noun"
+  },
+  "воспоминаниями": {
+    "def": "instrumental plural of воспомина́ние (vospominánije) (form of воспоминание: memory, remembrance, recollection, flashback; memoirs, reminiscences, memorials)",
+    "grammar": "Noun"
+  },
+  "восстановить": {
+    "def": "to restore, to reestablish, to reinstate; to recover, to recuperate",
+    "grammar": "Verb"
+  },
+  "восток": {
+    "def": "east",
+    "grammar": "Noun"
+  },
+  "востока": {
+    "def": "genitive singular of восто́к (vostók) (form of восток: east)",
+    "grammar": "Noun"
+  },
+  "востоке": {
+    "def": "prepositional singular of восто́к (vostók) (form of восток: east)",
+    "grammar": "Noun"
+  },
+  "восторг": {
+    "def": "rapture, ecstasy, delight; admiration",
+    "grammar": "Noun"
+  },
+  "восхищался": {
+    "def": "masculine singular past indicative imperfective of восхища́ться (vosxiščátʹsja) (form of восхищаться: to be delighted; to admire .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental ‘someone’])",
+    "grammar": "Verb"
+  },
+  "восхищении": {
+    "def": "prepositional singular of восхище́ние (vosxiščénije) (form of восхищение: admiration, delight, rapture, ravishment)",
+    "grammar": "Noun"
+  },
+  "воют": {
+    "def": "third-person plural present indicative imperfective of выть (vytʹ) (form of выть: to howl; to wail)",
+    "grammar": "Verb"
+  },
+  "впала": {
+    "def": "feminine singular past indicative perfective of впасть (vpastʹ) (form of впасть: (river) to fall (into), to flow (into); (a condition) to fall (into), to lapse (into), to sink (into))",
+    "grammar": "Verb"
+  },
+  "впали": {
+    "def": "plural past indicative perfective of впасть (vpastʹ) (form of впасть: (river) to fall (into), to flow (into); (a condition) to fall (into), to lapse (into), to sink (into))",
+    "grammar": "Verb"
+  },
+  "впервые": {
+    "def": "for the first time",
+    "grammar": "Adverb"
+  },
+  "впечатления": {
+    "def": "inflection of впечатле́ние (vpečatlénije):\ngenitive singular\nnominative/accusative plural; genitive singular (form of впечатление: impression)",
+    "grammar": "Noun"
+  },
+  "вприпрыжку": {
+    "def": "bouncing, skipping (e.g. when running or walking)",
+    "grammar": "Adverb"
+  },
+  "впустило": {
+    "def": "neuter singular past indicative perfective of впусти́ть (vpustítʹ) (form of впустить: to let in, to admit)",
+    "grammar": "Verb"
+  },
+  "врагами": {
+    "def": "instrumental plural of враг (vrag) (form of враг: enemy, foe)",
+    "grammar": "Noun"
+  },
+  "врагов": {
+    "def": "genitive/accusative plural of враг (vrag) (form of враг: enemy, foe)",
+    "grammar": "Noun"
+  },
+  "врагу": {
+    "def": "dative singular of враг (vrag) (form of враг: enemy, foe)",
+    "grammar": "Noun"
+  },
+  "вращались": {
+    "def": "plural past indicative imperfective of враща́ться (vraščátʹsja) (form of вращаться: to turn, to revolve, to rotate (intransitive); passive of враща́ть (vraščátʹ))",
+    "grammar": "Verb"
+  },
+  "врезались": {
+    "def": "plural past indicative imperfective of вреза́ться (vrezátʹsja); plural past indicative perfective of вре́заться (vrézatʹsja) (form of врезаться: to run into, to cut into, to collide with; passive of вре́зать (vrézatʹ))",
+    "grammar": "Verb"
+  },
+  "врезалось": {
+    "def": "neuter singular past indicative imperfective of вреза́ться (vrezátʹsja); neuter singular past indicative perfective of вре́заться (vrézatʹsja) (form of врезаться: to run into, to cut into, to collide with; passive of вре́зать (vrézatʹ))",
+    "grammar": "Verb"
+  },
+  "времена": {
+    "def": "nominative/accusative plural of вре́мя (vrémja) (form of время: time; tense)",
+    "grammar": "Noun"
+  },
+  "временам": {
+    "def": "dative plural of вре́мя (vrémja) (form of время: time; tense)",
+    "grammar": "Noun"
+  },
+  "врожденный": {
+    "def": "innate, inborn, indigenous",
+    "grammar": "Adjective"
+  },
+  "врывался": {
+    "def": "masculine singular past indicative imperfective of врыва́ться (vryvátʹsja) (form of врываться: to rush into, to burst, to enter by force, to enter violently or hurriedly, to intrude; to dig oneself into)",
+    "grammar": "Verb"
+  },
+  "врываясь": {
+    "def": "present adverbial imperfective participle of врыва́ться (vryvátʹsja) (form of врываться: to rush into, to burst, to enter by force, to enter violently or hurriedly, to intrude; to dig oneself into)",
+    "grammar": "Participle"
+  },
+  "вряд": {
+    "def": "hardly, scarcely",
+    "grammar": "Particle"
+  },
+  "всадник": {
+    "def": "horseman, equestrian, rider",
+    "grammar": "Noun"
+  },
+  "всему": {
+    "def": "dative masculine/neuter singular of весь (vesʹ); dative of всё (vsjo, “everything”) (form of весь: all, the whole, all of, the whole of, the entire, the entirety of; all, all (of) (about discrete entities))",
+    "grammar": "Determiner / Pronoun / Adverb"
+  },
+  "всею": {
+    "def": "instrumental feminine singular of весь (vesʹ) (form of весь: all, the whole, all of, the whole of, the entire, the entirety of; all, all (of) (about discrete entities))",
+    "grammar": "Determiner / Pronoun / Adverb"
+  },
+  "вскочили": {
+    "def": "plural past indicative of вскочи́ть&nbsp;pf (vskočítʹ) (form of вскочить: (unexpectedly) to jump (up, onto, out of), to leap (on, into, onto), to get up quickly; to rise, to swell (up), to come up)",
+    "grammar": "Verb"
+  },
+  "вскрикнув": {
+    "def": "short past adverbial perfective participle of вскри́кнуть (vskríknutʹ) (form of вскрикнуть: to shout out loudly)",
+    "grammar": "Participle"
+  },
+  "вскрикнул": {
+    "def": "masculine singular past indicative perfective of вскри́кнуть (vskríknutʹ) (form of вскрикнуть: to shout out loudly)",
+    "grammar": "Verb"
+  },
+  "вскрикнула": {
+    "def": "feminine singular past indicative perfective of вскри́кнуть (vskríknutʹ) (form of вскрикнуть: to shout out loudly)",
+    "grammar": "Verb"
+  },
+  "вскрикнули": {
+    "def": "plural past indicative perfective of вскри́кнуть (vskríknutʹ) (form of вскрикнуть: to shout out loudly)",
+    "grammar": "Verb"
+  },
+  "вслушиваться": {
+    "def": "to listen attentively (to)",
+    "grammar": "Verb"
+  },
+  "всматривалась": {
+    "def": "feminine singular past indicative imperfective of всма́триваться (vsmátrivatʹsja) (form of всматриваться: to scrutinize, to peer, to look carefully)",
+    "grammar": "Verb"
+  },
+  "всматривался": {
+    "def": "masculine singular past indicative imperfective of всма́триваться (vsmátrivatʹsja) (form of всматриваться: to scrutinize, to peer, to look carefully)",
+    "grammar": "Verb"
+  },
+  "всматриваться": {
+    "def": "to scrutinize, to peer, to look carefully",
+    "grammar": "Verb"
+  },
+  "всматриваюсь": {
+    "def": "first-person singular present indicative imperfective of всма́триваться (vsmátrivatʹsja) (form of всматриваться: to scrutinize, to peer, to look carefully)",
+    "grammar": "Verb"
+  },
+  "всполошились": {
+    "def": "plural past indicative perfective of всполоши́ться (vspološítʹsja) (form of всполошиться: to be thrown into a flutter, to be startled, to take alarm; passive of всполоши́ть (vspološítʹ))",
+    "grammar": "Verb"
+  },
+  "вспомни": {
+    "def": "second-person singular imperative perfective of вспо́мнить (vspómnitʹ) (form of вспомнить: to remember, to recall, to recollect)",
+    "grammar": "Verb"
+  },
+  "вспомнил": {
+    "def": "masculine singular past indicative perfective of вспо́мнить (vspómnitʹ) (form of вспомнить: to remember, to recall, to recollect)",
+    "grammar": "Verb"
+  },
+  "вспомнили": {
+    "def": "plural past indicative perfective of вспо́мнить (vspómnitʹ) (form of вспомнить: to remember, to recall, to recollect)",
+    "grammar": "Verb"
+  },
+  "вспомните": {
+    "def": "inflection of вспо́мнить (vspómnitʹ):\nsecond-person plural future indicative perfective\nsecond-person plural imperative perfective; second-person plural future indicative perfective (form of вспомнить: to remember, to recall, to recollect)",
+    "grammar": "Verb"
+  },
+  "вспомню": {
+    "def": "first-person singular future indicative perfective of вспо́мнить (vspómnitʹ) (form of вспомнить: to remember, to recall, to recollect)",
+    "grammar": "Verb"
+  },
+  "вспыхнул": {
+    "def": "masculine singular past indicative perfective of вспы́хнуть (vspýxnutʹ) (form of вспыхнуть: to flash (to briefly illuminate a scene); to blaze up, to break out (of fire), to flare up)",
+    "grammar": "Verb"
+  },
+  "вспыхнуло": {
+    "def": "neuter singular past indicative perfective of вспы́хнуть (vspýxnutʹ) (form of вспыхнуть: to flash (to briefly illuminate a scene); to blaze up, to break out (of fire), to flare up)",
+    "grammar": "Verb"
+  },
+  "встав": {
+    "def": "short past adverbial perfective participle of встать (vstatʹ) (form of встать: to stand up, to get up, to rise; to rise)",
+    "grammar": "Participle"
+  },
+  "вставайте": {
+    "def": "second-person plural imperative of встава́ть&nbsp;impf (vstavátʹ) (form of вставать: to stand up, to get up, to rise; to rise)",
+    "grammar": "Verb"
+  },
+  "вставал": {
+    "def": "masculine singular past indicative imperfective of встава́ть (vstavátʹ) (form of вставать: to stand up, to get up, to rise; to rise)",
+    "grammar": "Verb"
+  },
+  "вставая": {
+    "def": "present adverbial imperfective participle of встава́ть (vstavátʹ) (form of вставать: to stand up, to get up, to rise; to rise)",
+    "grammar": "Participle"
+  },
+  "встревожил": {
+    "def": "masculine singular past indicative perfective of встрево́жить (vstrevóžitʹ) (form of встревожить: to disturb; to worry, to trouble, to harass)",
+    "grammar": "Verb"
+  },
+  "встревожило": {
+    "def": "neuter singular past indicative perfective of встрево́жить (vstrevóžitʹ) (form of встревожить: to disturb; to worry, to trouble, to harass)",
+    "grammar": "Verb"
+  },
+  "встревожился": {
+    "def": "masculine singular past indicative perfective of встрево́житься (vstrevóžitʹsja) (form of встревожиться: to be anxious/uneasy/worried (about), to become anxious (about); passive of встрево́жить (vstrevóžitʹ))",
+    "grammar": "Verb"
+  },
+  "встретив": {
+    "def": "short past adverbial perfective participle of встре́тить (vstrétitʹ) (form of встретить: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Participle"
+  },
+  "встретил": {
+    "def": "masculine singular past indicative perfective of встре́тить (vstrétitʹ) (form of встретить: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встретили": {
+    "def": "plural past indicative perfective of встре́тить (vstrétitʹ) (form of встретить: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встретило": {
+    "def": "neuter singular past indicative perfective of встре́тить (vstrétitʹ) (form of встретить: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встретит": {
+    "def": "third-person singular future indicative perfective of встре́тить (vstrétitʹ) (form of встретить: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встретить": {
+    "def": "to meet, to encounter, to come across; to meet, to receive, to welcome",
+    "grammar": "Verb"
+  },
+  "встретиться": {
+    "def": "to meet, to encounter, to come across .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with с (s, + instrumental) ‘someone/something’]; to see each other, to meet, to date (form of встретить: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встретишься": {
+    "def": "second-person singular future indicative perfective of встре́титься (vstrétitʹsja) (form of встретиться: to meet, to encounter, to come across .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with с (s, + instrumental) ‘someone/something’]; to see each other, to meet, to date)",
+    "grammar": "Verb"
+  },
+  "встречаемся": {
+    "def": "first-person plural present indicative imperfective of встреча́ться (vstrečátʹsja) (form of встречаться: to meet, to encounter, to come across .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with с (s, + instrumental) ‘someone/something’]; to see each other, to meet, to date)",
+    "grammar": "Verb"
+  },
+  "встречается": {
+    "def": "third-person singular present indicative imperfective of встреча́ться (vstrečátʹsja) (form of встречаться: to meet, to encounter, to come across .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with с (s, + instrumental) ‘someone/something’]; to see each other, to meet, to date)",
+    "grammar": "Verb"
+  },
+  "встречал": {
+    "def": "masculine singular past indicative imperfective of встреча́ть (vstrečátʹ) (form of встречать: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встречала": {
+    "def": "feminine singular past indicative imperfective of встреча́ть (vstrečátʹ) (form of встречать: to meet, to encounter, to come across; to meet, to receive, to welcome)",
+    "grammar": "Verb"
+  },
+  "встречались": {
+    "def": "plural past indicative imperfective of встреча́ться (vstrečátʹsja) (form of встречаться: to meet, to encounter, to come across .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with с (s, + instrumental) ‘someone/something’]; to see each other, to meet, to date)",
+    "grammar": "Verb"
+  },
+  "встречать": {
+    "def": "to meet, to encounter, to come across; to meet, to receive, to welcome",
+    "grammar": "Verb"
+  },
+  "встрече": {
+    "def": "dative/prepositional singular of встре́ча (vstréča) (form of встреча: meeting, encounter; date)",
+    "grammar": "Noun"
+  },
+  "встречных": {
+    "def": "genitive/accusative/prepositional plural of встре́чный (vstréčnyj) (form of встречный: oncoming; counter-, head... (coming from in front, coming from the opposite direction))",
+    "grammar": "Noun"
+  },
+  "вступил": {
+    "def": "masculine singular past indicative perfective of вступи́ть (vstupítʹ) (form of вступить: to enter, to march into (of the troops); to join, to enlist)",
+    "grammar": "Verb"
+  },
+  "вступить": {
+    "def": "to enter, to march into (of the troops); to join, to enlist",
+    "grammar": "Verb"
+  },
+  "вступиться": {
+    "def": "to stand up for, to stick up for, to take someone's side, to come to the defense of",
+    "grammar": "Verb"
+  },
+  "всякого": {
+    "def": "inflection of вся́кий (vsjákij):\ngenitive masculine/neuter singular\nanimate accusative masculine singular; genitive masculine/neuter singular (form of всякий: any, every; all sorts of)",
+    "grammar": "Pronoun"
+  },
+  "всякому": {
+    "def": "dative masculine/neuter singular of вся́кий (vsjákij) (form of всякий: any, every; all sorts of)",
+    "grammar": "Pronoun"
+  },
+  "втащить": {
+    "def": "to drag (in, into), to drag (up, on); to punch, to give a smack",
+    "grammar": "Verb"
+  },
+  "вторично": {
+    "def": "a second time, for the second time; short neuter singular of втори́чный (vtoríčnyj) (form of вторичный: secondary; second, repeated)",
+    "grammar": "Adverb / Adjective"
+  },
+  "второго": {
+    "def": "genitive singular of второ́е (vtoróje) (form of второе: inflection of второ́й (vtorój):\nneuter singular nominative\nneuter singular &amp; mainly inanimate accusative; neuter singular nominative)",
+    "grammar": "Noun"
+  },
+  "втором": {
+    "def": "prepositional singular of второ́е (vtoróje) (form of второе: inflection of второ́й (vtorój):\nneuter singular nominative\nneuter singular &amp; mainly inanimate accusative; neuter singular nominative)",
+    "grammar": "Noun"
   }
 };

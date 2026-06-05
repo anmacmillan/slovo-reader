@@ -58,19 +58,25 @@ const IMMERSIVE_DELAY = 5000; // 5 seconds of inactivity to trigger immersive mo
 
 function initImmersiveMode() {
   const events = ["mousemove", "touchstart", "scroll", "keydown", "click"];
+  console.log("Slovo Immersive Reader Mode Initialized.");
+  
   events.forEach(evt => {
     document.addEventListener(evt, (e) => {
       const container = document.querySelector(".app-container");
+      if (!container) return;
+
       if (container.classList.contains("immersive")) {
         // If in immersive mode, only exit on click/touchstart in top 12% of screen
         // or on keystrokes/scrolling
         if (e.type === "click" || e.type === "touchstart") {
-          const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-          if (clientY < window.innerHeight * 0.12) {
+          const clientY = (e.touches && e.touches.length > 0) ? e.touches[0].clientY : e.clientY;
+          if (clientY !== undefined && clientY < window.innerHeight * 0.12) {
+            console.log("Exiting immersive mode via top-screen interaction.");
             exitImmersiveMode();
           }
         } else if (e.type !== "mousemove") {
           // Keydown or scroll exits immersive mode immediately
+          console.log(`Exiting immersive mode via event: ${e.type}`);
           exitImmersiveMode();
         }
       } else {
@@ -107,10 +113,12 @@ function enterImmersiveMode() {
     return;
   }
 
+  console.log("Entering Immersive Reader Mode.");
   document.querySelector(".app-container").classList.add("immersive");
 }
 
 function exitImmersiveMode() {
+  console.log("Exiting Immersive Reader Mode.");
   document.querySelector(".app-container").classList.remove("immersive");
   resetImmersiveTimer();
 }
