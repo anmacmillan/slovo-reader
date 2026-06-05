@@ -10,7 +10,9 @@ const state = {
   vocabList: [],
   synth: window.speechSynthesis,
   ruVoice: null,
-  activeAudioUtterance: null
+  activeAudioUtterance: null,
+  audioPlayer: null,
+  isPlayingChapter: false
 };
 
 // LocalStorage Keys
@@ -18,7 +20,8 @@ const STORAGE_KEYS = {
   VOCAB: "slovo_vocab_notebook",
   CUSTOM_BOOKS: "slovo_custom_library",
   THEME: "slovo_active_theme",
-  PROGRESS: "slovo_reading_progress"
+  PROGRESS: "slovo_reading_progress",
+  AUDIOBOOK_DIR: "slovo_audiobook_dir"
 };
 
 // Initialize Application
@@ -26,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initTheme();
   loadVocabList();
   initVoices();
+  initAudioPlayer();
   loadLibrary();
   bindEvents();
 });
@@ -41,6 +45,42 @@ function toggleTheme() {
   const next = current === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", next);
   localStorage.setItem(STORAGE_KEYS.THEME, next);
+}
+
+// ── Audio Player (Pre-generated Piper WAVs) ────────────────────────────────────
+function initAudioPlayer() {
+  state.audioPlayer = document.getElementById("chapter-audio");
+  if (!state.audioPlayer) {
+    const audio = document.createElement("audio");
+    audio.id = "chapter-audio";
+    audio.style.display = "none";
+    document.body.appendChild(audio);
+    state.audioPlayer = audio;
+  }
+  // Bind events
+  state.audioPlayer.addEventListener("ended", () => {
+    state.isPlayingChapter = false;
+    const btn = document.getElementById("play-chapter-btn");
+    if (btn) btn.textContent = "🔊";
+  });
+  state.audioPlayer.addEventListener("play", () => {
+    state.isPlayingChapter = true;
+    const btn = document.getElementById("play-chapter-btn");
+    if (btn) btn.textContent = "⏹";
+  });
+}
+
+function playChapterAudio(chapterNum) {
+  if (state.audioPlayer && state.books.length > 0) {
+    const bookIdx = state.currentBookIndex;
+    const book = state.books[bookIdx];
+    // Only preloaded books (not custom) have audiobooks
+    if (bookIdx < PRELOADED_BOOKS.length) {
+      const path = `audiobook/ch${String(chapterNum).padStart(2, "0")}.mp3`;
+      state.audioPlayer.src = path;
+      state.audioPlayer.play();
+    }
+  }
 }
 
 // ── Speech Synthesis Voices ───────────────────────────────────────────────────
@@ -824,6 +864,18 @@ function bindEvents() {
   // Vocab Actions
   document.getElementById("export-vocab").addEventListener("click", exportVocabAsMarkdown);
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
+
+  // Chapter Audio Playback
+  document.getElementById("play-chapter-btn").addEventListener("click", () => {
+    const ch = state.currentChapterIndex + 1;
+    if (state.isPlayingChapter) {
+      state.audioPlayer.pause();
+      state.isPlayingChapter = false;
+      document.getElementById("play-chapter-btn").textContent = "🎧";
+    } else {
+      playChapterAudio(ch);
+    }
+  });
 
   // Custom Book Modal Loader
   const modal = document.getElementById("custom-loader-modal");
