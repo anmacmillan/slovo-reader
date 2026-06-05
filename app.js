@@ -440,6 +440,7 @@ function renderRESTAnalysis(originalText, ruData) {
       <div class="tooltip-buttons">
         <button class="btn-tooltip-action" id="tts-word-btn" title="Speak word">🔊</button>
         <button class="btn-tooltip-action" id="save-word-btn" title="Save word">➕</button>
+        <button class="btn-tooltip-action" id="more-dict-btn" title="Detailed Analysis">🔍</button>
       </div>
     </div>
     <div class="tooltip-grammar">${posString}</div>
@@ -463,6 +464,10 @@ function renderRESTAnalysis(originalText, ruData) {
   document.getElementById("tts-word-btn").addEventListener("click", () => speakText(originalText));
   document.getElementById("save-word-btn").addEventListener("click", () => {
     saveWordToVocab(originalText, briefDef, posString);
+  });
+  document.getElementById("more-dict-btn").addEventListener("click", () => {
+    document.getElementById("dict-drawer").classList.add("open");
+    document.getElementById("vocab-drawer").classList.remove("open");
   });
 }
 
@@ -748,13 +753,7 @@ function bindEvents() {
     dictDrawer.classList.remove("open");
   });
 
-  // Open Dictionary Sidebar when clicking words (it's also handled in tooltip click)
-  document.addEventListener("click", (e) => {
-    if (e.target.closest(".word-span")) {
-      dictDrawer.classList.add("open");
-      vocabDrawer.classList.remove("open");
-    }
-  });
+
 
   // Vocab Actions
   document.getElementById("export-vocab").addEventListener("click", exportVocabAsMarkdown);
