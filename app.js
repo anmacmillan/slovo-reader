@@ -32,6 +32,15 @@ document.addEventListener("DOMContentLoaded", () => {
   initVoices();
   initAudioPlayer();
   loadLibrary();
+  
+  // Check if returning from a book
+  const savedBook = localStorage.getItem("_selected_book");
+  if (savedBook !== null) {
+    document.getElementById("splash-screen").classList.add("hidden");
+    document.getElementById("app-workspace").hidden = false;
+    enterBook(parseInt(savedBook));
+  }
+  
   bindEvents();
 });
 
@@ -138,35 +147,51 @@ function speakText(text, lang) {
 
 // ── Library Loading ───────────────────────────────────────────────────────────
 function loadLibrary() {
-  state.books = [...PRELOADED_BOOKS];
-  
-  // Load custom library from localStorage
-  const savedCustom = localStorage.getItem(STORAGE_KEYS.CUSTOM_BOOKS);
-  if (savedCustom) {
-    try {
-      const customBooks = JSON.parse(savedCustom);
-      state.books = [...state.books, ...customBooks];
-    } catch (e) {
-      console.error("Error loading custom books:", e);
-    }
-  }
-
-  populateBookSelector();
-  loadBook(0);
+  // Render splash screen with book tiles
+  renderSplash();
 }
 
-function populateBookSelector() {
-  const bookSelect = document.getElementById("book-select");
-  bookSelect.innerHTML = "";
+function renderSplash() {
+  const grid = document.getElementById("book-grid");
+  if (!grid) return;
+  grid.innerHTML = "";
+  
   state.books.forEach((book, idx) => {
-    const opt = document.createElement("option");
-    opt.value = idx;
-    opt.textContent = `${book.author} — ${book.title}`;
-    bookSelect.appendChild(opt);
+    const card = document.createElement("div");
+    card.className = "book-card";
+    
+    const totalCh = book.chapters.length;
+    const completedCh = parseInt(localStorage.getItem(`book_${idx}_progress`) || "0");
+    const pct = Math.round((completedCh / totalCh) * 100);
+    
+    card.innerHTML = `
+      <div class="book-icon">📚</div>
+      <h3>${book.title}</h3>
+      <div class="book-meta">
+        <span>${book.author}</span>
+        <span>· ${book.year}</span>
+        <span>· ${totalCh} chapters</span>
+      </div>
+      <div class="book-progress">
+        <div class="progress-track">
+          <div class="progress-bar" style="width: ${pct}%"></div>
+        </div>
+        <span class="progress-text">${pct}%</span>
+      </div>
+    `;
+    
+    card.addEventListener("click", () => {
+      localStorage.setItem("_selected_book", idx);
+      document.getElementById("splash-screen").classList.add("hidden");
+      document.getElementById("app-workspace").hidden = false;
+      enterBook(idx);
+    });
+    
+    grid.appendChild(card);
   });
 }
 
-function loadBook(bookIdx) {
+function enterBook(bookIdx) {
   state.currentBookIndex = parseInt(bookIdx);
   state.currentChapterIndex = 0;
   
@@ -183,6 +208,17 @@ function loadBook(bookIdx) {
   });
 
   renderChapter();
+}
+
+function populateBookSelector() {
+  const bookSelect = document.getElementById("book-select");
+  bookSelect.innerHTML = "";
+  state.books.forEach((book, idx) => {
+    const opt = document.createElement("option");
+    opt.value = idx;
+    opt.textContent = `${book.author} — ${book.title}`;
+    bookSelect.appendChild(opt);
+  });
 }
 
 // ── Parallel Sentence and Word Renderer ─────────────────────────────────────
@@ -938,6 +974,14 @@ function bindEvents() {
 
   document.getElementById("close-dict-drawer").addEventListener("click", () => {
     dictDrawer.classList.remove("open");
+  });
+
+  // Back to Library
+  document.getElementById("back-to-splash").addEventListener("click", () => {
+    document.getElementById("splash-screen").classList.remove("hidden");
+    document.getElementById("app-workspace").hidden = true;
+    // Restore chapter selector and progress
+    renderSplash();
   });
 
 

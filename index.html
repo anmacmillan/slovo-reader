@@ -9,13 +9,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="splash.css">
 </head>
 <body>
 
   <!-- App Shell Container -->
   <div class="app-container">
     
-    <!-- Top Navigation Header -->
+    <!-- Splash Screen: Book Selection Grid -->
+    <section id="splash-screen">
+      <div class="logo" style="font-size: 2rem;">
+        <span class="logo-icon">📖</span>
+        <span class="logo-text">SLOVO <span class="logo-sub">READER</span></span>
+      </div>
+      <p style="color: var(--text-secondary);">Select a book to start reading</p>
+      <div id="book-grid"></div>
+    </section>
+
+    <!-- Main Workspace -->
+    <main class="app-workspace" id="app-workspace" hidden>
+      
+      <!-- Top Navigation Header -->
     <header class="app-header">
       <div class="header-left">
         <div class="logo">
@@ -36,6 +50,9 @@
         </select>
       </div>
 
+      <div class="header-left">
+        <button id="back-to-splash" class="btn-icon" title="Back to Library">←</button>
+      </div>
       <div class="header-right">
         <!-- TTS Speed Indicator -->
         <div class="tts-speed-control">
