@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   
   bindEvents();
 });
-
 // ── Theme Management ──────────────────────────────────────────────────────────
 function initTheme() {
   const savedTheme = localStorage.getItem(STORAGE_KEYS.THEME) || "dark";
@@ -217,19 +216,22 @@ function enterBook(bookIdx) {
   state.currentBookIndex = parseInt(bookIdx);
   state.currentChapterIndex = 0;
   
-  const book = state.books[state.currentBookIndex];
-  
   // Populate book and chapter selectors
   populateBookSelector();
   
   const chSelect = document.getElementById("chapter-select");
   chSelect.innerHTML = "";
+  const book = state.books[state.currentBookIndex];
   book.chapters.forEach((ch, idx) => {
     const opt = document.createElement("option");
     opt.value = idx;
     opt.textContent = ch.titleRus || `Глава ${ch.chapterNum}`;
     chSelect.appendChild(opt);
   });
+
+  // Hide splash, show reader
+  document.getElementById("splash-screen").classList.add("hidden");
+  document.getElementById("app-workspace").hidden = false;
 
   renderChapter();
 }
