@@ -219,7 +219,9 @@ function enterBook(bookIdx) {
   
   const book = state.books[state.currentBookIndex];
   
-  // Populate Chapter Selector
+  // Populate book and chapter selectors
+  populateBookSelector();
+  
   const chSelect = document.getElementById("chapter-select");
   chSelect.innerHTML = "";
   book.chapters.forEach((ch, idx) => {
