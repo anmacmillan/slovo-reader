@@ -10,6 +10,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="splash.css">
+  <!-- PWA stand-alone configurations -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Slovo">
+  <link rel="apple-touch-icon" href="icon.png">
 </head>
 <body>
 
@@ -147,6 +153,16 @@
 
   <!-- Scripts -->
   <script src="data.js"></script>
+  <script src="dictionary_data.js" onerror="window.LOCAL_DICTIONARY = {}"></script>
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => console.log('Service Worker registered!'))
+          .catch(err => console.log('Service Worker registration failed: ', err));
+      });
+    }
+  </script>
 </body>
 </html>

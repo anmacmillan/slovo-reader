@@ -807,7 +807,7 @@ body {
 }
 
 /* Responsive Rules for iPads and Mobile Devices */
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .app-header {
     flex-wrap: wrap;
     height: auto;

@@ -440,6 +440,69 @@ function showTooltipLoading(anchorEl) {
   tooltip.style.left = `${left}px`;
 }
 
+function renderOfflineAnalysis(originalText, definition, grammar, contextTranslation = null) {
+  const content = document.getElementById("tooltip-content");
+  const dictBody = document.getElementById("dict-body");
+
+  let contextHtml = "";
+  let detailedCardHtml = `
+    <div class="dict-body-section" style="margin-top: 14px;">
+      <div class="dict-section-title" style="color: var(--accent-text); font-weight: 700;">Meaning</div>
+      <p style="font-size: 0.95rem; color: var(--text-primary); margin-top: 4px;">${definition}</p>
+    </div>
+  `;
+
+  if (contextTranslation) {
+    const displayContext = contextTranslation.length > 100 ? contextTranslation.slice(0, 97) + "..." : contextTranslation;
+    contextHtml = `<div class="tooltip-context" style="border-top: 1px dashed var(--border-color); padding-top: 6px; margin-top: 6px; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.3;">Context: "${displayContext}"</div>`;
+    
+    detailedCardHtml += `
+      <div class="dict-body-section" style="margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 8px;">
+        <div class="dict-section-title" style="color: var(--text-muted); font-weight: 700;">Sentence Context</div>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px; line-height: 1.4;">"${contextTranslation}"</p>
+      </div>
+    `;
+  }
+
+  // Render tooltip bubble
+  content.innerHTML = `
+    <div class="tooltip-header">
+      <h4>${originalText}</h4>
+      <div class="tooltip-buttons">
+        <button class="btn-tooltip-action" id="tts-word-btn" title="Speak word">🔊</button>
+        <button class="btn-tooltip-action" id="save-word-btn" title="Save word">➕</button>
+        <button class="btn-tooltip-action" id="more-dict-btn" title="Detailed Analysis">🔍</button>
+      </div>
+    </div>
+    <div class="tooltip-grammar">${grammar || "Vocabulary"}</div>
+    <div class="tooltip-definition">${definition}</div>
+    ${contextHtml}
+  `;
+
+  // Render analysis sidebar card
+  dictBody.innerHTML = `
+    <div class="dict-entry-card">
+      <div class="dict-entry-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
+        <div class="dict-word-text">${originalText}</div>
+        <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">
+          Grammar: <strong>${grammar || "Vocabulary"}</strong>
+        </div>
+      </div>
+      ${detailedCardHtml}
+    </div>
+  `;
+
+  // Bind actions
+  document.getElementById("tts-word-btn").addEventListener("click", () => speakText(originalText));
+  document.getElementById("save-word-btn").addEventListener("click", () => {
+    saveWordToVocab(originalText, definition, grammar || "Vocabulary");
+  });
+  document.getElementById("more-dict-btn").addEventListener("click", () => {
+    document.getElementById("dict-drawer").classList.add("open");
+    document.getElementById("vocab-drawer").classList.remove("open");
+  });
+}
+
 function fetchWiktionaryDetails(lemma, originalText) {
   const content = document.getElementById("tooltip-content");
   const dictBody = document.getElementById("dict-body");
@@ -447,6 +510,7 @@ function fetchWiktionaryDetails(lemma, originalText) {
   // Clean original word
   const cleanOriginal = originalText.replace(/[^а-яёА-ЯЁ\-]/g, "");
   const cleanLower = cleanOriginal.toLowerCase();
+
 
   // Find the English translation from the book's parallel data
   const book = state.books[state.currentBookIndex];
@@ -552,6 +616,15 @@ function fetchWiktionaryDetails(lemma, originalText) {
         }
       });
   };
+
+  // Check local offline dictionary first
+  if (typeof LOCAL_DICTIONARY !== 'undefined') {
+    const entry = LOCAL_DICTIONARY[cleanLower] || (lemma ? LOCAL_DICTIONARY[lemma.toLowerCase()] : null);
+    if (entry) {
+      renderOfflineAnalysis(originalText, entry.def, entry.grammar, englishTranslation);
+      return;
+    }
+  }
 
   queryApi(cleanLower);
 }
@@ -979,5 +1052,42 @@ function bindEvents() {
   // Vocab Actions
   document.getElementById("export-vocab").addEventListener("click", exportVocabAsMarkdown);
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
+
+  // Swipe gestures for page turns
+  const readerPane = document.getElementById("chunks-container");
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  readerPane.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  readerPane.addEventListener("touchend", (e) => {
+    const diffX = e.changedTouches[0].screenX - touchStartX;
+    const diffY = e.changedTouches[0].screenY - touchStartY;
+
+    // Check if swipe is horizontal and prominent
+    if (Math.abs(diffX) > 100 && Math.abs(diffY) < 60) {
+      const book = state.books[state.currentBookIndex];
+      if (diffX < 0) {
+        // Swipe Left -> Next Chapter
+        if (state.currentChapterIndex < book.chapters.length - 1) {
+          state.currentChapterIndex++;
+          document.getElementById("chapter-select").value = state.currentChapterIndex;
+          renderChapter();
+          readerPane.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      } else {
+        // Swipe Right -> Previous Chapter
+        if (state.currentChapterIndex > 0) {
+          state.currentChapterIndex--;
+          document.getElementById("chapter-select").value = state.currentChapterIndex;
+          renderChapter();
+          readerPane.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }
+    }
+  }, { passive: true });
 
 }
