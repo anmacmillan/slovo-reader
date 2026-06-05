@@ -83,56 +83,58 @@
       </div>
     </header>
 
-      <!-- Split-screen side-by-side reading layout -->
-      <section class="reader-pane" id="reader-pane">
-        <div class="column-header">
-          <div class="column-title-box">
-            <h3 class="column-lang">По-русски</h3>
-            <span class="column-subtitle">Russian Original</span>
+      <div class="workspace-body">
+        <!-- Split-screen side-by-side reading layout -->
+        <section class="reader-pane" id="reader-pane">
+          <div class="column-header">
+            <div class="column-title-box">
+              <h3 class="column-lang">По-русски</h3>
+              <span class="column-subtitle">Russian Original</span>
+            </div>
+            <div class="column-title-box">
+              <h3 class="column-lang">In English</h3>
+              <span class="column-subtitle">English Translation</span>
+            </div>
           </div>
-          <div class="column-title-box">
-            <h3 class="column-lang">In English</h3>
-            <span class="column-subtitle">English Translation</span>
+          
+          <!-- Aligned chunks container -->
+          <div class="chunks-container" id="chunks-container">
+            <!-- Generated parallel rows go here -->
           </div>
-        </div>
-        
-        <!-- Aligned chunks container -->
-        <div class="chunks-container" id="chunks-container">
-          <!-- Generated parallel rows go here -->
-        </div>
-      </section>
+        </section>
 
-      <!-- Slide-out Vocabulary Drawer -->
-      <aside class="sidebar-drawer" id="vocab-drawer">
-        <div class="drawer-header">
-          <h3>📓 Saved Vocabulary</h3>
-          <button id="close-vocab-drawer" class="btn-close">&times;</button>
-        </div>
-        <div class="drawer-body">
-          <div id="vocab-list" class="vocab-list">
-            <!-- Saved words list injected here -->
+        <!-- Slide-out Vocabulary Drawer -->
+        <aside class="sidebar-drawer" id="vocab-drawer">
+          <div class="drawer-header">
+            <h3>📓 Saved Vocabulary</h3>
+            <button id="close-vocab-drawer" class="btn-close">&times;</button>
           </div>
-          <div class="vocab-actions">
-            <button id="export-vocab" class="btn-action btn-block">📥 Export as Markdown</button>
-            <button id="clear-vocab" class="btn-action btn-danger btn-block">🗑️ Clear All</button>
+          <div class="drawer-body">
+            <div id="vocab-list" class="vocab-list">
+              <!-- Saved words list injected here -->
+            </div>
+            <div class="vocab-actions">
+              <button id="export-vocab" class="btn-action btn-block">📥 Export as Markdown</button>
+              <button id="clear-vocab" class="btn-action btn-danger btn-block">🗑️ Clear All</button>
+            </div>
           </div>
-        </div>
-      </aside>
+        </aside>
 
-      <!-- Details panel / dictionary sidebar -->
-      <aside class="sidebar-drawer right-drawer" id="dict-drawer">
-        <div class="drawer-header">
-          <h3>🔍 Word Analysis</h3>
-          <button id="close-dict-drawer" class="btn-close">&times;</button>
-        </div>
-        <div class="drawer-body" id="dict-body">
-          <!-- Word lookups go here -->
-          <div class="dict-placeholder">
-            <div class="placeholder-icon">👆</div>
-            <p>Click any Russian word in the text to inspect its translation, grammatical parsing, and hear pronunciation.</p>
+        <!-- Details panel / dictionary sidebar -->
+        <aside class="sidebar-drawer right-drawer" id="dict-drawer">
+          <div class="drawer-header">
+            <h3>🔍 Word Analysis</h3>
+            <button id="close-dict-drawer" class="btn-close">&times;</button>
           </div>
-        </div>
-      </aside>
+          <div class="drawer-body" id="dict-body">
+            <!-- Word lookups go here -->
+            <div class="dict-placeholder">
+              <div class="placeholder-icon">👆</div>
+              <p>Click any Russian word in the text to inspect its translation, grammatical parsing, and hear pronunciation.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
     </main>
 
     <!-- Floating Word Tooltip -->

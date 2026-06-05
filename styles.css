@@ -258,6 +258,14 @@ body {
 /* Workspace */
 .app-workspace {
   display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.workspace-body {
+  display: flex;
+  flex-direction: row;
   flex: 1;
   overflow: hidden;
   position: relative;
@@ -938,6 +946,28 @@ body {
 
 /* Responsive Rules for iPads and Mobile Devices */
 @media (max-width: 1200px) {
+  .app-header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 12px 20px;
+    gap: 12px;
+  }
+  
+  .header-center {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header-right {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .column-header {
+    display: none;
+  }
+
   .chunk-row {
     grid-template-columns: 1fr; /* Stack layout on small screens */
     gap: 8px;
