@@ -128,7 +128,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "азия": {
-    "def": "",
+    "def": "Asia",
     "grammar": "noun, feminine, singular, nominative"
   },
   "ай": {
@@ -264,7 +264,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, prepositional"
   },
   "америку": {
-    "def": "(form of америка)",
+    "def": "(form of америка: America, USA, US, United States, United States of America)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "амура": {
@@ -328,7 +328,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "англия": {
-    "def": "",
+    "def": "England",
     "grammar": "noun, feminine, singular, nominative"
   },
   "андреем": {
@@ -1076,7 +1076,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, plural"
   },
   "безрассудно": {
-    "def": "",
+    "def": "rashly, recklessly",
     "grammar": "adverb"
   },
   "безруких": {
@@ -1104,7 +1104,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "безумствовать": {
-    "def": "",
+    "def": "behave like a madman, rave",
     "grammar": "infinitive, imperfective, intransitive"
   },
   "безуспешно": {
@@ -1112,7 +1112,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "безухого": {
-    "def": "(form of безухий)",
+    "def": "(form of безухий: earless, one-eared)",
     "grammar": "adjective, masculine, singular, genitive"
   },
   "безыменной": {
@@ -2924,7 +2924,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, neuter, singular"
   },
   "быстрине": {
-    "def": "(form of быстрина)",
+    "def": "(form of быстрина: rapid)",
     "grammar": "noun, feminine, singular, dative"
   },
   "быстро": {
@@ -3084,11 +3084,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "вальсировать": {
-    "def": "",
+    "def": "waltz",
     "grammar": "infinitive, imperfective, intransitive"
   },
   "вальсирует": {
-    "def": "(form of вальсировать)",
+    "def": "(form of вальсировать: waltz)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "вальтера": {
@@ -3240,7 +3240,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "вверяться": {
-    "def": "",
+    "def": "trust",
     "grammar": "infinitive, imperfective, intransitive"
   },
   "вгляделся": {
@@ -3448,7 +3448,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "великолепние": {
-    "def": "",
+    "def": "splendid, magnificent, gorgeous, excellent, fine",
     "grammar": "noun, neuter, singular, nominative"
   },
   "великолепно": {
@@ -4264,7 +4264,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "взнуздал": {
-    "def": "(form of взнуздать)",
+    "def": "(form of взнуздать: bridle)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "взобрались": {
@@ -5156,7 +5156,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "возмутительно": {
-    "def": "",
+    "def": "it is a scandal, it is scandalous, scandalously, outrageously",
     "grammar": "adverb"
   },
   "возмутить": {
@@ -5896,7 +5896,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "вполовину": {
-    "def": "",
+    "def": "half",
     "grammar": "adverb"
   },
   "впору": {
@@ -7736,7 +7736,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, prepositional"
   },
   "гадко": {
-    "def": "",
+    "def": "naughty",
     "grammar": "adverb"
   },
   "гадкой": {
@@ -9496,11 +9496,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "гулянье": {
-    "def": "(form of гуляние)",
+    "def": "(form of гуляние: walk, stroll, outdoor fete)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "гулянья": {
-    "def": "(form of гуляние)",
+    "def": "(form of гуляние: walk, stroll, outdoor fete)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "гулять": {
@@ -15516,7 +15516,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "зелену": {
-    "def": "(form of зелена)",
+    "def": "(form of зелена: short feminine singular of зелёный (zeljónyj) (form of зелёный: green; inexperienced, raw))",
     "grammar": "noun, feminine, singular, accusative"
   },
   "зеленую": {
@@ -15892,7 +15892,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, neuter, singular"
   },
   "значит": {
-    "def": "",
+    "def": "third-person singular present indicative imperfective of зна́чить (znáčitʹ, “to mean”); so, then, well, therefore (form of значить: to mean, to signify; to mean, to be of importance, to matter)",
     "grammar": "conjunction"
   },
   "значительно": {
@@ -15952,7 +15952,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, masculine, singular"
   },
   "золотисто": {
-    "def": "",
+    "def": "light golden, gold yellow; short neuter singular of золоти́стый (zolotístyj) (form of золотистый: goldish, resembling gold in color or shine)",
     "grammar": "adverb"
   },
   "золотистый": {
@@ -16440,7 +16440,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "иззябнут": {
-    "def": "(form of иззябнуть)",
+    "def": "(form of иззябнуть: to be cold, to freeze, to feel cold)",
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "излить": {
@@ -16612,7 +16612,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "изобразилась": {
-    "def": "(form of изобразиться)",
+    "def": "(form of изобразиться: to show, to appear; passive of изобрази́ть (izobrazítʹ) (form of изобразить: to depict, to picture, to portray; to describe; to represent, to paint))",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "изобразило": {
@@ -16620,15 +16620,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, neuter, singular"
   },
   "изобразилось": {
-    "def": "(form of изобразиться)",
+    "def": "(form of изобразиться: to show, to appear; passive of изобрази́ть (izobrazítʹ) (form of изобразить: to depict, to picture, to portray; to describe; to represent, to paint))",
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "изогнулась": {
-    "def": "(form of изогнуться)",
+    "def": "(form of изогнуться: to bend, to curve; passive of изогну́ть (izognútʹ) (form of изогнуть: to bend, to curve, to crook))",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "изодрали": {
-    "def": "(form of изодрать)",
+    "def": "(form of изодрать: to rend, to tear; to scratch all over)",
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "изорвали": {
@@ -16708,7 +16708,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "изящно": {
-    "def": "",
+    "def": "elegantly, fine, smart; short neuter singular of изя́щный (izjáščnyj) (form of изящный: fine, refined)",
     "grammar": "adverb"
   },
   "изящное": {
@@ -16728,7 +16728,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "иль": {
-    "def": "",
+    "def": "a shortened version of и́ли (íli): or, or else, either (form of или: or; or else)",
     "grammar": "conjunction"
   },
   "ильич": {
@@ -17088,7 +17088,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, instrumental"
   },
   "испарилась": {
-    "def": "(form of испариться)",
+    "def": "(form of испариться: to evaporate, to vaporize, to turn into vapor; to disappear, to vanish into thin air (form of испарить: to evaporate))",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "испаряется": {
@@ -17120,7 +17120,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "исподлобья": {
-    "def": "",
+    "def": "frowningly",
     "grammar": "adverb"
   },
   "исподтишка": {
@@ -17340,7 +17340,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "исхудал": {
-    "def": "(form of исхудать)",
+    "def": "(form of исхудать: to become emaciated)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "исчезает": {
@@ -17432,11 +17432,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "й": {
-    "def": "",
+    "def": "The eleventh letter of the Russian alphabet, called и краткое (i kratkoje) or ий (ij) and written in the Cyrillic script. (form of ий: The name of the Cyrillic script letter Й/й.)",
     "grammar": ""
   },
   "йок": {
-    "def": "",
+    "def": "no, nope, absolutely not; no, nope, none",
     "grammar": ""
   },
   "к": {
@@ -17892,7 +17892,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "каменьями": {
-    "def": "(form of камение)",
+    "def": "(form of камение: alternative form of каменьѥ (kamenĭje))",
     "grammar": "noun, neuter, plural, instrumental"
   },
   "камней": {
@@ -18032,7 +18032,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "карандашиком": {
-    "def": "(form of карандашик)",
+    "def": "(form of карандашик: diminutive of каранда́ш (karandáš, “pencil”) (form of карандаш: pencil; pencil marks, pencil drawing))",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "караул": {
@@ -18232,7 +18232,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "квартиркам": {
-    "def": "(form of квартирка)",
+    "def": "(form of квартирка: diminutive of кварти́ра (kvartíra): (small) flat, apartment (form of квартира: apartment, flat; quarters (accommodation, particularly for troops)))",
     "grammar": "noun, feminine, plural, dative"
   },
   "квартиру": {
@@ -18476,7 +18476,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "клинков": {
-    "def": "(form of клинковый)",
+    "def": "(form of клинковый: blade; bladed (having a sword-like or dagger-like blade))",
     "grammar": "short adjective, masculine, singular"
   },
   "кличет": {
@@ -18600,7 +18600,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "книжечку": {
-    "def": "(form of книжечка)",
+    "def": "(form of книжечка: diminutive of кни́жка (knížka): (small) book, booklet; diminutive of кни́га (kníga): (small) book, booklet (form of книга: book))",
     "grammar": "noun, feminine, singular, accusative"
   },
   "книжка": {
@@ -18704,7 +18704,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "коби": {
-    "def": "",
+    "def": "inflection of кобь (kobʹ):\ngenitive/dative/prepositional singular\nnominative/accusative plural; genitive/dative/prepositional singular (form of кобь: augury, specifically through the flight of birds, ornithomancy)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кобыл": {
@@ -18724,7 +18724,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "коварно": {
-    "def": "",
+    "def": "short neuter singular of кова́рный (kovárnyj)",
     "grammar": "adverb"
   },
   "ковер": {
@@ -18828,7 +18828,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "козочка": {
-    "def": "",
+    "def": "diminutive of коза́ (kozá): a kid, a little goat",
     "grammar": "noun, feminine, singular, nominative"
   },
   "козырев": {
@@ -19176,7 +19176,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "комнатка": {
-    "def": "",
+    "def": "diminutive of ко́мната (kómnata): (small) room",
     "grammar": "noun, feminine, singular, nominative"
   },
   "комнату": {
@@ -19228,7 +19228,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "кондрашки": {
-    "def": "(form of кондрашка)",
+    "def": "(form of кондрашка: stroke (CVA); sudden death)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "коне": {
@@ -26872,15 +26872,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "несчастие": {
-    "def": "",
+    "def": "misfortune, accident",
     "grammar": "noun, neuter, singular, nominative"
   },
   "несчастию": {
-    "def": "(form of несчастие)",
+    "def": "(form of несчастие: misfortune, accident)",
     "grammar": "noun, neuter, singular, dative"
   },
   "несчастия": {
-    "def": "(form of несчастие)",
+    "def": "(form of несчастие: misfortune, accident)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "несчастлив": {
@@ -26920,15 +26920,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "несчастье": {
-    "def": "(form of несчастие)",
+    "def": "(form of несчастие: misfortune, accident)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "несчастья": {
-    "def": "(form of несчастие)",
+    "def": "(form of несчастие: misfortune, accident)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "несчастьями": {
-    "def": "(form of несчастие)",
+    "def": "(form of несчастие: misfortune, accident)",
     "grammar": "noun, neuter, plural, instrumental"
   },
   "неся": {
@@ -29068,7 +29068,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "ожерелье": {
-    "def": "(form of ожерелие)",
+    "def": "(form of ожерелие: necklace)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "оживилась": {
@@ -31564,7 +31564,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "падеж": {
-    "def": "",
+    "def": "case, grammatical case",
     "grammar": "noun, masculine, singular, nominative"
   },
   "падишаха": {
@@ -37648,7 +37648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "похмелье": {
-    "def": "(form of похмелие)",
+    "def": "(form of похмелие: hangover)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "походами": {
@@ -41648,7 +41648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "прыганье": {
-    "def": "",
+    "def": "jumping, leaping, skipping",
     "grammar": "noun, neuter, singular, nominative"
   },
   "прыгать": {
@@ -46972,7 +46972,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "скуластый": {
-    "def": "",
+    "def": "with high cheekbones",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "скуп": {
@@ -51044,15 +51044,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "счастие": {
-    "def": "",
+    "def": "happiness, luck, good fortune",
     "grammar": "noun, neuter, singular, nominative"
   },
   "счастию": {
-    "def": "(form of счастие)",
+    "def": "(form of счастие: happiness, luck, good fortune)",
     "grammar": "noun, neuter, singular, dative"
   },
   "счастия": {
-    "def": "(form of счастие)",
+    "def": "(form of счастие: happiness, luck, good fortune)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "счастлив": {
@@ -51124,19 +51124,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "счастье": {
-    "def": "(form of счастие)",
+    "def": "(form of счастие: happiness, luck, good fortune)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "счастьем": {
-    "def": "(form of счастие)",
+    "def": "(form of счастие: happiness, luck, good fortune)",
     "grammar": "noun, neuter, singular, instrumental"
   },
   "счастью": {
-    "def": "(form of счастие)",
+    "def": "(form of счастие: happiness, luck, good fortune)",
     "grammar": "noun, neuter, singular, dative"
   },
   "счастья": {
-    "def": "(form of счастие)",
+    "def": "(form of счастие: happiness, luck, good fortune)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "счет": {
@@ -54244,7 +54244,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "удивленно": {
-    "def": "(form of удивлённо)",
+    "def": "(form of удивлённо: surprisingly, astonishingly)",
     "grammar": "adverb"
   },
   "удивленный": {
@@ -55988,27 +55988,27 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, plural"
   },
   "ущелий": {
-    "def": "(form of ущелие)",
+    "def": "(form of ущелие: gorge, ravine, canyon)",
     "grammar": "noun, neuter, plural, genitive"
   },
   "ущелье": {
-    "def": "(form of ущелие)",
+    "def": "(form of ущелие: gorge, ravine, canyon)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "ущелью": {
-    "def": "(form of ущелие)",
+    "def": "(form of ущелие: gorge, ravine, canyon)",
     "grammar": "noun, neuter, singular, dative"
   },
   "ущелья": {
-    "def": "(form of ущелие)",
+    "def": "(form of ущелие: gorge, ravine, canyon)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "ущельям": {
-    "def": "(form of ущелие)",
+    "def": "(form of ущелие: gorge, ravine, canyon)",
     "grammar": "noun, neuter, plural, dative"
   },
   "ущельях": {
-    "def": "(form of ущелие)",
+    "def": "(form of ущелие: gorge, ravine, canyon)",
     "grammar": "noun, neuter, plural, prepositional"
   },
   "ущерб": {
@@ -57660,7 +57660,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "чем": {
-    "def": "",
+    "def": "Prepositional of 'что'; than; how",
     "grammar": "conjunction"
   },
   "чем-нибудь": {
