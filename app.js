@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
   loadVocabList();
   initVoices();
-  initAudioPlayer();
   
   // Try to sync progress from Gist
   await loadProgressFromGist();
@@ -64,41 +63,7 @@ function toggleTheme() {
   localStorage.setItem(STORAGE_KEYS.THEME, next);
 }
 
-// ── Audio Player (Pre-generated Piper WAVs) ────────────────────────────────────
-function initAudioPlayer() {
-  state.audioPlayer = document.getElementById("chapter-audio");
-  if (!state.audioPlayer) {
-    const audio = document.createElement("audio");
-    audio.id = "chapter-audio";
-    audio.style.display = "none";
-    document.body.appendChild(audio);
-    state.audioPlayer = audio;
-  }
-  // Bind events
-  state.audioPlayer.addEventListener("ended", () => {
-    state.isPlayingChapter = false;
-    const btn = document.getElementById("play-chapter-btn");
-    if (btn) btn.textContent = "🔊";
-  });
-  state.audioPlayer.addEventListener("play", () => {
-    state.isPlayingChapter = true;
-    const btn = document.getElementById("play-chapter-btn");
-    if (btn) btn.textContent = "⏹";
-  });
-}
 
-function playChapterAudio(chapterNum) {
-  if (state.audioPlayer && state.books.length > 0) {
-    const bookIdx = state.currentBookIndex;
-    const book = state.books[bookIdx];
-    if (bookIdx < PRELOADED_BOOKS.length) {
-      const fn = `ch${String(chapterNum).padStart(2, "0")}.mp3`;
-      const path = `audiobook/${fn}`;
-      state.audioPlayer.src = path;
-      state.audioPlayer.play();
-    }
-  }
-}
 
 // ── Speech Synthesis Voices ───────────────────────────────────────────────────
 function initVoices() {
@@ -834,130 +799,6 @@ function exportVocabAsMarkdown() {
   document.body.removeChild(a);
 }
 
-// ── Client-side Sentence Aligner (For Custom Texts) ──────────────────────────
-function alignCustomTexts(title, author, rusText, engText) {
-  // Strip Carriage Returns
-  const rusClean = rusText.replace(/\r/g, "");
-  const engClean = engText.replace(/\r/g, "");
-
-  // Naive parser: Split chapters on double newlines that look like chapter indicators
-  // or simply split into paragraphs
-  const rusChaptersRaw = parseTextIntoChapters(rusClean);
-  const engChaptersRaw = parseTextIntoChapters(engClean);
-
-  const maxCh = Math.max(Object.keys(rusChaptersRaw).length, Object.keys(engChaptersRaw).length);
-  const chaptersData = [];
-  const TARGET_WORDS_PER_CHUNK = 80;
-
-  for (let chNum = 1; chNum <= maxCh; chNum++) {
-    const rp = rusChaptersRaw[chNum] || [];
-    const ep = engChaptersRaw[chNum] || [];
-
-    const rusW = rp.reduce((acc, p) => acc + p.split(/\s+/).length, 0);
-    const engW = ep.reduce((acc, p) => acc + p.split(/\s+/).length, 0);
-
-    const n = Math.max(1, Math.round((rusW + engW) / 2 / TARGET_WORDS_PER_CHUNK));
-    const rusChunks = splitEqualChunks(rp, n);
-    const engChunks = splitEqualChunks(ep, n);
-
-    chaptersData.append ? null : chaptersData.push({
-      chapterNum: chNum,
-      titleRus: `Глава ${chNum}`,
-      titleEng: `Chapter ${chNum}`,
-      russian: rusChunks,
-      english: engChunks
-    });
-  }
-
-  const newBook = {
-    title: title || "Custom Text",
-    titleEng: title || "Custom Text",
-    author: author || "Unknown",
-    authorEng: author || "Unknown",
-    year: new Date().getFullYear().toString(),
-    chapters: chaptersData
-  };
-
-  // Add to state and persistence
-  state.books.push(newBook);
-  
-  // Save custom library items to localStorage (filtering out preloaded book)
-  const customBooks = state.books.slice(PRELOADED_BOOKS.length);
-  localStorage.setItem(STORAGE_KEYS.CUSTOM_BOOKS, JSON.stringify(customBooks));
-
-  populateBookSelector();
-  
-  // Load the newly added book
-  const newBookIdx = state.books.length - 1;
-  const bookSelect = document.getElementById("book-select");
-  bookSelect.value = newBookIdx;
-  loadBook(newBookIdx);
-
-  alert(`"${newBook.title}" aligned successfully into ${maxCh} chapters!`);
-}
-
-function parseTextIntoChapters(text) {
-  const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(p => p);
-  const chapters = {};
-  let currentCh = 1;
-  let currentBuffer = [];
-
-  for (const para of paragraphs) {
-    // Basic test if paragraph is a chapter header: e.g. "Chapter 1", "Глава II", "I."
-    const isHeader = /^(chapter|глава|chapter\s+\d+|глава\s+[ivxldcm]+|[ivxldcm]+\.|\d+)$/i.test(para);
-    if (isHeader) {
-      if (currentBuffer.length > 0) {
-        chapters[currentCh] = currentBuffer;
-        currentBuffer = [];
-        currentCh++;
-      }
-    } else {
-      currentBuffer.push(para);
-    }
-  }
-  if (currentBuffer.length > 0) {
-    chapters[currentCh] = currentBuffer;
-  }
-  return chapters;
-}
-
-function splitEqualChunks(paragraphs, n) {
-  const text = paragraphs.join(" ");
-  // Split on sentence punctuation followed by space
-  const sents = text.split(/(?<=[.!?»])\s+/).map(s => s.trim()).filter(s => s.length > 0);
-  if (sents.length === 0) return Array(n).fill("");
-
-  const totalWords = sents.reduce((acc, s) => acc + s.split(/\s+/).length, 0);
-  const target = totalWords / n;
-
-  const chunks = [];
-  let cur = [];
-  let curW = 0;
-
-  for (const sent of sents) {
-    const w = sent.split(/\s+/).length;
-    cur.push(sent);
-    curW += w;
-    if (curW >= target && chunks.length < n - 1) {
-      chunks.push(cur.join(" "));
-      cur = [];
-      curW = 0;
-    }
-  }
-  if (cur.length > 0) {
-    chunks.push(cur.join(" "));
-  }
-
-  while (chunks.length > n) {
-    chunks[chunks.length - 2] += " " + chunks[chunks.length - 1];
-    chunks.pop();
-  }
-  while (chunks.length < n) {
-    chunks.push("");
-  }
-  return chunks;
-}
-
 // ── Gist Synchronisation (Cross-device progress) ────────────────────────────────
 const GIST_FILE = STORAGE_KEYS.GIST_FILE;
 
@@ -1081,7 +922,7 @@ function bindEvents() {
 
   // Selector Changes
   document.getElementById("book-select").addEventListener("change", (e) => {
-    loadBook(e.target.value);
+    enterBook(e.target.value);
   });
   document.getElementById("chapter-select").addEventListener("change", (e) => {
     state.currentChapterIndex = parseInt(e.target.value);
@@ -1139,47 +980,4 @@ function bindEvents() {
   document.getElementById("export-vocab").addEventListener("click", exportVocabAsMarkdown);
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
 
-  // Chapter Audio Playback
-  document.getElementById("play-chapter-btn").addEventListener("click", () => {
-    const ch = state.currentChapterIndex + 1;
-    if (state.isPlayingChapter) {
-      state.audioPlayer.pause();
-      state.isPlayingChapter = false;
-      document.getElementById("play-chapter-btn").textContent = "🎧";
-    } else {
-      playChapterAudio(ch);
-    }
-  });
-
-  // Custom Book Modal Loader
-  const modal = document.getElementById("custom-loader-modal");
-  document.getElementById("custom-loader-trigger").addEventListener("click", () => {
-    modal.classList.remove("hidden");
-  });
-
-  document.getElementById("close-modal").addEventListener("click", () => {
-    modal.classList.add("hidden");
-  });
-
-  // Load Book Click
-  document.getElementById("btn-load-text").addEventListener("click", () => {
-    const title = document.getElementById("custom-title").value.trim();
-    const author = document.getElementById("custom-author").value.trim();
-    const rus = document.getElementById("custom-russian-text").value.trim();
-    const eng = document.getElementById("custom-english-text").value.trim();
-
-    if (!rus || !eng) {
-      alert("Please enter both the Russian original text and English translation.");
-      return;
-    }
-
-    alignCustomTexts(title, author, rus, eng);
-    modal.classList.add("hidden");
-    
-    // Reset Form
-    document.getElementById("custom-title").value = "";
-    document.getElementById("custom-author").value = "";
-    document.getElementById("custom-russian-text").value = "";
-    document.getElementById("custom-english-text").value = "";
-  });
 }

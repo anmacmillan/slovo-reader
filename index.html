@@ -52,22 +52,6 @@
       </div>
 
       <div class="header-right">
-        <!-- TTS Speed Indicator -->
-        <div class="tts-speed-control">
-          <span class="speed-label">TTS Speed:</span>
-          <select id="speed-select" class="control-select speed-select">
-            <option value="0.75">0.75x</option>
-            <option value="0.9" selected>0.9x</option>
-            <option value="1.0">1.0x</option>
-            <option value="1.2">1.2x</option>
-          </select>
-        </div>
-        
-        <!-- Chapter Audio Playback -->
-        <button id="play-chapter-btn" class="btn-action" title="Play chapter audio">
-          <span class="btn-icon-label">🎧</span> Listen
-        </button>
-        
         <!-- Theme Toggle -->
         <button id="theme-toggle" class="btn-icon" title="Toggle Theme">🌓</button>
 
@@ -77,11 +61,6 @@
         <!-- Vocabulary List Toggle -->
         <button id="vocab-toggle" class="btn-action" title="Open Vocabulary Notebook">
           <span class="btn-icon-label">📓</span> My Words (<span id="vocab-count">0</span>)
-        </button>
-
-        <!-- Custom Upload Trigger -->
-        <button id="custom-loader-trigger" class="btn-action btn-secondary" title="Load Custom Text">
-          <span>➕</span> Add Book
         </button>
       </div>
     </header>
@@ -148,42 +127,7 @@
       </div>
     </div>
 
-    <!-- Custom Text Loader Modal -->
-    <div class="modal-overlay hidden" id="custom-loader-modal">
-      <div class="modal-card">
-        <div class="modal-header">
-          <h3>📚 Load Custom Russian/English Texts</h3>
-          <button id="close-modal" class="btn-close">&times;</button>
-        </div>
-        <div class="modal-body">
-          <p class="modal-desc">Paste or drag-and-drop corresponding Russian and English texts. Our browser-native sentence aligner will segment and align them side-by-side.</p>
-          
-          <div class="form-group">
-            <label for="custom-title">Book Title</label>
-            <input type="text" id="custom-title" class="form-input" placeholder="e.g. Смерть Ивана Ильича">
-          </div>
-          
-          <div class="form-group">
-            <label for="custom-author">Author</label>
-            <input type="text" id="custom-author" class="form-input" placeholder="e.g. Л. Н. Толстой">
-          </div>
-          
-          <div class="modal-split">
-            <div class="split-pane">
-              <label for="custom-russian-text">Russian Text (UTF-8)</label>
-              <textarea id="custom-russian-text" class="form-textarea" placeholder="Paste Russian text here... (Separate chapters with blank lines or markers)"></textarea>
-            </div>
-            <div class="split-pane">
-              <label for="custom-english-text">English Translation (UTF-8)</label>
-              <textarea id="custom-english-text" class="form-textarea" placeholder="Paste English translation here..."></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button id="btn-load-text" class="btn-action">⚡ Align & Load Book</button>
-        </div>
-      </div>
-    </div>
+
 
     <!-- Reading Progress Bar -->
     <footer class="app-footer">
