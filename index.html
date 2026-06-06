@@ -58,6 +58,13 @@
       </div>
 
       <div class="header-right">
+        <!-- Font Size Control -->
+        <div class="font-size-control" style="display: flex; align-items: center; gap: 8px; margin-right: 8px; background: var(--bg-control); padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border-color);">
+          <span style="font-size: 0.75rem; color: var(--text-secondary); font-family: var(--font-ui); user-select: none;">A</span>
+          <input type="range" id="font-size-slider" min="0.9" max="2.2" step="0.05" value="1.12" style="width: 65px; accent-color: var(--accent-primary); cursor: pointer; margin: 0; padding: 0;">
+          <span style="font-size: 1.1rem; color: var(--text-primary); font-family: var(--font-ui); font-weight: bold; user-select: none;">A</span>
+        </div>
+
         <!-- Theme Toggle -->
         <button id="theme-toggle" class="btn-icon" title="Toggle Theme">🌓</button>
 
@@ -152,9 +159,9 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=6"></script>
-  <script src="dictionary_data.js?v=6" onerror="window.LOCAL_DICTIONARY = {}"></script>
-  <script src="app.js?v=6"></script>
+  <script src="data.js?v=7"></script>
+  <script src="dictionary_data.js?v=7" onerror="window.LOCAL_DICTIONARY = {}"></script>
+  <script src="app.js?v=7"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

@@ -7,6 +7,7 @@
   --font-ui: 'Inter', system-ui, -apple-system, sans-serif;
   --font-reading: 'Lora', Georgia, serif;
   --font-display: 'Playfair Display', Georgia, serif;
+  --reading-font-size: 1.12rem;
 
   /* Theme: Dark Mode (Default) */
   --bg-app: #0e1117;
@@ -352,7 +353,7 @@ body {
 .sentence-box {
   display: inline-block;
   font-family: var(--font-reading);
-  font-size: 1.12rem;
+  font-size: var(--reading-font-size);
   line-height: 1.75;
   color: var(--text-primary);
   padding: 4px 8px;
@@ -920,5 +921,33 @@ body {
   pointer-events: none;
   z-index: 1000;
   opacity: 0.8;
+}
+
+/* Font Size Control Slider Styling */
+.font-size-control input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--border-color);
+  height: 4px;
+  border-radius: 2px;
+  outline: none;
+  transition: opacity 0.2s;
+}
+
+.font-size-control input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.15s ease;
+}
+
+.font-size-control input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.25);
+  background: var(--accent-secondary);
 }
 

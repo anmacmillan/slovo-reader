@@ -24,14 +24,15 @@ const STORAGE_KEYS = {
   THEME: "slovo_active_theme",
   PROGRESS: "slovo_reading_progress",
   GIST_FILE: "slovo_progress.json",
-  GIST_ID: "slovo_gist_id"
-,
-  AUDIOBOOK_DIR: "slovo_audiobook_dir"
+  GIST_ID: "slovo_gist_id",
+  AUDIOBOOK_DIR: "slovo_audiobook_dir",
+  FONT_SIZE: "slovo_font_size"
 };
 
 // Initialize Application
 document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
+  initFontSize();
   loadVocabList();
   initVoices();
   
@@ -134,6 +135,15 @@ function toggleTheme() {
   const next = current === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", next);
   localStorage.setItem(STORAGE_KEYS.THEME, next);
+}
+
+function initFontSize() {
+  const savedSize = localStorage.getItem(STORAGE_KEYS.FONT_SIZE) || "1.12";
+  document.documentElement.style.setProperty("--reading-font-size", savedSize + "rem");
+  const slider = document.getElementById("font-size-slider");
+  if (slider) {
+    slider.value = savedSize;
+  }
 }
 
 
@@ -1065,6 +1075,16 @@ function updateProgressBar() {
 function bindEvents() {
   // Theme Toggle
   document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
+
+  // Font Size Slider
+  const fontSlider = document.getElementById("font-size-slider");
+  if (fontSlider) {
+    fontSlider.addEventListener("input", (e) => {
+      const size = e.target.value;
+      document.documentElement.style.setProperty("--reading-font-size", size + "rem");
+      localStorage.setItem(STORAGE_KEYS.FONT_SIZE, size);
+    });
+  }
 
   // Selector Changes
   document.getElementById("book-select").addEventListener("change", (e) => {

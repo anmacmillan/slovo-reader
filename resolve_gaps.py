@@ -24,8 +24,29 @@ CSV_URLS = {
 }
 
 headers = {
-    "User-Agent": "SlovoReaderOfflineCompiler/3.0 (anmacmillan@gmail.com)"
+    "User-Agent": "SlovoReaderOfflineCompiler/3.8 (anmacmillan@gmail.com)"
 }
+
+CYRILLIC_TO_LATIN = {
+    'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'yo', 'ж': 'zh',
+    'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o',
+    'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'kh', 'ц': 'ts',
+    'ч': 'ch', 'ш': 'sh', 'щ': 'shch', 'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu',
+    'я': 'ya'
+}
+
+def transliterate(text):
+    res = []
+    for char in text:
+        low = char.lower()
+        if low in CYRILLIC_TO_LATIN:
+            lat = CYRILLIC_TO_LATIN[low]
+            if char.isupper():
+                lat = lat.capitalize()
+            res.append(lat)
+        else:
+            res.append(char)
+    return "".join(res)
 
 POS_MAP = {
     'NOUN': 'noun', 'ADJF': 'adjective', 'ADJS': 'short adjective',
@@ -88,7 +109,7 @@ def download_openrussian_csvs():
     for cat, url in CSV_URLS.items():
         print(f"Downloading OpenRussian {cat} dataset...")
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "SlovoReaderCompiler/3.0"})
+            req = urllib.request.Request(url, headers={"User-Agent": "SlovoReaderCompiler/3.8"})
             with urllib.request.urlopen(req) as response:
                 content = response.read().decode('utf-8').splitlines()
                 reader = csv.DictReader(content, delimiter='\t')
@@ -119,11 +140,36 @@ def download_openrussian_csvs():
     return open_russian_db
 
 def find_in_open_russian(lem, open_russian_db):
+    # Strip honorific -с suffix
+    if lem.endswith('-с'):
+        lem = lem[:-2]
+    # Strip trailing particles like -то
+    if lem.endswith('-то'):
+        lem = lem[:-3]
+        
     if lem in open_russian_db:
         return open_russian_db[lem]
     
-    # Check spelling variants
     variants = []
+    # 1. soft/hard sign check
+    if 'дь' in lem:
+        variants.append(lem.replace('дь', 'дъ'))
+    if 'бь' in lem:
+        variants.append(lem.replace('бь', 'бъ'))
+        
+    # 2. без- / бес- prefix check
+    if lem.startswith('без'):
+        variants.append('бес' + lem[3:])
+    elif lem.startswith('бес'):
+        variants.append('без' + lem[3:])
+        
+    # 3. e/ё variants (replacing one е at a time)
+    if 'е' in lem:
+        for i, char in enumerate(lem):
+            if char == 'е':
+                variants.append(lem[:i] + 'ё' + lem[i+1:])
+                
+    # 4. spelling variants -ие/-ье, -ия/-ья
     if lem.endswith('ие'):
         variants.append(lem[:-2] + 'ье')
     elif lem.endswith('ье'):
@@ -132,10 +178,6 @@ def find_in_open_russian(lem, open_russian_db):
         variants.append(lem[:-2] + 'ья')
     elif lem.endswith('ья'):
         variants.append(lem[:-2] + 'ия')
-    if 'ё' in lem:
-        variants.append(lem.replace('ё', 'е'))
-    if 'е' in lem:
-        variants.append(lem.replace('е', 'ё'))
         
     for var in variants:
         if var in open_russian_db:
@@ -158,7 +200,7 @@ def fetch_wiktionary_raw(word):
     url = f"https://en.wiktionary.org/api/rest_v1/page/definition/{urllib.parse.quote(word)}"
     req = urllib.request.Request(url, headers=headers)
     try:
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=8) as response:
             return json.loads(response.read().decode('utf-8'))
     except Exception as e:
         return None
@@ -192,14 +234,19 @@ def parse_definition_block(data):
     return brief_def, pos_str, lemma
 
 def force_fetch_word(word):
-    # Try fetching the word/lemma from Wiktionary directly
-    data = fetch_wiktionary_raw(word)
+    # Clean trailing -с or -то
+    cleaned_w = word
+    if cleaned_w.endswith('-с'):
+        cleaned_w = cleaned_w[:-2]
+    if cleaned_w.endswith('-то'):
+        cleaned_w = cleaned_w[:-3]
+        
+    data = fetch_wiktionary_raw(cleaned_w)
     if not data:
         return word, None, None, None
     brief_def, pos_str, nested_lemma = parse_definition_block(data)
     
-    if nested_lemma and nested_lemma != word:
-        # Check if nested lemma has definition
+    if nested_lemma and nested_lemma != cleaned_w:
         lemma_data = fetch_wiktionary_raw(nested_lemma)
         if lemma_data:
             l_def, l_pos, _ = parse_definition_block(lemma_data)
@@ -220,30 +267,34 @@ def translate_pymorphy_tag(tag):
             parts.append(TAG_MAP[key])
     return ", ".join(parts)
 
-def get_unique_word_forms():
+def get_word_cases():
     with open(DATA_JS, "r", encoding="utf-8") as f:
         content = f.read()
     prefix = "const PRELOADED_BOOKS = "
     json_str = content[len(prefix):].strip().rstrip(";")
     books = json.loads(json_str)
     
-    unique_words = set()
+    word_cases = {}
     for book in books:
         for chapter in book.get("chapters", []):
             for para in chapter.get("russian", []):
                 words = re.findall(r'[а-яёА-ЯЁ\-]+', para)
                 for w in words:
-                    cleaned = w.lower().strip("-")
+                    cleaned = w.strip("-")
                     if cleaned:
-                        unique_words.add(cleaned)
-    return sorted(list(unique_words))
+                        low = cleaned.lower()
+                        if low not in word_cases:
+                            word_cases[low] = set()
+                        word_cases[low].add(cleaned)
+    return word_cases
 
 def main():
     init_db()
     morph = pymorphy3.MorphAnalyzer()
     
-    # Load all word forms
-    word_forms = get_unique_word_forms()
+    # Load word cases
+    word_cases = get_word_cases()
+    word_forms = sorted(list(word_cases.keys()))
     print(f"Total unique word forms in books: {len(word_forms)}")
     
     forms_to_lemmas = {}
@@ -277,7 +328,7 @@ def main():
             
     print(f"Initial gaps count (lemmas): {len(gaps_lemmas)}")
     
-    # Try resolving gaps using OpenRussian spelling/adjective variants
+    # Resolve gaps using OpenRussian spelling variants
     resolved_or = 0
     remaining_gaps = []
     for lem in sorted(list(gaps_lemmas)):
@@ -290,9 +341,9 @@ def main():
             remaining_gaps.append(lem)
             
     print(f"Resolved {resolved_or} gaps using OpenRussian variants.")
-    print(f"Remaining gaps to brute-force fetch from Wiktionary: {len(remaining_gaps)}")
+    print(f"Remaining gaps to fetch: {len(remaining_gaps)}")
     
-    # Brute-force fetch from Wiktionary in parallel (15 threads)
+    # Brute-force fetch from Wiktionary in parallel
     if remaining_gaps:
         print(f"Fetching {len(remaining_gaps)} lemmas concurrently from Wiktionary...")
         completed = 0
@@ -304,9 +355,6 @@ def main():
                     word, brief_def, pos_str, nested_lemma = fut.result()
                     if brief_def:
                         save_to_cache(word, brief_def, pos_str or "", nested_lemma or "")
-                    else:
-                        # Negative cache so we don't request again
-                        save_to_cache(word, "", "", "")
                     completed += 1
                     if completed % 50 == 0:
                         print(f"Wiktionary Progress: {completed}/{len(remaining_gaps)} fetched...")
@@ -314,7 +362,33 @@ def main():
                     pass
                 time.sleep(0.05)
                 
-    # Re-export dictionary
+    # Refresh cache
+    cache = get_cached_words()
+    
+    # Resolve proper nouns / names
+    print("Resolving proper noun / name gaps via transliteration...")
+    resolved_names = 0
+    for lem in all_lemmas:
+        entry = cache.get(lem)
+        has_def = entry and entry["definition"] and not (entry["definition"].startswith("(form of") and ":" not in entry["definition"])
+        if not has_def:
+            is_capitalized = False
+            matching_wfs = [wf for wf, l in forms_to_lemmas.items() if l == lem]
+            for wf in matching_wfs:
+                cased_variants = word_cases.get(wf, [])
+                for cv in cased_variants:
+                    if cv[0].isupper():
+                        is_capitalized = True
+                        break
+            
+            if is_capitalized:
+                trans = transliterate(lem).capitalize()
+                save_to_cache(lem, f"[Proper Noun / Name / Place] {trans}", "name", "")
+                resolved_names += 1
+                
+    print(f"Transliterated and resolved {resolved_names} name/place gaps.")
+    
+    # Re-export dictionary_data.js
     print("Re-exporting dictionary_data.js...")
     cache = get_cached_words()
     final_dict = {}

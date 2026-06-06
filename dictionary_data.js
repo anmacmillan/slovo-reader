@@ -4,11 +4,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "а-га": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] A-ga",
     "grammar": "noun, masculine, plural, genitive"
   },
   "а-у": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] A-u",
     "grammar": "interjection"
   },
   "аббат": {
@@ -24,19 +24,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "абдул": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Abdul",
     "grammar": "noun, masculine, singular, nominative"
   },
   "абдул-мурат": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Abdul-murat",
     "grammar": "noun, masculine, singular, nominative"
   },
   "абдул-мурату": {
-    "def": "(form of абдул-мурат)",
+    "def": "(form of абдул-мурат: [Proper Noun / Name / Place] Abdul-murat)",
     "grammar": "noun, masculine, singular, dative"
   },
   "абдула": {
-    "def": "(form of абдул)",
+    "def": "(form of абдул: [Proper Noun / Name / Place] Abdul)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "абреками": {
@@ -56,11 +56,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "particle"
   },
   "австрию": {
-    "def": "(form of австрия)",
+    "def": "(form of австрия: [Proper Noun / Name / Place] Avstriya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "австрия": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Avstriya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "автора": {
@@ -92,7 +92,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "адьютант": {
-    "def": "",
+    "def": "aide-de-camp, adjutant, aide",
     "grammar": "noun, masculine, singular, nominative"
   },
   "азамат": {
@@ -176,43 +176,43 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "алеко": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Aleko",
     "grammar": "noun, masculine, singular, nominative"
   },
   "александр": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Aleksandr",
     "grammar": "noun, masculine, singular, nominative"
   },
   "александра": {
-    "def": "(form of александр)",
+    "def": "(form of александр: [Proper Noun / Name / Place] Aleksandr)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "александрович": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Aleksandrovich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "александровича": {
-    "def": "(form of александрович)",
+    "def": "(form of александрович: [Proper Noun / Name / Place] Aleksandrovich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "александровичем": {
-    "def": "(form of александрович)",
+    "def": "(form of александрович: [Proper Noun / Name / Place] Aleksandrovich)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "александровичу": {
-    "def": "(form of александрович)",
+    "def": "(form of александрович: [Proper Noun / Name / Place] Aleksandrovich)",
     "grammar": "noun, masculine, singular, dative"
   },
   "александром": {
-    "def": "(form of александр)",
+    "def": "(form of александр: [Proper Noun / Name / Place] Aleksandr)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "алексее": {
-    "def": "(form of алексей)",
+    "def": "(form of алексей: [Proper Noun / Name / Place] Aleksey)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "алексей": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Aleksey",
     "grammar": "noun, masculine, singular, nominative"
   },
   "али": {
@@ -276,11 +276,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "анатоль": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Anatol",
     "grammar": "noun, masculine, singular, nominative"
   },
   "анатоля": {
-    "def": "(form of анатоль)",
+    "def": "(form of анатоль: [Proper Noun / Name / Place] Anatol)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "анатомик": {
@@ -332,31 +332,31 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "андреем": {
-    "def": "(form of андрей)",
+    "def": "(form of андрей: [Proper Noun / Name / Place] Andrey)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "андрей": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Andrey",
     "grammar": "noun, masculine, singular, nominative"
   },
   "андрею": {
-    "def": "(form of андрей)",
+    "def": "(form of андрей: [Proper Noun / Name / Place] Andrey)",
     "grammar": "noun, masculine, singular, dative"
   },
   "андрея": {
-    "def": "(form of андрей)",
+    "def": "(form of андрей: [Proper Noun / Name / Place] Andrey)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "андрюша": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Andryusha",
     "grammar": "noun, masculine, singular, nominative"
   },
   "андрюшанчик": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Andryushanchik",
     "grammar": "noun, masculine, singular, nominative"
   },
   "андрюшка": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Andryushka",
     "grammar": "noun, masculine, singular, nominative"
   },
   "анекдоте": {
@@ -368,7 +368,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "анна": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Anna",
     "grammar": "noun, feminine, singular, nominative"
   },
   "анне": {
@@ -376,11 +376,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "анну": {
-    "def": "(form of анна)",
+    "def": "(form of анна: [Proper Noun / Name / Place] Anna)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "анны": {
-    "def": "(form of анна)",
+    "def": "(form of анна: [Proper Noun / Name / Place] Anna)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "античною": {
@@ -388,11 +388,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, instrumental"
   },
   "анфиса": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Anfisa",
     "grammar": "noun, feminine, singular, nominative"
   },
   "анфисе": {
-    "def": "(form of анфис)",
+    "def": "(form of анфис: [Proper Noun / Name / Place] Anfis)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "аплодируя": {
@@ -408,19 +408,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "апфельбаум": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Apfelbaum",
     "grammar": "noun, masculine, singular, nominative"
   },
   "аравию": {
-    "def": "(form of аравия)",
+    "def": "(form of аравия: [Proper Noun / Name / Place] Araviya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "арагва": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Aragva",
     "grammar": "noun, feminine, singular, nominative"
   },
   "арагвой": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Aragvoy",
     "grammar": "noun, masculine, singular, nominative"
   },
   "арбы": {
@@ -428,7 +428,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "аринушка": {
-    "def": "(form of аринушко)",
+    "def": "(form of аринушко: [Proper Noun / Name / Place] Arinushko)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "аристократических": {
@@ -444,7 +444,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, instrumental"
   },
   "ариша": {
-    "def": "(form of ариш)",
+    "def": "(form of ариш: [Proper Noun / Name / Place] Arish)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "аркан": {
@@ -508,7 +508,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "архимед": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Arkhimed",
     "grammar": "noun, masculine, singular, nominative"
   },
   "аршин": {
@@ -592,15 +592,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "байрон": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Bayron",
     "grammar": "noun, masculine, singular, nominative"
   },
   "байрона": {
-    "def": "(form of байрон)",
+    "def": "(form of байрон: [Proper Noun / Name / Place] Bayron)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "байроном": {
-    "def": "(form of байрон)",
+    "def": "(form of байрон: [Proper Noun / Name / Place] Bayron)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "бал": {
@@ -656,7 +656,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "бальзак": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Balzak",
     "grammar": "noun, masculine, singular, nominative"
   },
   "бальзакова": {
@@ -788,7 +788,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "басманной": {
-    "def": "(form of басманный)",
+    "def": "(form of басманный: [Proper Noun / Name / Place] Basmannyy)",
     "grammar": "adjective, feminine, singular, genitive"
   },
   "баста": {
@@ -1016,7 +1016,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "бежняжка": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Bezhnyazhka",
     "grammar": "noun, feminine, singular, nominative"
   },
   "без": {
@@ -1072,7 +1072,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "безполезны": {
-    "def": "(form of безполезный)",
+    "def": "(form of безполезный: useless, unavailing, vain)",
     "grammar": "short adjective, plural"
   },
   "безрассудно": {
@@ -1168,7 +1168,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "белопарусники": {
-    "def": "(form of белопарусник)",
+    "def": "(form of белопарусник: [Proper Noun / Name / Place] Beloparusnik)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "белою": {
@@ -1204,7 +1204,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "бердичеве": {
-    "def": "(form of бердичев)",
+    "def": "(form of бердичев: [Proper Noun / Name / Place] Berdichev)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "берег": {
@@ -1324,7 +1324,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "бесмилла": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Besmilla",
     "grammar": "noun, feminine, singular, nominative"
   },
   "беспечностью": {
@@ -1488,7 +1488,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "бешту": {
-    "def": "(form of бешт)",
+    "def": "(form of бешт: [Proper Noun / Name / Place] Besht)",
     "grammar": "noun, masculine, singular, dative"
   },
   "библиотеки": {
@@ -1596,7 +1596,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "благодарю-с": {
-    "def": "(form of благодарить-с)",
+    "def": "(form of благодарить-с: [Proper Noun / Name / Place] Blagodarit-s)",
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "благодаря": {
@@ -1928,15 +1928,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "бобик": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Bobik",
     "grammar": "noun, masculine, singular, nominative"
   },
   "бобика": {
-    "def": "(form of бобик)",
+    "def": "(form of бобик: [Proper Noun / Name / Place] Bobik)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "бобику": {
-    "def": "(form of бобик)",
+    "def": "(form of бобик: [Proper Noun / Name / Place] Bobik)",
     "grammar": "noun, masculine, singular, dative"
   },
   "бог": {
@@ -2148,11 +2148,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "болконская": {
-    "def": "(form of болконский)",
+    "def": "(form of болконский: [Proper Noun / Name / Place] Bolkonskiy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "болконский": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Bolkonskiy",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "болтался": {
@@ -2256,11 +2256,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "бонапарта": {
-    "def": "(form of бонапарт)",
+    "def": "(form of бонапарт: [Proper Noun / Name / Place] Bonapart)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "бонапарте": {
-    "def": "(form of бонапарт)",
+    "def": "(form of бонапарт: [Proper Noun / Name / Place] Bonapart)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "бормотал": {
@@ -2768,7 +2768,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "бумаги-то": {
-    "def": "(form of бумага-то)",
+    "def": "(form of бумага-то: paper; document)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "бумагу": {
@@ -2896,7 +2896,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "быки-то": {
-    "def": "(form of бык-то)",
+    "def": "(form of бык-то: [Proper Noun / Name / Place] Byk-to)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "быков": {
@@ -2908,7 +2908,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "был-с": {
-    "def": "(form of быть-с)",
+    "def": "(form of быть-с: be)",
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "была": {
@@ -2976,23 +2976,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "бэла": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Bela",
     "grammar": "noun, feminine, singular, nominative"
   },
   "бэле": {
-    "def": "(form of бэля)",
+    "def": "(form of бэля: [Proper Noun / Name / Place] Belya)",
     "grammar": "noun, feminine, singular, dative"
   },
   "бэлою": {
-    "def": "(form of бэла)",
+    "def": "(form of бэла: [Proper Noun / Name / Place] Bela)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "бэлу": {
-    "def": "(form of бэла)",
+    "def": "(form of бэла: [Proper Noun / Name / Place] Bela)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "бэлы": {
-    "def": "(form of бэла)",
+    "def": "(form of бэла: [Proper Noun / Name / Place] Bela)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "в": {
@@ -3060,7 +3060,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "валлах": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vallakh",
     "grammar": "noun, masculine, singular, nominative"
   },
   "валу": {
@@ -3092,7 +3092,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "вальтера": {
-    "def": "(form of вальтер)",
+    "def": "(form of вальтер: [Proper Noun / Name / Place] Valter)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "валяется": {
@@ -3144,27 +3144,27 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, plural, accusative"
   },
   "василий": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vasiliy",
     "grammar": "noun, masculine, singular, nominative"
   },
   "василию": {
-    "def": "(form of василий)",
+    "def": "(form of василий: [Proper Noun / Name / Place] Vasiliy)",
     "grammar": "noun, masculine, singular, dative"
   },
   "василия": {
-    "def": "(form of василий)",
+    "def": "(form of василий: [Proper Noun / Name / Place] Vasiliy)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "васильевич": {
-    "def": "(form of василиевич)",
+    "def": "(form of василиевич: [Proper Noun / Name / Place] Vasilievich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "васильич": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vasilich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ватерлоо": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vaterloo",
     "grammar": "noun, neuter, singular, nominative"
   },
   "ваш": {
@@ -3600,15 +3600,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "вернер": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Verner",
     "grammar": "noun, masculine, singular, nominative"
   },
   "вернера": {
-    "def": "(form of вернер)",
+    "def": "(form of вернер: [Proper Noun / Name / Place] Verner)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "вернеру": {
-    "def": "(form of вернер)",
+    "def": "(form of вернер: [Proper Noun / Name / Place] Verner)",
     "grammar": "noun, masculine, singular, dative"
   },
   "вернетесь": {
@@ -3776,27 +3776,27 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "вершинин": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vershinin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "вершинина": {
-    "def": "(form of вершинин)",
+    "def": "(form of вершинин: [Proper Noun / Name / Place] Vershinin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "вершинину": {
-    "def": "(form of вершинин)",
+    "def": "(form of вершинин: [Proper Noun / Name / Place] Vershinin)",
     "grammar": "noun, masculine, singular, dative"
   },
   "вершинины": {
-    "def": "(form of вершинин)",
+    "def": "(form of вершинин: [Proper Noun / Name / Place] Vershinin)",
     "grammar": "noun, plural, nominative"
   },
   "вершининым": {
-    "def": "(form of вершинин)",
+    "def": "(form of вершинин: [Proper Noun / Name / Place] Vershinin)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "вершининых": {
-    "def": "(form of вершинин)",
+    "def": "(form of вершинин: [Proper Noun / Name / Place] Vershinin)",
     "grammar": "noun, plural, genitive"
   },
   "вершиннах": {
@@ -4532,7 +4532,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "вильгельма": {
-    "def": "(form of вильгельм)",
+    "def": "(form of вильгельм: [Proper Noun / Name / Place] Vilgelm)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "вина": {
@@ -4596,7 +4596,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "винценгероде": {
-    "def": "(form of винценгерод)",
+    "def": "(form of винценгерод: [Proper Noun / Name / Place] Vintsengerod)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "вис-е-вис": {
@@ -4688,15 +4688,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "владикавказе": {
-    "def": "(form of владикавказ)",
+    "def": "(form of владикавказ: [Proper Noun / Name / Place] Vladikavkaz)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "владыкавказ": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vladykavkaz",
     "grammar": "noun, masculine, singular, nominative"
   },
   "владыкавказа": {
-    "def": "(form of владыкавказ)",
+    "def": "(form of владыкавказ: [Proper Noun / Name / Place] Vladykavkaz)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "влажный": {
@@ -5464,7 +5464,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "вольтер": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Volter",
     "grammar": "noun, masculine, singular, nominative"
   },
   "волюшке": {
@@ -5832,7 +5832,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "particle"
   },
   "вот-те": {
-    "def": "(form of вот-тот)",
+    "def": "(form of вот-тот: [Proper Noun / Name / Place] Vot-tot)",
     "grammar": "adjective, plural, nominative"
   },
   "вошедшего": {
@@ -6024,7 +6024,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "вс": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vs",
     "grammar": "noun, masculine, plural, nominative"
   },
   "всадник": {
@@ -6052,7 +6052,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "всегда-с": {
-    "def": "",
+    "def": "always",
     "grammar": "adverb"
   },
   "всего": {
@@ -6300,7 +6300,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, intransitive, singular"
   },
   "встревоженно": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vstrevozhenno",
     "grammar": "adverb"
   },
   "встревожил": {
@@ -6548,19 +6548,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "вулич": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Vulich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "вулича": {
-    "def": "(form of вулич)",
+    "def": "(form of вулич: [Proper Noun / Name / Place] Vulich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "вуличем": {
-    "def": "(form of вуликать)",
+    "def": "(form of вуликать: [Proper Noun / Name / Place] Vulikat)",
     "grammar": "verb, perfective, future, transitive, plural"
   },
   "вуличу": {
-    "def": "(form of вуличить)",
+    "def": "(form of вуличить: [Proper Noun / Name / Place] Vulichit)",
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "входи": {
@@ -7768,7 +7768,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "гайть": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Gayt",
     "grammar": "infinitive, imperfective, transitive"
   },
   "галерее": {
@@ -7820,11 +7820,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "гамба": {
-    "def": "(form of гамб)",
+    "def": "(form of гамб: [Proper Noun / Name / Place] Gamb)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "гарденбергу": {
-    "def": "(form of гарденберг)",
+    "def": "(form of гарденберг: [Proper Noun / Name / Place] Gardenberg)",
     "grammar": "noun, masculine, singular, dative"
   },
   "гармоника": {
@@ -7856,7 +7856,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "гаугвицу": {
-    "def": "(form of гаугвица)",
+    "def": "(form of гаугвица: [Proper Noun / Name / Place] Gaugvitsa)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "гвалт": {
@@ -7888,7 +7888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "геленджик": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Gelendzhik",
     "grammar": "noun, masculine, singular, nominative"
   },
   "генерал": {
@@ -7952,15 +7952,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "гете": {
-    "def": "(form of гёте)",
+    "def": "(form of гёте: [Proper Noun / Name / Place] Gyote)",
     "grammar": "noun, singular, nominative"
   },
   "гетева": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Geteva",
     "grammar": "noun, feminine, singular, nominative"
   },
   "гетеву": {
-    "def": "(form of гетева)",
+    "def": "(form of гетева: [Proper Noun / Name / Place] Geteva)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "гибки": {
@@ -8600,7 +8600,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "гоп-гоп": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Gop-gop",
     "grammar": "interjection"
   },
   "гор": {
@@ -9100,7 +9100,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "грибоедова": {
-    "def": "(form of грибоедов)",
+    "def": "(form of грибоедов: [Proper Noun / Name / Place] Griboedov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "грива": {
@@ -9112,23 +9112,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "григорием": {
-    "def": "(form of григорий)",
+    "def": "(form of григорий: [Proper Noun / Name / Place] Grigoriy)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "григорий": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Grigoriy",
     "grammar": "noun, masculine, singular, nominative"
   },
   "григория": {
-    "def": "(form of григорий)",
+    "def": "(form of григорий: [Proper Noun / Name / Place] Grigoriy)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "григорью": {
-    "def": "(form of григорь)",
+    "def": "(form of григорь: [Proper Noun / Name / Place] Grigor)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "григорья": {
-    "def": "(form of григорье)",
+    "def": "(form of григорье: [Proper Noun / Name / Place] Grigore)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "гримаской": {
@@ -9384,23 +9384,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "грушницкий": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Grushnitskiy",
     "grammar": "noun, masculine, singular, nominative"
   },
   "грушницким": {
-    "def": "(form of грушницкий)",
+    "def": "(form of грушницкий: [Proper Noun / Name / Place] Grushnitskiy)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "грушницкого": {
-    "def": "(form of грушницкий)",
+    "def": "(form of грушницкий: [Proper Noun / Name / Place] Grushnitskiy)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "грушницком": {
-    "def": "(form of грушницкий)",
+    "def": "(form of грушницкий: [Proper Noun / Name / Place] Grushnitskiy)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "грушницкому": {
-    "def": "(form of грушницкий)",
+    "def": "(form of грушницкий: [Proper Noun / Name / Place] Grushnitskiy)",
     "grammar": "noun, masculine, singular, dative"
   },
   "грязной": {
@@ -9464,15 +9464,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "гуд-гора": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Gud-gora",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гуд-гору": {
-    "def": "(form of гуд-гора)",
+    "def": "(form of гуд-гора: [Proper Noun / Name / Place] Gud-gora)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "гуд-горы": {
-    "def": "(form of гуд-гора)",
+    "def": "(form of гуд-гора: [Proper Noun / Name / Place] Gud-gora)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "гудела": {
@@ -9524,7 +9524,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "гурда": {
-    "def": "(form of гурд)",
+    "def": "(form of гурд: [Proper Noun / Name / Place] Gurd)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "гусей": {
@@ -9636,7 +9636,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "дагестане": {
-    "def": "(form of дагестан)",
+    "def": "(form of дагестан: [Proper Noun / Name / Place] Dagestan)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "дагестанский": {
@@ -9664,7 +9664,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "дай-ка": {
-    "def": "(form of дать-ка)",
+    "def": "(form of дать-ка: [Proper Noun / Name / Place] Dat-ka)",
     "grammar": "verb, perfective, transitive, singular"
   },
   "дайте": {
@@ -9776,7 +9776,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "дарьяльское": {
-    "def": "(form of дарьяльский)",
+    "def": "(form of дарьяльский: [Proper Noun / Name / Place] Daryalskiy)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "дарят": {
@@ -10600,7 +10600,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "динка": {
-    "def": "(form of динк)",
+    "def": "(form of динк: [Proper Noun / Name / Place] Dink)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "дину": {
@@ -10608,7 +10608,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "динушка": {
-    "def": "(form of динушко)",
+    "def": "(form of динушко: [Proper Noun / Name / Place] Dinushko)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "дины": {
@@ -10808,7 +10808,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "добролюбов": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Dobrolyubov",
     "grammar": "noun, masculine, singular, nominative"
   },
   "доброму": {
@@ -12164,7 +12164,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "евгению": {
-    "def": "(form of евгений)",
+    "def": "(form of евгений: [Proper Noun / Name / Place] Evgeniy)",
     "grammar": "noun, masculine, singular, dative"
   },
   "европа": {
@@ -12308,11 +12308,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "екатериноград": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ekaterinograd",
     "grammar": "noun, masculine, singular, nominative"
   },
   "екатеринограда": {
-    "def": "(form of екатериноград)",
+    "def": "(form of екатериноград: [Proper Noun / Name / Place] Ekaterinograd)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "ел": {
@@ -12328,7 +12328,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "елизаветинскому": {
-    "def": "(form of елизаветинский)",
+    "def": "(form of елизаветинский: [Proper Noun / Name / Place] Elizavetinskiy)",
     "grammar": "adjective, masculine, singular, dative"
   },
   "еловая": {
@@ -12352,23 +12352,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "еремеич": {
-    "def": "(form of еремеевич)",
+    "def": "(form of еремеевич: [Proper Noun / Name / Place] Eremeevich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ермолова": {
-    "def": "(form of ермолов)",
+    "def": "(form of ермолов: [Proper Noun / Name / Place] Ermolov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "ермолове": {
-    "def": "(form of ермолов)",
+    "def": "(form of ермолов: [Proper Noun / Name / Place] Ermolov)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "ермоловской": {
-    "def": "(form of ермоловский)",
+    "def": "(form of ермоловский: [Proper Noun / Name / Place] Ermolovskiy)",
     "grammar": "adjective, feminine, singular, genitive"
   },
   "ерусалиме": {
-    "def": "(form of ерусалим)",
+    "def": "(form of ерусалим: [Proper Noun / Name / Place] Erusalim)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "есаул": {
@@ -12400,7 +12400,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "ефимыч": {
-    "def": "(form of ефимович)",
+    "def": "(form of ефимович: [Proper Noun / Name / Place] Efimovich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ехал": {
@@ -12456,7 +12456,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "жак-франсуа": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Zhak-fransua",
     "grammar": "noun, masculine, singular, nominative"
   },
   "жалела": {
@@ -13040,19 +13040,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
   "жилин": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Zhilin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "жилина": {
-    "def": "(form of жилин)",
+    "def": "(form of жилин: [Proper Noun / Name / Place] Zhilin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "жилину": {
-    "def": "(form of жилин)",
+    "def": "(form of жилин: [Proper Noun / Name / Place] Zhilin)",
     "grammar": "noun, masculine, singular, dative"
   },
   "жилиным": {
-    "def": "(form of жилин)",
+    "def": "(form of жилин: [Proper Noun / Name / Place] Zhilin)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "жилистую": {
@@ -14576,7 +14576,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, plural"
   },
   "запишем-с": {
-    "def": "(form of записать-с)",
+    "def": "(form of записать-с: [Proper Noun / Name / Place] Zapisat-s)",
     "grammar": "verb, perfective, future, transitive, plural"
   },
   "запишу": {
@@ -16028,7 +16028,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "и-и": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] I-i",
     "grammar": "conjunction"
   },
   "ибо": {
@@ -16036,51 +16036,51 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "иван": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ivan",
     "grammar": "noun, masculine, singular, nominative"
   },
   "иванова": {
-    "def": "(form of иванов)",
+    "def": "(form of иванов: [Proper Noun / Name / Place] Ivanov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "ивановна": {
-    "def": "(form of иванович)",
+    "def": "(form of иванович: [Proper Noun / Name / Place] Ivanovich)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "ивановны": {
-    "def": "(form of иванович)",
+    "def": "(form of иванович: [Proper Noun / Name / Place] Ivanovich)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "иваном": {
-    "def": "(form of иван)",
+    "def": "(form of иван: [Proper Noun / Name / Place] Ivan)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "иваныч": {
-    "def": "(form of иванович)",
+    "def": "(form of иванович: [Proper Noun / Name / Place] Ivanovich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "иваныча": {
-    "def": "(form of иванович)",
+    "def": "(form of иванович: [Proper Noun / Name / Place] Ivanovich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "игнатьевич": {
-    "def": "(form of игнатиевич)",
+    "def": "(form of игнатиевич: [Proper Noun / Name / Place] Ignatievich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "игнатьевича": {
-    "def": "(form of игнатиевич)",
+    "def": "(form of игнатиевич: [Proper Noun / Name / Place] Ignatievich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "игнатьевичем": {
-    "def": "(form of игнатиевич)",
+    "def": "(form of игнатиевич: [Proper Noun / Name / Place] Ignatievich)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "игнатьич": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ignatich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "игнатьича": {
-    "def": "(form of игнатьич)",
+    "def": "(form of игнатьич: [Proper Noun / Name / Place] Ignatich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "иголку": {
@@ -16196,7 +16196,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "иду-у": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Idu-u",
     "grammar": "preposition"
   },
   "идут": {
@@ -16732,11 +16732,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "ильич": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ilich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ильрахман": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ilrakhman",
     "grammar": "noun, masculine, singular, nominative"
   },
   "им": {
@@ -16968,31 +16968,31 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "ипполит": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ippolit",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ипполиту": {
-    "def": "(form of ипполит)",
+    "def": "(form of ипполит: [Proper Noun / Name / Place] Ippolit)",
     "grammar": "noun, masculine, singular, dative"
   },
   "ирина": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Irina",
     "grammar": "noun, feminine, singular, nominative"
   },
   "ирине": {
-    "def": "(form of ирина)",
+    "def": "(form of ирина: [Proper Noun / Name / Place] Irina)",
     "grammar": "noun, feminine, singular, dative"
   },
   "ириной": {
-    "def": "(form of ирина)",
+    "def": "(form of ирина: [Proper Noun / Name / Place] Irina)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "ирину": {
-    "def": "(form of ирина)",
+    "def": "(form of ирина: [Proper Noun / Name / Place] Irina)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "ирины": {
-    "def": "(form of ирина)",
+    "def": "(form of ирина: [Proper Noun / Name / Place] Irina)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "иронической": {
@@ -17392,7 +17392,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, plural, accusative"
   },
   "их-то": {
-    "def": "(form of они-то)",
+    "def": "(form of они-то: they)",
     "grammar": "pronoun, plural, accusative"
   },
   "ихнего": {
@@ -17456,7 +17456,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "кабарде": {
-    "def": "(form of кабарда)",
+    "def": "(form of кабарда: [Proper Noun / Name / Place] Kabarda)",
     "grammar": "noun, feminine, singular, dative"
   },
   "кабардинец": {
@@ -17476,7 +17476,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "кабарду": {
-    "def": "(form of кабарда)",
+    "def": "(form of кабарда: [Proper Noun / Name / Place] Kabarda)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "кабинет": {
@@ -17668,15 +17668,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "казбич": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kazbich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "казбича": {
-    "def": "(form of казбич)",
+    "def": "(form of казбич: [Proper Noun / Name / Place] Kazbich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "казбичем": {
-    "def": "(form of казбич)",
+    "def": "(form of казбич: [Proper Noun / Name / Place] Kazbich)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "казенная": {
@@ -17704,7 +17704,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "кази-мугамед": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kazi-mugamed",
     "grammar": "noun, masculine, singular, nominative"
   },
   "казней": {
@@ -18012,15 +18012,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "карагез": {
-    "def": "(form of карагёз)",
+    "def": "(form of карагёз: [Proper Noun / Name / Place] Karagyoz)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "карагеза": {
-    "def": "(form of карагёз)",
+    "def": "(form of карагёз: [Proper Noun / Name / Place] Karagyoz)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "карагезе": {
-    "def": "(form of карагёз)",
+    "def": "(form of карагёз: [Proper Noun / Name / Place] Karagyoz)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "карандашей": {
@@ -18264,7 +18264,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, masculine, singular, instrumental"
   },
   "керчи": {
-    "def": "(form of керчь)",
+    "def": "(form of керчь: [Proper Noun / Name / Place] Kerch)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "кивнул": {
@@ -18292,7 +18292,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "кизляр": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kizlyar",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кинжал": {
@@ -18364,7 +18364,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кирсановский": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kirsanovskiy",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кисейный": {
@@ -18372,19 +18372,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кисловодск": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kislovodsk",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кисловодска": {
-    "def": "(form of кисловодск)",
+    "def": "(form of кисловодск: [Proper Noun / Name / Place] Kislovodsk)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "кисловодске": {
-    "def": "(form of кисловодск)",
+    "def": "(form of кисловодск: [Proper Noun / Name / Place] Kislovodsk)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "кисловодску": {
-    "def": "(form of кисловодск)",
+    "def": "(form of кисловодск: [Proper Noun / Name / Place] Kislovodsk)",
     "grammar": "noun, masculine, singular, dative"
   },
   "кислосерного": {
@@ -18832,7 +18832,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "козырев": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kozyrev",
     "grammar": "noun, masculine, singular, nominative"
   },
   "козьего": {
@@ -18848,15 +18848,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "койшаурская": {
-    "def": "(form of койшаурский)",
+    "def": "(form of койшаурский: [Proper Noun / Name / Place] Koyshaurskiy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "койшаурской": {
-    "def": "(form of койшаурский)",
+    "def": "(form of койшаурский: [Proper Noun / Name / Place] Koyshaurskiy)",
     "grammar": "adjective, feminine, singular, prepositional"
   },
   "койшаурскую": {
-    "def": "(form of койшаурский)",
+    "def": "(form of койшаурский: [Proper Noun / Name / Place] Koyshaurskiy)",
     "grammar": "adjective, feminine, singular, accusative"
   },
   "кокетка": {
@@ -19032,7 +19032,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "колотилины": {
-    "def": "(form of колотилин)",
+    "def": "(form of колотилин: [Proper Noun / Name / Place] Kolotilin)",
     "grammar": "noun, plural, nominative"
   },
   "колпаком": {
@@ -19040,7 +19040,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "колумба": {
-    "def": "(form of колумб)",
+    "def": "(form of колумб: [Proper Noun / Name / Place] Kolumb)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "кольнуть": {
@@ -19252,7 +19252,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "конечно-с": {
-    "def": "",
+    "def": "certainly; of course",
     "grammar": "conjunction"
   },
   "кони": {
@@ -19272,7 +19272,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "конфекты": {
-    "def": "(form of конфект)",
+    "def": "(form of конфект: sweet (sugary confection))",
     "grammar": "noun, masculine, plural, nominative"
   },
   "конца": {
@@ -19304,15 +19304,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "кончена": {
-    "def": "(form of конченый)",
+    "def": "(form of конченый: completely resolved, finished, final, decisive, decided, ultimate; finished, done, done for, gone, hopeless, washed-up, a lost cause (no longer capable, exhausted or having lost abilities) (often translated to other negative adjectives such as crazy, miserable, stinking, batshit, wicked, base, douchey))",
     "grammar": "short adjective, feminine, singular"
   },
   "кончено": {
-    "def": "(form of конченый)",
+    "def": "(form of конченый: completely resolved, finished, final, decisive, decided, ultimate; finished, done, done for, gone, hopeless, washed-up, a lost cause (no longer capable, exhausted or having lost abilities) (often translated to other negative adjectives such as crazy, miserable, stinking, batshit, wicked, base, douchey))",
     "grammar": "short adjective, neuter, singular"
   },
   "кончены": {
-    "def": "(form of конченый)",
+    "def": "(form of конченый: completely resolved, finished, final, decisive, decided, ultimate; finished, done, done for, gone, hopeless, washed-up, a lost cause (no longer capable, exhausted or having lost abilities) (often translated to other negative adjectives such as crazy, miserable, stinking, batshit, wicked, base, douchey))",
     "grammar": "short adjective, plural"
   },
   "кончивших": {
@@ -19400,7 +19400,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "копеечки": {
-    "def": "(form of копеечка)",
+    "def": "(form of копеечка: diminutive of копе́йка (kopéjka): kopeyka, kopeck, copeck; penny (form of копейка: kopek, kopeck; also copeck (one 100th of ruble, the monetary unit of Russia).))",
     "grammar": "noun, feminine, singular, genitive"
   },
   "копейка": {
@@ -19412,7 +19412,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "коперника": {
-    "def": "(form of коперник)",
+    "def": "(form of коперник: [Proper Noun / Name / Place] Kopernik)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "копыт": {
@@ -19556,11 +19556,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "короче": {
-    "def": "",
+    "def": "comparative degree of коро́ткий (korótkij); comparative degree of ко́ротко (kórotko) (form of коротко: shortly, briefly, in brief; short, close (length of cut))",
     "grammar": "conjunction"
   },
   "корош": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Korosh",
     "grammar": "noun, masculine, singular, nominative"
   },
   "корошо": {
@@ -19580,11 +19580,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "корточках": {
-    "def": "(form of корточки)",
+    "def": "(form of корточки: haunches)",
     "grammar": "noun, plural, prepositional"
   },
   "корточки": {
-    "def": "",
+    "def": "haunches",
     "grammar": "noun, plural, accusative"
   },
   "коршун": {
@@ -19596,7 +19596,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "косами": {
-    "def": "(form of кос)",
+    "def": "(form of кос: short masculine singular of косо́й (kosój); genitive plural of коса́ (kosá) (form of коса: braid, plait, tress, pigtail, queue; scythe))",
     "grammar": "noun, masculine, plural, instrumental"
   },
   "косвенных": {
@@ -19604,7 +19604,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "косе": {
-    "def": "(form of кос)",
+    "def": "(form of кос: short masculine singular of косо́й (kosój); genitive plural of коса́ (kosá) (form of коса: braid, plait, tress, pigtail, queue; scythe))",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "косится": {
@@ -19652,19 +19652,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "костылин": {
-    "def": "(form of костылина)",
+    "def": "[Proper Noun / Name / Place] Kostylin",
     "grammar": "noun, feminine, plural, genitive"
   },
   "костылина": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kostylina",
     "grammar": "noun, feminine, singular, nominative"
   },
   "костылину": {
-    "def": "(form of костылина)",
+    "def": "(form of костылина: [Proper Noun / Name / Place] Kostylina)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "костылиным": {
-    "def": "(form of костылин)",
+    "def": "(form of костылин: [Proper Noun / Name / Place] Kostylin)",
     "grammar": "noun, plural, dative"
   },
   "костыль": {
@@ -19684,7 +19684,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "косу": {
-    "def": "(form of кос)",
+    "def": "(form of кос: short masculine singular of косо́й (kosój); genitive plural of коса́ (kosá) (form of коса: braid, plait, tress, pigtail, queue; scythe))",
     "grammar": "noun, masculine, singular, dative"
   },
   "косынка": {
@@ -19728,7 +19728,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, dative"
   },
   "которою": {
-    "def": "(form of котора)",
+    "def": "(form of котора: quarrel)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "которую": {
@@ -19920,7 +19920,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "крат": {
-    "def": "",
+    "def": "time, occurrence, -fold",
     "grammar": "noun, masculine, plural, genitive"
   },
   "кратер": {
@@ -20040,15 +20040,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "крестовая": {
-    "def": "(form of крестовый)",
+    "def": "(form of крестовый: [Proper Noun / Name / Place] Krestovyy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "крестовой": {
-    "def": "(form of крестовый)",
+    "def": "(form of крестовый: [Proper Noun / Name / Place] Krestovyy)",
     "grammar": "adjective, feminine, singular, genitive"
   },
   "крестовую": {
-    "def": "(form of крестовый)",
+    "def": "(form of крестовый: [Proper Noun / Name / Place] Krestovyy)",
     "grammar": "adjective, feminine, singular, accusative"
   },
   "крестьянка": {
@@ -20092,7 +20092,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "кристофа": {
-    "def": "(form of кристоф)",
+    "def": "(form of кристоф: [Proper Noun / Name / Place] Kristof)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "крича": {
@@ -20232,7 +20232,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "крузоэ": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kruzoe",
     "grammar": "noun, neuter, singular, nominative"
   },
   "крупными": {
@@ -20384,11 +20384,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, masculine, singular, nominative"
   },
   "кубань": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kuban",
     "grammar": "noun, feminine, singular, accusative"
   },
   "кубанью": {
-    "def": "(form of кубань)",
+    "def": "(form of кубань: [Proper Noun / Name / Place] Kuban)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "кувшин": {
@@ -20480,19 +20480,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "кулыгин": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Kulygin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кулыгина": {
-    "def": "(form of кулыгин)",
+    "def": "(form of кулыгин: [Proper Noun / Name / Place] Kulygin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "кулыгину": {
-    "def": "(form of кулыгинуть)",
+    "def": "(form of кулыгинуть: [Proper Noun / Name / Place] Kulyginut)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "кулыгиным": {
-    "def": "(form of кулыгин)",
+    "def": "(form of кулыгин: [Proper Noun / Name / Place] Kulygin)",
     "grammar": "noun, plural, dative"
   },
   "кунак": {
@@ -20520,7 +20520,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "купами": {
-    "def": "(form of купа)",
+    "def": "(form of купа: group, heap, pile, clump)",
     "grammar": "noun, feminine, plural, instrumental"
   },
   "купаться": {
@@ -20648,7 +20648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "кутузова": {
-    "def": "(form of кутузов)",
+    "def": "(form of кутузов: [Proper Noun / Name / Place] Kutuzov)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "кухарка": {
@@ -20704,7 +20704,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "ладоши": {
-    "def": "",
+    "def": "diminutive of ладо́ни (ladóni): palms of the hands; inflection of ладо́ша (ladóša):\nnominative/accusative plural\ngenitive singular (form of ладоша: diminutive of ладо́нь (ladónʹ))",
     "grammar": "noun, plural, accusative"
   },
   "лаем": {
@@ -20756,7 +20756,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "ларсе": {
-    "def": "(form of ларс)",
+    "def": "(form of ларс: [Proper Noun / Name / Place] Lars)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "ласкал": {
@@ -20800,11 +20800,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, genitive"
   },
   "лачужка": {
-    "def": "",
+    "def": "diminutive of лачу́га (lačúga, “shack”): (small) shack (form of лачуга: hovel, shack, hut, shanty; ↑ Vasmer, Max (1964–1973), “лачуга”, in Oleg Trubachyov, transl., Этимологический словарь русского языка [Etymological Dictionary of the Russian Language] (in Russian), Moscow: Progress)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лачужку": {
-    "def": "(form of лачужка)",
+    "def": "(form of лачужка: diminutive of лачу́га (lačúga, “shack”): (small) shack (form of лачуга: hovel, shack, hut, shanty; ↑ Vasmer, Max (1964–1973), “лачуга”, in Oleg Trubachyov, transl., Этимологический словарь русского языка [Etymological Dictionary of the Russian Language] (in Russian), Moscow: Progress))",
     "grammar": "noun, feminine, singular, accusative"
   },
   "лбу": {
@@ -21032,11 +21032,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "лермонтов": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Lermontov",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лермонтова": {
-    "def": "(form of лермонтов)",
+    "def": "(form of лермонтов: [Proper Noun / Name / Place] Lermontov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "лес": {
@@ -21156,23 +21156,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "лиговская": {
-    "def": "(form of лиговскай)",
+    "def": "(form of лиговскай: [Proper Noun / Name / Place] Ligovskay)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "лиговским": {
-    "def": "(form of лиговский)",
+    "def": "(form of лиговский: [Proper Noun / Name / Place] Ligovskiy)",
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "лиговскими": {
-    "def": "(form of лиговский)",
+    "def": "(form of лиговский: [Proper Noun / Name / Place] Ligovskiy)",
     "grammar": "adjective, plural, instrumental"
   },
   "лиговских": {
-    "def": "(form of лиговский)",
+    "def": "(form of лиговский: [Proper Noun / Name / Place] Ligovskiy)",
     "grammar": "adjective, plural, genitive"
   },
   "лиговской": {
-    "def": "(form of лиговский)",
+    "def": "(form of лиговский: [Proper Noun / Name / Place] Ligovskiy)",
     "grammar": "adjective, feminine, singular, prepositional"
   },
   "лил": {
@@ -21208,7 +21208,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "липками": {
-    "def": "(form of липка)",
+    "def": "(form of липка: diminutive of ли́па (lípa): young linden tree; short feminine singular of ли́пкий (lípkij))",
     "grammar": "noun, feminine, plural, instrumental"
   },
   "липовой": {
@@ -21292,11 +21292,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "личика": {
-    "def": "(form of личико)",
+    "def": "(form of личико: diminutive of лицо́ (licó): face (form of лицо: face; countenance))",
     "grammar": "noun, neuter, singular, genitive"
   },
   "личико": {
-    "def": "",
+    "def": "diminutive of лицо́ (licó): face (form of лицо: face; countenance)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "личиною": {
@@ -21344,7 +21344,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "ловко": {
-    "def": "",
+    "def": "skillfully, artfully, knowingly; neatly (form of ловкий: adroit, dexterous, deft; cunning, smart, crafty, never at a loss)",
     "grammar": "adverb"
   },
   "ловкости": {
@@ -21356,7 +21356,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "ловок-то": {
-    "def": "(form of ловкий-то)",
+    "def": "(form of ловкий-то: adroit, dexterous, deft, crafty, cunning, never at a loss, comfortable)",
     "grammar": "short adjective, masculine, singular"
   },
   "логика": {
@@ -21488,11 +21488,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "лоскутками": {
-    "def": "(form of лоскуток)",
+    "def": "(form of лоскуток: diminutive of лоску́т (loskút) (form of лоскут: rag, shred, scrap; scraps of cloth or leather in the textile and leather industries))",
     "grammar": "noun, masculine, plural, instrumental"
   },
   "лоскутков": {
-    "def": "(form of лоскуток)",
+    "def": "(form of лоскуток: diminutive of лоску́т (loskút) (form of лоскут: rag, shred, scrap; scraps of cloth or leather in the textile and leather industries))",
     "grammar": "noun, masculine, plural, genitive"
   },
   "лоханку": {
@@ -21508,7 +21508,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "лошаденке": {
-    "def": "(form of лошадёнка)",
+    "def": "(form of лошадёнка: diminutive of ло́шадь (lóšadʹ): small horse (form of лошадь: horse))",
     "grammar": "noun, feminine, singular, dative"
   },
   "лошади": {
@@ -21572,7 +21572,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "лукаво": {
-    "def": "",
+    "def": "craftily, cunningly; short neuter singular of лука́вый (lukávyj) (form of лукавый: sly, crafty, cunning; arch, playful (knowing, clever, mischievous))",
     "grammar": "adverb"
   },
   "лукавстве": {
@@ -21656,11 +21656,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, transitive, singular"
   },
   "ль": {
-    "def": "",
+    "def": "alternative form of ли (li)",
     "grammar": "conjunction"
   },
   "львович": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Lvovich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "льдистых": {
@@ -21696,7 +21696,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "любезничала": {
-    "def": "(form of любезничать)",
+    "def": "(form of любезничать: to pay compliments, pay court)",
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "любезно": {
@@ -21748,7 +21748,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "любим": {
-    "def": "",
+    "def": "short masculine singular of люби́мый (ljubímyj); first-person plural present indicative imperfective of люби́ть (ljubítʹ)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "любимого": {
@@ -21780,7 +21780,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "любительниц": {
-    "def": "(form of любительница)",
+    "def": "(form of любительница: female equivalent of люби́тель (ljubítelʹ): female lover, devotee, fan; female amateur (person attached to a pursuit without pursuing it professionally))",
     "grammar": "noun, feminine, plural, genitive"
   },
   "любить": {
@@ -21888,7 +21888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "м": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] M",
     "grammar": "noun, masculine, plural, genitive"
   },
   "магазине": {
@@ -21936,7 +21936,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "майстера": {
-    "def": "(form of майстер)",
+    "def": "(form of майстер: [Proper Noun / Name / Place] Mayster)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "максим": {
@@ -21956,19 +21956,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "максимыч": {
-    "def": "(form of максимович)",
+    "def": "(form of максимович: [Proper Noun / Name / Place] Maksimovich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "максимыча": {
-    "def": "(form of максимович)",
+    "def": "(form of максимович: [Proper Noun / Name / Place] Maksimovich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "максимычем": {
-    "def": "(form of максимович)",
+    "def": "(form of максимович: [Proper Noun / Name / Place] Maksimovich)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "максимычу": {
-    "def": "(form of максимович)",
+    "def": "(form of максимович: [Proper Noun / Name / Place] Maksimovich)",
     "grammar": "noun, masculine, singular, dative"
   },
   "макушки": {
@@ -22072,7 +22072,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "мальту": {
-    "def": "(form of мальта)",
+    "def": "(form of мальта: [Proper Noun / Name / Place] Malta)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "мальчик": {
@@ -22164,19 +22164,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "марии": {
-    "def": "(form of мария)",
+    "def": "(form of мария: [Proper Noun / Name / Place] Mariya)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "марию": {
-    "def": "(form of мария)",
+    "def": "(form of мария: [Proper Noun / Name / Place] Mariya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "мария": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mariya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "марк": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mark",
     "grammar": "noun, masculine, singular, nominative"
   },
   "март": {
@@ -22184,7 +22184,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "марфа": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Marfa",
     "grammar": "noun, feminine, singular, nominative"
   },
   "марш": {
@@ -22192,7 +22192,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "марья": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Marya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "масле": {
@@ -22320,19 +22320,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular"
   },
   "маша": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Masha",
     "grammar": "noun, feminine, singular, nominative"
   },
   "маше": {
-    "def": "(form of маша)",
+    "def": "(form of маша: [Proper Noun / Name / Place] Masha)",
     "grammar": "noun, feminine, singular, dative"
   },
   "машей": {
-    "def": "(form of маша)",
+    "def": "(form of маша: [Proper Noun / Name / Place] Masha)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "машенька": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mashenka",
     "grammar": "noun, feminine, singular, nominative"
   },
   "машет": {
@@ -22340,7 +22340,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "маши": {
-    "def": "(form of маша)",
+    "def": "(form of маша: [Proper Noun / Name / Place] Masha)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "машин": {
@@ -22360,19 +22360,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "машка": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mashka",
     "grammar": "noun, feminine, singular, nominative"
   },
   "машу": {
-    "def": "(form of маша)",
+    "def": "(form of маша: [Proper Noun / Name / Place] Masha)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "машук": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mashuk",
     "grammar": "noun, masculine, singular, nominative"
   },
   "машука": {
-    "def": "(form of машук)",
+    "def": "(form of машук: [Proper Noun / Name / Place] Mashuk)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "мая": {
@@ -22456,15 +22456,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "мейнен": {
-    "def": "(form of мейнный)",
+    "def": "(form of мейнный: [Proper Noun / Name / Place] Meynnyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "мекке": {
-    "def": "(form of мекка)",
+    "def": "(form of мекка: [Proper Noun / Name / Place] Mekka)",
     "grammar": "noun, feminine, singular, dative"
   },
   "мекку": {
-    "def": "(form of мекка)",
+    "def": "(form of мекка: [Proper Noun / Name / Place] Mekka)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "мелкая": {
@@ -22584,7 +22584,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "мери": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Meri",
     "grammar": "noun, feminine, singular, nominative"
   },
   "мерлехлюндии": {
@@ -22712,7 +22712,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "мефистофелем": {
-    "def": "(form of мефистофель)",
+    "def": "(form of мефистофель: [Proper Noun / Name / Place] Mefistofel)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "мех": {
@@ -22980,11 +22980,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "миньона": {
-    "def": "(form of миньон)",
+    "def": "(form of миньон: [Proper Noun / Name / Place] Minon)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "миньону": {
-    "def": "(form of миньон)",
+    "def": "(form of миньон: [Proper Noun / Name / Place] Minon)",
     "grammar": "noun, masculine, singular, dative"
   },
   "мир": {
@@ -23044,15 +23044,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "митька": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mitka",
     "grammar": "noun, masculine, singular, nominative"
   },
   "михаил": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mikhail",
     "grammar": "noun, masculine, singular, nominative"
   },
   "михаила": {
-    "def": "(form of михаил)",
+    "def": "(form of михаил: [Proper Noun / Name / Place] Mikhail)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "младшая": {
@@ -23524,7 +23524,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, prepositional"
   },
   "морио": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Morio",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мороз": {
@@ -23548,15 +23548,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "мортемар": {
-    "def": "(form of мортемара)",
+    "def": "[Proper Noun / Name / Place] Mortemar",
     "grammar": "noun, feminine, plural, genitive"
   },
   "мортемара": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Mortemara",
     "grammar": "noun, feminine, singular, nominative"
   },
   "мортемаром": {
-    "def": "(form of мортемар)",
+    "def": "(form of мортемар: [Proper Noun / Name / Place] Mortemar)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "морщин": {
@@ -23592,7 +23592,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "москви": {
-    "def": "(form of москвить)",
+    "def": "(form of москвить: [Proper Noun / Name / Place] Moskvit)",
     "grammar": "verb, perfective, transitive, singular"
   },
   "москвичей": {
@@ -23996,7 +23996,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "н": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] N",
     "grammar": "noun, feminine, singular, nominative"
   },
   "на": {
@@ -24028,11 +24028,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, active, intransitive, plural, nominative"
   },
   "набил": {
-    "def": "(form of набить)",
+    "def": "(form of набить: [Proper Noun / Name / Place] Nabit)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "набили": {
-    "def": "(form of набить)",
+    "def": "(form of набить: [Proper Noun / Name / Place] Nabit)",
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "набит": {
@@ -24236,7 +24236,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "надворный": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nadvornyy",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "надевает": {
@@ -24516,7 +24516,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "назюзюкался": {
-    "def": "(form of назюзюкаться)",
+    "def": "(form of назюзюкаться: [Proper Noun / Name / Place] Nazyuzyukatsya)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "наигрывает": {
@@ -24764,7 +24764,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular"
   },
   "напались": {
-    "def": "(form of напалиться)",
+    "def": "(form of напалиться: [Proper Noun / Name / Place] Napalitsya)",
     "grammar": "verb, imperfective, intransitive, singular"
   },
   "напев": {
@@ -25296,11 +25296,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "настю": {
-    "def": "(form of настя)",
+    "def": "(form of настя: [Proper Noun / Name / Place] Nastya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "настя": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nastya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "насчет": {
@@ -25320,35 +25320,35 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "наталия": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nataliya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "натальи": {
-    "def": "(form of наталья)",
+    "def": "(form of наталья: [Proper Noun / Name / Place] Natalya)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "наталья": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Natalya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "наташа": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Natasha",
     "grammar": "noun, feminine, singular, nominative"
   },
   "наташе": {
-    "def": "(form of наташа)",
+    "def": "(form of наташа: [Proper Noun / Name / Place] Natasha)",
     "grammar": "noun, feminine, singular, dative"
   },
   "наташей": {
-    "def": "(form of наташа)",
+    "def": "(form of наташа: [Proper Noun / Name / Place] Natasha)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "наташи": {
-    "def": "(form of наташа)",
+    "def": "(form of наташа: [Proper Noun / Name / Place] Natasha)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "наташу": {
-    "def": "(form of наташа)",
+    "def": "(form of наташа: [Proper Noun / Name / Place] Natasha)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "наткнувшись": {
@@ -25612,23 +25612,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "наш": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nash",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "наша": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "наше": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "нашего": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, neuter, singular, genitive"
   },
   "нашей": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, feminine, singular, genitive"
   },
   "нашел": {
@@ -25636,11 +25636,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "нашем": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "нашему": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, neuter, singular, dative"
   },
   "нашептал": {
@@ -25652,15 +25652,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, genitive"
   },
   "наши": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, plural, nominative"
   },
   "нашими": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, plural, instrumental"
   },
   "наших": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, plural, genitive"
   },
   "нашла": {
@@ -25672,7 +25672,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "нашу": {
-    "def": "(form of наш)",
+    "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
     "grammar": "adjective, feminine, singular, accusative"
   },
   "не": {
@@ -26104,7 +26104,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "нездоровится": {
-    "def": "(form of нездоровиться)",
+    "def": "(form of нездоровиться: [Proper Noun / Name / Place] Nezdorovitsya)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "незнаком": {
@@ -26768,7 +26768,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "нерона": {
-    "def": "(form of нерон)",
+    "def": "(form of нерон: [Proper Noun / Name / Place] Neron)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "нес": {
@@ -26940,7 +26940,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "predicative, present"
   },
   "нет-с": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Net-s",
     "grammar": "predicative, present"
   },
   "нетактично": {
@@ -27020,7 +27020,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "particle"
   },
   "неужто": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Neuzhto",
     "grammar": "interjection"
   },
   "неуместности": {
@@ -27216,7 +27216,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, singular, accusative"
   },
   "николай": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nikolay",
     "grammar": "noun, masculine, singular, nominative"
   },
   "никому": {
@@ -27268,7 +27268,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "ничего-с": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nichego-s",
     "grammar": "adverb"
   },
   "ничей": {
@@ -27324,7 +27324,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "ново-девичьем": {
-    "def": "(form of ново-девичий)",
+    "def": "(form of ново-девичий: [Proper Noun / Name / Place] Novo-devichiy)",
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "нового": {
@@ -27348,11 +27348,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "новосильцова": {
-    "def": "(form of новосильцов)",
+    "def": "(form of новосильцов: [Proper Noun / Name / Place] Novosiltsov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "новосильцову": {
-    "def": "(form of новосильцов)",
+    "def": "(form of новосильцов: [Proper Noun / Name / Place] Novosiltsov)",
     "grammar": "noun, masculine, singular, dative"
   },
   "новости": {
@@ -27568,7 +27568,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "ночью": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nochyu",
     "grammar": "adverb"
   },
   "нрав": {
@@ -27628,7 +27628,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "ну-у": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Nu-u",
     "grammar": "interjection"
   },
   "нужда": {
@@ -27720,7 +27720,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "о-го": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] O-go",
     "grammar": "noun, feminine, singular, nominative"
   },
   "об": {
@@ -28724,7 +28724,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "оглядываяась": {
-    "def": "(form of оглядываяиться)",
+    "def": "(form of оглядываяиться: [Proper Noun / Name / Place] Oglyadyvayaitsya)",
     "grammar": "gerund, perfective, past, intransitive"
   },
   "оглядываясь": {
@@ -29340,11 +29340,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, accusative"
   },
   "оле": {
-    "def": "(form of оля)",
+    "def": "(form of оля: [Proper Noun / Name / Place] Olya)",
     "grammar": "noun, feminine, singular, dative"
   },
   "олей": {
-    "def": "(form of оля)",
+    "def": "(form of оля: [Proper Noun / Name / Place] Olya)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "олень": {
@@ -29352,39 +29352,39 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "олечка": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Olechka",
     "grammar": "noun, feminine, singular, nominative"
   },
   "оли": {
-    "def": "(form of оля)",
+    "def": "(form of оля: [Proper Noun / Name / Place] Olya)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "ольга": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Olga",
     "grammar": "noun, feminine, singular, nominative"
   },
   "ольге": {
-    "def": "(form of ольга)",
+    "def": "(form of ольга: [Proper Noun / Name / Place] Olga)",
     "grammar": "noun, feminine, singular, dative"
   },
   "ольги": {
-    "def": "(form of ольга)",
+    "def": "(form of ольга: [Proper Noun / Name / Place] Olga)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "ольгой": {
-    "def": "(form of ольга)",
+    "def": "(form of ольга: [Proper Noun / Name / Place] Olga)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "олюшка": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Olyushka",
     "grammar": "noun, feminine, singular, nominative"
   },
   "олюшкой": {
-    "def": "(form of олюшка)",
+    "def": "(form of олюшка: [Proper Noun / Name / Place] Olyushka)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "оля": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Olya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "он": {
@@ -29396,7 +29396,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, feminine, singular, nominative"
   },
   "онегину": {
-    "def": "(form of онегин)",
+    "def": "(form of онегин: [Proper Noun / Name / Place] Onegin)",
     "grammar": "noun, masculine, singular, dative"
   },
   "они": {
@@ -29816,7 +29816,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "осетин-извозчик": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Osetin-izvozchik",
     "grammar": "noun, masculine, singular, nominative"
   },
   "осетина": {
@@ -31048,7 +31048,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, masculine, singular"
   },
   "отродясь": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Otrodyas",
     "grammar": "adverb"
   },
   "отрывки": {
@@ -31148,7 +31148,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "оттого-то": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ottogo-to",
     "grammar": "adverb"
   },
   "оттолкнула": {
@@ -31364,7 +31364,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, masculine, singular, nominative"
   },
   "охо-хо-хо": {
-    "def": "(form of охо-хо-хий)",
+    "def": "(form of охо-хо-хий: [Proper Noun / Name / Place] Okho-kho-khiy)",
     "grammar": "short adjective, neuter, singular"
   },
   "охота": {
@@ -31428,7 +31428,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "очаровательно": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ocharovatelno",
     "grammar": "adverb"
   },
   "очевидно": {
@@ -31520,19 +31520,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "павловна": {
-    "def": "(form of павлович)",
+    "def": "(form of павлович: [Proper Noun / Name / Place] Pavlovich)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "павловне": {
-    "def": "(form of павлович)",
+    "def": "(form of павлович: [Proper Noun / Name / Place] Pavlovich)",
     "grammar": "noun, feminine, singular, dative"
   },
   "павловну": {
-    "def": "(form of павлович)",
+    "def": "(form of павлович: [Proper Noun / Name / Place] Pavlovich)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "павловны": {
-    "def": "(form of павлович)",
+    "def": "(form of павлович: [Proper Noun / Name / Place] Pavlovich)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "падайте": {
@@ -31712,7 +31712,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, prepositional"
   },
   "паску": {
-    "def": "(form of паск)",
+    "def": "(form of паск: [Proper Noun / Name / Place] Pask)",
     "grammar": "noun, masculine, singular, dative"
   },
   "пастухом": {
@@ -32096,11 +32096,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "перелетная": {
-    "def": "(form of перелётный)",
+    "def": "(form of перелётный: [Proper Noun / Name / Place] Perelyotnyy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "перелетные": {
-    "def": "(form of перелётный)",
+    "def": "(form of перелётный: [Proper Noun / Name / Place] Perelyotnyy)",
     "grammar": "adjective, plural, nominative"
   },
   "переложил": {
@@ -32380,7 +32380,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "пермете": {
-    "def": "(form of пермета)",
+    "def": "(form of пермета: [Proper Noun / Name / Place] Permeta)",
     "grammar": "noun, feminine, singular, dative"
   },
   "перо": {
@@ -32404,11 +32404,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, prepositional"
   },
   "персии": {
-    "def": "(form of персия)",
+    "def": "(form of персия: [Proper Noun / Name / Place] Persiya)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "персию": {
-    "def": "(form of персия)",
+    "def": "(form of персия: [Proper Noun / Name / Place] Persiya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "перхает": {
@@ -32512,15 +32512,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "петр": {
-    "def": "(form of пётр)",
+    "def": "(form of пётр: [Proper Noun / Name / Place] Pyotr)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "петрович": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Petrovich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "петровиче": {
-    "def": "(form of петрович)",
+    "def": "(form of петрович: [Proper Noun / Name / Place] Petrovich)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "петь": {
@@ -32636,23 +32636,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "печорин": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pechorin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "печорина": {
-    "def": "(form of печорин)",
+    "def": "(form of печорин: [Proper Noun / Name / Place] Pechorin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "печорине": {
-    "def": "(form of печорин)",
+    "def": "(form of печорин: [Proper Noun / Name / Place] Pechorin)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "печорину": {
-    "def": "(form of печорин)",
+    "def": "(form of печорин: [Proper Noun / Name / Place] Pechorin)",
     "grammar": "noun, masculine, singular, dative"
   },
   "печориным": {
-    "def": "(form of печорин)",
+    "def": "(form of печорин: [Proper Noun / Name / Place] Pechorin)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "печь": {
@@ -32808,7 +32808,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "пиф-паф": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pif-paf",
     "grammar": "interjection"
   },
   "пишет": {
@@ -33320,7 +33320,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "побигла": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pobigla",
     "grammar": "noun, feminine, singular, nominative"
   },
   "побил": {
@@ -33524,7 +33524,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "поверь": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pover",
     "grammar": "conjunction"
   },
   "поверье": {
@@ -33848,7 +33848,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "погодя": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pogodya",
     "grammar": "adverb"
   },
   "погоню": {
@@ -34108,7 +34108,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "поделом": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Podelom",
     "grammar": "adverb"
   },
   "поделывали": {
@@ -34132,7 +34132,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "поджалуста": {
-    "def": "(form of поджалуст)",
+    "def": "(form of поджалуст: [Proper Noun / Name / Place] Podzhalust)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "поди": {
@@ -34176,7 +34176,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "подкумок": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Podkumok",
     "grammar": "noun, masculine, singular, nominative"
   },
   "подле": {
@@ -34440,7 +34440,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "подойди-ка": {
-    "def": "(form of подойти-ка)",
+    "def": "(form of подойти-ка: [Proper Noun / Name / Place] Podoyti-ka)",
     "grammar": "verb, perfective, intransitive, singular"
   },
   "подойдите": {
@@ -34788,23 +34788,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "подымалась": {
-    "def": "(form of подыматься)",
+    "def": "(form of подыматься: [Proper Noun / Name / Place] Podymatsya)",
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "подымался": {
-    "def": "(form of подыматься)",
+    "def": "(form of подыматься: [Proper Noun / Name / Place] Podymatsya)",
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "подымаются": {
-    "def": "(form of подыматься)",
+    "def": "(form of подыматься: [Proper Noun / Name / Place] Podymatsya)",
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "подымающихся": {
-    "def": "(form of подыматься)",
+    "def": "(form of подыматься: [Proper Noun / Name / Place] Podymatsya)",
     "grammar": "participle, imperfective, present, active, intransitive, plural, genitive"
   },
   "подымаясь": {
-    "def": "(form of подыматься)",
+    "def": "(form of подыматься: [Proper Noun / Name / Place] Podymatsya)",
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "подышав": {
@@ -35640,7 +35640,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "полжизни": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Polzhizni",
     "grammar": "noun, neuter, singular, nominative"
   },
   "ползали": {
@@ -35652,7 +35652,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "полидори": {
-    "def": "(form of полидорь)",
+    "def": "(form of полидорь: [Proper Noun / Name / Place] Polidor)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "полил": {
@@ -35792,7 +35792,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "положение-с": {
-    "def": "",
+    "def": "position, whereabouts, location, posture, attitude, state, status, standing, situation, thesis, clause, regulations, stature",
     "grammar": "noun, neuter, singular, nominative"
   },
   "положением": {
@@ -36292,11 +36292,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "помутились": {
-    "def": "(form of помутиться)",
+    "def": "(form of помутиться: [Proper Noun / Name / Place] Pomutitsya)",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "помутилось": {
-    "def": "(form of помутиться)",
+    "def": "(form of помутиться: [Proper Noun / Name / Place] Pomutitsya)",
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "помягче": {
@@ -36600,7 +36600,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "попрыгивает": {
-    "def": "(form of попрыгивать)",
+    "def": "(form of попрыгивать: [Proper Noun / Name / Place] Poprygivat)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "попугать": {
@@ -36740,7 +36740,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "порою": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Poroyu",
     "grammar": "adverb"
   },
   "портить": {
@@ -37068,7 +37068,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "послезли": {
-    "def": "(form of послезлить)",
+    "def": "(form of послезлить: [Proper Noun / Name / Place] Poslezlit)",
     "grammar": "verb, imperfective, transitive, singular"
   },
   "послушает": {
@@ -37164,7 +37164,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "посмотри-ка": {
-    "def": "(form of посмотреть-ка)",
+    "def": "(form of посмотреть-ка: [Proper Noun / Name / Place] Posmotret-ka)",
     "grammar": "verb, perfective, transitive, singular"
   },
   "посмотрим": {
@@ -37284,7 +37284,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, intransitive, singular"
   },
   "постоял": {
-    "def": "(form of постоялый)",
+    "def": "(form of постоялый: [Proper Noun / Name / Place] Postoyalyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "постояли": {
@@ -37420,7 +37420,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "потапыча": {
-    "def": "(form of потапович)",
+    "def": "(form of потапович: [Proper Noun / Name / Place] Potapovich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "потащил": {
@@ -37556,7 +37556,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "потопало": {
-    "def": "(form of потопать)",
+    "def": "(form of потопать: [Proper Noun / Name / Place] Potopat)",
     "grammar": "verb, imperfective, past, intransitive, neuter, singular"
   },
   "потопить": {
@@ -37596,7 +37596,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "потыкался": {
-    "def": "(form of потыкаться)",
+    "def": "(form of потыкаться: [Proper Noun / Name / Place] Potykatsya)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "потягивается": {
@@ -37752,7 +37752,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "поцеловался": {
-    "def": "(form of поцеловаться)",
+    "def": "(form of поцеловаться: [Proper Noun / Name / Place] Potselovatsya)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "поцеловать": {
@@ -38140,7 +38140,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "преглупый": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Preglupyy",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "пред": {
@@ -38588,7 +38588,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "пренеприятное": {
-    "def": "(form of пренеприятный)",
+    "def": "(form of пренеприятный: [Proper Noun / Name / Place] Prenepriyatnyy)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "пренесносная": {
@@ -38916,7 +38916,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, transitive"
   },
   "привязалась": {
-    "def": "(form of привязаться)",
+    "def": "(form of привязаться: [Proper Noun / Name / Place] Privyazatsya)",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "привязали": {
@@ -39444,7 +39444,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "прим": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Prim",
     "grammar": "noun, neuter, singular, nominative"
   },
   "приманками": {
@@ -39784,7 +39784,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "припустил": {
-    "def": "(form of припустить)",
+    "def": "(form of припустить: [Proper Noun / Name / Place] Pripustit)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "природа": {
@@ -40692,15 +40692,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "прозоров": {
-    "def": "(form of прозор)",
+    "def": "[Proper Noun / Name / Place] Prozorov",
     "grammar": "noun, masculine, plural, genitive"
   },
   "прозорова": {
-    "def": "(form of прозоров)",
+    "def": "(form of прозоров: [Proper Noun / Name / Place] Prozorov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "прозоровых": {
-    "def": "(form of прозоров)",
+    "def": "(form of прозоров: [Proper Noun / Name / Place] Prozorov)",
     "grammar": "noun, plural, genitive"
   },
   "прозрачны": {
@@ -41312,15 +41312,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "протопопов": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Protopopov",
     "grammar": "noun, masculine, singular, nominative"
   },
   "протопопова": {
-    "def": "(form of протопопов)",
+    "def": "(form of протопопов: [Proper Noun / Name / Place] Protopopov)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "протопоповым": {
-    "def": "(form of протопопов)",
+    "def": "(form of протопопов: [Proper Noun / Name / Place] Protopopov)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "протяжно": {
@@ -41612,7 +41612,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "пруссия": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Prussiya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "прусским": {
@@ -41872,7 +41872,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "пускай": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Puskay",
     "grammar": "conjunction"
   },
   "пускали": {
@@ -41912,7 +41912,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "пустилась": {
-    "def": "(form of пуститься)",
+    "def": "(form of пуститься: [Proper Noun / Name / Place] Pustitsya)",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "пустили": {
@@ -41920,11 +41920,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "пустились": {
-    "def": "(form of пуститься)",
+    "def": "(form of пуститься: [Proper Noun / Name / Place] Pustitsya)",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "пустился": {
-    "def": "(form of пуститься)",
+    "def": "(form of пуститься: [Proper Noun / Name / Place] Pustitsya)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "пустит": {
@@ -41936,7 +41936,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "пуститься": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pustitsya",
     "grammar": "infinitive, perfective, intransitive"
   },
   "пусто": {
@@ -41996,7 +41996,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "пустяшная": {
-    "def": "(form of пустяшный)",
+    "def": "(form of пустяшный: [Proper Noun / Name / Place] Pustyashnyy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "путаю": {
@@ -42084,11 +42084,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "пушкина": {
-    "def": "(form of пушкин)",
+    "def": "(form of пушкин: [Proper Noun / Name / Place] Pushkin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "пушкиным": {
-    "def": "(form of пушкин)",
+    "def": "(form of пушкин: [Proper Noun / Name / Place] Pushkin)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "пущен": {
@@ -42104,7 +42104,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "пыжикова": {
-    "def": "(form of пыжиковый)",
+    "def": "(form of пыжиковый: [Proper Noun / Name / Place] Pyzhikovyy)",
     "grammar": "short adjective, feminine, singular"
   },
   "пыл": {
@@ -42160,15 +42160,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, accusative"
   },
   "пьер": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Per",
     "grammar": "noun, masculine, singular, nominative"
   },
   "пьера": {
-    "def": "(form of пьер)",
+    "def": "(form of пьер: [Proper Noun / Name / Place] Per)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "пьеру": {
-    "def": "(form of пьер)",
+    "def": "(form of пьер: [Proper Noun / Name / Place] Per)",
     "grammar": "noun, masculine, singular, dative"
   },
   "пьет": {
@@ -42244,15 +42244,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "пятигорск": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Pyatigorsk",
     "grammar": "noun, masculine, singular, nominative"
   },
   "пятигорска": {
-    "def": "(form of пятигорск)",
+    "def": "(form of пятигорск: [Proper Noun / Name / Place] Pyatigorsk)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "пятигорске": {
-    "def": "(form of пятигорск)",
+    "def": "(form of пятигорск: [Proper Noun / Name / Place] Pyatigorsk)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "пятидесяти": {
@@ -42496,11 +42496,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "раевич": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Raevich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "раевичем": {
-    "def": "(form of раевич)",
+    "def": "(form of раевич: [Proper Noun / Name / Place] Raevich)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "раз": {
@@ -43144,7 +43144,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "разумеется": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Razumeetsya",
     "grammar": "conjunction"
   },
   "разъезжает": {
@@ -43432,7 +43432,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, instrumental"
   },
   "расселись": {
-    "def": "(form of расселиться)",
+    "def": "(form of расселиться: [Proper Noun / Name / Place] Rasselitsya)",
     "grammar": "verb, perfective, intransitive, singular"
   },
   "рассердившись": {
@@ -43952,7 +43952,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "реникса": {
-    "def": "(form of реникс)",
+    "def": "(form of реникс: [Proper Noun / Name / Place] Reniks)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "репутацию": {
@@ -44052,7 +44052,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "решетчаты-е": {
-    "def": "(form of решетчат-е)",
+    "def": "(form of решетчат-е: [Proper Noun / Name / Place] Reshetchat-e)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "решившийся": {
@@ -44160,7 +44160,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "робинзона": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Robinzona",
     "grammar": "noun, feminine, singular, nominative"
   },
   "робкому": {
@@ -44288,7 +44288,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "родэ": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Rode",
     "grammar": "noun, masculine, singular, nominative"
   },
   "родятся": {
@@ -44392,7 +44392,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "романах-с": {
-    "def": "(form of роман-с)",
+    "def": "(form of роман-с: novel, romance, love affair)",
     "grammar": "noun, masculine, plural, prepositional"
   },
   "романов": {
@@ -44400,7 +44400,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "романович": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Romanovich",
     "grammar": "noun, masculine, singular, nominative"
   },
   "романом": {
@@ -44424,7 +44424,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "романыч": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Romanych",
     "grammar": "noun, masculine, singular, nominative"
   },
   "рому": {
@@ -44732,7 +44732,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "руссо": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Russo",
     "grammar": "noun, singular, nominative"
   },
   "русые": {
@@ -45008,7 +45008,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, instrumental"
   },
   "самодовольствие": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Samodovolstvie",
     "grammar": "noun, neuter, singular, nominative"
   },
   "самое": {
@@ -45104,7 +45104,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "саратов": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Saratov",
     "grammar": "noun, masculine, singular, nominative"
   },
   "сараю": {
@@ -45128,7 +45128,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "сбежались": {
-    "def": "(form of сбежаться)",
+    "def": "(form of сбежаться: [Proper Noun / Name / Place] Sbezhatsya)",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "сбежало": {
@@ -45328,7 +45328,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "светает": {
-    "def": "(form of светать)",
+    "def": "(form of светать: [Proper Noun / Name / Place] Svetat)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "свете": {
@@ -45968,7 +45968,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "семен": {
-    "def": "(form of семён)",
+    "def": "(form of семён: [Proper Noun / Name / Place] Semyon)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "семерка": {
@@ -46040,11 +46040,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "сергеевна": {
-    "def": "(form of сергеевич)",
+    "def": "(form of сергеевич: [Proper Noun / Name / Place] Sergeevich)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "сергеич": {
-    "def": "(form of сергеевич)",
+    "def": "(form of сергеевич: [Proper Noun / Name / Place] Sergeevich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "сердечная": {
@@ -46568,7 +46568,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "скажи-ка": {
-    "def": "(form of сказать-ка)",
+    "def": "(form of сказать-ка: [Proper Noun / Name / Place] Skazat-ka)",
     "grammar": "verb, perfective, transitive, singular"
   },
   "скажите": {
@@ -46576,7 +46576,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, plural"
   },
   "скажите-ка": {
-    "def": "(form of сказать-ка)",
+    "def": "(form of сказать-ка: [Proper Noun / Name / Place] Skazat-ka)",
     "grammar": "verb, perfective, transitive, plural"
   },
   "скажу": {
@@ -46744,7 +46744,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "скворцов": {
-    "def": "(form of скворцовый)",
+    "def": "(form of скворцовый: [Proper Noun / Name / Place] Skvortsovyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "скептик": {
@@ -46844,7 +46844,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "скотта": {
-    "def": "(form of скотт)",
+    "def": "(form of скотт: [Proper Noun / Name / Place] Skott)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "скрестив": {
@@ -47204,7 +47204,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "следственно": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Sledstvenno",
     "grammar": "conjunction"
   },
   "следствие": {
@@ -47320,15 +47320,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "слободка": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Slobodka",
     "grammar": "noun, feminine, singular, nominative"
   },
   "слободки": {
-    "def": "(form of слободка)",
+    "def": "(form of слободка: [Proper Noun / Name / Place] Slobodka)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "слободку": {
-    "def": "(form of слободка)",
+    "def": "(form of слободка: [Proper Noun / Name / Place] Slobodka)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "слов": {
@@ -47660,7 +47660,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "слышу-то": {
-    "def": "(form of слышать-то)",
+    "def": "(form of слышать-то: [Proper Noun / Name / Place] Slyshat-to)",
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "слюни": {
@@ -48020,7 +48020,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "смысль": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Smysl",
     "grammar": "noun, feminine, singular, nominative"
   },
   "сна": {
@@ -48396,7 +48396,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "совсим": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Sovsim",
     "grammar": "noun, masculine, singular, nominative"
   },
   "согласен": {
@@ -48636,7 +48636,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "соловей-разбойник": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Solovey-razboynik",
     "grammar": "noun, masculine, singular, nominative"
   },
   "соломе": {
@@ -48808,7 +48808,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "составившаяся": {
-    "def": "(form of составиться)",
+    "def": "(form of составиться: [Proper Noun / Name / Place] Sostavitsya)",
     "grammar": "participle, perfective, past, active, intransitive, feminine, singular, nominative"
   },
   "составил": {
@@ -48820,7 +48820,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "составились": {
-    "def": "(form of составиться)",
+    "def": "(form of составиться: [Proper Noun / Name / Place] Sostavitsya)",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "составит": {
@@ -48908,15 +48908,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "софочка": {
-    "def": "(form of софочко)",
+    "def": "[Proper Noun / Name / Place] Sofochka",
     "grammar": "noun, neuter, singular, genitive"
   },
   "софочкой": {
-    "def": "(form of софочка)",
+    "def": "(form of софочка: [Proper Noun / Name / Place] Sofochka)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "софочку": {
-    "def": "(form of софочко)",
+    "def": "(form of софочко: [Proper Noun / Name / Place] Sofochko)",
     "grammar": "noun, neuter, singular, dative"
   },
   "сохнет": {
@@ -49004,7 +49004,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "спб": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Spb",
     "grammar": "noun, masculine, singular, nominative"
   },
   "сперва": {
@@ -49076,7 +49076,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "спиридоныч": {
-    "def": "(form of спиридонович)",
+    "def": "(form of спиридонович: [Proper Noun / Name / Place] Spiridonovich)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "спирта": {
@@ -49264,7 +49264,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "спохватившись": {
-    "def": "(form of спохватиться)",
+    "def": "(form of спохватиться: [Proper Noun / Name / Place] Spokhvatitsya)",
     "grammar": "gerund, perfective, past, intransitive"
   },
   "справедливо": {
@@ -49588,7 +49588,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "ставрополь": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Stavropol",
     "grammar": "noun, masculine, singular, accusative"
   },
   "стада": {
@@ -49656,7 +49656,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "станислава": {
-    "def": "(form of станислав)",
+    "def": "(form of станислав: [Proper Noun / Name / Place] Stanislav)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "станице": {
@@ -51292,7 +51292,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "та-ра-ра-бумбия": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ta-ra-ra-bumbiya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "табун": {
@@ -51384,7 +51384,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "так-с": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tak-s",
     "grammar": "conjunction"
   },
   "так-то": {
@@ -51492,15 +51492,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "тамани": {
-    "def": "(form of тамань)",
+    "def": "(form of тамань: [Proper Noun / Name / Place] Taman)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "тамань": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Taman",
     "grammar": "noun, feminine, singular, nominative"
   },
   "тамбов": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tambov",
     "grammar": "noun, masculine, singular, accusative"
   },
   "тамошная": {
@@ -51536,7 +51536,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "тара-ра": {
-    "def": "(form of тара-р)",
+    "def": "(form of тара-р: [Proper Noun / Name / Place] Tara-r)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тараканах": {
@@ -51548,7 +51548,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "тарара": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tarara",
     "grammar": "noun, feminine, singular, nominative"
   },
   "тарелке": {
@@ -51568,7 +51568,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "тасс": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tass",
     "grammar": "noun, masculine, singular, nominative"
   },
   "татар": {
@@ -51996,15 +51996,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "терека": {
-    "def": "(form of терек)",
+    "def": "(form of терек: [Proper Noun / Name / Place] Terek)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тереком": {
-    "def": "(form of терек)",
+    "def": "(form of терек: [Proper Noun / Name / Place] Terek)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "терекское": {
-    "def": "(form of терекский)",
+    "def": "(form of терекский: [Proper Noun / Name / Place] Terekskiy)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "терзает": {
@@ -52088,7 +52088,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "тестова": {
-    "def": "(form of тестово)",
+    "def": "(form of тестово: [Proper Noun / Name / Place] Testovo)",
     "grammar": "noun, neuter, singular, genitive"
   },
   "тете": {
@@ -52164,15 +52164,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "тифлис": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tiflis",
     "grammar": "noun, masculine, singular, nominative"
   },
   "тифлиса": {
-    "def": "(form of тифлис)",
+    "def": "(form of тифлис: [Proper Noun / Name / Place] Tiflis)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тифлисе": {
-    "def": "(form of тифлис)",
+    "def": "(form of тифлис: [Proper Noun / Name / Place] Tiflis)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "тиха": {
@@ -52280,7 +52280,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, genitive"
   },
   "того-то": {
-    "def": "(form of тот-то)",
+    "def": "(form of тот-то: that, the other, the right)",
     "grammar": "adjective, neuter, singular, genitive"
   },
   "тоже": {
@@ -52420,7 +52420,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, prepositional"
   },
   "том-то": {
-    "def": "(form of тот-то)",
+    "def": "(form of тот-то: that, the other, the right)",
     "grammar": "adjective, neuter, singular, prepositional"
   },
   "томах": {
@@ -52704,11 +52704,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "тра-ра-ра": {
-    "def": "(form of тра-ра-р)",
+    "def": "(form of тра-ра-р: [Proper Noun / Name / Place] Tra-ra-r)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тра-та-та": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tra-ta-ta",
     "grammar": "interjection"
   },
   "трав": {
@@ -52760,11 +52760,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "трам-там": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tram-tam",
     "grammar": "adverb"
   },
   "трам-там-там": {
-    "def": "(form of трам-там-т)",
+    "def": "(form of трам-там-т: [Proper Noun / Name / Place] Tram-tam-t)",
     "grammar": "noun, masculine, plural, dative"
   },
   "транспорт": {
@@ -53196,23 +53196,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "тузенбах": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tuzenbakh",
     "grammar": "noun, masculine, singular, nominative"
   },
   "тузенбах-кроне-альтшауер": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tuzenbakh-krone-altshauer",
     "grammar": "noun, masculine, singular, nominative"
   },
   "тузенбаха": {
-    "def": "(form of тузенбах)",
+    "def": "(form of тузенбах: [Proper Noun / Name / Place] Tuzenbakh)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тузенбахе": {
-    "def": "(form of тузенбах)",
+    "def": "(form of тузенбах: [Proper Noun / Name / Place] Tuzenbakh)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "тузенбаху": {
-    "def": "(form of тузенбах)",
+    "def": "(form of тузенбах: [Proper Noun / Name / Place] Tuzenbakh)",
     "grammar": "noun, masculine, singular, dative"
   },
   "тузу": {
@@ -53220,7 +53220,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "туллий": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tulliy",
     "grammar": "noun, masculine, singular, nominative"
   },
   "туловищем": {
@@ -53304,7 +53304,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "тут-то": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tut-to",
     "grammar": "adverb"
   },
   "туфлях": {
@@ -54084,7 +54084,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "ударилась": {
-    "def": "(form of удариться)",
+    "def": "(form of удариться: [Proper Noun / Name / Place] Udaritsya)",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "ударили": {
@@ -54092,11 +54092,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "ударился": {
-    "def": "(form of удариться)",
+    "def": "(form of удариться: [Proper Noun / Name / Place] Udaritsya)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "ударится": {
-    "def": "(form of удариться)",
+    "def": "(form of удариться: [Proper Noun / Name / Place] Udaritsya)",
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "ударишь": {
@@ -54116,7 +54116,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, feminine, singular"
   },
   "ударясь": {
-    "def": "(form of удариться)",
+    "def": "(form of удариться: [Proper Noun / Name / Place] Udaritsya)",
     "grammar": "gerund, perfective, past, intransitive"
   },
   "удастся": {
@@ -54740,11 +54740,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "уляшин": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ulyashin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "уляшина": {
-    "def": "(form of уляшин)",
+    "def": "(form of уляшин: [Proper Noun / Name / Place] Ulyashin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "ум": {
@@ -55212,7 +55212,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "урус": {
-    "def": "(form of урусый)",
+    "def": "(form of урусый: [Proper Noun / Name / Place] Urusyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "урывочками": {
@@ -55360,15 +55360,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "услыхал": {
-    "def": "(form of услыхать)",
+    "def": "(form of услыхать: [Proper Noun / Name / Place] Uslykhat)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "услыхали": {
-    "def": "(form of услыхать)",
+    "def": "(form of услыхать: [Proper Noun / Name / Place] Uslykhat)",
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "услыхать": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Uslykhat",
     "grammar": "infinitive, perfective, transitive"
   },
   "услышав": {
@@ -55692,11 +55692,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "утомилась": {
-    "def": "(form of утомиться)",
+    "def": "(form of утомиться: [Proper Noun / Name / Place] Utomitsya)",
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "утомился": {
-    "def": "(form of утомиться)",
+    "def": "(form of утомиться: [Proper Noun / Name / Place] Utomitsya)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "утомительно": {
@@ -55744,7 +55744,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "утоптали": {
-    "def": "(form of утоптать)",
+    "def": "(form of утоптать: [Proper Noun / Name / Place] Utoptat)",
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "утра": {
@@ -56048,7 +56048,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "фанагорию": {
-    "def": "(form of фанагорий)",
+    "def": "(form of фанагорий: [Proper Noun / Name / Place] Fanagoriy)",
     "grammar": "noun, masculine, singular, dative"
   },
   "фанатизма": {
@@ -56064,11 +56064,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "фаталист": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Fatalist",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фаталистом": {
-    "def": "(form of фаталист)",
+    "def": "(form of фаталист: [Proper Noun / Name / Place] Fatalist)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "фатера": {
@@ -56080,23 +56080,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "федор": {
-    "def": "(form of фёдор)",
+    "def": "(form of фёдор: [Proper Noun / Name / Place] Fyodor)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "федотик": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Fedotik",
     "grammar": "noun, masculine, singular, nominative"
   },
   "федотика": {
-    "def": "(form of федотик)",
+    "def": "(form of федотик: [Proper Noun / Name / Place] Fedotik)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "федотиком": {
-    "def": "(form of федотик)",
+    "def": "(form of федотик: [Proper Noun / Name / Place] Fedotik)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "федя": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Fedya",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фельдфебель": {
@@ -56104,27 +56104,27 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "феодоровну": {
-    "def": "(form of феодорович)",
+    "def": "(form of феодорович: [Proper Noun / Name / Place] Feodorovich)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "феодоровны": {
-    "def": "(form of феодоровный)",
+    "def": "(form of феодоровный: [Proper Noun / Name / Place] Feodorovnyy)",
     "grammar": "short adjective, plural"
   },
   "ферапонт": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Ferapont",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ферапонта": {
-    "def": "(form of ферапонт)",
+    "def": "(form of ферапонт: [Proper Noun / Name / Place] Ferapont)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "ферапонтом": {
-    "def": "(form of ферапонт)",
+    "def": "(form of ферапонт: [Proper Noun / Name / Place] Ferapont)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "ферапонту": {
-    "def": "(form of ферапонт)",
+    "def": "(form of ферапонт: [Proper Noun / Name / Place] Ferapont)",
     "grammar": "noun, masculine, singular, dative"
   },
   "фермуаром": {
@@ -56368,11 +56368,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "фу": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Fu",
     "grammar": "interjection"
   },
   "функе": {
-    "def": "(form of функа)",
+    "def": "(form of функа: [Proper Noun / Name / Place] Funka)",
     "grammar": "noun, feminine, singular, dative"
   },
   "фуражке": {
@@ -56884,7 +56884,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "хорошо-с": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Khorosho-s",
     "grammar": "adverb"
   },
   "хорошую": {
@@ -57200,11 +57200,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "цезарь": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tsezar",
     "grammar": "noun, masculine, singular, nominative"
   },
   "цезаря": {
-    "def": "(form of цезарь)",
+    "def": "(form of цезарь: [Proper Noun / Name / Place] Tsezar)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "цел": {
@@ -57372,19 +57372,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "цицерон": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tsitseron",
     "grammar": "noun, masculine, singular, nominative"
   },
   "цицерона": {
-    "def": "(form of цицерон)",
+    "def": "(form of цицерон: [Proper Noun / Name / Place] Tsitseron)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "цицикар": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tsitsikar",
     "grammar": "noun, masculine, singular, nominative"
   },
   "цып": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Tsyp",
     "grammar": ""
   },
   "чадрой": {
@@ -57532,7 +57532,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "чацкого": {
-    "def": "(form of чацкий)",
+    "def": "(form of чацкий: [Proper Noun / Name / Place] Chatskiy)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "чаши": {
@@ -57568,23 +57568,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "чебутыкин": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Chebutykin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "чебутыкина": {
-    "def": "(form of чебутыкин)",
+    "def": "(form of чебутыкин: [Proper Noun / Name / Place] Chebutykin)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "чебутыкину": {
-    "def": "(form of чебутыкин)",
+    "def": "(form of чебутыкин: [Proper Noun / Name / Place] Chebutykin)",
     "grammar": "noun, masculine, singular, dative"
   },
   "чебутыкины": {
-    "def": "(form of чебутыкин)",
+    "def": "(form of чебутыкин: [Proper Noun / Name / Place] Chebutykin)",
     "grammar": "noun, plural, nominative"
   },
   "чебутыкиным": {
-    "def": "(form of чебутыкин)",
+    "def": "(form of чебутыкин: [Proper Noun / Name / Place] Chebutykin)",
     "grammar": "noun, plural, dative"
   },
   "чего": {
@@ -57608,7 +57608,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "челахова": {
-    "def": "(form of челахов)",
+    "def": "(form of челахов: [Proper Noun / Name / Place] Chelakhov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "человек": {
@@ -57728,11 +57728,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "черемша": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Cheremsha",
     "grammar": "noun, feminine, singular, nominative"
   },
   "черемши": {
-    "def": "(form of черемша)",
+    "def": "(form of черемша: [Proper Noun / Name / Place] Cheremsha)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "черепа": {
@@ -57972,7 +57972,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "честная": {
-    "def": "(form of честной)",
+    "def": "(form of честной: [Proper Noun / Name / Place] Chestnoy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "честнее": {
@@ -57980,15 +57980,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "честное": {
-    "def": "(form of честной)",
+    "def": "(form of честной: [Proper Noun / Name / Place] Chestnoy)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "честной": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Chestnoy",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "честную": {
-    "def": "(form of честной)",
+    "def": "(form of честной: [Proper Noun / Name / Place] Chestnoy)",
     "grammar": "adjective, feminine, singular, accusative"
   },
   "честный": {
@@ -57996,7 +57996,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "честных": {
-    "def": "(form of честной)",
+    "def": "(form of честной: [Proper Noun / Name / Place] Chestnoy)",
     "grammar": "adjective, plural, genitive"
   },
   "честолюбие": {
@@ -58044,11 +58044,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, genitive"
   },
   "чехартма": {
-    "def": "(form of чехартм)",
+    "def": "(form of чехартм: [Proper Noun / Name / Place] Chekhartm)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "чехартмы": {
-    "def": "(form of чехартм)",
+    "def": "(form of чехартм: [Proper Noun / Name / Place] Chekhartm)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "чехла": {
@@ -58248,7 +58248,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "читу": {
-    "def": "(form of чита)",
+    "def": "(form of чита: [Proper Noun / Name / Place] Chita)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "чихиря": {
@@ -58388,7 +58388,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "чудесно": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Chudesno",
     "grammar": "adverb"
   },
   "чудесный": {
@@ -58488,7 +58488,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "чья-то": {
-    "def": "(form of чей-то)",
+    "def": "(form of чей-то: whose)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "шаг": {
@@ -58548,7 +58548,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, nominative"
   },
   "шалун": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Shalun",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шалью": {
@@ -58688,7 +58688,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "шекспир": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Shekspir",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шел": {
@@ -58752,7 +58752,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "шерер": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Sherer",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шест": {
@@ -58972,7 +58972,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "шпоры": {
-    "def": "(form of шпор)",
+    "def": "(form of шпор: [Proper Noun / Name / Place] Shpor)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "штабс-капитан": {
@@ -59252,11 +59252,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, nominative"
   },
   "э": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] E",
     "grammar": "interjection"
   },
   "эва": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Eva",
     "grammar": "interjection"
   },
   "эгоистом": {
@@ -59304,15 +59304,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "элен": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Elen",
     "grammar": "noun, feminine, singular, nominative"
   },
   "эльборус": {
-    "def": "(form of эльборусый)",
+    "def": "(form of эльборусый: [Proper Noun / Name / Place] Elborusyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "эльборусом": {
-    "def": "(form of эльборусый)",
+    "def": "(form of эльборусый: [Proper Noun / Name / Place] Elborusyy)",
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "эмигрантов": {
@@ -59320,11 +59320,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "энгиенский": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Engienskiy",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "энгиенского": {
-    "def": "(form of энгиенский)",
+    "def": "(form of энгиенский: [Proper Noun / Name / Place] Engienskiy)",
     "grammar": "adjective, neuter, singular, genitive"
   },
   "эндимионов": {
@@ -59340,7 +59340,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "эоловой": {
-    "def": "(form of эоловый)",
+    "def": "(form of эоловый: [Proper Noun / Name / Place] Eolovyy)",
     "grammar": "adjective, feminine, singular, genitive"
   },
   "эпиграммы": {
@@ -59452,7 +59452,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "эх-ма": {
-    "def": "(form of эх-м)",
+    "def": "(form of эх-м: [Proper Noun / Name / Place] Ekh-m)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "эхо": {
@@ -59488,11 +59488,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, prepositional"
   },
   "юлий": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Yuliy",
     "grammar": "noun, masculine, singular, nominative"
   },
   "юлия": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Yuliya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "юная": {
@@ -59532,11 +59532,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, singular, nominative"
   },
   "я-с": {
-    "def": "",
+    "def": "I",
     "grammar": "pronoun, singular, nominative"
   },
   "я-то": {
-    "def": "",
+    "def": "I",
     "grammar": "pronoun, singular, nominative"
   },
   "яблоками": {
@@ -59608,7 +59608,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "якши": {
-    "def": "(form of якнуть)",
+    "def": "(form of якнуть: [Proper Noun / Name / Place] Yaknut)",
     "grammar": "gerund, perfective, past, intransitive"
   },
   "яма": {
@@ -59648,7 +59648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "янко": {
-    "def": "",
+    "def": "[Proper Noun / Name / Place] Yanko",
     "grammar": "noun, singular, nominative"
   },
   "яркая": {
