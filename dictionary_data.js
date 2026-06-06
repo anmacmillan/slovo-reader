@@ -116836,7 +116836,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "уж": {
-    "def": "grass snake",
+    "def": "already, already; grass snake",
     "grammar": "adverb"
   },
   "ужас": {
