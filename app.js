@@ -15,6 +15,7 @@ const state = {
   audioPlayer: null,
   isPlayingChapter: false,
   syncGistId: null,
+  languageMode: "russian", // "russian" or "latin"
   layoutMode: "scroll", // "scroll" or "page"
   currentPageIndex: 0,
   totalPagesCount: 1,
@@ -225,7 +226,9 @@ function speakText(text, lang) {
 // ── Library Loading ───────────────────────────────────────────────────────────
 function loadLibrary() {
   // Load the preloaded books into state
-  state.books = [...PRELOADED_BOOKS];
+  if (typeof PRELOADED_BOOKS !== 'undefined') {
+    state.books = [...PRELOADED_BOOKS];
+  }
   
   // Also load any custom books from localStorage
   const savedCustom = localStorage.getItem(STORAGE_KEYS.CUSTOM_BOOKS);
@@ -873,12 +876,22 @@ function fetchWiktionaryDetails(lemma, originalText) {
       });
   };
 
-  // Check local offline dictionary first
-  if (typeof LOCAL_DICTIONARY !== 'undefined') {
-    const entry = LOCAL_DICTIONARY[cleanLower] || (lemma ? LOCAL_DICTIONARY[lemma.toLowerCase()] : null);
-    if (entry) {
-      renderOfflineAnalysis(originalText, entry.def, entry.grammar, englishTranslation);
-      return;
+  // Check local offline dictionary first — use the right one for the current language
+  if (state.languageMode === "russian") {
+    if (typeof LOCAL_DICTIONARY !== 'undefined') {
+      const entry = LOCAL_DICTIONARY[cleanLower] || (lemma ? LOCAL_DICTIONARY[lemma.toLowerCase()] : null);
+      if (entry) {
+        renderOfflineAnalysis(originalText, entry.def, entry.grammar, englishTranslation);
+        return;
+      }
+    }
+  } else if (state.languageMode === "latin") {
+    if (typeof LATIN_DICT !== 'undefined') {
+      const entry = LATIN_DICT[cleanLower];
+      if (entry) {
+        renderOfflineAnalysis(originalText, entry.def, entry.grammar, englishTranslation);
+        return;
+      }
     }
   }
 
@@ -1704,6 +1717,39 @@ function bindEvents() {
   document.getElementById("export-vocab").addEventListener("click", exportVocabAsMarkdown);
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
   document.getElementById("clear-highlights").addEventListener("click", clearHighlightsList);
+
+  // Language Toggle (Russian vs Latin)
+  const langBtn = document.getElementById("lang-toggle");
+  if (langBtn) {
+    langBtn.addEventListener("click", () => {
+      const newMode = state.languageMode === "russian" ? "latin" : "russian";
+      state.languageMode = newMode;
+      
+      // Update button icon
+      langBtn.textContent = newMode === "russian" ? "🇷🇺" : "🇱🇦";
+      
+      // Update column headers
+      const leftH3 = document.querySelector("#lang-left-title .column-lang");
+      const leftSub = document.getElementById("lang-left-subtitle");
+      const rightH3 = document.querySelector("#lang-right-title .column-lang");
+      const rightSub = document.getElementById("lang-right-subtitle");
+      
+      if (newMode === "latin") {
+        if (leftH3) leftH3.textContent = "Latijn";
+        if (leftSub) leftSub.textContent = "Latin Original";
+        if (rightH3) rightH3.textContent = "In het Nederlands";
+        if (rightSub) rightSub.textContent = "Dutch Translation";
+      } else {
+        if (leftH3) leftH3.textContent = "По-русски";
+        if (leftSub) leftSub.textContent = "Russian Original";
+        if (rightH3) rightH3.textContent = "In English";
+        if (rightSub) rightSub.textContent = "English Translation";
+      }
+      
+      // Reload splash
+      renderSplash();
+    });
+  }
 
   // Swipe gestures for page turns — always operates within the current chapter
   const chunksContainer = document.getElementById("chunks-container");

@@ -68,6 +68,9 @@
         <!-- Layout Mode Toggle (Scroll vs Pages) -->
         <button id="layout-toggle" class="btn-icon" title="Toggle Page/Scroll Mode" style="font-size: 1.2rem;">📖</button>
 
+        <!-- Language Toggle (Russian vs Latin) -->
+        <button id="lang-toggle" class="btn-icon" title="Switch language" style="font-size: 1.2rem;">🇷🇺</button>
+
         <!-- Theme Toggle -->
         <button id="theme-toggle" class="btn-icon" title="Toggle Theme">🌓</button>
 
@@ -90,13 +93,13 @@
         <!-- Split-screen side-by-side reading layout -->
         <section class="reader-pane" id="reader-pane">
           <div class="column-header">
-            <div class="column-title-box">
+            <div class="column-title-box" id="lang-left-title">
               <h3 class="column-lang">По-русски</h3>
-              <span class="column-subtitle">Russian Original</span>
+              <span class="column-subtitle" id="lang-left-subtitle">Russian Original</span>
             </div>
-            <div class="column-title-box">
+            <div class="column-title-box" id="lang-right-title">
               <h3 class="column-lang">In English</h3>
-              <span class="column-subtitle">English Translation</span>
+              <span class="column-subtitle" id="lang-right-subtitle">English Translation</span>
             </div>
           </div>
           
@@ -197,6 +200,8 @@
   <!-- Scripts -->
   <script src="data.js?v=23"></script>
   <script src="dictionary_data.js?v=23" onerror="window.LOCAL_DICTIONARY = {}"></script>
+  <script src="latin_data.js?v=23"></script>
+  <script src="latin_dictionary.js?v=23" onerror="window.LATIN_DICT = {}"></script>
   <script src="app.js?v=23"></script>
   <script>
     if ('serviceWorker' in navigator) {
