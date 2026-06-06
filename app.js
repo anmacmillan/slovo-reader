@@ -1024,6 +1024,9 @@ function saveWordToVocab(word, definition, grammar) {
   localStorage.setItem(STORAGE_KEYS.VOCAB, JSON.stringify(state.vocabList));
   updateVocabUI();
   
+  // Auto-sync updates to Gist in background
+  syncProgressToGist().catch(err => console.log("Gist vocab auto-sync skipped:", err.message));
+  
   // Highlight UI count feedback
   const vocabBtn = document.getElementById("vocab-toggle");
   vocabBtn.style.transform = "scale(1.08)";
@@ -1034,6 +1037,9 @@ function deleteVocabWord(timestamp) {
   state.vocabList = state.vocabList.filter(item => item.timestamp !== timestamp);
   localStorage.setItem(STORAGE_KEYS.VOCAB, JSON.stringify(state.vocabList));
   updateVocabUI();
+  
+  // Auto-sync updates to Gist in background
+  syncProgressToGist().catch(err => console.log("Gist vocab auto-sync skipped:", err.message));
 }
 
 function clearVocabList() {
@@ -1041,6 +1047,9 @@ function clearVocabList() {
     state.vocabList = [];
     localStorage.removeItem(STORAGE_KEYS.VOCAB);
     updateVocabUI();
+    
+    // Auto-sync updates to Gist in background
+    syncProgressToGist().catch(err => console.log("Gist vocab auto-sync skipped:", err.message));
   }
 }
 
@@ -1089,9 +1098,19 @@ function exportVocabAsMarkdown() {
     return;
   }
 
-  let md = "# Saved Vocabulary List\n\n| Word | Definition | Grammar |\n|---|---|---|\n";
+  let md = "# Slovo Reader Saved Vocabulary\n\n";
+  md += "Here is your saved list of Russian words and their English definitions/grammar details:\n\n";
+  md += "| Russian Word | English Translation / Definition | Grammar Notes |\n";
+  md += "|---|---|---|\n";
+  
   state.vocabList.forEach(item => {
-    md += `| **${item.word}** | ${item.definition} | *${item.grammar}* |\n`;
+    // Strip trailing reference strings like (form of X: Y) if present to keep exports clean
+    let cleanDef = item.definition;
+    const match = item.definition.match(/\(form of [а-яёА-ЯЁ\-]+:\s*(.*?)\)/i);
+    if (match) {
+      cleanDef = match[1];
+    }
+    md += `| **${item.word}** | ${cleanDef} | *${item.grammar}* |\n`;
   });
 
   const blob = new Blob([md], { type: "text/markdown;charset=utf-8;" });
@@ -1214,6 +1233,29 @@ function mergeGistProgress(cloudData) {
       localStorage.setItem(`book_${idx}_progress`, cloudBook.chaptersRead);
     }
   });
+
+  // Merge vocabulary lists (union by word, keeping the most recent entry if timestamps differ)
+  if (cloudData.vocab && Array.isArray(cloudData.vocab)) {
+    const mergedVocab = [...state.vocabList];
+    cloudData.vocab.forEach(cloudItem => {
+      const matchIdx = mergedVocab.findIndex(localItem => localItem.word.toLowerCase() === cloudItem.word.toLowerCase());
+      if (matchIdx === -1) {
+        mergedVocab.push(cloudItem);
+      } else {
+        // Keep the one with the newer timestamp or details
+        const localTs = mergedVocab[matchIdx].timestamp || 0;
+        const cloudTs = cloudItem.timestamp || 0;
+        if (cloudTs > localTs) {
+          mergedVocab[matchIdx] = cloudItem;
+        }
+      }
+    });
+    // Sort by timestamp desc (newest first)
+    mergedVocab.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+    state.vocabList = mergedVocab;
+    localStorage.setItem(STORAGE_KEYS.VOCAB, JSON.stringify(state.vocabList));
+    updateVocabUI();
+  }
   
   // Find which book was read most recently/furthest in the cloud
   let activeBookIdx = -1;
