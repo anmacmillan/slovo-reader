@@ -65,6 +65,9 @@
           <span style="font-size: 1.1rem; color: var(--text-primary); font-family: var(--font-ui); font-weight: bold; user-select: none;">A</span>
         </div>
 
+        <!-- Layout Mode Toggle (Scroll vs Pages) -->
+        <button id="layout-toggle" class="btn-icon" title="Toggle Page/Scroll Mode" style="font-size: 1.2rem;">📖</button>
+
         <!-- Theme Toggle -->
         <button id="theme-toggle" class="btn-icon" title="Toggle Theme">🌓</button>
 
@@ -142,26 +145,38 @@
 
 
 
-    <!-- Reading Progress Bar -->
+    <!-- Reading Progress Bar & Page Mode Controls -->
     <footer class="app-footer">
-      <div class="footer-progress">
+      <!-- Scroll Mode progress -->
+      <div class="footer-progress" id="scroll-progress-container">
         <span class="progress-label">Reading Progress:</span>
         <div class="progress-track">
           <div class="progress-bar" id="reading-progress-bar" style="width: 0%;"></div>
         </div>
         <span class="progress-percent" id="progress-percent">0%</span>
       </div>
+      
+      <!-- Page Mode progress & controls -->
+      <div class="footer-page-controls hidden" id="page-controls-container" style="display: flex; align-items: center; justify-content: space-between; flex: 1; max-width: 500px;">
+        <button id="prev-page-btn" class="btn-icon" title="Previous Page" style="font-size: 1.1rem; background: var(--bg-control);">←</button>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 2px;">
+          <span id="page-indicator" style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary); font-family: var(--font-ui);">Page 1 of 1</span>
+          <span id="page-progress-info" style="font-size: 0.7rem; color: var(--text-secondary); font-family: var(--font-ui);">0% of chapter • 0% of book</span>
+        </div>
+        <button id="next-page-btn" class="btn-icon" title="Next Page" style="font-size: 1.1rem; background: var(--bg-control);">→</button>
+      </div>
+      
       <div class="footer-info">
-        <span>Yasnaya Polyana Engine v1.0</span>
+        <span>Yasnaya Polyana Engine v1.1</span>
       </div>
     </footer>
 
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=7"></script>
-  <script src="dictionary_data.js?v=7" onerror="window.LOCAL_DICTIONARY = {}"></script>
-  <script src="app.js?v=7"></script>
+  <script src="data.js?v=8"></script>
+  <script src="dictionary_data.js?v=8" onerror="window.LOCAL_DICTIONARY = {}"></script>
+  <script src="app.js?v=8"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

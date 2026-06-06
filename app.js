@@ -14,7 +14,10 @@ const state = {
   activeAudioUtterance: null,
   audioPlayer: null,
   isPlayingChapter: false,
-  syncGistId: null
+  syncGistId: null,
+  layoutMode: "scroll", // "scroll" or "page"
+  currentPageIndex: 0,
+  totalPagesCount: 1
 };
 
 // LocalStorage Keys
@@ -26,13 +29,15 @@ const STORAGE_KEYS = {
   GIST_FILE: "slovo_progress.json",
   GIST_ID: "slovo_gist_id",
   AUDIOBOOK_DIR: "slovo_audiobook_dir",
-  FONT_SIZE: "slovo_font_size"
+  FONT_SIZE: "slovo_font_size",
+  LAYOUT_MODE: "slovo_layout_mode"
 };
 
 // Initialize Application
 document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
   initFontSize();
+  initLayout();
   loadVocabList();
   initVoices();
   
@@ -52,6 +57,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   bindEvents();
   initImmersiveMode();
 });
+
+function initLayout() {
+  const savedLayout = localStorage.getItem(STORAGE_KEYS.LAYOUT_MODE) || "scroll";
+  state.layoutMode = savedLayout;
+}
 
 // ── Immersive Reader Mode ───────────────────────────────────────────────────
 let immersiveTimer = null;
@@ -267,6 +277,12 @@ function enterBook(bookIdx) {
   // Populate book and chapter selectors
   populateBookSelector();
   
+  // Sync the book-select dropdown value
+  const bookSelect = document.getElementById("book-select");
+  if (bookSelect) {
+    bookSelect.value = state.currentBookIndex;
+  }
+  
   const chSelect = document.getElementById("chapter-select");
   chSelect.innerHTML = "";
   const book = state.books[state.currentBookIndex];
@@ -394,7 +410,126 @@ function renderChapter() {
   });
 
   setupHoverHighlights();
-  updateProgressBar();
+  
+  // Apply Layout Mode
+  applyLayoutMode();
+}
+
+function applyLayoutMode() {
+  const pane = document.getElementById("reader-pane");
+  const scrollContainer = document.getElementById("scroll-progress-container");
+  const pageContainer = document.getElementById("page-controls-container");
+  const layoutBtn = document.getElementById("layout-toggle");
+  
+  if (state.layoutMode === "page") {
+    pane.classList.add("page-mode");
+    if (scrollContainer) scrollContainer.classList.add("hidden");
+    if (pageContainer) pageContainer.classList.remove("hidden");
+    if (layoutBtn) layoutBtn.textContent = "📜";
+    
+    // Reset page view
+    state.currentPageIndex = 0;
+    
+    // We need to wait for DOM rendering to measure columns correctly
+    setTimeout(() => {
+      recalculatePages();
+    }, 50);
+  } else {
+    pane.classList.remove("page-mode");
+    const container = document.getElementById("chunks-container");
+    if (container) container.style.transform = "none";
+    
+    if (scrollContainer) scrollContainer.classList.remove("hidden");
+    if (pageContainer) pageContainer.classList.add("hidden");
+    if (layoutBtn) layoutBtn.textContent = "📖";
+    
+    updateProgressBar();
+  }
+}
+
+function recalculatePages() {
+  const container = document.getElementById("chunks-container");
+  if (!container) return;
+  
+  // In CSS Multi-column layout, the total scrollWidth of the element divided by its clientWidth
+  // (plus column gap spacing) gives us the total number of pages.
+  const clientWidth = container.clientWidth;
+  const scrollWidth = container.scrollWidth;
+  
+  // Total pages = scrollWidth / clientWidth
+  state.totalPagesCount = Math.max(1, Math.round(scrollWidth / clientWidth));
+  if (state.currentPageIndex >= state.totalPagesCount) {
+    state.currentPageIndex = state.totalPagesCount - 1;
+  }
+  
+  updatePagePosition();
+}
+
+function updatePagePosition() {
+  const container = document.getElementById("chunks-container");
+  if (!container) return;
+  
+  const clientWidth = container.clientWidth;
+  const gap = 80; // column-gap is 80px
+  
+  // Shift the column container horizontally
+  const offset = state.currentPageIndex * (clientWidth + gap);
+  container.style.transform = `translateX(-${offset}px)`;
+  
+  // Update indicator text
+  const indicator = document.getElementById("page-indicator");
+  if (indicator) {
+    indicator.textContent = `Page ${state.currentPageIndex + 1} of ${state.totalPagesCount}`;
+  }
+  
+  // Update secondary progress text
+  const progressInfo = document.getElementById("page-progress-info");
+  if (progressInfo) {
+    const book = state.books[state.currentBookIndex];
+    const totalChapters = book.chapters.length;
+    const currentChapter = state.currentChapterIndex + 1;
+    
+    // % through chapter
+    const chPct = Math.round(((state.currentPageIndex + 1) / state.totalPagesCount) * 100);
+    // % through book (simple chapter ratio)
+    const bookPct = Math.round((currentChapter / totalChapters) * 100);
+    
+    progressInfo.textContent = `${chPct}% of chapter • ${bookPct}% of book`;
+  }
+}
+
+function prevPage() {
+  if (state.currentPageIndex > 0) {
+    state.currentPageIndex--;
+    updatePagePosition();
+  } else {
+    // Navigate to previous chapter's last page if applicable
+    if (state.currentChapterIndex > 0) {
+      state.currentChapterIndex--;
+      document.getElementById("chapter-select").value = state.currentChapterIndex;
+      renderChapter();
+      // Wait for rendering then set to last page
+      setTimeout(() => {
+        state.currentPageIndex = state.totalPagesCount - 1;
+        updatePagePosition();
+      }, 60);
+    }
+  }
+}
+
+function nextPage() {
+  if (state.currentPageIndex < state.totalPagesCount - 1) {
+    state.currentPageIndex++;
+    updatePagePosition();
+  } else {
+    // Navigate to next chapter's first page if applicable
+    const book = state.books[state.currentBookIndex];
+    if (state.currentChapterIndex < book.chapters.length - 1) {
+      state.currentChapterIndex++;
+      document.getElementById("chapter-select").value = state.currentChapterIndex;
+      renderChapter();
+    }
+  }
 }
 
 // Sentence Segmenter (Basic RegExp for literature)
@@ -1076,6 +1211,26 @@ function bindEvents() {
   // Theme Toggle
   document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
 
+  // Layout Toggle
+  const layoutBtn = document.getElementById("layout-toggle");
+  if (layoutBtn) {
+    layoutBtn.addEventListener("click", () => {
+      state.layoutMode = state.layoutMode === "scroll" ? "page" : "scroll";
+      localStorage.setItem(STORAGE_KEYS.LAYOUT_MODE, state.layoutMode);
+      applyLayoutMode();
+    });
+  }
+
+  // Prev/Next Page Buttons
+  const prevBtn = document.getElementById("prev-page-btn");
+  if (prevBtn) {
+    prevBtn.addEventListener("click", prevPage);
+  }
+  const nextBtn = document.getElementById("next-page-btn");
+  if (nextBtn) {
+    nextBtn.addEventListener("click", nextPage);
+  }
+
   // Font Size Slider
   const fontSlider = document.getElementById("font-size-slider");
   if (fontSlider) {
@@ -1083,6 +1238,13 @@ function bindEvents() {
       const size = e.target.value;
       document.documentElement.style.setProperty("--reading-font-size", size + "rem");
       localStorage.setItem(STORAGE_KEYS.FONT_SIZE, size);
+      
+      // If in page mode, changing font size shifts columns around and alters total pages
+      if (state.layoutMode === "page") {
+        setTimeout(() => {
+          recalculatePages();
+        }, 50);
+      }
     });
   }
 
@@ -1134,6 +1296,7 @@ function bindEvents() {
 
   // Back to Library
   document.getElementById("back-to-splash").addEventListener("click", () => {
+    document.getElementById("splash-screen").classList.remove("remove");
     document.getElementById("splash-screen").classList.remove("hidden");
     document.getElementById("app-workspace").hidden = true;
     // Restore chapter selector and progress
@@ -1161,23 +1324,31 @@ function bindEvents() {
     const diffY = e.changedTouches[0].screenY - touchStartY;
 
     // Check if swipe is horizontal and prominent
-    if (Math.abs(diffX) > 100 && Math.abs(diffY) < 60) {
-      const book = state.books[state.currentBookIndex];
-      if (diffX < 0) {
-        // Swipe Left -> Next Chapter
-        if (state.currentChapterIndex < book.chapters.length - 1) {
-          state.currentChapterIndex++;
-          document.getElementById("chapter-select").value = state.currentChapterIndex;
-          renderChapter();
-          readerPane.scrollTo({ top: 0, behavior: "smooth" });
+    if (Math.abs(diffX) > 80 && Math.abs(diffY) < 60) {
+      if (state.layoutMode === "page") {
+        if (diffX < 0) {
+          nextPage();
+        } else {
+          prevPage();
         }
       } else {
-        // Swipe Right -> Previous Chapter
-        if (state.currentChapterIndex > 0) {
-          state.currentChapterIndex--;
-          document.getElementById("chapter-select").value = state.currentChapterIndex;
-          renderChapter();
-          readerPane.scrollTo({ top: 0, behavior: "smooth" });
+        const book = state.books[state.currentBookIndex];
+        if (diffX < 0) {
+          // Swipe Left -> Next Chapter
+          if (state.currentChapterIndex < book.chapters.length - 1) {
+            state.currentChapterIndex++;
+            document.getElementById("chapter-select").value = state.currentChapterIndex;
+            renderChapter();
+            readerPane.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        } else {
+          // Swipe Right -> Previous Chapter
+          if (state.currentChapterIndex > 0) {
+            state.currentChapterIndex--;
+            document.getElementById("chapter-select").value = state.currentChapterIndex;
+            renderChapter();
+            readerPane.scrollTo({ top: 0, behavior: "smooth" });
+          }
         }
       }
     }

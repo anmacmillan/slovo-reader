@@ -271,7 +271,9 @@ def get_word_cases():
     with open(DATA_JS, "r", encoding="utf-8") as f:
         content = f.read()
     prefix = "const PRELOADED_BOOKS = "
-    json_str = content[len(prefix):].strip().rstrip(";")
+    json_str = content[len(prefix):].strip()
+    if json_str.endswith(";"):
+        json_str = json_str[:-1].strip()
     books = json.loads(json_str)
     
     word_cases = {}
