@@ -277,7 +277,7 @@ body {
   min-height: 0;
 }
 
-/* Page Mode reflow styles using CSS Multi-column layout */
+/* Page Mode — vertical viewport-sized pages, translated via translateY */
 .reader-pane.page-mode {
   overflow: hidden !important;
   padding: 24px 40px;
@@ -289,9 +289,6 @@ body {
 
 .reader-pane.page-mode .chunks-container {
   display: block;
-  column-width: 50%;
-  column-gap: 80px;
-  column-fill: auto;
   width: 100%;
   height: calc(100% - 110px);
   min-height: 0;
@@ -304,16 +301,7 @@ body {
   margin-bottom: 20px;
 }
 
-.reader-pane.page-mode .sentence-row {
-  break-inside: avoid;
-  page-break-inside: avoid;
-  -webkit-column-break-inside: avoid;
-}
-
 .reader-pane.page-mode .chapter-row-title {
-  break-inside: avoid;
-  page-break-inside: avoid;
-  -webkit-column-break-inside: avoid;
   padding-top: 10px;
 }
 

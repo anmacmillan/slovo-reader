@@ -477,15 +477,11 @@ function recalculatePages() {
   const pane = document.getElementById("reader-pane");
   if (!container || !pane) return;
   
-  // Use actual column width from CSS multi-column layout (column-width: 50%)
-  const scrollWidth = container.scrollWidth;
+  // Vertical page mode: measure content height against container height
+  const pageHeight = container.clientHeight;
+  const contentHeight = container.scrollHeight;
   
-  // Column width is 50% of the pane's content width (matching CSS column-width: 50%)
-  const columnWidth = pane.clientWidth * 0.5;
-  const gap = 80;
-  
-  // Pages = (Total scroll width + Gap) / (Column width + Gap)
-  state.totalPagesCount = Math.max(1, Math.round((scrollWidth + gap) / (columnWidth + gap)));
+  state.totalPagesCount = Math.max(1, Math.ceil(contentHeight / pageHeight));
   
   if (state.currentPageIndex >= state.totalPagesCount) {
     state.currentPageIndex = state.totalPagesCount - 1;
@@ -499,12 +495,9 @@ function updatePagePosition() {
   const pane = document.getElementById("reader-pane");
   if (!container || !pane) return;
   
-  // Column width is 50% of pane width (matching CSS column-width: 50%)
-  const columnWidth = pane.clientWidth * 0.5;
-  const gap = 80; 
-  
-  const offset = state.currentPageIndex * (columnWidth + gap);
-  container.style.transform = `translateX(-${offset}px)`;
+  const pageHeight = container.clientHeight;
+  const offset = state.currentPageIndex * pageHeight;
+  container.style.transform = `translateY(-${offset}px)`;
   
   // Update indicator text
   const indicator = document.getElementById("page-indicator");
@@ -1120,15 +1113,14 @@ function navigateToHighlight(bookIdx, chIdx, sentId) {
         const container = document.getElementById("chunks-container");
         const pane = document.getElementById("reader-pane");
         if (container && pane) {
-          const targetLeft = targetElement.getBoundingClientRect().left;
-          const containerLeft = container.getBoundingClientRect().left;
-          const relativeLeft = targetLeft - containerLeft;
+          const targetTop = targetElement.getBoundingClientRect().top;
+          const containerTop = container.getBoundingClientRect().top;
+          const relativeTop = targetTop - containerTop;
           
-          const columnWidth = pane.clientWidth * 0.5;
-          const gap = 80;
+          const pageHeight = container.clientHeight;
           
-          // Pages index matching column layout offset
-          const targetPage = Math.floor(relativeLeft / (columnWidth + gap));
+          // Page index based on vertical offset
+          const targetPage = Math.floor(relativeTop / pageHeight);
           if (targetPage >= 0 && targetPage < state.totalPagesCount) {
             state.currentPageIndex = targetPage;
             updatePagePosition();
