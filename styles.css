@@ -273,17 +273,17 @@ body {
 
 /* Page Mode reflow styles using CSS Multi-column layout */
 .reader-pane.page-mode {
-  overflow-y: hidden !important;
-  overflow-x: hidden !important;
-  padding: 20px 40px;
+  overflow: hidden !important;
+  padding: 24px 40px;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .reader-pane.page-mode .chunks-container {
   display: block;
   flex: 1;
-  column-width: 100vw;
+  column-width: 100%;
   column-gap: 80px;
   column-fill: auto;
   width: 100%;

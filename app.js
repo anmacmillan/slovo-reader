@@ -449,15 +449,20 @@ function applyLayoutMode() {
 
 function recalculatePages() {
   const container = document.getElementById("chunks-container");
-  if (!container) return;
+  const pane = document.getElementById("reader-pane");
+  if (!container || !pane) return;
   
-  // In CSS Multi-column layout, the total scrollWidth of the element divided by its clientWidth
-  // (plus column gap spacing) gives us the total number of pages.
-  const clientWidth = container.clientWidth;
+  // Use clientWidth/clientWidth of the parent pane for stable measurement
+  const pageWidth = pane.clientWidth - 80; // subtracting parent padding (40px left & right)
   const scrollWidth = container.scrollWidth;
   
-  // Total pages = scrollWidth / clientWidth
-  state.totalPagesCount = Math.max(1, Math.round(scrollWidth / clientWidth));
+  const gap = 80;
+  // Columns math in Multi-column reflow: 
+  // Total Width = Pages * PageWidth + (Pages - 1) * Gap
+  // Total Width + Gap = Pages * (PageWidth + Gap)
+  // Pages = (Total Width + Gap) / (PageWidth + Gap)
+  state.totalPagesCount = Math.max(1, Math.round((scrollWidth + gap) / (pageWidth + gap)));
+  
   if (state.currentPageIndex >= state.totalPagesCount) {
     state.currentPageIndex = state.totalPagesCount - 1;
   }
@@ -467,13 +472,13 @@ function recalculatePages() {
 
 function updatePagePosition() {
   const container = document.getElementById("chunks-container");
-  if (!container) return;
+  const pane = document.getElementById("reader-pane");
+  if (!container || !pane) return;
   
-  const clientWidth = container.clientWidth;
-  const gap = 80; // column-gap is 80px
+  const pageWidth = pane.clientWidth - 80;
+  const gap = 80; 
   
-  // Shift the column container horizontally
-  const offset = state.currentPageIndex * (clientWidth + gap);
+  const offset = state.currentPageIndex * (pageWidth + gap);
   container.style.transform = `translateX(-${offset}px)`;
   
   // Update indicator text
