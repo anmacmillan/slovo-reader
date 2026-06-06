@@ -41,17 +41,26 @@ document.addEventListener("DOMContentLoaded", async () => {
   loadVocabList();
   initVoices();
   
+  loadLibrary();
+  
   // Try to sync progress from Gist
   await loadProgressFromGist();
   
-  loadLibrary();
-  
-  // Check if returning from a book
+  // Check if returning from a book (syncing active book loaded from Gist if available)
   const savedBook = localStorage.getItem("_selected_book");
   if (savedBook !== null) {
     document.getElementById("splash-screen").classList.add("hidden");
     document.getElementById("app-workspace").hidden = false;
     enterBook(parseInt(savedBook));
+    
+    // Restore exact chapter index
+    if (state.currentChapterIndex > 0) {
+      const chSelect = document.getElementById("chapter-select");
+      if (chSelect) {
+        chSelect.value = state.currentChapterIndex;
+      }
+      renderChapter();
+    }
   }
   
   bindEvents();
@@ -59,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function initLayout() {
-  const savedLayout = localStorage.getItem(STORAGE_KEYS.LAYOUT_MODE) || "scroll";
+  const savedLayout = localStorage.getItem(STORAGE_KEYS.LAYOUT_MODE) || "page";
   state.layoutMode = savedLayout;
 }
 
@@ -1165,8 +1174,22 @@ async function syncProgressToGist() {
 }
 
 async function loadProgressFromGist() {
-  const gistId = localStorage.getItem(STORAGE_KEYS.GIST_ID);
-  if (!gistId) {
+  let gistId = localStorage.getItem(STORAGE_KEYS.GIST_ID);
+  
+  if (gistId) {
+    try {
+      const res = await githubFetch(`https://api.github.com/gists/${gistId}`);
+      if (res && res.ok) {
+        const gist = await res.json();
+        if (gist.files && gist.files[GIST_FILE]) {
+          const content = JSON.parse(gist.files[GIST_FILE].content);
+          mergeGistProgress(content);
+        }
+      }
+    } catch (e) {
+      console.error("Failed to load progress from specific Gist:", e);
+    }
+  } else {
     // Try to find an existing gist
     const res = await githubFetch("https://api.github.com/gists");
     if (res && res.ok) {
@@ -1191,6 +1214,33 @@ function mergeGistProgress(cloudData) {
       localStorage.setItem(`book_${idx}_progress`, cloudBook.chaptersRead);
     }
   });
+  
+  // Find which book was read most recently/furthest in the cloud
+  let activeBookIdx = -1;
+  let activeChIdx = -1;
+  
+  cloudData.books.forEach((cloudBook, idx) => {
+    if (cloudBook.currentChapter !== undefined && cloudBook.currentChapter > 0) {
+      activeBookIdx = idx;
+      activeChIdx = cloudBook.currentChapter;
+    }
+  });
+  
+  if (activeBookIdx !== -1) {
+    localStorage.setItem("_selected_book", activeBookIdx);
+    state.currentBookIndex = activeBookIdx;
+    state.currentChapterIndex = activeChIdx;
+    
+    // If workspace is active, sync layout elements immediately
+    const splash = document.getElementById("splash-screen");
+    if (splash && splash.classList.contains("hidden")) {
+      enterBook(activeBookIdx);
+      state.currentChapterIndex = activeChIdx;
+      const chSelect = document.getElementById("chapter-select");
+      if (chSelect) chSelect.value = activeChIdx;
+      renderChapter();
+    }
+  }
   
   // Update progress bars
   renderSplash();
