@@ -1576,6 +1576,36 @@ function bindEvents() {
     nextBtn.addEventListener("click", nextPage);
   }
 
+  // Tap left/right margins of reader pane to turn pages
+  const readerPane = document.getElementById("reader-pane");
+  if (readerPane) {
+    readerPane.addEventListener("click", (e) => {
+      if (state.layoutMode !== "page") return;
+      
+      // Ignore clicks on interactive elements
+      if (
+        e.target.closest(".word-span") ||
+        e.target.closest(".tts-play-btn") ||
+        e.target.closest(".control-select") ||
+        e.target.closest(".btn-icon") ||
+        e.target.closest("#word-tooltip") ||
+        e.target.closest(".sidebar-drawer")
+      ) {
+        return;
+      }
+      
+      const rect = readerPane.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const width = rect.width;
+      
+      if (clickX < width * 0.25) {
+        prevPage();
+      } else if (clickX > width * 0.75) {
+        nextPage();
+      }
+    });
+  }
+
   // Font Size Slider
   const fontSlider = document.getElementById("font-size-slider");
   if (fontSlider) {
