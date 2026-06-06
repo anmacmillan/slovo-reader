@@ -248,14 +248,15 @@ body {
 .app-workspace {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 112px); /* Viewport height minus header (64px) and footer (48px) */
+  height: calc(100vh - 48px); /* Viewport height minus footer (48px) */
   overflow: hidden;
 }
 
 .workspace-body {
   display: flex;
   flex-direction: row;
-  height: 100%;
+  flex: 1;
+  min-height: 0;
   overflow: hidden;
   position: relative;
 }
