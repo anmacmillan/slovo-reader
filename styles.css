@@ -293,6 +293,9 @@ body {
   height: calc(100% - 110px);
   min-height: 0;
   overflow: hidden;
+}
+
+.reader-pane.page-mode #chunks-inner {
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 

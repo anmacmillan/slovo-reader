@@ -330,6 +330,11 @@ function renderChapter() {
   const container = document.getElementById("chunks-container");
   container.innerHTML = "";
   
+  // Create inner wrapper for page-mode translateY
+  const innerWrap = document.createElement("div");
+  innerWrap.id = "chunks-inner";
+  container.appendChild(innerWrap);
+  
   // Sync progress
   const pct = Math.round((state.currentChapterIndex / book.chapters.length) * 100);
   syncProgressToGist();
@@ -346,7 +351,7 @@ function renderChapter() {
       ${chapter.titleEng || ""}
     </div>
   `;
-  container.appendChild(titleRow);
+  innerWrap.appendChild(titleRow);
 
   // Render Parallel Chunks
   chapter.russian.forEach((rusChunkText, chunkIdx) => {
@@ -431,7 +436,7 @@ function renderChapter() {
 
       row.appendChild(sentRow);
     }
-    container.appendChild(row);
+    innerWrap.appendChild(row);
   });
 
   setupHoverHighlights();
@@ -474,12 +479,15 @@ function applyLayoutMode() {
 
 function recalculatePages() {
   const container = document.getElementById("chunks-container");
-  const pane = document.getElementById("reader-pane");
-  if (!container || !pane) return;
+  const inner = document.getElementById("chunks-inner");
+  if (!container || !inner) return;
   
-  // Vertical page mode: measure content height against container height
+  // Viewport height = container's visible area
   const pageHeight = container.clientHeight;
-  const contentHeight = container.scrollHeight;
+  if (pageHeight <= 0) return;
+  
+  // Content height = inner wrapper's full rendered height
+  const contentHeight = inner.scrollHeight;
   
   state.totalPagesCount = Math.max(1, Math.ceil(contentHeight / pageHeight));
   
@@ -492,12 +500,12 @@ function recalculatePages() {
 
 function updatePagePosition() {
   const container = document.getElementById("chunks-container");
-  const pane = document.getElementById("reader-pane");
-  if (!container || !pane) return;
+  const inner = document.getElementById("chunks-inner");
+  if (!container || !inner) return;
   
   const pageHeight = container.clientHeight;
   const offset = state.currentPageIndex * pageHeight;
-  container.style.transform = `translateY(-${offset}px)`;
+  inner.style.transform = `translateY(-${offset}px)`;
   
   // Update indicator text
   const indicator = document.getElementById("page-indicator");
@@ -1109,17 +1117,18 @@ function navigateToHighlight(bookIdx, chIdx, sentId) {
     const targetElement = document.querySelector(`.sentence-box[data-sent-id="${sentId}"]`);
     if (targetElement) {
       if (state.layoutMode === "page") {
-        // In Page Mode, calculate which column the target is located in
+        // In Page Mode, calculate which page the target is on
         const container = document.getElementById("chunks-container");
-        const pane = document.getElementById("reader-pane");
-        if (container && pane) {
-          const targetTop = targetElement.getBoundingClientRect().top;
-          const containerTop = container.getBoundingClientRect().top;
-          const relativeTop = targetTop - containerTop;
-          
+        const inner = document.getElementById("chunks-inner");
+        if (container && inner) {
           const pageHeight = container.clientHeight;
+          // Get target's offset from top of inner wrapper (accounting for current transform)
+          const currentOffset = state.currentPageIndex * pageHeight;
+          const targetTop = targetElement.getBoundingClientRect().top;
+          const innerTop = inner.getBoundingClientRect().top;
+          const relativeTop = targetTop - innerTop + currentOffset;
           
-          // Page index based on vertical offset
+          // Page index based on vertical offset within content
           const targetPage = Math.floor(relativeTop / pageHeight);
           if (targetPage >= 0 && targetPage < state.totalPagesCount) {
             state.currentPageIndex = targetPage;
