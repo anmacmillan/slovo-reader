@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=10">
-  <link rel="stylesheet" href="splash.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=12">
+  <link rel="stylesheet" href="splash.css?v=12">
   <!-- PWA stand-alone configurations -->
   <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -78,6 +78,11 @@
         <button id="vocab-toggle" class="btn-action" title="Open Vocabulary Notebook">
           <span class="btn-icon-label">📓</span> My Words (<span id="vocab-count">0</span>)
         </button>
+
+        <!-- Highlights Drawer Toggle -->
+        <button id="highlights-toggle" class="btn-action btn-secondary" title="Saved sentence highlights">
+          <span class="btn-icon-label">🖍️</span> Highlights (<span id="highlights-count">0</span>)
+        </button>
       </div>
     </header>
 
@@ -100,6 +105,22 @@
             <!-- Generated parallel rows go here -->
           </div>
         </section>
+
+        <!-- Slide-out Highlights Drawer -->
+        <aside class="sidebar-drawer" id="highlights-drawer">
+          <div class="drawer-header">
+            <h3>🖍️ Saved Highlights</h3>
+            <button id="close-highlights-drawer" class="btn-close">&times;</button>
+          </div>
+          <div class="drawer-body">
+            <div id="highlights-list" class="vocab-list">
+              <!-- Saved highlights injected here -->
+            </div>
+            <div class="vocab-actions">
+              <button id="clear-highlights" class="btn-action btn-danger btn-block">🗑️ Clear All Highlights</button>
+            </div>
+          </div>
+        </aside>
 
         <!-- Slide-out Vocabulary Drawer -->
         <aside class="sidebar-drawer" id="vocab-drawer">
@@ -174,9 +195,9 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=11"></script>
-  <script src="dictionary_data.js?v=11" onerror="window.LOCAL_DICTIONARY = {}"></script>
-  <script src="app.js?v=11"></script>
+  <script src="data.js?v=12"></script>
+  <script src="dictionary_data.js?v=12" onerror="window.LOCAL_DICTIONARY = {}"></script>
+  <script src="app.js?v=12"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

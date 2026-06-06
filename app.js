@@ -17,12 +17,14 @@ const state = {
   syncGistId: null,
   layoutMode: "scroll", // "scroll" or "page"
   currentPageIndex: 0,
-  totalPagesCount: 1
+  totalPagesCount: 1,
+  highlightsList: []
 };
 
 // LocalStorage Keys
 const STORAGE_KEYS = {
   VOCAB: "slovo_vocab_notebook",
+  HIGHLIGHTS: "slovo_highlights_list",
   CUSTOM_BOOKS: "slovo_custom_library",
   THEME: "slovo_active_theme",
   PROGRESS: "slovo_reading_progress",
@@ -39,6 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initFontSize();
   initLayout();
   loadVocabList();
+  loadHighlightsList();
   initVoices();
   
   loadLibrary();
@@ -370,6 +373,12 @@ function renderChapter() {
         const rusSpan = document.createElement("span");
         rusSpan.className = "sentence-box rus-sent";
         rusSpan.dataset.sentId = `ch-${chunkIdx}-s-${sIdx}`;
+        
+        // Check if highlighted
+        const checkKey = `${state.currentBookIndex}_${state.currentChapterIndex}_ch-${chunkIdx}-s-${sIdx}`;
+        if (state.highlightsList.some(h => h.key === checkKey)) {
+          rusSpan.classList.add("persistent-highlight");
+        }
 
         const words = tokenizeWords(rusSent);
         words.forEach(w => {
@@ -406,6 +415,13 @@ function renderChapter() {
         engSpan.className = "sentence-box eng-sent";
         engSpan.dataset.sentId = `ch-${chunkIdx}-s-${sIdx}`;
         engSpan.textContent = engSent;
+        
+        // Check if highlighted
+        const checkKey = `${state.currentBookIndex}_${state.currentChapterIndex}_ch-${chunkIdx}-s-${sIdx}`;
+        if (state.highlightsList.some(h => h.key === checkKey)) {
+          engSpan.classList.add("persistent-highlight");
+        }
+        
         sentRow.appendChild(engSpan);
       } else {
         const emptySpan = document.createElement("span");
@@ -587,6 +603,13 @@ function setupHoverHighlights() {
       document.querySelectorAll(`.sentence-box[data-sent-id="${sentId}"]`).forEach(el => {
         el.classList.remove("active-sentence");
       });
+    });
+    
+    // Double click to toggle high-quality sentence highlight
+    box.addEventListener("dblclick", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleSentenceHighlight(box);
     });
   });
 }
@@ -1006,6 +1029,209 @@ function loadVocabList() {
   updateVocabUI();
 }
 
+// ── Highlights Management ───────────────────────────────────────────────────
+function loadHighlightsList() {
+  const saved = localStorage.getItem(STORAGE_KEYS.HIGHLIGHTS);
+  if (saved) {
+    try {
+      state.highlightsList = JSON.parse(saved);
+    } catch (e) {
+      console.error(e);
+      state.highlightsList = [];
+    }
+  }
+  updateHighlightsUI();
+}
+
+function toggleSentenceHighlight(box) {
+  const sentId = box.dataset.sentId;
+  const chunkMatch = sentId.match(/ch-(\d+)-s-(\d+)/);
+  if (!chunkMatch) return;
+  
+  const chunkIdx = parseInt(chunkMatch[1]);
+  const sIdx = parseInt(chunkMatch[2]);
+  
+  const book = state.books[state.currentBookIndex];
+  const chapter = book.chapters[state.currentChapterIndex];
+  
+  // Find matching sentence texts
+  const russianText = chapter.russian[chunkIdx];
+  const sents = segmentSentences(russianText);
+  const sentenceText = sents[sIdx] || "Highlighted sentence";
+  
+  const key = `${state.currentBookIndex}_${state.currentChapterIndex}_${sentId}`;
+  const existIdx = state.highlightsList.findIndex(h => h.key === key);
+  
+  if (existIdx === -1) {
+    // Save new highlight
+    const newHighlight = {
+      key: key,
+      bookIndex: state.currentBookIndex,
+      bookTitle: book.title,
+      chapterIndex: state.currentChapterIndex,
+      chapterTitle: chapter.titleRus || `Глава ${chapter.chapterNum}`,
+      sentId: sentId,
+      text: sentenceText,
+      timestamp: Date.now()
+    };
+    state.highlightsList.unshift(newHighlight);
+    
+    // Toggle visual class locally
+    document.querySelectorAll(`.sentence-box[data-sent-id="${sentId}"]`).forEach(el => {
+      el.classList.add("persistent-highlight");
+    });
+  } else {
+    // Remove highlight
+    state.highlightsList.splice(existIdx, 1);
+    
+    // Remove visual class locally
+    document.querySelectorAll(`.sentence-box[data-sent-id="${sentId}"]`).forEach(el => {
+      el.classList.remove("persistent-highlight");
+    });
+  }
+  
+  localStorage.setItem(STORAGE_KEYS.HIGHLIGHTS, JSON.stringify(state.highlightsList));
+  updateHighlightsUI();
+  
+  // Sync to Gist in background
+  syncProgressToGist().catch(err => console.log("Gist highlights sync skipped:", err.message));
+}
+
+function navigateToHighlight(bookIdx, chIdx, sentId) {
+  // Check if we need to switch books
+  if (state.currentBookIndex !== bookIdx) {
+    enterBook(bookIdx);
+  }
+  
+  // Check if we need to switch chapters
+  if (state.currentChapterIndex !== chIdx) {
+    state.currentChapterIndex = chIdx;
+    const chSelect = document.getElementById("chapter-select");
+    if (chSelect) chSelect.value = chIdx;
+    renderChapter();
+  }
+  
+  // Scroll to highlight target sentence
+  setTimeout(() => {
+    const targetElement = document.querySelector(`.sentence-box[data-sent-id="${sentId}"]`);
+    if (targetElement) {
+      if (state.layoutMode === "page") {
+        // In Page Mode, calculate which column the target is located in
+        const container = document.getElementById("chunks-container");
+        const pane = document.getElementById("reader-pane");
+        if (container && pane) {
+          const targetLeft = targetElement.getBoundingClientRect().left;
+          const containerLeft = container.getBoundingClientRect().left;
+          const relativeLeft = targetLeft - containerLeft;
+          
+          const pageWidth = pane.clientWidth - 80;
+          const gap = 80;
+          
+          // Pages index matching column layout offset
+          const targetPage = Math.floor(relativeLeft / (pageWidth + gap));
+          if (targetPage >= 0 && targetPage < state.totalPagesCount) {
+            state.currentPageIndex = targetPage;
+            updatePagePosition();
+          }
+        }
+      } else {
+        targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+      
+      // Temporary blink highlight to guide the eyes
+      targetElement.style.outline = "3px solid var(--accent-secondary)";
+      setTimeout(() => {
+        targetElement.style.outline = "none";
+      }, 1500);
+    }
+  }, 120);
+  
+  // Close drawer
+  const drawer = document.getElementById("highlights-drawer");
+  if (drawer) drawer.classList.remove("open");
+}
+
+function clearHighlightsList() {
+  if (confirm("Are you sure you want to delete all sentence highlights?")) {
+    state.highlightsList = [];
+    localStorage.removeItem(STORAGE_KEYS.HIGHLIGHTS);
+    
+    // Remove persistent highlight classes on screen
+    document.querySelectorAll(".sentence-box.persistent-highlight").forEach(el => {
+      el.classList.remove("persistent-highlight");
+    });
+    
+    updateHighlightsUI();
+    syncProgressToGist().catch(err => console.log("Gist highlights sync skipped:", err.message));
+  }
+}
+
+function updateHighlightsUI() {
+  const countEl = document.getElementById("highlights-count");
+  const listEl = document.getElementById("highlights-list");
+  if (!countEl || !listEl) return;
+  
+  countEl.textContent = state.highlightsList.length;
+  listEl.innerHTML = "";
+  
+  if (state.highlightsList.length === 0) {
+    listEl.innerHTML = `
+      <div style="text-align: center; color: var(--text-muted); padding: 40px 0;">
+        <p style="font-size: 2.5rem; margin-bottom: 8px;">🖍️</p>
+        <p style="font-size: 0.85rem;">No highlights saved. Double-click any sentence box in the text to highlight it.</p>
+      </div>
+    `;
+    return;
+  }
+  
+  state.highlightsList.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "vocab-item";
+    card.style.cursor = "pointer";
+    card.innerHTML = `
+      <div class="vocab-word-row">
+        <strong style="font-size: 0.75rem; color: var(--accent-text);">${item.bookTitle}</strong>
+        <button class="vocab-delete highlight-delete" data-key="${item.key}" title="Delete highlight">&times;</button>
+      </div>
+      <p style="font-style: italic; color: var(--text-primary); margin-top: 4px;">"${item.text}"</p>
+      <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 6px; display: flex; justify-content: space-between; align-items: center;">
+        <span>${item.chapterTitle}</span>
+        <span style="color: var(--accent-secondary); text-decoration: underline;">Jump to target →</span>
+      </div>
+    `;
+    
+    // Click card to navigate to target sentence location
+    card.addEventListener("click", (e) => {
+      if (e.target.closest(".highlight-delete")) return;
+      navigateToHighlight(item.bookIndex, item.chapterIndex, item.sentId);
+    });
+    
+    card.querySelector(".highlight-delete").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const key = e.target.dataset.key;
+      const existIdx = state.highlightsList.findIndex(h => h.key === key);
+      if (existIdx !== -1) {
+        state.highlightsList.splice(existIdx, 1);
+        localStorage.setItem(STORAGE_KEYS.HIGHLIGHTS, JSON.stringify(state.highlightsList));
+        
+        // Remove persistent highlight visually if on screen
+        const checkKey = `${state.currentBookIndex}_${state.currentChapterIndex}_`;
+        if (key.startsWith(checkKey)) {
+          const sentId = key.substring(checkKey.length);
+          document.querySelectorAll(`.sentence-box[data-sent-id="${sentId}"]`).forEach(el => {
+            el.classList.remove("persistent-highlight");
+          });
+        }
+        
+        updateHighlightsUI();
+        syncProgressToGist().catch(err => console.log("Gist highlights sync skipped:", err.message));
+      }
+    });
+    
+    listEl.appendChild(card);
+  });
+}
+
 function saveWordToVocab(word, definition, grammar) {
   // Prevent duplicate additions
   if (state.vocabList.some(item => item.word.toLowerCase() === word.toLowerCase())) {
@@ -1153,7 +1379,8 @@ async function syncProgressToGist() {
       chaptersRead: parseInt(localStorage.getItem(`book_${idx}_progress`) || "0"),
       totalChapters: book.chapters.length
     })),
-    vocab: state.vocabList
+    vocab: state.vocabList,
+    highlights: state.highlightsList
   };
 
   try {
@@ -1256,6 +1483,27 @@ function mergeGistProgress(cloudData) {
     localStorage.setItem(STORAGE_KEYS.VOCAB, JSON.stringify(state.vocabList));
     updateVocabUI();
   }
+
+  // Merge highlights list (union by key, keeping newer if timestamps differ)
+  if (cloudData.highlights && Array.isArray(cloudData.highlights)) {
+    const mergedHighlights = [...state.highlightsList];
+    cloudData.highlights.forEach(cloudItem => {
+      const matchIdx = mergedHighlights.findIndex(localItem => localItem.key === cloudItem.key);
+      if (matchIdx === -1) {
+        mergedHighlights.push(cloudItem);
+      } else {
+        const localTs = mergedHighlights[matchIdx].timestamp || 0;
+        const cloudTs = cloudItem.timestamp || 0;
+        if (cloudTs > localTs) {
+          mergedHighlights[matchIdx] = cloudItem;
+        }
+      }
+    });
+    mergedHighlights.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+    state.highlightsList = mergedHighlights;
+    localStorage.setItem(STORAGE_KEYS.HIGHLIGHTS, JSON.stringify(state.highlightsList));
+    updateHighlightsUI();
+  }
   
   // Find which book was read most recently/furthest in the cloud
   let activeBookIdx = -1;
@@ -1357,10 +1605,18 @@ function bindEvents() {
   // Drawer Toggles
   const vocabDrawer = document.getElementById("vocab-drawer");
   const dictDrawer = document.getElementById("dict-drawer");
+  const highlightsDrawer = document.getElementById("highlights-drawer");
 
   document.getElementById("vocab-toggle").addEventListener("click", () => {
     vocabDrawer.classList.toggle("open");
-    dictDrawer.classList.remove("open"); // close dictionary if vocab opened
+    dictDrawer.classList.remove("open");
+    highlightsDrawer.classList.remove("open");
+  });
+
+  document.getElementById("highlights-toggle").addEventListener("click", () => {
+    highlightsDrawer.classList.toggle("open");
+    dictDrawer.classList.remove("open");
+    vocabDrawer.classList.remove("open");
   });
 
   document.getElementById("close-vocab-drawer").addEventListener("click", () => {
@@ -1369,6 +1625,10 @@ function bindEvents() {
 
   document.getElementById("close-dict-drawer").addEventListener("click", () => {
     dictDrawer.classList.remove("open");
+  });
+
+  document.getElementById("close-highlights-drawer").addEventListener("click", () => {
+    highlightsDrawer.classList.remove("open");
   });
 
   // Sync progress to Gist
@@ -1405,6 +1665,7 @@ function bindEvents() {
   // Vocab Actions
   document.getElementById("export-vocab").addEventListener("click", exportVocabAsMarkdown);
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
+  document.getElementById("clear-highlights").addEventListener("click", clearHighlightsList);
 
   // Swipe gestures for page turns
   const readerPane = document.getElementById("chunks-container");
