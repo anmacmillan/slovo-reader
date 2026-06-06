@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow-y: auto;
   padding: 40px 20px;
   text-align: center;
   gap: 32px;
+  -webkit-overflow-scrolling: touch;
 }
 
 #splash-screen.hidden {
