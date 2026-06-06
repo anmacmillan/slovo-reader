@@ -893,6 +893,14 @@ function fetchWiktionaryDetails(lemma, originalText) {
         return;
       }
     }
+  } else if (state.languageMode === "greek") {
+    if (typeof GREEK_DICT !== 'undefined') {
+      const entry = GREEK_DICT[cleanLower];
+      if (entry) {
+        renderOfflineAnalysis(originalText, entry.def, entry.grammar, englishTranslation);
+        return;
+      }
+    }
   }
 
   queryApi(cleanLower);
@@ -1718,15 +1726,18 @@ function bindEvents() {
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
   document.getElementById("clear-highlights").addEventListener("click", clearHighlightsList);
 
-  // Language Toggle (Russian vs Latin)
+  // Language Toggle (Russian vs Latin vs Greek)
   const langBtn = document.getElementById("lang-toggle");
   if (langBtn) {
     langBtn.addEventListener("click", () => {
-      const newMode = state.languageMode === "russian" ? "latin" : "russian";
+      const modes = ["russian", "latin", "greek"];
+      const curIdx = modes.indexOf(state.languageMode);
+      const newMode = modes[(curIdx + 1) % modes.length];
       state.languageMode = newMode;
       
       // Update button icon
-      langBtn.textContent = newMode === "russian" ? "🇷🇺" : "🇱🇦";
+      const icons = { russian: "🇷🇺", latin: "🇱🇦", greek: "🇬🇷" };
+      langBtn.textContent = icons[newMode] || "🇷🇺";
       
       // Update column headers
       const leftH3 = document.querySelector("#lang-left-title .column-lang");
@@ -1737,6 +1748,11 @@ function bindEvents() {
       if (newMode === "latin") {
         if (leftH3) leftH3.textContent = "Latijn";
         if (leftSub) leftSub.textContent = "Latin Original";
+        if (rightH3) rightH3.textContent = "In het Nederlands";
+        if (rightSub) rightSub.textContent = "Dutch Translation";
+      } else if (newMode === "greek") {
+        if (leftH3) leftH3.textContent = "Ἀρχαῖα ἑλληνικά";
+        if (leftSub) leftSub.textContent = "Ancient Greek Original";
         if (rightH3) rightH3.textContent = "In het Nederlands";
         if (rightSub) rightSub.textContent = "Dutch Translation";
       } else {
