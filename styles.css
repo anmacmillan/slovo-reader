@@ -301,10 +301,14 @@ body {
 }
 
 .reader-pane.page-mode .chunk-row {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.reader-pane.page-mode .sentence-row {
   break-inside: avoid;
   page-break-inside: avoid;
   -webkit-column-break-inside: avoid;
-  margin-bottom: 20px;
 }
 
 .reader-pane.page-mode .chapter-row-title {
