@@ -561,8 +561,9 @@ body {
 }
 
 .tooltip-definition {
-  font-size: 0.88rem;
-  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-secondary);
   line-height: 1.4;
   margin-bottom: 8px;
   border-top: 1px solid var(--border-color);

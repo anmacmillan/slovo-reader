@@ -703,7 +703,7 @@ function renderOfflineAnalysis(originalText, definition, grammar, contextTransla
   let detailedCardHtml = `
     <div class="dict-body-section" style="margin-top: 14px;">
       <div class="dict-section-title" style="color: var(--accent-text); font-weight: 700;">Meaning</div>
-      <p style="font-size: 0.95rem; color: var(--text-primary); margin-top: 4px;">${definition}</p>
+      <p style="font-size: 1.05rem; font-weight: 700; color: var(--accent-secondary); margin-top: 4px;">${definition}</p>
     </div>
   `;
 
@@ -952,12 +952,12 @@ function renderRESTAnalysis(originalText, ruData, lemmaTranslation = null, conte
 
   let meaningHtml = "";
   if (lemmaTranslation) {
-    meaningHtml = `<div class="tooltip-definition" style="border-top: 1px dashed var(--border-color); padding-top: 6px; font-weight: 600; color: var(--text-primary);">Translation: ${lemmaTranslation}</div>`;
+    meaningHtml = `<div class="tooltip-definition" style="border-top: 1px dashed var(--border-color); padding-top: 6px; font-weight: 700; color: var(--accent-secondary);">Translation: ${lemmaTranslation}</div>`;
     
     detailedCardHtml += `
       <div class="dict-body-section" style="margin-top: 14px; border-top: 1px solid var(--border-color); padding-top: 8px;">
         <div class="dict-section-title" style="color: var(--accent-secondary); font-weight: 700;">Base Lemma Meaning</div>
-        <p style="font-size: 0.95rem; color: var(--text-primary); margin-top: 4px;"><strong>${lemmaTranslation}</strong></p>
+        <p style="font-size: 1.05rem; color: var(--accent-secondary); margin-top: 4px;"><strong>${lemmaTranslation}</strong></p>
       </div>
     `;
   }
