@@ -458,7 +458,7 @@ function applyLayoutMode() {
     // We need to wait for DOM rendering to measure columns correctly
     setTimeout(() => {
       recalculatePages();
-    }, 50);
+    }, 100);
   } else {
     pane.classList.remove("page-mode");
     const container = document.getElementById("chunks-container");
@@ -1565,6 +1565,13 @@ function bindEvents() {
       applyLayoutMode();
     });
   }
+
+  // Handle window resizing / rotation for Page Mode recalculations
+  window.addEventListener("resize", () => {
+    if (state.layoutMode === "page") {
+      recalculatePages();
+    }
+  });
 
   // Prev/Next Page Buttons
   const prevBtn = document.getElementById("prev-page-btn");

@@ -248,21 +248,22 @@ body {
 .app-workspace {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  height: calc(100vh - 112px); /* Viewport height minus header (64px) and footer (48px) */
   overflow: hidden;
 }
 
 .workspace-body {
   display: flex;
   flex-direction: row;
-  flex: 1;
+  height: 100%;
   overflow: hidden;
   position: relative;
 }
 
 /* Reader Split-Screen View */
 .reader-pane {
-  flex: 1;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
