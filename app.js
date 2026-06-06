@@ -477,16 +477,15 @@ function recalculatePages() {
   const pane = document.getElementById("reader-pane");
   if (!container || !pane) return;
   
-  // Use clientWidth/clientWidth of the parent pane for stable measurement
-  const pageWidth = pane.clientWidth - 80; // subtracting parent padding (40px left & right)
+  // Use actual column width from CSS multi-column layout (column-width: 50%)
   const scrollWidth = container.scrollWidth;
   
+  // Column width is 50% of the pane's content width (matching CSS column-width: 50%)
+  const columnWidth = pane.clientWidth * 0.5;
   const gap = 80;
-  // Columns math in Multi-column reflow: 
-  // Total Width = Pages * PageWidth + (Pages - 1) * Gap
-  // Total Width + Gap = Pages * (PageWidth + Gap)
-  // Pages = (Total Width + Gap) / (PageWidth + Gap)
-  state.totalPagesCount = Math.max(1, Math.round((scrollWidth + gap) / (pageWidth + gap)));
+  
+  // Pages = (Total scroll width + Gap) / (Column width + Gap)
+  state.totalPagesCount = Math.max(1, Math.round((scrollWidth + gap) / (columnWidth + gap)));
   
   if (state.currentPageIndex >= state.totalPagesCount) {
     state.currentPageIndex = state.totalPagesCount - 1;
@@ -500,10 +499,11 @@ function updatePagePosition() {
   const pane = document.getElementById("reader-pane");
   if (!container || !pane) return;
   
-  const pageWidth = pane.clientWidth - 80;
+  // Column width is 50% of pane width (matching CSS column-width: 50%)
+  const columnWidth = pane.clientWidth * 0.5;
   const gap = 80; 
   
-  const offset = state.currentPageIndex * (pageWidth + gap);
+  const offset = state.currentPageIndex * (columnWidth + gap);
   container.style.transform = `translateX(-${offset}px)`;
   
   // Update indicator text
@@ -1124,11 +1124,11 @@ function navigateToHighlight(bookIdx, chIdx, sentId) {
           const containerLeft = container.getBoundingClientRect().left;
           const relativeLeft = targetLeft - containerLeft;
           
-          const pageWidth = pane.clientWidth - 80;
+          const columnWidth = pane.clientWidth * 0.5;
           const gap = 80;
           
           // Pages index matching column layout offset
-          const targetPage = Math.floor(relativeLeft / (pageWidth + gap));
+          const targetPage = Math.floor(relativeLeft / (columnWidth + gap));
           if (targetPage >= 0 && targetPage < state.totalPagesCount) {
             state.currentPageIndex = targetPage;
             updatePagePosition();
@@ -1704,7 +1704,7 @@ function bindEvents() {
   document.getElementById("clear-vocab").addEventListener("click", clearVocabList);
   document.getElementById("clear-highlights").addEventListener("click", clearHighlightsList);
 
-  // Swipe gestures for page turns
+  // Swipe gestures for page turns — always operates within the current chapter
   const chunksContainer = document.getElementById("chunks-container");
   let touchStartX = 0;
   let touchStartY = 0;
@@ -1720,31 +1720,12 @@ function bindEvents() {
 
     // Check if swipe is horizontal and prominent
     if (Math.abs(diffX) > 80 && Math.abs(diffY) < 60) {
-      if (state.layoutMode === "page") {
-        if (diffX < 0) {
-          nextPage();
-        } else {
-          prevPage();
-        }
+      if (diffX < 0) {
+        // Swipe Left -> next page (within current chapter)
+        nextPage();
       } else {
-        const book = state.books[state.currentBookIndex];
-        if (diffX < 0) {
-          // Swipe Left -> Next Chapter
-          if (state.currentChapterIndex < book.chapters.length - 1) {
-            state.currentChapterIndex++;
-            document.getElementById("chapter-select").value = state.currentChapterIndex;
-            renderChapter();
-            chunksContainer.scrollTo({ top: 0, behavior: "smooth" });
-          }
-        } else {
-          // Swipe Right -> Previous Chapter
-          if (state.currentChapterIndex > 0) {
-            state.currentChapterIndex--;
-            document.getElementById("chapter-select").value = state.currentChapterIndex;
-            renderChapter();
-            chunksContainer.scrollTo({ top: 0, behavior: "smooth" });
-          }
-        }
+        // Swipe Right -> previous page (within current chapter)
+        prevPage();
       }
     }
   }, { passive: true });

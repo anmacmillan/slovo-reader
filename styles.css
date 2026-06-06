@@ -259,8 +259,7 @@ body {
 .workspace-body {
   display: flex;
   flex-direction: row;
-  flex: 1;
-  min-height: 0;
+  height: calc(100% - 64px);
   overflow: hidden;
   position: relative;
 }
@@ -290,7 +289,7 @@ body {
 
 .reader-pane.page-mode .chunks-container {
   display: block;
-  column-width: 100%;
+  column-width: 50%;
   column-gap: 80px;
   column-fill: auto;
   width: 100%;
