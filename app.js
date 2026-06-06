@@ -1698,16 +1698,16 @@ function bindEvents() {
   document.getElementById("clear-highlights").addEventListener("click", clearHighlightsList);
 
   // Swipe gestures for page turns
-  const readerPane = document.getElementById("chunks-container");
+  const chunksContainer = document.getElementById("chunks-container");
   let touchStartX = 0;
   let touchStartY = 0;
 
-  readerPane.addEventListener("touchstart", (e) => {
+  chunksContainer.addEventListener("touchstart", (e) => {
     touchStartX = e.changedTouches[0].screenX;
     touchStartY = e.changedTouches[0].screenY;
   }, { passive: true });
 
-  readerPane.addEventListener("touchend", (e) => {
+  chunksContainer.addEventListener("touchend", (e) => {
     const diffX = e.changedTouches[0].screenX - touchStartX;
     const diffY = e.changedTouches[0].screenY - touchStartY;
 
@@ -1727,7 +1727,7 @@ function bindEvents() {
             state.currentChapterIndex++;
             document.getElementById("chapter-select").value = state.currentChapterIndex;
             renderChapter();
-            readerPane.scrollTo({ top: 0, behavior: "smooth" });
+            chunksContainer.scrollTo({ top: 0, behavior: "smooth" });
           }
         } else {
           // Swipe Right -> Previous Chapter
@@ -1735,7 +1735,7 @@ function bindEvents() {
             state.currentChapterIndex--;
             document.getElementById("chapter-select").value = state.currentChapterIndex;
             renderChapter();
-            readerPane.scrollTo({ top: 0, behavior: "smooth" });
+            chunksContainer.scrollTo({ top: 0, behavior: "smooth" });
           }
         }
       }
