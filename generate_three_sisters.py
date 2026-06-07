@@ -5,8 +5,9 @@ Add Three Sisters (Chekhov) as third book in slovo-reader.
 
 import os, re, json, sys
 SLOVO_DIR = "/Users/alexandermacmillan/Projects/slovo-reader"
-LANG_DIR = "/Users/alexandermacmillan/Downloads"
+LANG_DIR = "/Users/alexandermacmillan/Projects/slovo-reader/texts/russian"
 RUS_PATH = os.path.join(LANG_DIR, "Три сестры.txt")
+# FIXME: update to repo path once moved
 EN_URL = "https://www.ibiblio.org/eldritch/ac/sisters.htm"
 
 def fetch_eng():

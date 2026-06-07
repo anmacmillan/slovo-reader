@@ -3,8 +3,8 @@ import json
 import os
 import re
 
-RU_FILE = "/Users/alexandermacmillan/Downloads/lermontov_ru.txt"
-EN_FILE = "/Users/alexandermacmillan/Downloads/lermontov_en.txt"
+RU_FILE = "/Users/alexandermacmillan/Projects/slovo-reader/texts/russian/lermontov_ru.txt"
+EN_FILE = "/Users/alexandermacmillan/Projects/slovo-reader/texts/russian/lermontov_en.txt"
 DATA_JS = "/Users/alexandermacmillan/Projects/slovo-reader/data.js"
 
 def load_ru_sections():

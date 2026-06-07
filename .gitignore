@@ -1,1 +1,9 @@
 dict_cache.db
+
+# Large audio files — too big for git (stored in Google Drive)
+audiolermontov/
+*.m4a
+
+# Google Drive sync files (not part of repo)
+.DS_Store
+Google Drive/

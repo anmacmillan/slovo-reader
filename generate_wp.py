@@ -11,7 +11,7 @@ import os
 SLOVO_DIR = "/Users/alexandermacmillan/Projects/slovo-reader"
 
 # Read the large parallel text file
-with open("/Users/alexandermacmillan/Downloads/Война и мир.txt", "r", encoding="utf-8") as f:
+with open("/Users/alexandermacmillan/Projects/slovo-reader/texts/russian/Война и мир.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 # Find Book One
