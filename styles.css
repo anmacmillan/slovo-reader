@@ -912,7 +912,7 @@ body {
   
   /* iPad Mini optimizations */
   .sentence-box {
-    font-size: 1rem;
+    font-size: var(--reading-font-size);
     line-height: 1.6;
     padding: 4px 0;
   }
@@ -1004,4 +1004,3 @@ body {
   transform: scale(1.25);
   background: var(--accent-secondary);
 }
-
