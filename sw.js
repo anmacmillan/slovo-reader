@@ -1,11 +1,16 @@
-const CACHE_NAME = "slovo-cache-v23";
+const CACHE_NAME = "slovo-cache-v24";
 const ASSETS = [
+  "./",
   "index.html",
   "styles.css",
   "splash.css",
   "app.js",
   "data.js",
   "dictionary_data.js",
+  "latin_data.js",
+  "latin_dictionary.js",
+  "greek_data.js",
+  "greek_dictionary.js",
   "icon.png",
   "manifest.json"
 ];
@@ -14,7 +19,7 @@ const ASSETS = [
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS);
+      return Promise.all(ASSETS.map((asset) => cache.add(asset).catch(() => null)));
     }).then(() => self.skipWaiting())
   );
 });

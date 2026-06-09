@@ -191,7 +191,7 @@
       </div>
       
       <div class="footer-info">
-        <span>Yasnaya Polyana Engine v1.1</span>
+        <span>Yasnaya Polyana Engine v1.1 · <span id="offline-status">Preparing offline…</span></span>
       </div>
     </footer>
 
@@ -211,6 +211,8 @@
         navigator.serviceWorker.register('sw.js')
           .then(reg => {
             console.log('Service Worker registered!');
+            const status = document.getElementById('offline-status');
+            if (status) status.textContent = navigator.onLine ? 'Offline ready' : 'Offline mode';
             
             // Listen for new service worker installation
             reg.onupdatefound = () => {
@@ -237,6 +239,14 @@
         }
       });
     }
+    window.addEventListener('offline', () => {
+      const status = document.getElementById('offline-status');
+      if (status) status.textContent = 'Offline mode';
+    });
+    window.addEventListener('online', () => {
+      const status = document.getElementById('offline-status');
+      if (status) status.textContent = 'Offline ready';
+    });
   </script>
 </body>
 </html>
