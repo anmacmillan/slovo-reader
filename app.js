@@ -1107,7 +1107,14 @@ function fetchWiktionaryDetails(lemma, originalText) {
     if (typeof LOCAL_DICTIONARY !== 'undefined') {
       const entry = LOCAL_DICTIONARY[cleanLower] || (lemma ? LOCAL_DICTIONARY[lemma.toLowerCase()] : null);
       if (entry) {
-        renderOfflineAnalysis(originalText, entry.def, entry.grammar, englishTranslation);
+        // show the stressed form (ударение) as the headword when known
+        let display = originalText;
+        if (entry.stress) {
+          display = /^[А-ЯЁ]/.test(originalText)
+            ? entry.stress.charAt(0).toUpperCase() + entry.stress.slice(1)
+            : entry.stress;
+        }
+        renderOfflineAnalysis(display, entry.def, entry.grammar, englishTranslation);
         return;
       }
     }

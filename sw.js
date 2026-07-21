@@ -1,4 +1,4 @@
-const CACHE_NAME = "slovo-cache-v26";
+const CACHE_NAME = "slovo-cache-v27";
 const ASSETS = [
   "./",
   "index.html",
