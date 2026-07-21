@@ -7,3 +7,9 @@ audiolermontov/
 # Google Drive sync files (not part of repo)
 .DS_Store
 Google Drive/
+
+# local-only artifacts
+__pycache__/
+*.pyc
+*.wav
+yaponskie_*.mp3

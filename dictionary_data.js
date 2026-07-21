@@ -4,16 +4,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "а-га": {
-    "def": "[Proper Noun / Name / Place] A-ga",
-    "grammar": "noun, masculine, plural, genitive"
-  },
-  "а-у": {
-    "def": "[Proper Noun / Name / Place] A-u",
+    "def": "aha! (interj. of realization or triumph: 'so that's it!')",
     "grammar": "interjection"
   },
+  "а-у": {
+    "def": "yoo-hoo! halloo! (interj., call to someone out of sight or far away)",
+    "grammar": "interjection"
+  },
+  "аngе": {
+    "def": "angel (French ange); 'mon ange' = 'my angel', term of endearment",
+    "grammar": "noun, French, masculine, singular (foreign word)"
+  },
   "аааа": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "ah! / prolonged cry (interjection)",
+    "grammar": "interjection"
   },
   "аббат": {
     "def": "abbot, priest",
@@ -28,11 +32,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "абдул": {
-    "def": "[Proper Noun / Name / Place] Abdul",
+    "def": "Абдул — male given name (Tatar); short for Абдул-Мурат, Zhilin's captor in Кавказский пленник",
     "grammar": "noun, masculine, singular, nominative"
   },
   "абдул-мурат": {
-    "def": "[Proper Noun / Name / Place] Abdul-murat",
+    "def": "Абдул-Мурат — the Tatar who buys Zhilin as his captive in Кавказский пленник",
     "grammar": "noun, masculine, singular, nominative"
   },
   "абдул-мурату": {
@@ -104,8 +108,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "авда": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "fragment, most likely of правда 'truth'; not a standalone word (tokenization artifact)",
+    "grammar": "word fragment (noun)"
   },
   "авось": {
     "def": "perhaps, maybe, possibly, may still, might yet; blind trust in divine providence; blind faith in sheer luck; counting on a miracle",
@@ -196,11 +200,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "австрия": {
-    "def": "[Proper Noun / Name / Place] Avstriya",
+    "def": "Австрия — Austria",
     "grammar": "noun, feminine, singular, nominative"
   },
   "австрияк": {
-    "def": "[Proper Noun / Name / Place] Avstriyak",
+    "def": "an Austrian, Austrian soldier (colloq., often disparaging)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "автомедоны": {
@@ -228,7 +232,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "агафон": {
-    "def": "[Proper Noun / Name / Place] Agafon",
+    "def": "Агафон — male given name (Agathon); the passer-by named in Tatiana's fortune-telling in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "агонии": {
@@ -504,11 +508,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, intransitive, singular"
   },
   "алеко": {
-    "def": "[Proper Noun / Name / Place] Aleko",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Алеко — hero of Pushkin's «Цыганы» (The Gypsies), invoked by Solyony in Три сестры",
+    "grammar": "noun, masculine, singular, indeclinable"
   },
   "александр": {
-    "def": "[Proper Noun / Name / Place] Aleksandr",
+    "def": "Александр — Alexander; Emperor Alexander I of Russia in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "александра": {
@@ -520,8 +524,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "александрович": {
-    "def": "[Proper Noun / Name / Place] Aleksandrovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Александрович — patronymic 'son of Alexander'; Grigory Aleksandrovich Pechorin in Герой нашего времени",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "александровича": {
     "def": "(form of александрович: [Proper Noun / Name / Place] Aleksandrovich)",
@@ -544,7 +548,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "алексей": {
-    "def": "[Proper Noun / Name / Place] Aleksey",
+    "def": "Алексей — male given name (Alexis/Aleksey)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "али": {
@@ -552,7 +556,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "алина": {
-    "def": "[Proper Noun / Name / Place] Alina",
+    "def": "Алина — female given name (Alina); Princess Alina, the Moscow cousin in Евгений Онегин",
     "grammar": "noun, feminine, singular, nominative"
   },
   "алину": {
@@ -612,7 +616,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "алпатыч": {
-    "def": "[Proper Noun / Name / Place] Alpatych",
+    "def": "Алпатыч — Yakov Alpatych, the Bolkonskys' steward in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "алпатыча": {
@@ -664,7 +668,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "альзасец": {
-    "def": "",
+    "def": "Alsatian, a native of Alsace (obs. spelling of эльзасец)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "альманаха": {
@@ -688,8 +692,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, prepositional"
   },
   "амели": {
-    "def": "[Proper Noun / Name / Place] Ameli",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Амели — Amélie, French female given name (Война и мир)",
+    "grammar": "noun, feminine, singular, indeclinable"
   },
   "америку": {
     "def": "(form of америка: America, USA, US, United States, United States of America)",
@@ -752,7 +756,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "анатоль": {
-    "def": "[Proper Noun / Name / Place] Anatol",
+    "def": "Анатоль — Anatole Kuragin, Prince Vasily's dissolute son in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "анатолю": {
@@ -764,12 +768,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "анатомик": {
-    "def": "",
+    "def": "anatomist (obs. form of анатом)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "анатопь": {
-    "def": "[Proper Noun / Name / Place] Anatop",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "misprint of Анатоль — Anatole Kuragin in Война и мир (OCR/typesetting error)",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "анахоретом": {
     "def": "(form of анахорет: anchorite, anchoret)",
@@ -800,8 +804,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "англез": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "anglaise, an English country dance (obs., from French anglaise)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "англеза": {
     "def": "(form of англез)",
@@ -876,8 +880,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "андреевич": {
-    "def": "[Proper Noun / Name / Place] Andreevich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Андреевич — patronymic 'son of Andrei'; Prince Nikolai Andreevich Bolkonsky in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "андреевича": {
     "def": "(form of андреевич: [Proper Noun / Name / Place] Andreevich)",
@@ -900,7 +904,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "андрей": {
-    "def": "[Proper Noun / Name / Place] Andrey",
+    "def": "Андрей — Andrei; Prince Andrei Bolkonsky in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "андрею": {
@@ -912,15 +916,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "андрюша": {
-    "def": "[Proper Noun / Name / Place] Andryusha",
+    "def": "Андрюша — affectionate diminutive of Андрей (Andrei)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "андрюшанчик": {
-    "def": "[Proper Noun / Name / Place] Andryushanchik",
+    "def": "Андрюшанчик — playful pet form of Андрей; Natasha's name for her husband in Три сестры",
     "grammar": "noun, masculine, singular, nominative"
   },
   "андрюшка": {
-    "def": "[Proper Noun / Name / Place] Andryushka",
+    "def": "Андрюшка — familiar diminutive of Андрей (Andrei)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "анекдот": {
@@ -952,11 +956,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "анисья": {
-    "def": "[Proper Noun / Name / Place] Anisya",
+    "def": "Анисья — female given name; the old housekeeper at Onegin's manor in Евгений Онегин",
     "grammar": "noun, feminine, singular, nominative"
   },
   "анна": {
-    "def": "[Proper Noun / Name / Place] Anna",
+    "def": "Анна — Anna; Anna Pavlovna Scherer, the St Petersburg hostess in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "анне": {
@@ -964,8 +968,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "аннет": {
-    "def": "[Proper Noun / Name / Place] Annet",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Аннет — Annette, French pet form of Анна; Anna Pavlovna Scherer in Война и мир",
+    "grammar": "noun, feminine, singular, indeclinable"
   },
   "анной": {
     "def": "(form of анна: [Proper Noun / Name / Place] Anna)",
@@ -1008,11 +1012,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "антонов": {
-    "def": "[Proper Noun / Name / Place] Antonov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Антонов — Antonov, a soldier's surname in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "анфиса": {
-    "def": "[Proper Noun / Name / Place] Anfisa",
+    "def": "Анфиса — female given name; the sisters' old nurse in Три сестры",
     "grammar": "noun, feminine, singular, nominative"
   },
   "анфисе": {
@@ -1020,7 +1024,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "аншеф": {
-    "def": "",
+    "def": "commander-in-chief (obs., from French en chef; e.g. генерал-аншеф)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "аны": {
@@ -1052,7 +1056,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "аппетитно": {
-    "def": "",
+    "def": "appetizingly, with relish",
     "grammar": "adverb"
   },
   "апраксина": {
@@ -1084,11 +1088,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "апфельбаум": {
-    "def": "[Proper Noun / Name / Place] Apfelbaum",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Апфельбаум — Apfelbaum, a travelling conjurer mentioned in Герой нашего времени",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "апшеронский": {
-    "def": "[Proper Noun / Name / Place] Apsheronskiy",
+    "def": "Apsheron (attr.); Апшеронский батальон — battalion of the Apsheron regiment in Война и мир",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "апшеронского": {
@@ -1116,16 +1120,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "арагва": {
-    "def": "[Proper Noun / Name / Place] Aragva",
+    "def": "Арагва — the Aragvi, a river in the Georgian Caucasus (Герой нашего времени)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "арагвой": {
-    "def": "[Proper Noun / Name / Place] Aragvoy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Арагвой — instrumental of Арагва, the Aragvi river in Georgia",
+    "grammar": "noun, feminine, singular, instrumental"
   },
   "аракчеев": {
-    "def": "[Proper Noun / Name / Place] Arakcheev",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Аракчеев — Count Aleksey Arakcheev, Russian minister of war under Alexander I (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "арбы": {
     "def": "genitive singular of арба́ (arbá); nominative/accusative plural of арба́ (arbá) (form of арба: araba (a horse- or bullock-drawn cart with two large wheels))",
@@ -1140,8 +1144,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "ариергарда": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "of the rearguard (obs. spelling of арьергард; mil., from French arrière-garde)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "ариергарде": {
     "def": "(form of ариергарда)",
@@ -1240,7 +1244,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "армейщина": {
-    "def": "",
+    "def": "(colloq., self-deprecating) the army lot, line-army officers as a class (opp. the Guards)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "армид": {
@@ -1372,7 +1376,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, plural"
   },
   "архимед": {
-    "def": "[Proper Noun / Name / Place] Arkhimed",
+    "def": "Архимед — Archimedes, ancient Greek mathematician",
     "grammar": "noun, masculine, singular, nominative"
   },
   "архитектор": {
@@ -1504,8 +1508,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "аться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "reflexive infinitive ending (-аться); word fragment, not a standalone word",
+    "grammar": "word fragment (verbal ending)"
   },
   "ау": {
     "def": "huh? (used as a response to one's name being called or to indicate not quite having heard something); hello? (is anyone there?)",
@@ -1580,12 +1584,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, dative"
   },
   "ауэрсперг": {
-    "def": "[Proper Noun / Name / Place] Auersperg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ауэрсперг — Prince Auersperg, Austrian general commanding the Vienna bridge in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "ауэрсперга": {
-    "def": "[Proper Noun / Name / Place] Auersperga",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Ауэрсперга — genitive/accusative of Ауэрсперг, the Austrian general Auersperg",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "ауэрспергом": {
     "def": "(form of ауэрсперг: [Proper Noun / Name / Place] Auersperg)",
@@ -1596,11 +1600,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "ауэсперг": {
-    "def": "[Proper Noun / Name / Place] Auesperg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "variant spelling of Ауэрсперг — Prince Auersperg, Austrian general in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "афишка": {
-    "def": "",
+    "def": "small poster, notice, playbill (dim. of афиша)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "африке": {
@@ -1618,6 +1622,10 @@ const LOCAL_DICTIONARY = {
   "ах": {
     "def": "ah!, oh!; ah (an instance of the interjection ах (ax))",
     "grammar": "interjection"
+  },
+  "ах,сквег'но": {
+    "def": "'ah, rotten / how nasty!' — ах, скверно! in Denisov's burred speech (г' for р)",
+    "grammar": "interjection + predicative adverb (colloq.)"
   },
   "ахиллесова": {
     "def": "(form of ахиллесов: [Proper Noun / Name / Place] Akhillesov)",
@@ -1640,8 +1648,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "ачивайся": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "fragment of a reflexive imperative (e.g. повор-ачивайся 'get a move on'); not a standalone word",
+    "grammar": "word fragment (verb, imperative, reflexive)"
   },
   "б": {
     "def": "The second letter of the Russian alphabet, called бэ (bɛ) and written in the Cyrillic script.; alternative form of бы (by) (form of бы: A verbal particle used to render conditional and subjunctive mood)",
@@ -1679,9 +1687,13 @@ const LOCAL_DICTIONARY = {
     "def": "bug (a problem that needs fixing; especially, an error in a computer program)",
     "grammar": "noun, masculine, singular, accusative"
   },
+  "баг'аны": {
+    "def": "rams, sheep (бараны) in Denisov's burred speech; 'как бараны!' = 'like sheep!'",
+    "grammar": "noun, masculine, plural, nominative"
+  },
   "багратион": {
-    "def": "[Proper Noun / Name / Place] Bagration",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Багратион — Prince Pyotr Bagration, Russian general in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "багратиона": {
     "def": "(form of багратион: [Proper Noun / Name / Place] Bagration)",
@@ -1744,8 +1756,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "байрон": {
-    "def": "[Proper Noun / Name / Place] Bayron",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Байрон — Lord Byron, English Romantic poet",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "байрона": {
     "def": "(form of байрон: [Proper Noun / Name / Place] Bayron)",
@@ -1851,6 +1863,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of баловник: pet, one who spoils children)",
     "grammar": "noun, masculine, singular, instrumental"
   },
+  "баловником‑графом": {
+    "def": "a count and spoilt darling — баловник 'pampered pet, mischief-maker' in apposition with граф 'count'",
+    "grammar": "compound noun, masculine, singular, instrumental"
+  },
   "баловство": {
     "def": "naughtiness, mischievousness; petting, spoiling, over-indulgence",
     "grammar": "noun, neuter, singular, nominative"
@@ -1876,8 +1892,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "бальзак": {
-    "def": "[Proper Noun / Name / Place] Balzak",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Бальзак — Honoré de Balzac, French novelist ('married in Berdichev', Три сестры)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "бальзакова": {
     "def": "(form of бальзаков)",
@@ -1900,8 +1916,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "бандарчук": {
-    "def": "[Proper Noun / Name / Place] Bandarchuk",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Бандарчук — Bandarchuk, a hussar's surname in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "бандарчука": {
     "def": "(form of бандарчук: [Proper Noun / Name / Place] Bandarchuk)",
@@ -1963,6 +1979,10 @@ const LOCAL_DICTIONARY = {
     "def": "drummer",
     "grammar": "noun, masculine, singular, nominative"
   },
+  "барабанщик‑запевало": {
+    "def": "drummer and song-leader (запевала = the soldier who leads off the singing)",
+    "grammar": "compound noun, masculine, singular, nominative"
+  },
   "барами": {
     "def": "(form of бар: bar, snack-bar, sand-bar)",
     "grammar": "noun, masculine, plural, instrumental"
@@ -1996,8 +2016,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "баратынский": {
-    "def": "[Proper Noun / Name / Place] Baratynskiy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Баратынский — Yevgeny Baratynsky, Russian poet, Pushkin's contemporary (Евгений Онегин)",
+    "grammar": "noun (surname, adjectival declension), masculine, singular, nominative"
   },
   "баратынского": {
     "def": "(form of баратынский: [Proper Noun / Name / Place] Baratynskiy)",
@@ -2172,7 +2192,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "баталион": {
-    "def": "",
+    "def": "battalion (obs. spelling of батальон; mil.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "баталиона": {
@@ -2256,7 +2276,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "батарейный": {
-    "def": "[Proper Noun / Name / Place] Batareynyy",
+    "def": "battery (attr.) (mil.); батарейный командир — battery commander",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "батарейным": {
@@ -2286,6 +2306,10 @@ const LOCAL_DICTIONARY = {
   "батюшка": {
     "def": "father; father , priest",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "батюшка‑то": {
+    "def": "our father, the dear master (батюшка, affectionate) + emphatic particle -то",
+    "grammar": "noun, masculine, singular, nominative + particle"
   },
   "батюшке": {
     "def": "(form of батюшка: father; father , priest)",
@@ -2344,7 +2368,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "башмачок": {
-    "def": "",
+    "def": "little shoe, slipper (dim. of башмак)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "башни": {
@@ -2360,8 +2384,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, instrumental"
   },
   "бг": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's бг'ат = брат 'brother'; not a standalone word",
+    "grammar": "word fragment"
+  },
+  "бг'ат": {
+    "def": "brother; here 'old chap' (брат as friendly address) in Denisov's burred speech",
+    "grammar": "noun, masculine, singular, nominative (vocative use)"
   },
   "бдения": {
     "def": "(form of бдение: vigil)",
@@ -2652,7 +2680,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "бежняжка": {
-    "def": "[Proper Noun / Name / Place] Bezhnyazhka",
+    "def": "poor thing, poor dear (misprint of бедняжка; colloq. dim.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "без": {
@@ -2724,7 +2752,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "безжизненно": {
-    "def": "",
+    "def": "lifelessly, inertly",
     "grammar": "adverb"
   },
   "безжизненную": {
@@ -2742,6 +2770,10 @@ const LOCAL_DICTIONARY = {
   "беззаботности": {
     "def": "(form of беззаботность: light-heartedness, carelessness)",
     "grammar": "noun, feminine, singular, genitive"
+  },
+  "беззаботно‑усталыми": {
+    "def": "carefree-and-weary (of the soldiers' faces)",
+    "grammar": "compound adjective, plural, instrumental"
   },
   "беззаботную": {
     "def": "(form of беззаботный: light-hearted, careless, carefree)",
@@ -3132,8 +3164,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "бельяр": {
-    "def": "[Proper Noun / Name / Place] Belyar",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Бельяр — Belliard, French general, Murat's chief of staff (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "беля": {
     "def": "(form of белить: whitewash, bleach, whiten)",
@@ -3144,12 +3176,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "бентама": {
-    "def": "[Proper Noun / Name / Place] Bentama",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Бентама — genitive/accusative of Бентам, Jeremy Bentham, English philosopher (Евгений Онегин)",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "берг": {
-    "def": "[Proper Noun / Name / Place] Berg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Берг — Berg, careerist officer who marries Vera Rostova in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "берга": {
     "def": "(form of берг: [Proper Noun / Name / Place] Berg)",
@@ -3328,8 +3360,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "бес-девка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "'devil of a girl!' — бес 'demon' + девка 'girl, wench' (colloq. exclamation)",
+    "grammar": "compound noun, feminine, singular, nominative"
   },
   "бесед": {
     "def": "(form of беседа: conversation, talk, debate, discussion, interview)",
@@ -3408,8 +3440,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "бесмилла": {
-    "def": "[Proper Noun / Name / Place] Besmilla",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "bismillah! — Muslim invocation 'in the name of Allah' (Кавказский пленник)",
+    "grammar": "interjection"
   },
   "бесом": {
     "def": "(form of бес: demon, devil)",
@@ -3607,6 +3639,14 @@ const LOCAL_DICTIONARY = {
     "def": "(form of беспорядочность: disorderliness, untidiness, slovenliness)",
     "grammar": "noun, feminine, singular, genitive"
   },
+  "беспорядочно‑бегущей": {
+    "def": "fleeing in disorder (of the retreating army)",
+    "grammar": "compound participle, present active, feminine, singular, genitive"
+  },
+  "беспорядочно‑заколыхавшимся": {
+    "def": "that had begun to sway / lurch chaotically",
+    "grammar": "compound participle, past active, reflexive (dative plural or instrumental singular)"
+  },
   "беспорядочными": {
     "def": "(form of беспорядочный: disorderly, confused, untidy, slovenly)",
     "grammar": "adjective, plural, instrumental"
@@ -3634,6 +3674,10 @@ const LOCAL_DICTIONARY = {
   "беспрестанно": {
     "def": "incessantly (in a manner without pause or stop)",
     "grammar": "adverb"
+  },
+  "беспрестанно‑употребляемыми": {
+    "def": "in constant use, constantly used (of the things in the study)",
+    "grammar": "compound participle, present passive, plural, instrumental"
   },
   "беспричинного": {
     "def": "(form of беспричинный: causeless, groundless, motiveless)",
@@ -3724,8 +3768,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "бестактно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "tactlessly",
+    "grammar": "adverb (predicative)"
   },
   "бестии": {
     "def": "inflection of бе́стия (béstija):\ngenitive/dative/prepositional singular\nnominative plural; genitive/dative/prepositional singular (form of бестия: rogue, mischievous person, scoundrel)",
@@ -3936,12 +3980,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "билибин": {
-    "def": "[Proper Noun / Name / Place] Bilibin",
-    "grammar": "noun, feminine, plural, genitive"
+    "def": "Билибин — Bilibin, witty Russian diplomat in Brünn in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "билибина": {
-    "def": "[Proper Noun / Name / Place] Bilibina",
-    "grammar": "noun, neuter, singular, genitive"
+    "def": "Билибина — genitive/accusative of Билибин, the diplomat Bilibin in Война и мир",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "билибину": {
     "def": "(form of билибино: [Proper Noun / Name / Place] Bilibino)",
@@ -4384,8 +4428,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "блан-манже": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "blancmange — a sweet milk-jelly dessert (French blanc-manger)",
+    "grammar": "noun, indeclinable (French loan)"
   },
   "бледен": {
     "def": "short masculine singular of бле́дный (blédnyj) (form of бледный: pale)",
@@ -4436,7 +4480,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "бледноватый": {
-    "def": "",
+    "def": "palish, somewhat pale",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "бледное": {
@@ -4856,7 +4900,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "бобик": {
-    "def": "[Proper Noun / Name / Place] Bobik",
+    "def": "Бобик — pet name of Andrei and Natasha's baby son in Три сестры",
     "grammar": "noun, masculine, singular, nominative"
   },
   "бобика": {
@@ -4959,6 +5003,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of богач: rich man, the rich, the wealthy)",
     "grammar": "noun, masculine, plural, accusative"
   },
+  "богачей‑юношей": {
+    "def": "rich young men (богач 'rich man' + юноша 'youth')",
+    "grammar": "compound noun, plural, genitive"
+  },
   "богачи": {
     "def": "(form of богач: rich man, the rich, the wealthy)",
     "grammar": "noun, masculine, plural, nominative"
@@ -4968,16 +5016,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "богданович": {
-    "def": "[Proper Noun / Name / Place] Bogdanovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Богданович — patronymic 'son of Bogdan'; Karl Bogdanovich Schubert, regimental commander in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "богдановича": {
     "def": "(form of богданович: [Proper Noun / Name / Place] Bogdanovich)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "богданыч": {
-    "def": "[Proper Noun / Name / Place] Bogdanych",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Богданыч — colloquial patronymic form of Богданович; the regimental commander's nickname in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "богданычем": {
     "def": "(form of богданыкать: [Proper Noun / Name / Place] Bogdanykat)",
@@ -5247,6 +5295,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of болезненный: sickly, ailing, unhealthy; morbid)",
     "grammar": "adjective, neuter, singular, prepositional"
   },
+  "болезненно‑тревожное": {
+    "def": "painfully anxious, morbidly uneasy (impression)",
+    "grammar": "compound adjective, neuter, singular, accusative"
+  },
   "болезненный": {
     "def": "sickly, ailing, unhealthy; morbid",
     "grammar": "adjective, masculine, singular, nominative"
@@ -5288,8 +5340,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "боливар": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "bolivar — wide-brimmed hat fashionable in the 1820s, named after Simón Bolívar (obs.)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "болит": {
     "def": "third-person singular present indicative imperfective of боле́ть (bolétʹ) (form of болеть: to be sick, to be ill, to be ailing; to be anxious, to be apprehensive)",
@@ -5300,8 +5352,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "болконский": {
-    "def": "[Proper Noun / Name / Place] Bolkonskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Болконский — Bolkonsky, family name of Prince Andrei and his father in Война и мир",
+    "grammar": "noun (surname, adjectival declension), masculine, singular, nominative"
   },
   "болконским": {
     "def": "(form of болконский: [Proper Noun / Name / Place] Bolkonskiy)",
@@ -5346,6 +5398,10 @@ const LOCAL_DICTIONARY = {
   "болтливой": {
     "def": "(form of болтливый: talkative; blabbing (prone not to keep secrets))",
     "grammar": "adjective, feminine, singular, genitive"
+  },
+  "болтливо‑веселыми": {
+    "def": "chatty and merry, garrulously cheerful (of people)",
+    "grammar": "compound adjective, plural, instrumental"
   },
   "болтливы": {
     "def": "(form of болтливый: talkative; blabbing (prone not to keep secrets))",
@@ -5500,8 +5556,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "бонапарт": {
-    "def": "[Proper Noun / Name / Place] Bonapart",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Бонапарт — Bonaparte, i.e. Napoleon Bonaparte",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "бонапарта": {
     "def": "(form of бонапарт: [Proper Noun / Name / Place] Bonapart)",
@@ -5512,7 +5568,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "бонапартистка": {
-    "def": "",
+    "def": "Bonapartist (woman), supporter of Napoleon Bonaparte",
     "grammar": "noun, feminine, singular, nominative"
   },
   "бонапартисты": {
@@ -5528,8 +5584,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "бондаренко": {
-    "def": "[Proper Noun / Name / Place] Bondarenko",
-    "grammar": "noun, singular, nominative"
+    "def": "Бондаренко — Bondarenko, a hussar's surname in Война и мир",
+    "grammar": "noun (surname), masculine, singular, indeclinable"
   },
   "бор": {
     "def": "(form of бора: bora (wind); genitive singular of бор (bor))",
@@ -5544,15 +5600,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "боренька": {
-    "def": "[Proper Noun / Name / Place] Borenka",
-    "grammar": "short adjective, feminine, singular"
+    "def": "Боренька — affectionate diminutive of Борис; Boris Drubetskoy in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "бореньке": {
     "def": "(form of боренька: [Proper Noun / Name / Place] Borenka)",
     "grammar": "noun, feminine, singular, dative"
   },
   "борис": {
-    "def": "[Proper Noun / Name / Place] Boris",
+    "def": "Борис — Boris Drubetskoy, Anna Mikhailovna's son in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "бориса": {
@@ -5570,6 +5626,10 @@ const LOCAL_DICTIONARY = {
   "борису": {
     "def": "(form of борис: [Proper Noun / Name / Place] Boris)",
     "grammar": "noun, masculine, singular, dative"
+  },
+  "борис…да": {
+    "def": "Борис (male name; here Boris Drubetskoy) + да 'yes'; run-together text fragment",
+    "grammar": "proper noun + particle (text fragment)"
   },
   "бормотал": {
     "def": "masculine singular past indicative imperfective of бормота́ть (bormotátʹ) (form of бормотать: to mutter, to murmur, to babble, to ramble)",
@@ -5860,8 +5920,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, prepositional"
   },
   "браунау": {
-    "def": "[Proper Noun / Name / Place] Braunau",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Браунау — Braunau, Austrian town, Kutuzov's headquarters in 1805 (Война и мир)",
+    "grammar": "noun, neuter, singular, indeclinable"
   },
   "брачная": {
     "def": "(form of брачный: marriage, conjugal)",
@@ -6272,8 +6332,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, instrumental"
   },
   "брыжи": {
-    "def": "",
-    "grammar": "noun, plural, nominative"
+    "def": "ruff, frill (on a shirt-front or collar) (obs.)",
+    "grammar": "noun, plural only, accusative"
   },
   "брызгает": {
     "def": "third-person singular present indicative imperfective of бры́згать (brýzgatʹ) (form of брызгать: to sprinkle, to spray .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with accusative ‘someone/something’ and instrumental ‘with something’]; to splash, to splatter [with instrumental ‘something’])",
@@ -6312,7 +6372,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, neuter, singular"
   },
   "брюзгливость": {
-    "def": "",
+    "def": "grumpiness, peevishness, querulousness",
     "grammar": "noun, feminine, singular, nominative"
   },
   "брюзгливым": {
@@ -6332,8 +6392,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "брюнна": {
-    "def": "[Proper Noun / Name / Place] Bryunna",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Брюнна — genitive of Брюнн, Brünn (Brno), Moravian city (Война и мир)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "брюнне": {
     "def": "(form of брюнна: [Proper Noun / Name / Place] Bryunna)",
@@ -6472,8 +6532,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, intransitive, plural"
   },
   "будэ": {
-    "def": "",
-    "grammar": "noun, singular, nominative"
+    "def": "'will be' — будет in the German colonel's accented speech ('всэ й будэ т хорошо'); split token",
+    "grammar": "verb, future, 3rd person singular (accented spelling)"
   },
   "буза": {
     "def": "noisy row, uproar, fuss; boza (a fermented, malted beverage made from millet, buckwheat, oats, or barley, popular in the Crimea and Caucasus. It has a thick consistency and a low alcohol content, usually around 4–6%, and has a slightly acidic sweet flavor)",
@@ -6532,8 +6592,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, instrumental"
   },
   "буксгевден": {
-    "def": "[Proper Noun / Name / Place] Buksgevden",
-    "grammar": "short adjective, masculine, singular"
+    "def": "Буксгевден — Buxhöwden, Russian general at Austerlitz (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "буксгевденом": {
     "def": "(form of буксгевден: [Proper Noun / Name / Place] Buksgevden)",
@@ -6548,8 +6608,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "булонской": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Boulogne (adj.); булонская экспедиция = Napoleon's planned invasion of England from Boulogne (1803–05)",
+    "grammar": "adjective, feminine, singular, prepositional"
   },
   "булыжника": {
     "def": "genitive singular of булы́жник (bulýžnik) (form of булыжник: cobble, cobblestone)",
@@ -6644,8 +6704,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "бумбия": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "nonsense refrain from 'Тарара-бумбия' (Ta-ra-ra Boom-de-ay), the ditty Chebutykin hums (Три сестры)",
+    "grammar": "interjection (nonsense refrain)"
   },
   "бунапарте": {
     "def": "(form of бунапарта: [Proper Noun / Name / Place] Bunaparta)",
@@ -6662,6 +6722,10 @@ const LOCAL_DICTIONARY = {
   "буонапарте": {
     "def": "(form of буонапарта: [Proper Noun / Name / Place] Buonaparta)",
     "grammar": "noun, feminine, singular, dative"
+  },
+  "буонапарте‑то": {
+    "def": "Buonaparte — Napoleon's name in its Italian form (used slightingly) + emphatic particle -то",
+    "grammar": "proper noun, masculine, indeclinable + particle"
   },
   "буонапарту": {
     "def": "(form of буонапарта: [Proper Noun / Name / Place] Buonaparta)",
@@ -6720,8 +6784,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "бурьен": {
-    "def": "[Proper Noun / Name / Place] Buren",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Бурьен — Mademoiselle Bourienne, Princess Marya's French companion in Война и мир",
+    "grammar": "noun (surname), feminine, singular, indeclinable"
   },
   "бурьенку": {
     "def": "(form of бурьёнок: [Proper Noun / Name / Place] Buryonok)",
@@ -6943,6 +7007,10 @@ const LOCAL_DICTIONARY = {
     "def": "neuter singular past indicative imperfective of быть (bytʹ); nearly, on the point of, just about (form of быть: to be .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental or nominative]; there be)",
     "grammar": "verb, imperfective, past, intransitive, neuter, singular"
   },
+  "было/парт": {
+    "def": "corrupted token: было ('совсем было забыл' = 'I almost forgot') plus stray fragment 'парт'",
+    "grammar": "particle было + text artifact"
+  },
   "былом": {
     "def": "(form of былой: former, past, bygone)",
     "grammar": "adjective, masculine, singular, prepositional"
@@ -7006,6 +7074,10 @@ const LOCAL_DICTIONARY = {
   "быстрою": {
     "def": "(form of быстрый: fast, quick, speedy, rapid)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "быстро‑приятным": {
+    "def": "brisk and pleasant (of m-lle Bourienne's voice)",
+    "grammar": "compound adjective, masculine, singular, instrumental"
   },
   "быструю": {
     "def": "(form of быстрый: fast, quick, speedy, rapid)",
@@ -7076,7 +7148,7 @@ const LOCAL_DICTIONARY = {
     "grammar": ""
   },
   "бэла": {
-    "def": "[Proper Noun / Name / Place] Bela",
+    "def": "Бэла — Bela, the young Circassian heroine of Герой нашего времени",
     "grammar": "noun, feminine, singular, nominative"
   },
   "бэле": {
@@ -7200,7 +7272,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "вакханочка": {
-    "def": "",
+    "def": "little bacchante (dim. of вакханка, female devotee of Bacchus)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "вал": {
@@ -7220,8 +7292,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "валлах": {
-    "def": "[Proper Noun / Name / Place] Vallakh",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "wallah! by Allah! (oath, Arabic via Turkic; Герой нашего времени)",
+    "grammar": "interjection"
   },
   "валов": {
     "def": "(form of вал: billow, roller, large wave; rampart, dyke, wall (an earthen embankment, possibly faced with stone, used as a defensive fortification))",
@@ -7260,8 +7332,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "вальтрап": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "shabrack, saddle-cloth (mil., from Italian gualdrappa)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "валяется": {
     "def": "third-person singular present indicative imperfective of валя́ться (valjátʹsja) (form of валяться: to roll around, to roll from side to side; to wallow; to lie about)",
@@ -7312,7 +7384,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "ваня": {
-    "def": "[Proper Noun / Name / Place] Vanya",
+    "def": "Ваня — diminutive of Иван (Ivan); the nurse's boy-husband in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "варварство": {
@@ -7348,7 +7420,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "василий": {
-    "def": "[Proper Noun / Name / Place] Vasiliy",
+    "def": "Василий — Vasily; Prince Vasily Kuragin in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "василию": {
@@ -7380,23 +7452,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "васильич": {
-    "def": "[Proper Noun / Name / Place] Vasilich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Васильич — colloquial patronymic form of Васильевич; Vasily Vasilyich Solyony in Три сестры",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "василью": {
     "def": "(form of василь: [Proper Noun / Name / Place] Vasil)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "василья": {
-    "def": "[Proper Noun / Name / Place] Vasilya",
-    "grammar": "noun, neuter, plural, nominative"
+    "def": "Василья — genitive/accusative of Василий (colloq. for Василия); Prince Vasily in Война и мир",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "васисдас": {
     "def": "small inspection window",
     "grammar": "noun, masculine, singular, nominative"
   },
   "васька": {
-    "def": "[Proper Noun / Name / Place] Vaska",
+    "def": "Васька — familiar diminutive of Василий; Vaska Denisov, the hussar in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "васьки": {
@@ -7408,7 +7480,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "вася": {
-    "def": "[Proper Noun / Name / Place] Vasya",
+    "def": "Вася — diminutive of Василий (Vasily)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "вате": {
@@ -7416,12 +7488,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "ватерлоо": {
-    "def": "[Proper Noun / Name / Place] Vaterloo",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "Ватерлоо — Waterloo, site of Napoleon's 1815 defeat",
+    "grammar": "noun, neuter, singular, indeclinable"
   },
   "вахмистг": {
-    "def": "",
+    "def": "cavalry sergeant-major (вахмистр) as spelt in Denisov's burred speech; fragment of вахмистг'а",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "вахмистг'а": {
+    "def": "the sergeant-major (вахмистра, from вахмистр, cavalry NCO; mil.) in Denisov's burred speech",
+    "grammar": "noun, masculine, singular, accusative (genitive form)"
   },
   "вахмистр": {
     "def": "cavalry sergeant-major",
@@ -7584,8 +7660,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, transitive, masculine, singular, genitive"
   },
   "вг": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's burred spellings (e.g. вг'емени = времени); not a standalone word",
+    "grammar": "word fragment"
+  },
+  "вг'емени": {
+    "def": "time (времени, gen. of время) in Denisov's burred speech: 'no time even to drink!'",
+    "grammar": "noun, neuter, singular, genitive"
   },
   "вгляделся": {
     "def": "masculine singular past indicative perfective of вгляде́ться (vgljadétʹsja) (form of вглядеться: to peer (at, into))",
@@ -7699,6 +7779,14 @@ const LOCAL_DICTIONARY = {
     "def": "night; one",
     "grammar": ""
   },
+  "ве'ю": {
+    "def": "'I believe (you)' — верю in Denisov's burred speech (р dropped)",
+    "grammar": "verb, imperfective, present, 1st person singular"
+  },
+  "веnеdеttа": {
+    "def": "Benedetta — Venetian barcarolle 'Benedetta sia la madre' that Onegin hums (Italian, 'blessed')",
+    "grammar": "proper noun (Italian song title)"
+  },
   "ведает": {
     "def": "(form of ведать: know)",
     "grammar": "verb, imperfective, present, transitive, singular"
@@ -7712,8 +7800,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, feminine, singular"
   },
   "ведаться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to have dealings with, be in contact with (offices, authorities) (obs./colloq.)",
+    "grammar": "verb, infinitive, imperfective, reflexive"
   },
   "ведем": {
     "def": "(form of вести: to lead, to preside over, to chair; to drive (form of весть: news, piece of news, message; tidings; news (presentation of news, e.g. on television)))",
@@ -7852,8 +7940,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "вейротер": {
-    "def": "[Proper Noun / Name / Place] Veyroter",
-    "grammar": "verb, perfective, past, transitive, masculine, singular"
+    "def": "Вейротер — Weyrother, Austrian general, author of the Austerlitz battle plan (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вейротера": {
     "def": "(form of вейротёр: [Proper Noun / Name / Place] Veyrotyor)",
@@ -7936,8 +8024,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "велено": {
-    "def": "[Proper Noun / Name / Place] Veleno",
-    "grammar": "predicative, present"
+    "def": "it is/was ordered, orders were given (impers.; short participle of велеть)",
+    "grammar": "predicative (short passive participle, neuter singular)"
   },
   "велеречивый": {
     "def": "pompous, bombastic, magniloquent",
@@ -8004,8 +8092,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "великое": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "great, momentous (великий); 'великое дело' = a great deed / great thing",
+    "grammar": "adjective, neuter, singular, nominative"
   },
   "великой": {
     "def": "(form of великий: large, big; great, outstanding)",
@@ -8272,12 +8360,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "венско": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "first element of венско‑цнаймский 'Vienna–Znaim (road)'; not a standalone word",
+    "grammar": "word fragment (compound-adjective stem)"
   },
   "венского": {
     "def": "(form of венский: Viennese)",
     "grammar": "adjective, masculine, singular, genitive"
+  },
+  "венско‑цнаймскую": {
+    "def": "Vienna–Znaim (adj.): the road from Vienna to Znaim (Znojmo), 1805 campaign",
+    "grammar": "compound adjective, feminine, singular, accusative"
   },
   "вену": {
     "def": "accusative singular of ве́на (véna); dative singular of ве́но (véno) (form of вено: bride-price)",
@@ -8408,8 +8500,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "вернер": {
-    "def": "[Proper Noun / Name / Place] Verner",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вернер — Dr Werner, Pechorin's sceptical physician friend in Герой нашего времени",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вернера": {
     "def": "(form of вернер: [Proper Noun / Name / Place] Verner)",
@@ -8668,8 +8760,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "вершинин": {
-    "def": "[Proper Noun / Name / Place] Vershinin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вершинин — Lt-Col. Vershinin, the battery commander in Три сестры",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вершинина": {
     "def": "(form of вершинин: [Proper Noun / Name / Place] Vershinin)",
@@ -9019,6 +9111,10 @@ const LOCAL_DICTIONARY = {
     "def": "ham",
     "grammar": "noun, feminine, singular, nominative"
   },
+  "ветчина‑то": {
+    "def": "ham + emphatic particle -то ('сладкая ветчина-то' = 'that ham is sweet')",
+    "grammar": "noun, feminine, singular, nominative + particle"
+  },
   "вечер": {
     "def": "evening (after 8 PM); tonight, this evening",
     "grammar": "noun, masculine, singular, accusative"
@@ -9192,7 +9288,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "взапуски": {
-    "def": "",
+    "def": "racing one another; 'бегать взапуски' = to run races",
     "grammar": "adverb"
   },
   "взбежал": {
@@ -9424,7 +9520,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "вздог": {
-    "def": "[Proper Noun / Name / Place] Vzdog",
+    "def": "nonsense! rubbish! — Denisov's burred pronunciation of вздор (Война и мир)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "вздор": {
@@ -9847,6 +9943,10 @@ const LOCAL_DICTIONARY = {
     "def": "plural past indicative imperfective of вида́ться (vidátʹsja) (form of видаться: to see, to meet, to see each other; passive of вида́ть (vidátʹ))",
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
+  "видались…детьми": {
+    "def": "run-together: '(we last) saw each other… as children' — видаться 'see one another' + детьми (instr. of дети)",
+    "grammar": "verb, past, plural, reflexive + noun, instrumental plural (text fragment)"
+  },
   "видался": {
     "def": "(form of видаться: to see, to meet, to see each other; passive of вида́ть (vidátʹ) (form of видать: to see ; iterative of ви́деть (vídetʹ); to be seen))",
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
@@ -9922,6 +10022,14 @@ const LOCAL_DICTIONARY = {
   "видимою": {
     "def": "(form of видимый: visible, obvious, apparent, seeming)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "видимо‑привычным": {
+    "def": "evidently habitual (of a gesture)",
+    "grammar": "compound adjective, masculine, singular, instrumental"
+  },
+  "видимо‑приготовленную": {
+    "def": "evidently prepared in advance (of a phrase / speech)",
+    "grammar": "compound participle, past passive, feminine, singular, accusative"
   },
   "видимым": {
     "def": "(form of видимый: visible, obvious, apparent, seeming)",
@@ -10124,8 +10232,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "вилльнев": {
-    "def": "[Proper Noun / Name / Place] Villnev",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вилльнев — Villeneuve, French admiral defeated at Trafalgar (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вилльневе": {
     "def": "(form of вилльнева: [Proper Noun / Name / Place] Villneva)",
@@ -10152,8 +10260,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "вимпфен": {
-    "def": "[Proper Noun / Name / Place] Vimpfen",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вимпфен — Wimpffen, Austrian general at the Austerlitz council of war (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вин": {
     "def": "(form of вино: wine; any strong alcoholic beverage (especially vodka))",
@@ -10168,8 +10276,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "винесом": {
-    "def": "[Proper Noun / Name / Place] Vinesom",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Винесом — instrumental of Винес, a miniaturist painter mentioned in Война и мир",
+    "grammar": "noun (surname), masculine, singular, instrumental"
   },
   "винительный": {
     "def": "accusative",
@@ -10186,6 +10294,10 @@ const LOCAL_DICTIONARY = {
   "виновата": {
     "def": "short feminine singular of винова́тый (vinovátyj) (form of виноватый: guilty)",
     "grammar": "short adjective, feminine, singular"
+  },
+  "виновата‑с": {
+    "def": "'sorry, my fault' (said by a woman) + deferential particle -с (obs. polite word-final)",
+    "grammar": "short adjective, feminine, singular + particle"
   },
   "виноватого": {
     "def": "(form of виноватый: guilty)",
@@ -10292,8 +10404,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "вис-е-вис": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "vis-à-vis (French): as the facing partner in a dance; here 'danced opposite her'",
+    "grammar": "adverb (French loan, indeclinable)"
   },
   "висевшему": {
     "def": "(form of висеть: to hang, to be suspended)",
@@ -10388,8 +10500,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "вишау": {
-    "def": "[Proper Noun / Name / Place] Vishau",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вишау — Wischau (Vyškov), small Moravian town taken before Austerlitz (Война и мир)",
+    "grammar": "noun, neuter, singular, indeclinable"
   },
   "вишеньем": {
     "def": "(form of вишенье: [Proper Noun / Name / Place] Vishene)",
@@ -10400,8 +10512,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "particle"
   },
   "виясь": {
-    "def": "[Proper Noun / Name / Place] Viyas",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "winding, twisting, meandering (gerund of виться 'to wind')",
+    "grammar": "gerund (adverbial participle), imperfective"
   },
   "вкось": {
     "def": "obliquely, slantwise, aslant",
@@ -10412,8 +10524,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "вкруг": {
-    "def": "[Proper Noun / Name / Place] Vkrug",
-    "grammar": "adverb"
+    "def": "around, round about (obs./poet. for вокруг)",
+    "grammar": "adverb / preposition + genitive"
   },
   "вкус": {
     "def": "taste (one of the sensations produced by the tongue); flavour/flavor, fancy",
@@ -10472,7 +10584,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, genitive"
   },
   "владетель": {
-    "def": "",
+    "def": "possessor, owner ('the owner of the manly voice'); also sovereign, lord (obs.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "владетельного": {
@@ -10496,7 +10608,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "владимир": {
-    "def": "[Proper Noun / Name / Place] Vladimir",
+    "def": "Владимир — Vladimir Lensky, the young poet in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "владимира": {
@@ -10504,8 +10616,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "владимирович": {
-    "def": "[Proper Noun / Name / Place] Vladimirovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Владимирович — patronymic 'son of Vladimir'; Count Kirill Vladimirovich Bezukhov in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "владимировича": {
     "def": "(form of владимирович: [Proper Noun / Name / Place] Vladimirovich)",
@@ -10516,7 +10628,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "владыкавказ": {
-    "def": "[Proper Noun / Name / Place] Vladykavkaz",
+    "def": "Владыкавказ — old spelling of Владикавказ (Vladikavkaz), fortress town in the Caucasus",
     "grammar": "noun, masculine, singular, nominative"
   },
   "владыкавказа": {
@@ -10692,8 +10804,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, plural"
   },
   "влюблялася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(she) kept falling in love — влюблялась with archaic/poetic full reflexive ending -ся",
+    "grammar": "verb, imperfective, past, feminine, reflexive"
   },
   "влюблялись": {
     "def": "plural past indicative imperfective of влюбля́ться (vljubljátʹsja) (form of влюбляться: to fall in love (to come to have feelings of love) .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with в (v, + accusative) ‘with someone’]; passive of влюбля́ть (vljubljátʹ))",
@@ -10835,6 +10947,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of внимательный: attentive, careful)",
     "grammar": "adjective, feminine, singular, genitive"
   },
+  "внимательно‑нежно": {
+    "def": "attentively and tenderly",
+    "grammar": "compound adverb"
+  },
   "внимательным": {
     "def": "(form of внимательный: attentive, careful)",
     "grammar": "adjective, masculine, singular, instrumental"
@@ -10892,7 +11008,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "внутренно": {
-    "def": "",
+    "def": "inwardly, to oneself (obs. form of внутренне)",
     "grammar": "adverb"
   },
   "внутренность": {
@@ -10968,8 +11084,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "вободен": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "free ('я свободен' = 'I am free'); token clipped because initial с was printed as Latin 'c'",
+    "grammar": "short adjective, masculine, singular"
   },
   "вовлекла": {
     "def": "(form of вовлечь: to draw in)",
@@ -11348,8 +11464,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "возвыся": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "having raised ('возвыся голос' = raising his voice); archaic perfective gerund of возвысить",
+    "grammar": "gerund (verbal adverb), perfective"
   },
   "возвышает": {
     "def": "(form of возвышать: raise, elevate, ennoble)",
@@ -11548,7 +11664,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, active, intransitive, plural, genitive"
   },
   "возмужание": {
-    "def": "[Proper Noun / Name / Place] Vozmuzhanie",
+    "def": "growing up, maturation, attainment of manhood",
     "grammar": "noun, neuter, singular, nominative"
   },
   "возмужания": {
@@ -12204,8 +12320,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "вольтер": {
-    "def": "[Proper Noun / Name / Place] Volter",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вольтер — Voltaire, French Enlightenment philosopher and writer",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вольтеровское": {
     "def": "(form of вольтеровский)",
@@ -12226,6 +12342,10 @@ const LOCAL_DICTIONARY = {
   "воля": {
     "def": "will, willpower; power",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "воля‑с": {
+    "def": "'as you please' — воля 'will, freedom' ('вам полная воля-с') + deferential particle -с (obs.)",
+    "grammar": "noun, feminine, singular, nominative + particle"
   },
   "вон": {
     "def": "there; off, out (away), outside, away (form of вона: won (currency))",
@@ -12362,6 +12482,14 @@ const LOCAL_DICTIONARY = {
   "вопросительно": {
     "def": "interrogatively",
     "grammar": "adverb"
+  },
+  "вопросительно‑грустно": {
+    "def": "questioningly and sadly",
+    "grammar": "compound adverb"
+  },
+  "вопросительно‑сердитый": {
+    "def": "questioning and angry (of a glance)",
+    "grammar": "compound adjective, masculine, singular, accusative"
   },
   "вопросительным": {
     "def": "(form of вопросительный: interrogative, inquiring, questioning, of inquiry)",
@@ -12620,8 +12748,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "вослед": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "after, following, in someone's wake (archaic/poetic = вслед)",
+    "grammar": "adverb / preposition (archaic)"
   },
   "воспаленном": {
     "def": "(form of воспалить: inflame)",
@@ -12784,8 +12912,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "воспоминать": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to recall, reminisce about (archaic form of вспоминать)",
+    "grammar": "verb, infinitive, imperfective, transitive"
   },
   "воспомня": {
     "def": "(form of воспомнить: [Proper Noun / Name / Place] Vospomnit)",
@@ -12888,12 +13016,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "вострушка": {
-    "def": "",
+    "def": "sharp, lively girl; smart little minx (colloq.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "вострый": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "sharp (dial./colloq. form of острый): 'камень вострый' = a sharp stone",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "восхитительна": {
     "def": "(form of восхитительный: delightful, ravishing, exquisite, heavenly, delicious)",
@@ -12944,8 +13072,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "восьмигривенный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "eighty-kopeck piece / sum (восемь гривен); 'дам восьмигривенный на водку' = an 80-kopeck tip (obs.)",
+    "grammar": "adjective used as noun, masculine, singular, accusative"
   },
   "восьмнадцатилетняя": {
     "def": "(form of восьмнадцатилетний)",
@@ -12966,6 +13094,10 @@ const LOCAL_DICTIONARY = {
   "вотще": {
     "def": "in vain",
     "grammar": "adverb"
+  },
+  "вот‑вот": {
+    "def": "any moment now, just about to",
+    "grammar": "particle / adverb"
   },
   "вошедшего": {
     "def": "(form of войти: to enter, to go in(to) (by foot), to get in(to); to penetrate into)",
@@ -13004,12 +13136,24 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "вощаной": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "waxed, wax-polished (obs. form of вощаный)",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "воют": {
     "def": "third-person plural present indicative imperfective of выть (vytʹ) (form of выть: to howl; to wail)",
     "grammar": "verb, imperfective, present, intransitive, plural"
+  },
+  "во‑время": {
+    "def": "in time, at the right moment (old hyphenated spelling of вовремя)",
+    "grammar": "adverb"
+  },
+  "во‑вторых": {
+    "def": "secondly, in the second place",
+    "grammar": "adverb (parenthetical)"
+  },
+  "во‑первых": {
+    "def": "firstly, in the first place",
+    "grammar": "adverb (parenthetical)"
   },
   "впадает": {
     "def": "(form of впадать: fall, flow, lapse, sink, sink in, verge on, border upon)",
@@ -13087,6 +13231,10 @@ const LOCAL_DICTIONARY = {
     "def": "quite, fully, entirely",
     "grammar": "adverb"
   },
+  "вполне‑привлекательных": {
+    "def": "thoroughly attractive (of women)",
+    "grammar": "compound adjective, plural, genitive"
+  },
   "вполовину": {
     "def": "half",
     "grammar": "adverb"
@@ -13104,8 +13252,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "вправе": {
-    "def": "",
-    "grammar": "predicative, present"
+    "def": "1) to the right (obs. adverb, = вправо); 2) entitled, having the right ('чувствовать себя вправе')",
+    "grammar": "adverb / predicative"
   },
   "вправо": {
     "def": "to the right",
@@ -13124,7 +13272,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "впросак": {
-    "def": "",
+    "def": "'попасть впросак' = to blunder, get into an awkward fix (used only in this idiom)",
     "grammar": "adverb"
   },
   "впрочем": {
@@ -13186,6 +13334,10 @@ const LOCAL_DICTIONARY = {
   "враждебно": {
     "def": "hostilely, with enmity, with animosity",
     "grammar": "adverb"
+  },
+  "враждебно‑расположенными": {
+    "def": "hostilely disposed (of the local inhabitants)",
+    "grammar": "compound participle, past passive, plural, instrumental"
   },
   "враждебные": {
     "def": "(form of враждебный: hostile, inimical)",
@@ -13368,8 +13520,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "вс": {
-    "def": "[Proper Noun / Name / Place] Vs",
-    "grammar": "noun, masculine, plural, nominative"
+    "def": "fragment, likely truncated всё/все (tokenization artifact; no corpus context)",
+    "grammar": "abbreviation/fragment"
   },
   "всадил": {
     "def": "(form of всадить: to stick (into), to thrust (into), to plunge (into); to spend (on), to pour (into))",
@@ -13427,6 +13579,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of всегдашний: usual, customary, accustomed, wonted)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "всегда‑смеющемся": {
+    "def": "ever-laughing, perpetually smiling (of a face)",
+    "grammar": "compound participle, present active, neuter, singular, prepositional"
+  },
   "всего": {
     "def": "inflection of весь (vesʹ):\ngenitive masculine/neuter singular\nanimate accusative masculine singular; genitive masculine/neuter singular (form of весь: all, the whole, all of, the whole of, the entire, the entirety of; all, all (of) (about discrete entities))",
     "grammar": "adjective, neuter, singular, genitive"
@@ -13462,6 +13618,10 @@ const LOCAL_DICTIONARY = {
   "всемирно": {
     "def": "universally; short neuter singular of всеми́рный (vsemírnyj) (form of всемирный: global, world-wide, universal)",
     "grammar": "adverb"
+  },
+  "всемирно‑исторической": {
+    "def": "world-historical (of the hand on the clock-face of history)",
+    "grammar": "compound adjective, feminine, singular, genitive"
   },
   "всемирный": {
     "def": "world, world-wide, universal",
@@ -13500,12 +13660,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "всечасно": {
-    "def": "[Proper Noun / Name / Place] Vsechasno",
+    "def": "constantly, at every hour, incessantly (obs./poet.)",
     "grammar": "adverb"
   },
   "всею": {
     "def": "instrumental feminine singular of весь (vesʹ) (form of весь: all, the whole, all of, the whole of, the entire, the entirety of; all, all (of) (about discrete entities))",
     "grammar": "verb, perfective, future, transitive, singular"
+  },
+  "все‑таки": {
+    "def": "all the same, nevertheless, still",
+    "grammar": "particle / conjunction"
   },
   "вскакивая": {
     "def": "(form of вскакивать: jump, jump up, leap up, swell, come up)",
@@ -13872,7 +14036,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, masculine, singular"
   },
   "встревоженно": {
-    "def": "[Proper Noun / Name / Place] Vstrevozhenno",
+    "def": "anxiously, with alarm, uneasily",
     "grammar": "adverb"
   },
   "встревожил": {
@@ -14196,8 +14360,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "всэ": {
-    "def": "",
-    "grammar": ""
+    "def": "'all, everything' — всё in the German colonel's accented speech ('всэ й будэ т хорошо' = всё будет хорошо)",
+    "grammar": "pronoun, neuter, singular, nominative (accented spelling fragment)"
   },
   "всю": {
     "def": "accusative feminine singular of весь (vesʹ) (form of весь: all, the whole, all of, the whole of, the entire, the entirety of; all, all (of) (about discrete entities))",
@@ -14258,6 +14422,14 @@ const LOCAL_DICTIONARY = {
   "всём": {
     "def": "(form of весь: all, the whole, all of, the whole of, the entire, the entirety of; all, all (of) (about discrete entities) (form of весить: to weigh (to have a certain weight)))",
     "grammar": "adjective, neuter, singular, prepositional"
+  },
+  "всё‑таки": {
+    "def": "all the same, nevertheless, still",
+    "grammar": "particle / conjunction"
+  },
+  "всј": {
+    "def": "всё 'all; still, anyway' — Ј is a text-encoding artifact for ё ('всЈ же' = всё же)",
+    "grammar": "pronoun / adverb, neuter, singular"
   },
   "втайне": {
     "def": "in secret, secretly",
@@ -14364,8 +14536,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "вулич": {
-    "def": "[Proper Noun / Name / Place] Vulich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Вулич — Vulich, the Serbian officer gambler in «Фаталист» (Герой нашего времени)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вулича": {
     "def": "(form of вулич: [Proper Noun / Name / Place] Vulich)",
@@ -14440,15 +14612,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "вчег": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of Denisov's вчег'а = вчера 'yesterday'; not a standalone word",
+    "grammar": "word fragment"
+  },
+  "вчег'а": {
+    "def": "yesterday (вчера) in Denisov's burred speech",
+    "grammar": "adverb"
   },
   "вчера": {
     "def": "yesterday",
     "grammar": "adverb"
   },
   "вчерась": {
-    "def": "",
+    "def": "yesterday (colloq./dial. for вчера)",
     "grammar": "adverb"
   },
   "вчерашнего": {
@@ -14526,6 +14702,10 @@ const LOCAL_DICTIONARY = {
   "выбг": {
     "def": "(form of выбга)",
     "grammar": "noun, feminine, plural, genitive"
+  },
+  "выбг'ился": {
+    "def": "shaved (himself) — Denisov's burred r for выбрился, past of выбриться",
+    "grammar": "verb, perfective, past, masculine, reflexive"
   },
   "выбегает": {
     "def": "third-person singular present indicative imperfective of выбега́ть (vybegátʹ) (form of выбегать: to run out (outside))",
@@ -14756,8 +14936,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "выворотип": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "wrenched out, tore out (misprint/OCR for выворотил, past of выворотить)",
+    "grammar": "verb, perfective, past, masculine"
   },
   "выглядывавшему": {
     "def": "(form of выглядывать: to look out, to peep out; to appear, to emerge, to come into view)",
@@ -15008,7 +15188,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "выдраться": {
-    "def": "",
+    "def": "to struggle free, scramble out (colloq.)",
     "grammar": "infinitive, perfective, intransitive"
   },
   "выдумав": {
@@ -15052,8 +15232,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "выездной": {
-    "def": "",
-    "grammar": "adjective, feminine, singular, genitive"
+    "def": "attending outings; выездной лакей = footman who attends the carriage (obs.)",
+    "grammar": "adjective, masculine, singular, nominative"
   },
   "выезжавшая": {
     "def": "(form of выезжать: to exit, to go out (by vehicle); to break in (a horse))",
@@ -15208,12 +15388,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "вызывающе": {
-    "def": "",
+    "def": "defiantly, provocatively",
     "grammar": "adverb"
   },
   "вызывающей": {
     "def": "(form of вызывающий: defiant, provocative, aggressive)",
     "grammar": "adjective, feminine, singular, genitive"
+  },
+  "вызывающе‑счастливой": {
+    "def": "defiantly happy (compound adjective)",
+    "grammar": "adjective, feminine, singular, genitive or instrumental"
   },
   "вызывающие": {
     "def": "(form of вызывающий: defiant, provocative, aggressive)",
@@ -15416,8 +15600,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, plural"
   },
   "вымем": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "udder (nonstandard instrumental of вымя, for выменем)",
+    "grammar": "noun, neuter, singular, instrumental"
   },
   "вымерло": {
     "def": "neuter singular past indicative perfective of вы́мереть (výmeretʹ) (form of вымереть: to die out, to become extinct; (town) to become desolate/deserted/depopulated)",
@@ -15580,8 +15764,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "выписной": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "ordered from abroad, imported (obs.)",
+    "grammar": "adjective, feminine, singular, prepositional"
   },
   "выпит": {
     "def": "(form of выпить: to drink, to drink up; to have a drink)",
@@ -15788,8 +15972,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "выражалася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "expressed herself (archaic/poetic for выражалась, from выражаться)",
+    "grammar": "verb, imperfective, past, feminine, reflexive"
   },
   "выражались": {
     "def": "(form of выражаться: to express oneself; to manifest oneself (form of выражать: to express, to convey (meaning)))",
@@ -16127,6 +16311,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of выслать: send, dispatch, banish, exile, deport, expel, send out, push out)",
     "grammar": "verb, perfective, past, transitive, plural"
   },
+  "выслали‑таки": {
+    "def": "did deport (him) from Petersburg after all (выслали + emphatic particle -таки)",
+    "grammar": "verb, perfective, past, plural, with particle -таки"
+  },
   "выслан": {
     "def": "(form of выслать: send, dispatch, banish, exile, deport, expel, send out, push out)",
     "grammar": "short participle, perfective, past, passive, masculine, singular"
@@ -16220,7 +16408,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "высоко-высоко": {
-    "def": "",
+    "def": "very high up, high high above (reduplication of высоко)",
     "grammar": "adverb"
   },
   "высокоблагородие": {
@@ -16264,12 +16452,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "высокопревосходительство": {
-    "def": "",
+    "def": "Excellency (ваше высокопревосходительство — address to full generals; obs.)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "высокородие": {
-    "def": "",
+    "def": "High Honour (ваше высокородие — address to officials of the 5th class; obs.)",
     "grammar": "noun, neuter, singular, nominative"
+  },
+  "высоко‑подоткнутой": {
+    "def": "tucked up high (of a greatcoat's skirts)",
+    "grammar": "participial adjective, feminine, singular, prepositional"
   },
   "высокую": {
     "def": "accusative feminine singular of высо́кий (vysókij) (form of высокий: tall; high-altitude)",
@@ -16328,7 +16520,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "высочество": {
-    "def": "",
+    "def": "Highness (title of princes: его высочество)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "выспался": {
@@ -16712,7 +16904,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "выхлопотать": {
-    "def": "",
+    "def": "to obtain by petitioning, secure through solicitations",
     "grammar": "infinitive, perfective, transitive"
   },
   "выход": {
@@ -16936,16 +17128,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "вяземский": {
-    "def": "[Proper Noun / Name / Place] Vyazemskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Вяземский — Prince Pyotr Vyazemsky, poet and friend of Pushkin (Евгений Онегин)",
+    "grammar": "noun (surname, adjectival declension), masculine, singular, nominative"
   },
   "вязкую": {
     "def": "(form of вязкий: glutinous, viscid, viscous, miry, oozy, boggy, marshy, swampy, tough, ductile)",
     "grammar": "adjective, feminine, singular, accusative"
   },
   "вязмитинов": {
-    "def": "[Proper Noun / Name / Place] Vyazmitinov",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "Вязмитинов — Vyazmitinov, elderly dignitary in Anna Pavlovna's circle (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "вязмитиновым": {
     "def": "(form of вязмитинов: [Proper Noun / Name / Place] Vyazmitinov)",
@@ -16971,8 +17163,48 @@ const LOCAL_DICTIONARY = {
     "def": "The fourth letter of the Russian alphabet, called гэ (gɛ) and written in the Cyrillic script.; abbreviation of грамм (gramm, “gram”) (form of грамм: gram)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "г'oш": {
+    "def": "fragment of нехог'ошо = нехорошо 'not good, bad' in Denisov's burred speech (artifact)",
+    "grammar": "word fragment (from adverb нехорошо)"
+  },
+  "г'абота": {
+    "def": "work (= работа; Denisov's burred r)",
+    "grammar": "noun, feminine, singular, nominative"
+  },
+  "г'аботали": {
+    "def": "(you) worked, did the job (= работали; Denisov's burred r)",
+    "grammar": "verb, imperfective, past, plural"
+  },
+  "г'ебята": {
+    "def": "lads, boys (= ребята; Denisov's burred r)",
+    "grammar": "noun, plural, nominative (form of address)"
+  },
+  "г'ожа": {
+    "def": "mug, ugly face (= рожа, colloq.; Denisov's burred r)",
+    "grammar": "noun, feminine, singular, nominative"
+  },
+  "г'остов": {
+    "def": "Rostov — surname of Nikolai Rostov as Denisov pronounces it (Война и мир)",
+    "grammar": "proper noun, masculine, singular, nominative"
+  },
+  "г'убай": {
+    "def": "slash away!, cut them down (= рубай, colloq. imperative of рубать; Denisov's r)",
+    "grammar": "verb, imperative, 2nd person singular"
+  },
+  "г'ысыо": {
+    "def": "at a trot (= рысью; Denisov's burred r)",
+    "grammar": "adverb (instrumental of рысь used adverbially)"
+  },
+  "г...в": {
+    "def": "G—v — censored surname of Vera's husband Semyon Vasilyevich (Герой нашего времени)",
+    "grammar": "proper noun, masculine, singular, nominative"
+  },
+  "г`остов": {
+    "def": "Rostov — surname of Nikolai Rostov as Denisov pronounces it (Война и мир)",
+    "grammar": "proper noun, masculine, singular, nominative"
+  },
   "гаврило": {
-    "def": "[Proper Noun / Name / Place] Gavrilo",
+    "def": "Гаврило — Gavrilo, colloquial form of Гавриил (Gabriel); an old servant in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гаврилу": {
@@ -17000,7 +17232,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, dative"
   },
   "гадатель": {
-    "def": "[Proper Noun / Name / Place] Gadatel",
+    "def": "fortune-teller, diviner, soothsayer",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гадкая": {
@@ -17064,8 +17296,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "гайть": {
-    "def": "[Proper Noun / Name / Place] Gayt",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "hait! — Tatar shout to drive off or scare away ('scram!') in Кавказский пленник",
+    "grammar": "interjection"
   },
   "галерее": {
     "def": "(form of галерея: gallery)",
@@ -17188,7 +17420,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "гасконец": {
-    "def": "",
+    "def": "a Gascon, native of Gascony (proverbially boastful)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гасконских": {
@@ -17284,8 +17516,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "гвоздин": {
-    "def": "[Proper Noun / Name / Place] Gvozdin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Гвоздин — Gvozdin, landowner guest at Tatiana's name-day feast in Евгений Онегин",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "гвоздя": {
     "def": "(form of гвоздь: nail, tack, peg)",
@@ -17303,12 +17535,20 @@ const LOCAL_DICTIONARY = {
     "def": "somewhere, anywhere",
     "grammar": "adverb"
   },
+  "где‑нибудь": {
+    "def": "somewhere, anywhere (indefinite)",
+    "grammar": "adverb"
+  },
+  "где‑то": {
+    "def": "somewhere",
+    "grammar": "adverb"
+  },
   "геленджик": {
-    "def": "[Proper Noun / Name / Place] Gelendzhik",
+    "def": "Gelendzhik — coastal town on the Black Sea in the Caucasus (Герой нашего времени)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "геллеспонт": {
-    "def": "[Proper Noun / Name / Place] Gellespont",
+    "def": "Hellespont — ancient name of the Dardanelles strait; Onegin swam it in imitation of Byron",
     "grammar": "noun, masculine, singular, nominative"
   },
   "генеалогического": {
@@ -17338,6 +17578,10 @@ const LOCAL_DICTIONARY = {
   "генералах": {
     "def": "(form of генерал: general, General)",
     "grammar": "noun, masculine, plural, prepositional"
+  },
+  "генерала‑фельдмаршала": {
+    "def": "general field marshal — highest army rank (mil., obs.)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "генерале": {
     "def": "(form of генерал: general, General)",
@@ -17375,8 +17619,36 @@ const LOCAL_DICTIONARY = {
     "def": "(form of генеральский)",
     "grammar": "adjective, feminine, singular, accusative"
   },
+  "генерал‑адъютант": {
+    "def": "adjutant general — general in the emperor's suite (mil., obs.)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "генерал‑адъютанта": {
+    "def": "adjutant general — general in the emperor's suite (mil., obs.)",
+    "grammar": "noun, masculine, singular, accusative (animate)"
+  },
+  "генерал‑аншеф": {
+    "def": "commander-in-chief, full general (obs., from French en chef)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "генерал‑губернатором": {
+    "def": "governor-general — chief administrator of a region (obs.)",
+    "grammar": "noun, masculine, singular, instrumental"
+  },
+  "генерал‑лейтенант": {
+    "def": "lieutenant general (mil.)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "генерал‑марш": {
+    "def": "the 'general march' — trumpet/drum signal to march or salute (mil., obs.)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "генерал‑марша": {
+    "def": "the 'general march' — trumpet/drum signal to march or salute (mil., obs.)",
+    "grammar": "noun, masculine, singular, genitive"
+  },
   "гениально": {
-    "def": "",
+    "def": "brilliantly; (as predicate) it is genius",
     "grammar": "adverb"
   },
   "гениальному": {
@@ -17396,8 +17668,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "генуа": {
-    "def": "[Proper Noun / Name / Place] Genua",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Genoa — Italian city (archaic Russian form of Генуя)",
+    "grammar": "noun, feminine, singular, nominative"
   },
   "генуи": {
     "def": "(form of генуя: [Proper Noun / Name / Place] Genuya)",
@@ -17468,8 +17740,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "героиной": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "heroine (instrumental of героиня): imagining herself a heroine",
+    "grammar": "noun, feminine, singular, instrumental"
   },
   "героиня": {
     "def": "heroine; female hero",
@@ -17480,7 +17752,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "геройски": {
-    "def": "",
+    "def": "heroically",
     "grammar": "adverb"
   },
   "геройские": {
@@ -17532,8 +17804,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, singular, nominative"
   },
   "гетева": {
-    "def": "[Proper Noun / Name / Place] Geteva",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Goethe's — possessive adjective from Гете; Гетева Миньона = Goethe's Mignon (Wilhelm Meister)",
+    "grammar": "possessive adjective, feminine, singular, nominative"
   },
   "гетеву": {
     "def": "(form of гетева: [Proper Noun / Name / Place] Geteva)",
@@ -17604,8 +17876,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "гильо": {
-    "def": "[Proper Noun / Name / Place] Gilo",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Guillot — Onegin's French valet, his second at the duel (Евгений Онегин)",
+    "grammar": "noun, masculine, indeclinable (French name)"
   },
   "гимена": {
     "def": "(form of гимен: [Proper Noun / Name / Place] Gimen)",
@@ -17662,6 +17934,10 @@ const LOCAL_DICTIONARY = {
   "главе": {
     "def": "(form of глава: head, chief, cupola, chapter)",
     "grammar": "noun, feminine, singular, prepositional"
+  },
+  "главе.движения": {
+    "def": "artifact: во главе движения 'at the head of the movement' — главе + движения fused by stray period",
+    "grammar": "two fused nouns (prepositional + genitive); OCR artifact"
   },
   "главная": {
     "def": "(form of главный: main, chief, principal, head)",
@@ -18167,13 +18443,17 @@ const LOCAL_DICTIONARY = {
     "def": "(form of глянуть: glance)",
     "grammar": "verb, perfective, intransitive, singular"
   },
+  "глянь‑ка": {
+    "def": "just look!, take a look (colloq. imperative глянь + softening particle -ка)",
+    "grammar": "verb, imperative, 2nd person singular, with particle -ка"
+  },
   "гм": {
     "def": "ahem",
     "grammar": "interjection"
   },
   "гналася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "chased, pursued (archaic/poetic for гналась, from гнаться)",
+    "grammar": "verb, imperfective, past, feminine, reflexive"
   },
   "гнало": {
     "def": "(form of гнать: pursue, chase; distill)",
@@ -18268,8 +18548,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
   "говог": {
-    "def": "",
+    "def": "hum of voices (= говор); here likely a clipped fragment of Denisov's burred говог'ю (= говорю)",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "говог'ю": {
+    "def": "I say, I tell (you) (= говорю; Denisov's burred r)",
+    "grammar": "verb, imperfective, present, 1st person singular"
   },
   "говор": {
     "def": "sound of talking, sound of voices, pronunciation, accent, dialect, patois",
@@ -18452,7 +18736,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "годочек": {
-    "def": "",
+    "def": "a year (affectionate diminutive of год)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "году": {
@@ -18484,7 +18768,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "голлабрун": {
-    "def": "[Proper Noun / Name / Place] Gollabrun",
+    "def": "Hollabrunn — town in Lower Austria, scene of the 1805 rearguard action in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "голлабруна": {
@@ -18752,8 +19036,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "гомера": {
-    "def": "[Proper Noun / Name / Place] Gomera",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Homer — the ancient Greek epic poet (accusative of Гомер)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "гондоле": {
     "def": "(form of гондола: gondola, car, basket, nacelle)",
@@ -18812,7 +19096,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "гоп-гоп": {
-    "def": "[Proper Noun / Name / Place] Gop-gop",
+    "def": "hup-hup! gee-up! — a shout or taunting call (colloq.)",
     "grammar": "interjection"
   },
   "гор": {
@@ -18840,7 +19124,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, prepositional"
   },
   "гораций": {
-    "def": "[Proper Noun / Name / Place] Goratsiy",
+    "def": "Horace — Roman poet (65–8 BC), famed for farming his Sabine estate",
     "grammar": "noun, masculine, singular, nominative"
   },
   "горбатым": {
@@ -19275,6 +19559,10 @@ const LOCAL_DICTIONARY = {
     "def": "hotly, with heat, warmly, with warmth",
     "grammar": "adverb"
   },
+  "горячо‑красным": {
+    "def": "glowing hot-red (of a fire)",
+    "grammar": "compound adjective, masculine, singular, instrumental"
+  },
   "горячую": {
     "def": "(form of горячий: hot, heated; hot-tempered, passionate)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -19328,7 +19616,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "господний": {
-    "def": "[Proper Noun / Name / Place] Gospodniy",
+    "def": "the Lord's, God's; Господний раб = servant of the Lord",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "господский": {
@@ -19355,6 +19643,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of гость: visitor, guest)",
     "grammar": "noun, masculine, plural, genitive"
   },
+  "гостей‑мужчин": {
+    "def": "the male guests (гость + мужчина)",
+    "grammar": "noun, masculine, plural, accusative (animate)"
+  },
   "гостем": {
     "def": "(form of гость: visitor, guest)",
     "grammar": "noun, masculine, singular, instrumental"
@@ -19372,7 +19664,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "гостиерадек": {
-    "def": "[Proper Noun / Name / Place] Gostieradek",
+    "def": "Hostieradek — village near Austerlitz on the 1805 battlefield (Война и мир)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гостиерадеке": {
@@ -19427,8 +19719,16 @@ const LOCAL_DICTIONARY = {
     "def": "(form of гостья: visitor, guest)",
     "grammar": "noun, feminine, singular, genitive"
   },
+  "гостьи‑барышни": {
+    "def": "young-lady guest (гостья + барышня)",
+    "grammar": "noun, feminine, singular, genitive"
+  },
   "гостью": {
     "def": "(form of гостья: visitor, guest)",
+    "grammar": "noun, feminine, singular, accusative"
+  },
+  "гостью‑барышню": {
+    "def": "young-lady guest (гостья + барышня)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "гостья": {
@@ -19452,7 +19752,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, prepositional"
   },
   "государ": {
-    "def": "",
+    "def": "sir, sovereign (= государь; милостивый государь 'dear sir' in mock mangled speech)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "государе": {
@@ -19469,6 +19769,10 @@ const LOCAL_DICTIONARY = {
   },
   "государи": {
     "def": "(form of государь: sovereign, Your Majesty, Sire)",
+    "grammar": "noun, masculine, plural, nominative"
+  },
+  "государи‑императоры": {
+    "def": "sovereign emperors (государь + император)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "государственная": {
@@ -19501,6 +19805,10 @@ const LOCAL_DICTIONARY = {
   },
   "государя": {
     "def": "(form of государь: sovereign, Your Majesty, Sire)",
+    "grammar": "noun, masculine, singular, genitive"
+  },
+  "государя‑императора": {
+    "def": "the sovereign emperor (государь + император)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "готов": {
@@ -19640,7 +19948,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "гофмаршал": {
-    "def": "",
+    "def": "Marshal of the Court, court steward (from German Hofmarschall; obs.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гофмаршалу": {
@@ -19654,6 +19962,10 @@ const LOCAL_DICTIONARY = {
   "гояччей": {
     "def": "(form of гоячча)",
     "grammar": "noun, feminine, singular, instrumental"
+  },
+  "го‑го‑го‑го‑ство": {
+    "def": "soldiers' shouted garbling of ваше высокопревосходительство 'Your Excellency'",
+    "grammar": "noun, neuter, singular, nominative (garbled title)"
   },
   "грабежа": {
     "def": "(form of грабёж: robbery, pillage, plunder)",
@@ -19724,7 +20036,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "грандисон": {
-    "def": "[Proper Noun / Name / Place] Grandison",
+    "def": "Grandison — the virtuous hero of Richardson's novel Sir Charles Grandison; a paragon suitor",
     "grammar": "noun, masculine, singular, nominative"
   },
   "грандисона": {
@@ -19820,7 +20132,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "графинюшка": {
-    "def": "[Proper Noun / Name / Place] Grafinyushka",
+    "def": "little countess — affectionate diminutive of графиня (countess)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "графинюшке": {
@@ -19851,6 +20163,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of графа: column)",
     "grammar": "noun, feminine, singular, accusative"
   },
+  "граф‑то": {
+    "def": "the count (граф + colloquial emphatic particle -то)",
+    "grammar": "noun, masculine, singular, nominative, with particle -то"
+  },
   "грации": {
     "def": "(form of грация: grace, Grace, corset)",
     "grammar": "noun, feminine, singular, genitive"
@@ -19876,7 +20192,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "грачик": {
-    "def": "[Proper Noun / Name / Place] Grachik",
+    "def": "Grachik — name of the horse Telyanin sold to Rostov (dim. of грач 'rook')",
     "grammar": "noun, masculine, singular, nominative"
   },
   "грачика": {
@@ -19976,8 +20292,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "гренадерский": {
-    "def": "",
+    "def": "grenadier (adj., mil.); in regiment names: Киевский гренадерский полк",
     "grammar": "adjective, masculine, singular, nominative"
+  },
+  "гренадер‑француз": {
+    "def": "a French grenadier (гренадер + француз)",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "гретые": {
     "def": "(form of греть: give out warmth, warm, heat, warm up, heat up, keep warm)",
@@ -20028,7 +20348,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "грибоедов": {
-    "def": "[Proper Noun / Name / Place] Griboedov",
+    "def": "Griboedov — Alexander Griboedov, playwright, author of Woe from Wit",
     "grammar": "noun, masculine, singular, nominative"
   },
   "грибоедова": {
@@ -20048,7 +20368,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "гривка": {
-    "def": "",
+    "def": "little mane (diminutive of грива, horse's mane)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "гривой": {
@@ -20068,7 +20388,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "григорий": {
-    "def": "[Proper Noun / Name / Place] Grigoriy",
+    "def": "Grigory — male given name; Grigory Aleksandrovich Pechorin in Герой нашего времени",
     "grammar": "noun, masculine, singular, nominative"
   },
   "григория": {
@@ -20120,8 +20440,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "гробовой": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "of the grave/coffin; до гробовой доски = to one's dying day",
+    "grammar": "adjective, feminine, singular, genitive"
   },
   "гробовщики": {
     "def": "(form of гробовщик: coffin-maker, undertaker)",
@@ -20212,7 +20532,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "громадно": {
-    "def": "",
+    "def": "enormously, hugely",
     "grammar": "adverb"
   },
   "громадное": {
@@ -20222,6 +20542,14 @@ const LOCAL_DICTIONARY = {
   "громадной": {
     "def": "(form of громадный: huge, enormous, immense, colossal, vast)",
     "grammar": "adjective, feminine, singular, prepositional"
+  },
+  "громадно‑высокая": {
+    "def": "enormously high, immensely tall",
+    "grammar": "compound adjective, feminine, singular, nominative"
+  },
+  "громадно‑высокой": {
+    "def": "enormously high, immensely tall",
+    "grammar": "compound adjective, feminine, singular, prepositional"
   },
   "громадный": {
     "def": "huge, enormous, immense, colossal, vast",
@@ -20524,8 +20852,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, instrumental"
   },
   "грушницкий": {
-    "def": "[Proper Noun / Name / Place] Grushnitskiy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Grushnitsky — the cadet (junker), Pechorin's rival in Герой нашего времени",
+    "grammar": "noun (adjectival surname), masculine, singular, nominative"
   },
   "грушницким": {
     "def": "(form of грушницкий: [Proper Noun / Name / Place] Grushnitskiy)",
@@ -20711,13 +21039,21 @@ const LOCAL_DICTIONARY = {
     "def": "(form of гувернёр: tutor)",
     "grammar": "noun, masculine, singular, instrumental"
   },
+  "гувернером‑аббатом": {
+    "def": "tutor-abbé — an abbé serving as tutor (гувернёр + аббат)",
+    "grammar": "noun, masculine, singular, instrumental"
+  },
   "гувернеры": {
     "def": "(form of гувернёр: tutor)",
     "grammar": "noun, masculine, plural, nominative"
   },
-  "гуд-гора": {
-    "def": "[Proper Noun / Name / Place] Gud-gora",
+  "гувернер‑немец": {
+    "def": "German tutor (гувернёр + немец)",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "гуд-гора": {
+    "def": "Gud-Gora — mountain on the Georgian Military Road in the Caucasus",
+    "grammar": "noun, feminine, singular, nominative"
   },
   "гуд-гору": {
     "def": "(form of гуд-гора: [Proper Noun / Name / Place] Gud-gora)",
@@ -20800,7 +21136,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "гунтерсдорф": {
-    "def": "[Proper Noun / Name / Place] Guntersdorf",
+    "def": "Guntersdorf — village in Lower Austria in the 1805 campaign (Война и мир)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гунял": {
@@ -20812,7 +21148,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "гурьев": {
-    "def": "[Proper Noun / Name / Place] Gurev",
+    "def": "Guryev — Russian surname; an old acquaintance mentioned in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "гурьева": {
@@ -20836,15 +21172,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "гусаров": {
-    "def": "[Proper Noun / Name / Place] Gusarov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "of hussars — gen. pl. of гусар, light-cavalry soldier (mil.)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "гусарская": {
     "def": "(form of гусарский: Adjective of гусар)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "гусарски": {
-    "def": "",
+    "def": "in hussar fashion, dashingly (cf. по-гусарски)",
     "grammar": "adverb"
   },
   "гусарский": {
@@ -20872,7 +21208,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, dative"
   },
   "гусарство": {
-    "def": "",
+    "def": "hussar swagger — reckless carousing and bravado (colloq.)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "гусару": {
@@ -20967,6 +21303,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of далее: further, later, then)",
     "grammar": "adverb"
   },
+  "д'ужок": {
+    "def": "dear friend, old chap (= дружок, dim. of друг; Denisov's burred r)",
+    "grammar": "noun, masculine, singular, nominative (form of address)"
+  },
   "да": {
     "def": "yes",
     "grammar": "particle"
@@ -21056,12 +21396,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "давно-таки": {
-    "def": "",
+    "def": "for quite a long time now (давно + emphatic particle -таки)",
     "grammar": "adverb"
   },
   "давным": {
     "def": "(form of давный)",
     "grammar": "adjective, masculine, singular, instrumental"
+  },
+  "давным‑давно": {
+    "def": "long, long ago; ages ago",
+    "grammar": "adverb"
   },
   "давшее": {
     "def": "(form of дать: give)",
@@ -21111,6 +21455,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of дать: give)",
     "grammar": "verb, perfective, transitive, plural"
   },
+  "дай‑ка": {
+    "def": "come, give (it) here (imperative дай + softening particle -ка)",
+    "grammar": "verb, imperative, 2nd person singular, with particle -ка"
+  },
   "дал": {
     "def": "(form of дать: give)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
@@ -21120,8 +21468,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "дале": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "further, on (archaic/poetic for далее)",
+    "grammar": "adverb (comparative)"
   },
   "далее": {
     "def": "further, later, then",
@@ -21168,7 +21516,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, prepositional"
   },
   "далече": {
-    "def": "",
+    "def": "far away, far off (archaic/folk for далеко)",
     "grammar": "adverb"
   },
   "дали": {
@@ -21216,8 +21564,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "дальный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "distant, far (archaic spelling of дальний)",
+    "grammar": "adjective, masculine, singular, accusative (inanimate)"
   },
   "дальше": {
     "def": "(form of далёкий: far)",
@@ -21292,7 +21640,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "данило": {
-    "def": "[Proper Noun / Name / Place] Danilo",
+    "def": "Danilo — folk form of Даниил; Данило Купор, a ballroom dance figure in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "данилу": {
@@ -21391,20 +21739,24 @@ const LOCAL_DICTIONARY = {
     "def": "(form of давать: give)",
     "grammar": "verb, imperfective, present, transitive, plural"
   },
+  "да‑с": {
+    "def": "yes, sir (да + deferential particle -с; obs.)",
+    "grammar": "particle (affirmative with deferential -с)"
+  },
   "два": {
     "def": "two, 2",
     "grammar": "numeral, masculine, nominative"
   },
   "два-три": {
-    "def": "",
-    "grammar": "numeral, masculine, nominative"
+    "def": "two or three, a couple of",
+    "grammar": "numeral, nominative"
   },
   "двадцати": {
     "def": "(form of двадцать: twenty)",
     "grammar": "numeral, genitive"
   },
   "двадцатидвухлетний": {
-    "def": "",
+    "def": "twenty-two-year-old",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "двадцатилетнего": {
@@ -21446,6 +21798,10 @@ const LOCAL_DICTIONARY = {
   "двенадцать": {
     "def": "twelve",
     "grammar": "numeral, nominative"
+  },
+  "двенадцать‑тринадцать": {
+    "def": "twelve or thirteen (of age: в двенадцать‑тринадцать лет)",
+    "grammar": "numeral, accusative"
   },
   "дверах": {
     "def": "(form of двера)",
@@ -21780,16 +22136,24 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, genitive"
   },
   "двухутренний": {
-    "def": "",
+    "def": "but two mornings old (of a flower; Pushkin's poetic coinage)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "дг": {
-    "def": "[Proper Noun / Name / Place] Dg",
-    "grammar": ""
+    "def": "not a word — stray fragment or abbreviation from the source text (likely OCR artifact)",
+    "grammar": "abbreviation/fragment"
+  },
+  "дг'аться": {
+    "def": "to fight (= драться; Denisov's burred r)",
+    "grammar": "infinitive, imperfective, reflexive"
+  },
+  "дг'уг": {
+    "def": "friend (= друг; Denisov's burred r)",
+    "grammar": "noun, masculine, singular, nominative (form of address)"
   },
   "де": {
-    "def": "",
-    "grammar": "particle"
+    "def": "de — French nobiliary particle in surnames (де Линар)",
+    "grammar": "particle (foreign, in proper names)"
   },
   "дев": {
     "def": "(form of дева: Virgo, virgin, maiden)",
@@ -21916,7 +22280,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "девственно": {
-    "def": "",
+    "def": "virginally, with maidenly innocence",
     "grammar": "adverb"
   },
   "девственное": {
@@ -21951,6 +22315,14 @@ const LOCAL_DICTIONARY = {
     "def": "girl, lass, miss",
     "grammar": "noun, feminine, singular, nominative"
   },
+  "девушка.у": {
+    "def": "artifact: девушка 'girl' fused with next sentence's У ('she has no one') by a missing space",
+    "grammar": "noun, feminine, singular, nominative + preposition; OCR artifact"
+  },
+  "девушка‑немка": {
+    "def": "German girl, German maid (девушка + немка)",
+    "grammar": "noun, feminine, singular, nominative"
+  },
   "девушке": {
     "def": "(form of девушка: girl, lass, miss)",
     "grammar": "noun, feminine, singular, dative"
@@ -21972,7 +22344,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, nominative"
   },
   "девчурочка": {
-    "def": "",
+    "def": "sweet little girl (affectionate double diminutive of девочка)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "девы": {
@@ -22012,8 +22384,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, nominative"
   },
   "дег": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's burred дег'нул = дёрнул (чёрт дёрнул 'the devil prompted'); artifact",
+    "grammar": "word fragment (from verb дёрнуть)"
+  },
+  "дег'нул": {
+    "def": "jerked, tugged; чог'т дег'нул = чёрт дёрнул 'the devil prompted (me)' (Denisov's r)",
+    "grammar": "verb, perfective, past, masculine"
   },
   "дед": {
     "def": "grandfather, old man, forefathers",
@@ -22299,6 +22675,10 @@ const LOCAL_DICTIONARY = {
     "def": "business; matter",
     "grammar": "noun, neuter, singular, nominative"
   },
+  "дело?…после": {
+    "def": "artifact: дело 'deed, affair' fused with following После 'after' across sentence punctuation",
+    "grammar": "noun, neuter, singular, nominative + adverb; OCR artifact"
+  },
   "деловой": {
     "def": "business, business-like, practical",
     "grammar": "adjective, feminine, singular, genitive"
@@ -22320,7 +22700,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "дельвиг": {
-    "def": "[Proper Noun / Name / Place] Delvig",
+    "def": "Delvig — Anton Delvig, poet and Pushkin's lyceum friend",
     "grammar": "noun, masculine, singular, nominative"
   },
   "дельным": {
@@ -22336,7 +22716,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "демосфен": {
-    "def": "[Proper Noun / Name / Place] Demosfen",
+    "def": "Demosthenes — Athenian orator; Bilibin's jesting epithet in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "денди": {
@@ -22352,7 +22732,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "денисов": {
-    "def": "[Proper Noun / Name / Place] Denisov",
+    "def": "Denisov — Vasily Denisov, hussar officer and Rostov's friend in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "денисова": {
@@ -22528,7 +22908,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "державин": {
-    "def": "[Proper Noun / Name / Place] Derzhavin",
+    "def": "Derzhavin — Gavrila Derzhavin, poet who 'noticed and blessed' the young Pushkin",
     "grammar": "noun, masculine, singular, nominative"
   },
   "державшие": {
@@ -22804,7 +23184,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "детски": {
-    "def": "",
+    "def": "childishly, like a child (cf. по-детски)",
     "grammar": "adverb"
   },
   "детские": {
@@ -22822,6 +23202,18 @@ const LOCAL_DICTIONARY = {
   "детскими": {
     "def": "(form of детский: childish, infantile, puerile, childlike)",
     "grammar": "adjective, plural, instrumental"
+  },
+  "детски‑грудной": {
+    "def": "childlike yet chesty, deep (of a voice)",
+    "grammar": "compound adjective, masculine, singular, nominative"
+  },
+  "детски‑пронзительно": {
+    "def": "with a child's shrillness, childishly piercingly",
+    "grammar": "adverb"
+  },
+  "детски‑улыбаясь": {
+    "def": "smiling childishly (детски + gerund улыбаясь)",
+    "grammar": "adverbial participle (gerund), imperfective"
   },
   "детского": {
     "def": "(form of детский: childish, infantile, puerile, childlike)",
@@ -22892,8 +23284,8 @@ const LOCAL_DICTIONARY = {
     "grammar": ""
   },
   "джанечка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "darling, sweetheart (Caucasian джан 'soul, dear' + Russian diminutive; glossed душенька)",
+    "grammar": "noun, feminine, singular, nominative (form of address)"
   },
   "джанечку": {
     "def": "(form of джанечка)",
@@ -22904,7 +23296,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "джигитовка": {
-    "def": "",
+    "def": "dzhigitovka — Caucasian trick horsemanship, daring feats on horseback (from джигит)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "джигиты": {
@@ -22948,8 +23340,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "диванчик": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "small sofa, little couch (diminutive of диван)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "диванчику": {
     "def": "(form of диванчик)",
@@ -23000,8 +23392,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, accusative"
   },
   "дидло": {
-    "def": "[Proper Noun / Name / Place] Didlo",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "Didelot — Charles Didelot, French ballet master in St Petersburg (Евгений Онегин)",
+    "grammar": "noun, masculine, indeclinable (French surname)"
   },
   "дика": {
     "def": "(form of дик: [Proper Noun / Name / Place] Dik)",
@@ -23048,8 +23440,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "дико": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "wildly; (as predicate) strange, alien, absurd — нам чувство дико = feeling seems alien to us",
+    "grammar": "adverb / predicative"
   },
   "диковинка": {
     "def": "endearing diminutive of дико́вина (dikóvina): (small) wonder, a strange or unusual thing or phenomenon, gimmick (form of диковина: something surprising, unprecedented or unheard of; rarity, curiosity, an unusual or outlandish object)",
@@ -23212,7 +23604,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "диэта": {
-    "def": "",
+    "def": "diet (regimen of eating) (obs. spelling of диета)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "длинная": {
@@ -23228,8 +23620,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "длинно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "at length, long-windedly; (as predicate) it would take too long to tell",
+    "grammar": "adverb / predicative"
   },
   "длинного": {
     "def": "(form of длинный: long, lengthy)",
@@ -23244,7 +23636,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "длиннолицый": {
-    "def": "",
+    "def": "long-faced, having a long face",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "длинною": {
@@ -23292,7 +23684,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "дмитриев": {
-    "def": "[Proper Noun / Name / Place] Dmitriev",
+    "def": "Dmitriev — Ivan Dmitriev, poet and fabulist",
     "grammar": "noun, masculine, singular, nominative"
   },
   "дмитриевна": {
@@ -23320,7 +23712,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "дмитрий": {
-    "def": "[Proper Noun / Name / Place] Dmitriy",
+    "def": "Dmitry — male given name; Dmitry Larin, Tatiana's father in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "дмитрия": {
@@ -23364,8 +23756,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "днэ": {
-    "def": "",
-    "grammar": ""
+    "def": "speech fragment: послэ днэ = последней \"last\" (до последней капли крови) — German colonel's accent (Война и мир)",
+    "grammar": "word fragment (accented speech), adjective, feminine, singular, genitive"
   },
   "дню": {
     "def": "(form of день: day, afternoon)",
@@ -23444,7 +23836,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "доблестно": {
-    "def": "",
+    "def": "valiantly, gallantly, with valour",
     "grammar": "adverb"
   },
   "добр": {
@@ -23470,6 +23862,10 @@ const LOCAL_DICTIONARY = {
   "добрая": {
     "def": "(form of добрый: good; kind)",
     "grammar": "adjective, feminine, singular, nominative"
+  },
+  "добрая,а": {
+    "def": "добрая \"kind, good-hearted\" + а \"and/but\" — two words joined by a missing space",
+    "grammar": "adjective, feminine, singular, nominative + conjunction"
   },
   "добрее": {
     "def": "(form of добрый: good; kind)",
@@ -23527,6 +23923,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of добродушный: good-natured)",
     "grammar": "adjective, feminine, singular, genitive"
   },
+  "добродушно‑победительным": {
+    "def": "good-naturedly triumphant (with a genially victorious expression) — compound of добродушный + победительный",
+    "grammar": "adjective, compound, neuter, singular, instrumental"
+  },
   "доброе": {
     "def": "(form of добрый: good; kind)",
     "grammar": "adjective, neuter, singular, nominative"
@@ -23536,7 +23936,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "добролюбов": {
-    "def": "[Proper Noun / Name / Place] Dobrolyubov",
+    "def": "Dobrolyubov — Nikolai Dobrolyubov, radical literary critic (Три сестры)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "доброму": {
@@ -23544,7 +23944,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, dative"
   },
   "добросовестно": {
-    "def": "",
+    "def": "conscientiously, scrupulously, in good faith",
     "grammar": "adverb"
   },
   "добросовестной": {
@@ -23747,6 +24147,10 @@ const LOCAL_DICTIONARY = {
     "def": "mastiff",
     "grammar": "noun, masculine, singular, nominative"
   },
+  "дог'огу": {
+    "def": "way, road — дорогу; дать дорогу = make way! (Denisov's burred r, Война и мир)",
+    "grammar": "noun, feminine, singular, accusative (speech spelling of дорогу)"
+  },
   "догадавшись": {
     "def": "(form of догадаться: guess, suspect, surmise, conjecture)",
     "grammar": "gerund, perfective, past, intransitive"
@@ -23880,8 +24284,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "доезжаючи": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "while riding up; не доезжаючи = before reaching, stopping short of (folk gerund of доезжать)",
+    "grammar": "gerund, imperfective (folk/archaic form in -ючи)"
   },
   "доезжая": {
     "def": "(form of доезжать: reach, arrive, pester, worry to death)",
@@ -24108,8 +24512,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "докланяться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to bow enough, complete one's bowing; не докланяться = to fall short in bowing (opp. of перекланяться)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "доконченная": {
     "def": "(form of докончить: finish, end)",
@@ -24208,7 +24612,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "долго-долго": {
-    "def": "",
+    "def": "for a very, very long time (emphatic reduplication of долго)",
     "grammar": "adverb"
   },
   "долгов": {
@@ -24232,7 +24636,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "долгоруков": {
-    "def": "[Proper Noun / Name / Place] Dolgorukov",
+    "def": "Dolgorukov — Prince Pyotr Dolgorukov, adjutant-general in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "долгорукова": {
@@ -24360,8 +24764,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "долохов": {
-    "def": "[Proper Noun / Name / Place] Dolokhov",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "Dolokhov — Fyodor Dolokhov, officer, gambler and duellist in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "долохова": {
     "def": "(form of долохов: [Proper Noun / Name / Place] Dolokhov)",
@@ -24556,8 +24960,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "доныне": {
-    "def": "[Proper Noun / Name / Place] Donyne",
+    "def": "to this day, until now (obs., poetic)",
     "grammar": "adverb"
+  },
+  "дон‑жуан": {
+    "def": "Don Juan — a seducer, womanizer (after the legendary libertine; said of Anatole Kuragin)",
+    "grammar": "noun, masculine, singular, nominative (proper name used as common noun)"
   },
   "дообеденного": {
     "def": "(form of дообеденный)",
@@ -24580,8 +24988,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "дописывать": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to finish writing, to write to the end (impf.)",
+    "grammar": "verb, imperfective, infinitive, transitive"
   },
   "дополняет": {
     "def": "(form of дополнять: supplement, amplify)",
@@ -24756,7 +25164,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "досадливо": {
-    "def": "",
+    "def": "with vexation, irritably, in annoyance",
     "grammar": "adverb"
   },
   "досадно": {
@@ -24792,7 +25200,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "досель": {
-    "def": "",
+    "def": "hitherto, up to now (obs./poet.; = доселе, modern до сих пор)",
     "grammar": "adverb"
   },
   "доскажете": {
@@ -25112,8 +25520,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "доходец": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "a nice little income, small profit (colloq.-ironic diminutive of доход)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "доходили": {
     "def": "(form of доходить: reach, touch, move, be done, ripen, amount)",
@@ -25132,8 +25540,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "дохтуров": {
-    "def": "[Proper Noun / Name / Place] Dokhturov",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "Dokhturov — Dmitry Dokhturov, Russian general in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "дохтурова": {
     "def": "(form of дохтуров: [Proper Noun / Name / Place] Dokhturov)",
@@ -25154,6 +25562,10 @@ const LOCAL_DICTIONARY = {
   "дочери": {
     "def": "(form of дочь: daughter)",
     "grammar": "noun, feminine, singular, genitive"
+  },
+  "дочери‑невесты": {
+    "def": "daughters of marriageable age (lit. daughter-brides)",
+    "grammar": "noun, feminine, plural, nominative (hyphenated compound)"
   },
   "дочерьми": {
     "def": "(form of дочь: daughter)",
@@ -25284,7 +25696,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "дражайший": {
-    "def": "",
+    "def": "dearest, my dear fellow (obs./ironic superlative of дорогой)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "дразнившего": {
@@ -25396,8 +25808,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "дрей": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "first element of дрей‑мадера \"dry Madeira\" (wine; from English dry)",
+    "grammar": "noun fragment (first part of compound)"
+  },
+  "дрей‑мадера": {
+    "def": "dry Madeira (wine) (obs. borrowing, from English dry + Madeira)",
+    "grammar": "noun, feminine, singular, nominative"
   },
   "дремал": {
     "def": "(form of дремать: doze, slumber, nod, dawdle, dally)",
@@ -25611,6 +26027,10 @@ const LOCAL_DICTIONARY = {
     "def": "other, another, different, another thing, something else, others, the rest",
     "grammar": "adjective, feminine, singular, genitive"
   },
+  "другой‑то": {
+    "def": "the other one (as for the other...) — другой + emphatic particle ‑то (colloq.)",
+    "grammar": "pronoun/adjective, masculine, singular, nominative + particle"
+  },
   "другом": {
     "def": "(form of друг: friend)",
     "grammar": "noun, masculine, singular, instrumental"
@@ -25639,6 +26059,10 @@ const LOCAL_DICTIONARY = {
     "def": "friendship, amity",
     "grammar": "noun, feminine, singular, nominative"
   },
+  "дружба‑то": {
+    "def": "friendship — дружба + emphatic particle ‑то (colloq.): вот дружба‑то! = that's friendship for you!",
+    "grammar": "noun, feminine, singular, nominative + particle"
+  },
   "дружбе": {
     "def": "(form of дружба: friendship, amity)",
     "grammar": "noun, feminine, singular, prepositional"
@@ -25656,7 +26080,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "дружелюбно": {
-    "def": "",
+    "def": "amicably, in a friendly way",
     "grammar": "adverb"
   },
   "дружелюбных": {
@@ -25736,8 +26160,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "дря": {
-    "def": "",
-    "grammar": ""
+    "def": "interrupted word fragment in dialogue (Война и мир); not an independent word",
+    "grammar": "word fragment"
   },
   "дрянных": {
     "def": "(form of дрянный)",
@@ -25780,8 +26204,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "дубравный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "of the oak groves, sylvan (poet.; шум дубравный = murmur of the oak woods)",
+    "grammar": "adjective, masculine, singular, accusative (= nominative form)"
   },
   "дубравой": {
     "def": "(form of дубрава: oak-grove)",
@@ -25850,6 +26274,10 @@ const LOCAL_DICTIONARY = {
   "думаете": {
     "def": "(form of думать: to think; to believe, to suppose)",
     "grammar": "verb, imperfective, present, intransitive, plural"
+  },
+  "думаете,что": {
+    "def": "думаете \"(you) think\" + что \"that\" — two words joined by a missing space",
+    "grammar": "verb, imperfective, present, 2nd person plural + conjunction"
   },
   "думается": {
     "def": "(form of думаться: to seem, to appear; passive of ду́мать (dúmatʹ) (form of думать: to think; to believe, to suppose))",
@@ -25924,7 +26352,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "дунай": {
-    "def": "[Proper Noun / Name / Place] Dunay",
+    "def": "the Danube — major European river, theatre of the 1805 campaign",
     "grammar": "noun, masculine, singular, nominative"
   },
   "дунаю": {
@@ -25944,7 +26372,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "дуня": {
-    "def": "[Proper Noun / Name / Place] Dunya",
+    "def": "Dunya — female given name, diminutive of Avdotya (Евгений Онегин)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "дура": {
@@ -26039,6 +26467,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of дурной: bad, evil, ugly)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "дурно‑сделанным": {
+    "def": "badly made, poorly executed — compound of дурно \"badly\" + сделанный \"made\"",
+    "grammar": "participle, compound, singular, instrumental"
+  },
   "дурную": {
     "def": "(form of дурной: bad, evil, ugly)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -26076,7 +26508,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "дуся": {
-    "def": "",
+    "def": "darling, dearie, sweetie (colloq. term of endearment)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "дуться": {
@@ -26188,7 +26620,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "душевно": {
-    "def": "[Proper Noun / Name / Place] Dushevno",
+    "def": "cordially, with all one's heart; sincerely",
     "grammar": "adverb"
   },
   "душевного": {
@@ -26264,7 +26696,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, nominative"
   },
   "дуэлист": {
-    "def": "",
+    "def": "duellist, practised fighter of duels (obs.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "дуэль": {
@@ -26350,6 +26782,10 @@ const LOCAL_DICTIONARY = {
   "дымящийся": {
     "def": "(form of дымиться: smoke, steam)",
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, nominative"
+  },
+  "дым‑то": {
+    "def": "smoke — дым + emphatic particle ‑то (colloq.): вишь, дым‑то! = look at that smoke!",
+    "grammar": "noun, masculine, singular, nominative + particle"
   },
   "дыра": {
     "def": "hole",
@@ -26507,9 +26943,17 @@ const LOCAL_DICTIONARY = {
     "def": "(form of быть: to be .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var(--wikt-palette-grey-lime-8,olivedrab)}[with instrumental or nominative]; there be)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
+  "е...й": {
+    "def": "elided regiment name: \"the E——th regiment\" (censorship-style ellipsis, Герой нашего времени)",
+    "grammar": "adjective, masculine, singular, accusative (elided proper name)"
+  },
+  "еttе": {
+    "def": "fragment of the name Annette (French; album inscription \"Annеttе\" in Евгений Онегин, printed with Latin letters)",
+    "grammar": "word fragment (proper name)"
+  },
   "еа": {
-    "def": "",
-    "grammar": ""
+    "def": "text/OCR fragment, not an independent Russian word (context: Евгений Онегин)",
+    "grammar": "word fragment"
   },
   "ебята": {
     "def": "(form of ебёнок)",
@@ -26520,7 +26964,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "евгений": {
-    "def": "[Proper Noun / Name / Place] Evgeniy",
+    "def": "Eugene (Evgeny) — male given name; Evgeny Onegin, hero of Pushkin's novel",
     "grammar": "noun, masculine, singular, nominative"
   },
   "евгению": {
@@ -26532,12 +26976,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "евгенья": {
-    "def": "[Proper Noun / Name / Place] Evgenya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "of Eugene — poetic genitive of Евгений (Onegin)",
+    "grammar": "noun, masculine, singular, genitive (poetic)"
   },
   "евосходительство": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "fragment of (пр)евосходительство \"Excellency\" (ваше превосходительство; word split at burred пг')",
+    "grammar": "noun, neuter, singular (word fragment)"
   },
   "европа": {
     "def": "Europe",
@@ -26568,7 +27012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, active, transitive, masculine, singular, nominative"
   },
   "егерский": {
-    "def": "",
+    "def": "jäger, chasseur (light-infantry) (mil.; егерский полк = jäger regiment)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "егерского": {
@@ -26700,8 +27144,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "едставить": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "fragment of (пр)едставить \"to present, put forward\" (word split at burred пг', Война и мир)",
+    "grammar": "verb fragment (perfective infinitive)"
   },
   "еду": {
     "def": "(form of еда: food, meal)",
@@ -26836,7 +27280,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "ей-ей": {
-    "def": "[Proper Noun / Name / Place] Ey-ey",
+    "def": "truly, honestly, I swear (colloq.)",
+    "grammar": "interjection"
+  },
+  "ей‑богу": {
+    "def": "by God!, honestly, I swear (colloq. asseveration)",
     "grammar": "interjection"
   },
   "екатерининским": {
@@ -26848,7 +27296,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "екатериноград": {
-    "def": "[Proper Noun / Name / Place] Ekaterinograd",
+    "def": "Ekaterinograd — fortress settlement on the Caucasus line (Герой нашего времени)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "екатеринограда": {
@@ -26872,7 +27320,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "елена": {
-    "def": "[Proper Noun / Name / Place] Elena",
+    "def": "Elena — female given name; Elena Vasilyevna (Hélène) Kuragina in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "еленой": {
@@ -26918,6 +27366,10 @@ const LOCAL_DICTIONARY = {
   "ему": {
     "def": "(form of он: he; it (masculine inanimate nouns))",
     "grammar": "pronoun, masculine, singular, dative"
+  },
+  "ему‑то": {
+    "def": "to him (he of all people) — ему + emphatic particle ‑то (colloq.)",
+    "grammar": "pronoun, 3rd person, masculine, singular, dative + particle"
   },
   "емши": {
     "def": "(form of емшить)",
@@ -26992,8 +27444,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "ефес": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "hilt (of a sword or sabre) (mil.; from German Gefäß)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "ефимыч": {
     "def": "(form of ефимович: [Proper Noun / Name / Place] Efimovich)",
@@ -27116,12 +27568,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "жак-франсуа": {
-    "def": "[Proper Noun / Name / Place] Zhak-fransua",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Jacques-François — French given name; Jacques-François Gamba, French consul in Tiflis",
+    "grammar": "noun, masculine, indeclinable (French name)"
   },
   "жако": {
-    "def": "[Proper Noun / Name / Place] Zhako",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Jacquot — Madame Jacquot, a Frenchwoman mentioned in Война и мир",
+    "grammar": "noun, feminine, indeclinable (French surname)"
   },
   "жал": {
     "def": "(form of жало: sting)",
@@ -27232,7 +27684,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "жалостный": {
-    "def": "",
+    "def": "mournful, plaintive, doleful (folk/colloq.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "жалостным": {
@@ -27276,8 +27728,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "жанлис": {
-    "def": "[Proper Noun / Name / Place] Zhanlis",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Genlis — Madame de Genlis, French writer of moralising novels",
+    "grammar": "noun, feminine, indeclinable (French surname)"
   },
   "жар": {
     "def": "heat, ardour, fever, embers",
@@ -27712,7 +28164,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "женишок": {
-    "def": "",
+    "def": "a (nice little) suitor, intended, fiancé (colloq. diminutive of жених)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "женишься": {
@@ -27836,12 +28288,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "жерков": {
-    "def": "[Proper Noun / Name / Place] Zherkov",
-    "grammar": "noun, plural, genitive"
+    "def": "Zherkov — hussar cornet and staff joker in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "жеркова": {
-    "def": "[Proper Noun / Name / Place] Zherkova",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "of Zherkov — genitive of Жерков, the hussar cornet in Война и мир",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "жеркову": {
     "def": "(form of жеркова: [Proper Noun / Name / Place] Zherkova)",
@@ -28056,8 +28508,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "животворящий": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "life-giving, vivifying (elevated; животворящий воздух = invigorating air)",
+    "grammar": "adjective/participle, masculine, singular, accusative (= nominative form)"
   },
   "животе": {
     "def": "(form of живот: stomach, belly, abdomen, life, animals)",
@@ -28196,7 +28648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
   "жилин": {
-    "def": "[Proper Noun / Name / Place] Zhilin",
+    "def": "Zhilin — Russian officer, protagonist of Tolstoy's Кавказский пленник",
     "grammar": "noun, masculine, singular, nominative"
   },
   "жилина": {
@@ -28324,8 +28776,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "жорж": {
-    "def": "[Proper Noun / Name / Place] Zhorzh",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "George — m-lle George, French tragic actress mentioned in Война и мир",
+    "grammar": "noun, feminine, indeclinable (French stage name)"
   },
   "жребием": {
     "def": "(form of жребий: lot, fate, destiny)",
@@ -28344,8 +28796,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "жуан": {
-    "def": "[Proper Noun / Name / Place] Zhuan",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Juan — as in Дон Жуан (Don Juan), the legendary seducer",
+    "grammar": "noun, masculine, indeclinable (foreign name)"
   },
   "жуана": {
     "def": "(form of жуан: [Proper Noun / Name / Place] Zhuan)",
@@ -28380,8 +28832,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "жуковский": {
-    "def": "[Proper Noun / Name / Place] Zhukovskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Zhukovsky — Vasily Zhukovsky, poet and translator, Pushkin's mentor",
+    "grammar": "noun (adjectival surname), masculine, singular, nominative"
   },
   "журавли": {
     "def": "(form of журавль: crane, sweep, shadoof)",
@@ -28444,8 +28896,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "жюли": {
-    "def": "[Proper Noun / Name / Place] Zhyuli",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Julie — Julie Karagina, the heiress courted in Война и мир",
+    "grammar": "noun, feminine, indeclinable (French name)"
   },
   "з": {
     "def": "The ninth letter of the Russian alphabet, called зэ (zɛ) and written in the Cyrillic script. (form of зэ: the Cyrillic letter З (Z), з (z))",
@@ -28520,7 +28972,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "забавность": {
-    "def": "",
+    "def": "amusingness, funniness, the amusing quality (of something)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "забавны": {
@@ -28960,8 +29412,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, active, transitive, masculine, singular, nominative"
   },
   "заведывал": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "managed, was in charge of (obs. spelling of заведовал, from заведовать + instr.)",
+    "grammar": "verb, imperfective, past, masculine, singular"
   },
   "завез": {
     "def": "(form of завезти: leave, drop off, supply, deliver, soil, dirty)",
@@ -29220,12 +29672,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, transitive"
   },
   "завсегда": {
-    "def": "",
+    "def": "always, at all times (colloq./folk; = всегда)",
     "grammar": "adverb"
   },
   "завтг": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of завтг'а = завтра \"tomorrow\" (Denisov's burred r, Война и мир)",
+    "grammar": "word fragment (speech spelling)"
+  },
+  "завтг'а": {
+    "def": "tomorrow — завтра in Denisov's burred pronunciation (Война и мир)",
+    "grammar": "adverb (speech spelling of завтра)"
   },
   "завтра": {
     "def": "tomorrow",
@@ -29268,8 +29724,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "завца": {
-    "def": "",
-    "grammar": ""
+    "def": "text fragment of distorted/burred speech, not an independent word (Война и мир); cf. завтг'а = завтра",
+    "grammar": "word fragment"
   },
   "завыл": {
     "def": "(form of завыть: begin to howl, raise a howl)",
@@ -29596,7 +30052,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "задворье": {
-    "def": "",
+    "def": "backyard, rear part of a farmstead behind the yard (dial./reg.)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "задека": {
@@ -29796,8 +30252,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "задушевно": {
-    "def": "",
+    "def": "sincerely, with heartfelt intimacy, warmly",
     "grammar": "adverb"
+  },
+  "задушевно‑поэтический": {
+    "def": "intimately poetic, heartfelt and poetic — compound of задушевный + поэтический",
+    "grammar": "adjective, compound, masculine, singular, accusative"
   },
   "задушевный": {
     "def": "cordial, intimate, sincere",
@@ -30056,8 +30516,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "займуся": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(I) shall occupy myself with, take up (= займусь; archaic/poetic full ‑ся after vowel)",
+    "grammar": "verb, perfective, future, 1st person singular, reflexive"
   },
   "зайти": {
     "def": "go in, call in at, drop in, pop in",
@@ -30340,8 +30800,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, plural"
   },
   "закорки": {
-    "def": "",
-    "grammar": "noun, plural, nominative"
+    "def": "one's back and shoulders; на закорки = piggyback, on one's back (colloq.)",
+    "grammar": "noun, plural only, accusative"
   },
   "закорючка": {
     "def": "flourish, hitch, snag",
@@ -30628,8 +31088,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "зальценек": {
-    "def": "[Proper Noun / Name / Place] Zaltsenek",
-    "grammar": "short adjective, masculine, singular"
+    "def": "Salzeneck — German village where Rostov's squadron was quartered (Война и мир)",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "зальценека": {
     "def": "(form of зальценек: [Proper Noun / Name / Place] Zaltsenek)",
@@ -30871,6 +31331,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of замечательный: remarkable, splendid, wonderful, outstanding)",
     "grammar": "adjective, neuter, singular, nominative"
   },
+  "замечательно‑тонко": {
+    "def": "remarkably finely, with remarkable delicacy — compound adverb (замечательно + тонко)",
+    "grammar": "adverb, compound"
+  },
   "замечательный": {
     "def": "remarkable, splendid, wonderful, outstanding",
     "grammar": "adjective, masculine, singular, nominative"
@@ -31032,8 +31496,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "заморозка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "light frost, (night) frost — genitive of заморозок (после ночного заморозка = after the night frost)",
+    "grammar": "noun, masculine, singular, genitive (of заморозок)"
   },
   "замочком": {
     "def": "(form of замочек: endearing diminutive of замо́к (zamók, “lock”) (form of замок: castle; lock (fastener that opens with a key, or part of a firearm)))",
@@ -31680,8 +32144,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, feminine, singular"
   },
   "запог": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of запог'ю = запорю \"(I'll) flog to death\" (Denisov's burred r, Война и мир)",
+    "grammar": "word fragment (speech spelling)"
+  },
+  "запог'ю": {
+    "def": "(I'll) flog (you) to death — запорю (from запороть), in Denisov's burred pronunciation",
+    "grammar": "verb, perfective, future, 1st person singular (speech spelling of запорю)"
   },
   "запоздалые": {
     "def": "(form of запоздалый: belated, delayed, tardy, backward, retarded)",
@@ -31916,8 +32384,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "зарецкий": {
-    "def": "[Proper Noun / Name / Place] Zaretskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Zaretsky — reformed rake, Lensky's second in the duel with Onegin",
+    "grammar": "noun (adjectival surname), masculine, singular, nominative"
   },
   "зарею": {
     "def": "(form of зареять)",
@@ -32356,7 +32824,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "застенчиво": {
-    "def": "",
+    "def": "shyly, bashfully",
     "grammar": "adverb"
   },
   "застигнутые": {
@@ -32412,7 +32880,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "заступнически": {
-    "def": "",
+    "def": "protectively, in an interceding tone, taking someone's part",
     "grammar": "adverb"
   },
   "заступничество": {
@@ -32696,12 +33164,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "затэ": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "speech fragment: затэ м = затем \"then; that is why\" (foreign accent spelling э for е, Война и мир)",
+    "grammar": "word fragment (accented speech), adverb"
   },
   "затэм": {
-    "def": "[Proper Noun / Name / Place] Zatem",
-    "grammar": ""
+    "def": "= затем: затэм, что 'because' — spelling mimics a foreign accent in Война и мир",
+    "grammar": "adverb/conjunction (in затем, что 'because')"
   },
   "затягивалась": {
     "def": "(form of затягиваться: prolonged, protracted, extended, be tightened, jam, cover, grow overcast, be covered with clouds, skin over, be delayed, be dragged out, drag on, be drawn out, inhale)",
@@ -32740,7 +33208,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "заутра": {
-    "def": "",
+    "def": "on the morrow, tomorrow at morn (arch./poet.)",
     "grammar": "adverb"
   },
   "зафилософствовался": {
@@ -32956,8 +33424,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "зачэм": {
-    "def": "",
-    "grammar": ""
+    "def": "why, what for — зачем in accented spelling (э for е; the colonel's speech, Война и мир)",
+    "grammar": "adverb (accented speech spelling of зачем)"
   },
   "зашаталось": {
     "def": "(form of зашататься: reel, stagger)",
@@ -33224,7 +33692,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "звонко": {
-    "def": "",
+    "def": "ringingly, sonorously, in ringing tones",
     "grammar": "adverb"
   },
   "звонок": {
@@ -33331,6 +33799,10 @@ const LOCAL_DICTIONARY = {
     "def": "here, with us, in this country, about it, in it, at this point",
     "grammar": "adverb"
   },
+  "здесь‑то": {
+    "def": "right here, it was here that — здесь + emphatic particle ‑то",
+    "grammar": "adverb + particle"
+  },
   "здешнего": {
     "def": "(form of здешний: of this place, local, here)",
     "grammar": "adjective, masculine, singular, genitive"
@@ -33372,12 +33844,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "здог": {
-    "def": "[Proper Noun / Name / Place] Zdog",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "not a word — stray fragment from the source text (likely OCR artifact)",
+    "grammar": "fragment"
+  },
+  "здог'ово": {
+    "def": "hello!, greetings! (soldier's greeting здорово in Denisov's burred pronunciation) (colloq.)",
+    "grammar": "interjection (speech spelling of здорово)"
   },
   "здоров": {
     "def": "(form of здоровый: healthy, strong, robust, sound, wholesome, huge)",
     "grammar": "short adjective, masculine, singular"
+  },
+  "здоров,только": {
+    "def": "здоров \"well, in good health\" (short adj.) + только \"only\" — two words joined by a missing space",
+    "grammar": "short adjective, masculine, singular + particle/conjunction"
   },
   "здорова": {
     "def": "(form of здоровый: healthy, strong, robust, sound, wholesome, huge)",
@@ -33480,8 +33960,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "здсеь": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "here (misprint of здесь)",
+    "grammar": "adverb (misprint)"
   },
   "зевает": {
     "def": "(form of зевать: yawn, gape)",
@@ -33932,7 +34412,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "змий": {
-    "def": "",
+    "def": "serpent (arch./bibl.; the tempter of Eden, cf. modern змей)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "змия": {
@@ -33978,6 +34458,10 @@ const LOCAL_DICTIONARY = {
   "знаешь": {
     "def": "(form of знать: nobility, noble people)",
     "grammar": "verb, imperfective, present, transitive, singular"
+  },
+  "знаешь,и": {
+    "def": "знаешь \"(you) know\" + и \"and\" — two words joined by a missing space (я, ты знаешь, и всегда...)",
+    "grammar": "verb, imperfective, present, 2nd person singular + conjunction"
   },
   "знай": {
     "def": "(form of знать: nobility, noble people)",
@@ -34175,6 +34659,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of знаменитый: famous, celebrated, illustrious)",
     "grammar": "adjective, masculine, singular, instrumental"
   },
+  "знамени…ну": {
+    "def": "знамени, genitive of знамя \"banner, standard\" + ну \"well\" — interrupted speech run together",
+    "grammar": "noun, neuter, singular, genitive + interjection"
+  },
   "знамя": {
     "def": "banner, colours, colour, standard",
     "grammar": "noun, neuter, singular, accusative"
@@ -34308,8 +34796,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, nominative"
   },
   "знаэ": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "speech fragment: знаэ т = знает \"(he) knows\" (foreign accent spelling э for е, Война и мир)",
+    "grammar": "word fragment (accented speech), verb, present, 3rd person singular"
   },
   "знаю": {
     "def": "(form of знать: nobility, noble people)",
@@ -34452,8 +34940,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "зопасност": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of (бе)зопасность \"security, safety\" (бэ зопасност — accented speech split, Война и мир)",
+    "grammar": "noun, feminine, singular, nominative (word fragment, accented spelling)"
   },
   "зоркий": {
     "def": "sharp-sighted, vigilant",
@@ -34524,7 +35012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "зубов": {
-    "def": "[Proper Noun / Name / Place] Zubov",
+    "def": "of teeth — gen. pl. of зуб (tooth): зубов нет 'has no teeth'",
     "grammar": "noun, masculine, plural, genitive"
   },
   "зубова": {
@@ -34572,8 +35060,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "зюзя": {
-    "def": "",
-    "grammar": "noun, singular, nominative"
+    "def": "sodden wretch; как зюзя (пьяный) = drunk as a lord, soaked (colloq.)",
+    "grammar": "noun, common gender, singular, nominative"
   },
   "зятем": {
     "def": "(form of зять: son-in-law, brother-in-law)",
@@ -34583,20 +35071,24 @@ const LOCAL_DICTIONARY = {
     "def": "(form of зять: son-in-law, brother-in-law)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "з‑й": {
+    "def": "3rd (ordinal abbreviation; Cyrillic З printed for numeral 3: орден Марии‑Терезии 3‑й степени)",
+    "grammar": "ordinal numeral, abbreviation, feminine, singular, genitive"
+  },
   "и": {
     "def": "and",
     "grammar": "conjunction"
   },
   "и-и": {
-    "def": "[Proper Noun / Name / Place] I-i",
-    "grammar": "conjunction"
+    "def": "ee-eh! — drawn-out exclamation of affection or mild reproach (colloq.)",
+    "grammar": "interjection"
   },
   "ибо": {
     "def": "for",
     "grammar": "conjunction"
   },
   "иван": {
-    "def": "[Proper Noun / Name / Place] Ivan",
+    "def": "Ivan — male given name; what the Tatars call Zhilin in Кавказский пленник",
     "grammar": "noun, masculine, singular, nominative"
   },
   "иванова": {
@@ -34604,8 +35096,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "иванович": {
-    "def": "[Proper Noun / Name / Place] Ivanovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ivanovich — patronymic, 'son of Ivan'; e.g. Mikhail Ivanovich, architect in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "ивановиче": {
     "def": "(form of иванович: [Proper Noun / Name / Place] Ivanovich)",
@@ -34664,8 +35156,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "игнатьич": {
-    "def": "[Proper Noun / Name / Place] Ignatich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ignatyich — colloquial short patronymic (from Игнатьевич, 'son of Ignat')",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "игнатьича": {
     "def": "(form of игнатьич: [Proper Noun / Name / Place] Ignatich)",
@@ -34856,8 +35348,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "иду-у": {
-    "def": "[Proper Noun / Name / Place] Idu-u",
-    "grammar": "preposition"
+    "def": "co-o-ming! — drawn-out иду 'I am coming' (from идти)",
+    "grammar": "verb, 1st person singular, present (expressive lengthening)"
   },
   "идут": {
     "def": "(form of идти: to go; to walk)",
@@ -35260,8 +35752,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "изг": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of изг'ублю = изрублю \"(I'll) hack to pieces\" (Denisov's burred r, Война и мир)",
+    "grammar": "word fragment (speech spelling)"
+  },
+  "изг'ублю": {
+    "def": "(I'll) hack to pieces (with my sabre) — изрублю (from изрубить), in Denisov's burred pronunciation",
+    "grammar": "verb, perfective, future, 1st person singular (speech spelling of изрублю)"
   },
   "изгибаясь": {
     "def": "(form of изгибаться: bend, curve)",
@@ -35312,7 +35808,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "издалеча": {
-    "def": "",
+    "def": "from afar, from far away (folk/arch.; = издалека)",
     "grammar": "adverb"
   },
   "издали": {
@@ -35392,7 +35888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "измайловский": {
-    "def": "[Proper Noun / Name / Place] Izmaylovskiy",
+    "def": "Izmailovsky — of the Izmailovsky Guards regiment (St Petersburg)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "измайловского": {
@@ -35452,8 +35948,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "изменилася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(she) has changed (= изменилась; archaic/poetic full ‑ся after vowel)",
+    "grammar": "verb, perfective, past, feminine, singular, reflexive"
   },
   "изменили": {
     "def": "(form of изменить: change, alter, vary; betray)",
@@ -35568,8 +36064,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, masculine, singular"
   },
   "измлада": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "from one's early youth, from a young age (obs./Church Slavonic)",
+    "grammar": "adverb"
   },
   "измучена": {
     "def": "(form of измучить: torture, weary, tire out, exhaust)",
@@ -35932,8 +36428,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "изьяснялася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(it) expressed itself, was expressed — old spelling of изъяснялась (from изъясняться), with poetic full ‑ся",
+    "grammar": "verb, imperfective, past, feminine, singular, reflexive"
   },
   "изящества": {
     "def": "(form of изящество: refinement, elegance, grace)",
@@ -35959,9 +36455,25 @@ const LOCAL_DICTIONARY = {
     "def": "(form of изящный: refined, elegant, graceful)",
     "grammar": "adjective, masculine, singular, prepositional"
   },
+  "изящно‑остроумен": {
+    "def": "elegantly witty (short form of compound adj. изящно‑остроумный)",
+    "grammar": "short adjective, compound, masculine, singular"
+  },
   "изящные": {
     "def": "(form of изящный: refined, elegant, graceful)",
     "grammar": "adjective, plural, nominative"
+  },
+  "из‑воль‑те": {
+    "def": "kindly (do)!, be so good! — извольте spoken with emphatic syllable-by-syllable stress",
+    "grammar": "verb, imperative, 2nd person plural (syllabified spelling of извольте)"
+  },
+  "из‑за": {
+    "def": "from behind, from beyond; because of (из‑за границы = from abroad) (+ genitive)",
+    "grammar": "preposition (+ genitive)"
+  },
+  "из‑под": {
+    "def": "from under, from beneath (+ genitive)",
+    "grammar": "preposition (+ genitive)"
   },
   "иказом": {
     "def": "(form of иказ)",
@@ -35972,12 +36484,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "иконт": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of виконт \"viscount\" (French vicomte; text split В+иконт, Война и мир)",
+    "grammar": "noun, masculine, singular, nominative (word fragment)"
   },
   "иларионович": {
-    "def": "[Proper Noun / Name / Place] Ilarionovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Illarionovich — patronymic; Mikhail Illarionovich Kutuzov in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "иларионовичем": {
     "def": "(form of иларионович: [Proper Noun / Name / Place] Ilarionovich)",
@@ -36012,24 +36524,28 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "ильич": {
-    "def": "[Proper Noun / Name / Place] Ilich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ilyich — patronymic, 'son of Ilya'; Fyodor Ilyich Kulygin in Три сестры",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "ильрахман": {
-    "def": "[Proper Noun / Name / Place] Ilrakhman",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "from Arabic ar-Rahmān 'the Merciful' (epithet of Allah), in the muezzin's call (Кавказский пленник)",
+    "grammar": "noun, indeclinable (foreign word in rendered speech)"
   },
   "илью": {
     "def": "(form of илья: [Proper Noun / Name / Place] Ilya)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "илья": {
-    "def": "[Proper Noun / Name / Place] Ilya",
+    "def": "Ilya — male given name; Count Ilya Rostov in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "им": {
     "def": "(form of они: they)",
     "grammar": "pronoun, plural, dative"
+  },
+  "им...(оглядывается": {
+    "def": "им \"to them\" (dat. of они) + stage direction \"(оглядывается\" \"(glances round)\" run together (Три сестры)",
+    "grammar": "pronoun, 3rd person, plural, dative + verb fragment (stage direction)"
   },
   "имев": {
     "def": "(form of иметь: have)",
@@ -36138,6 +36654,10 @@ const LOCAL_DICTIONARY = {
   "именинное": {
     "def": "(form of именинный)",
     "grammar": "adjective, neuter, singular, nominative"
+  },
+  "именинно‑сиявшей": {
+    "def": "beaming as on her name day — nonce compound of именинный + сиявший (said of Natasha)",
+    "grammar": "participle, compound, feminine, singular, dative"
   },
   "именины": {
     "def": "name-day; birthday party",
@@ -36259,9 +36779,17 @@ const LOCAL_DICTIONARY = {
     "def": "empress",
     "grammar": "noun, feminine, singular, nominative"
   },
+  "императрица‑мать": {
+    "def": "the Dowager Empress, Empress Mother (lit. empress-mother; Maria Fyodorovna in Война и мир)",
+    "grammar": "noun, compound, feminine, singular, nominative"
+  },
   "императрице": {
     "def": "(form of императрица: empress)",
     "grammar": "noun, feminine, singular, dative"
+  },
+  "императрице‑матери": {
+    "def": "to the Dowager Empress (dative of императрица‑мать, the Empress Mother)",
+    "grammar": "noun, compound, feminine, singular, dative"
   },
   "императрицу": {
     "def": "(form of императрица: empress)",
@@ -36284,8 +36812,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, masculine, singular"
   },
   "импэ": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "speech fragment: импэ ратор = император \"emperor\" (foreign accent spelling э for е, Война и мир)",
+    "grammar": "word fragment (accented speech), noun, masculine"
   },
   "имя": {
     "def": "name, first name; reputation; noun",
@@ -36516,7 +37044,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "инфлюэнца": {
-    "def": "",
+    "def": "influenza, the flu (obs. borrowing; modern грипп)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "иные": {
@@ -36536,7 +37064,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, prepositional"
   },
   "ипполит": {
-    "def": "[Proper Noun / Name / Place] Ippolit",
+    "def": "Ippolit — Prince Hippolyte Kuragin, Prince Vasily's dull son in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ипполита": {
@@ -36552,8 +37080,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "ирина": {
-    "def": "[Proper Noun / Name / Place] Irina",
+    "def": "Irina — youngest of the three Prozorov sisters in Три сестры",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "ирина(одна": {
+    "def": "Ирина + stage direction '(одна)' = Irina (alone) — youngest of the three sisters (Три сестры); tokenization artifact",
+    "grammar": "proper noun, feminine, singular, nominative (with stage direction)"
   },
   "ирине": {
     "def": "(form of ирина: [Proper Noun / Name / Place] Irina)",
@@ -36572,7 +37104,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "иронически": {
-    "def": "",
+    "def": "ironically, with irony",
     "grammar": "adverb"
   },
   "иронический": {
@@ -36940,8 +37472,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "исполняйт": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "= исполнять, to carry out, execute (an order); German officer's accented Russian (Война и мир)",
+    "grammar": "verb, imperfective, infinitive (foreign-accented distortion)"
   },
   "исполнял": {
     "def": "(form of исполнять: carry out, fulfil, execute, perform, suffuse, fill)",
@@ -37012,8 +37544,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "исправно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in good order, properly; (as predicate) everything was in order",
+    "grammar": "adverb / short-form predicative"
   },
   "исправность": {
     "def": "good condition, assiduity, exactness, punctiliousness",
@@ -37098,6 +37630,10 @@ const LOCAL_DICTIONARY = {
   "испуганной": {
     "def": "(form of испуганный: frightened, scared, startled)",
     "grammar": "adjective, feminine, singular, genitive"
+  },
+  "испуганно‑вопросительно": {
+    "def": "with a frightened, questioning look; frightened-inquiringly (compound adverb)",
+    "grammar": "adverb (compound)"
   },
   "испуганные": {
     "def": "(form of испуганный: frightened, scared, startled)",
@@ -37444,8 +37980,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "итал": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "abbreviation итал. = Italian (marking an Italian-language epigraph)",
+    "grammar": "abbreviation (of adjective итальянский)"
   },
   "италии": {
     "def": "(form of италия: Italy)",
@@ -37484,16 +38020,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "ите": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment: 2nd-person plural imperative/present ending -ите (e.g. идите, скажите); truncated in text",
+    "grammar": "verb ending fragment, 2nd person plural"
   },
   "итоге": {
     "def": "(form of итог: sum, total, result)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "итти": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "= идти, to go, walk (old orthography, standard before 1956)",
+    "grammar": "verb, imperfective, infinitive (old spelling)"
   },
   "их": {
     "def": "(form of они: they)",
@@ -37512,7 +38048,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "ишь": {
-    "def": "[Proper Noun / Name / Place] Ish",
+    "def": "look at that! just listen! — exclamation of surprise or scorn (colloq.)",
     "grammar": "interjection"
   },
   "ища": {
@@ -37564,7 +38100,7 @@ const LOCAL_DICTIONARY = {
     "grammar": ""
   },
   "йорк": {
-    "def": "[Proper Noun / Name / Place] York",
+    "def": "York — English city and ducal title (as in Duke of York)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "к": {
@@ -37572,12 +38108,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "ка": {
-    "def": "",
-    "grammar": "particle"
+    "def": "-ка: particle softening a command or suggestion (посмотри-ка = 'just take a look')",
+    "grammar": "particle (enclitic)"
   },
   "кааак": {
-    "def": "[Proper Noun / Name / Place] Kaaak",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "ho-o-ow — drawn-out как: Кааак стоишь? 'How dare you stand like that?'",
+    "grammar": "adverb (interrogative, expressive lengthening)"
   },
   "кабан": {
     "def": "wild boar, hog, boar, block",
@@ -37664,7 +38200,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "кавалергард": {
-    "def": "[Proper Noun / Name / Place] Kavalergard",
+    "def": "a Chevalier Guard — trooper of the Chevalier Guards heavy-cavalry regiment (mil.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кавалергарда": {
@@ -37680,7 +38216,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "кавалергардский": {
-    "def": "",
+    "def": "of the Chevalier Guards (elite heavy-cavalry guard regiment) (mil.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кавалергардского": {
@@ -37731,6 +38267,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of кавалерист: cavalryman, trooper)",
     "grammar": "noun, masculine, plural, instrumental"
   },
+  "кавалериста‑полковника": {
+    "def": "cavalryman-colonel, colonel of cavalry (кавалерист-полковник) (mil.)",
+    "grammar": "noun, masculine, singular, genitive/accusative (compound)"
+  },
   "кавалеристов": {
     "def": "(form of кавалерист: cavalryman, trooper)",
     "grammar": "noun, masculine, plural, genitive"
@@ -37768,7 +38308,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "каверин": {
-    "def": "[Proper Noun / Name / Place] Kaverin",
+    "def": "Kaverin — Pyotr Kaverin, hussar bon vivant, friend of Pushkin (Евгений Онегин)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кавказ": {
@@ -37804,8 +38344,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "каг": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's burred speech (р pronounced г'), as in каг'ты = карты 'cards' (Война и мир)",
+    "grammar": "word fragment (speech distortion)"
+  },
+  "каг'ты": {
+    "def": "= карты, (playing) cards; Denisov's burr (р -> г'): 'ни одной каг'ты' = not a single card (Война и мир)",
+    "grammar": "noun, feminine, singular, genitive (speech distortion)"
   },
   "кадилом": {
     "def": "(form of кадило: censer, thurible)",
@@ -37834,6 +38378,10 @@ const LOCAL_DICTIONARY = {
   "кадушки": {
     "def": "(form of кадушка: tub, vat)",
     "grammar": "noun, feminine, plural, accusative"
+  },
+  "кадушки,и": {
+    "def": "= кадушки, small wooden tubs (dim. of кадка); tokenization artifact with fused comma",
+    "grammar": "noun, feminine, plural, nominative (text artifact)"
   },
   "каждая": {
     "def": "(form of каждый: each, every, everyone)",
@@ -38008,7 +38556,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "казбич": {
-    "def": "[Proper Noun / Name / Place] Kazbich",
+    "def": "Kazbich — Circassian raider, owner of the horse Karagyoz in Герой нашего времени",
     "grammar": "noun, masculine, singular, nominative"
   },
   "казбича": {
@@ -38044,7 +38592,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "кази-мугамед": {
-    "def": "[Proper Noun / Name / Place] Kazi-mugamed",
+    "def": "Kazi-Mugamed — the Tatar who captured Zhilin in Кавказский пленник",
     "grammar": "noun, masculine, singular, nominative"
   },
   "казней": {
@@ -38095,6 +38643,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of какой-то: some, a, a kind of, something like)",
     "grammar": "adjective, feminine, singular, nominative"
   },
+  "какая‑то": {
+    "def": "some, a certain, some kind of (fem.; unspecified)",
+    "grammar": "pronoun (indefinite), feminine, singular, nominative"
+  },
   "какие": {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, plural, nominative"
@@ -38107,6 +38659,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of какой-то: some, a, a kind of, something like)",
     "grammar": "adjective, plural, nominative"
   },
+  "какие‑то": {
+    "def": "some, certain (unspecified) (pl.)",
+    "grammar": "pronoun (indefinite), plural, nominative"
+  },
   "каким": {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, masculine, singular, instrumental"
@@ -38118,6 +38674,10 @@ const LOCAL_DICTIONARY = {
   "какими": {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, plural, instrumental"
+  },
+  "каким‑нибудь": {
+    "def": "some... or other, any kind of (instr.)",
+    "grammar": "pronoun (indefinite), masculine/neuter, singular, instrumental"
   },
   "каких": {
     "def": "(form of какой: which, what, what kind of)",
@@ -38147,6 +38707,14 @@ const LOCAL_DICTIONARY = {
     "def": "(form of какой-нибудь: some, some kind of, any, about)",
     "grammar": "adjective, masculine, singular, genitive"
   },
+  "какого‑нибудь": {
+    "def": "some... or other, any kind of (gen.)",
+    "grammar": "pronoun (indefinite), masculine/neuter, singular, genitive"
+  },
+  "какого‑то": {
+    "def": "some, a certain (unspecified) (gen.)",
+    "grammar": "pronoun (indefinite), masculine/neuter, singular, genitive"
+  },
   "какое": {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, neuter, singular, accusative"
@@ -38158,6 +38726,14 @@ const LOCAL_DICTIONARY = {
   "какое-то": {
     "def": "(form of какой-то: some, a, a kind of, something like)",
     "grammar": "adjective, neuter, singular, accusative"
+  },
+  "какое‑нибудь": {
+    "def": "some... or other, any kind of (neut.)",
+    "grammar": "pronoun (indefinite), neuter, singular, nominative/accusative"
+  },
+  "какое‑то": {
+    "def": "some, a certain, some kind of (neut.)",
+    "grammar": "pronoun (indefinite), neuter, singular, nominative/accusative"
   },
   "какой": {
     "def": "which, what, what kind of",
@@ -38171,6 +38747,14 @@ const LOCAL_DICTIONARY = {
     "def": "some, a, a kind of, something like",
     "grammar": "adjective, feminine, singular, genitive"
   },
+  "какой‑нибудь": {
+    "def": "some... or other, any kind of; some (at least)",
+    "grammar": "pronoun (indefinite), masculine, singular, nominative/accusative"
+  },
+  "какой‑то": {
+    "def": "some, a certain, some kind of (unidentified)",
+    "grammar": "pronoun (indefinite), masculine, singular, nominative"
+  },
   "каком": {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, masculine, singular, prepositional"
@@ -38183,6 +38767,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, masculine, singular, dative"
   },
+  "каком‑то": {
+    "def": "some, a certain (prep.: о каком-то = about some...)",
+    "grammar": "pronoun (indefinite), masculine/neuter, singular, prepositional"
+  },
   "какою": {
     "def": "(form of какой: which, what, what kind of)",
     "grammar": "adjective, feminine, singular, instrumental"
@@ -38190,6 +38778,10 @@ const LOCAL_DICTIONARY = {
   "какою-то": {
     "def": "(form of какой-то: some, a, a kind of, something like)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "какою‑то": {
+    "def": "some, a certain (fem. instr.; archaic ending -ою = какой-то)",
+    "grammar": "pronoun (indefinite), feminine, singular, instrumental (archaic form)"
   },
   "какую": {
     "def": "(form of какой: which, what, what kind of)",
@@ -38203,6 +38795,22 @@ const LOCAL_DICTIONARY = {
     "def": "(form of какой-то: some, a, a kind of, something like)",
     "grammar": "adjective, feminine, singular, accusative"
   },
+  "какую‑то": {
+    "def": "some, a certain (fem. acc.)",
+    "grammar": "pronoun (indefinite), feminine, singular, accusative"
+  },
+  "как‑будто": {
+    "def": "as if, as though; seemingly (19th-c. hyphenated spelling of как будто)",
+    "grammar": "conjunction/particle (old spelling)"
+  },
+  "как‑нибудь": {
+    "def": "somehow, in some way or other; (colloq.) sometime, carelessly",
+    "grammar": "adverb"
+  },
+  "как‑то": {
+    "def": "somehow, in a way; once, at some point ('как-то замял' = somehow hushed it up)",
+    "grammar": "adverb"
+  },
   "каламбур": {
     "def": "punster",
     "grammar": "noun, masculine, singular, nominative"
@@ -38212,8 +38820,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "кале": {
-    "def": "[Proper Noun / Name / Place] Kale",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Calais — French port city on the English Channel",
+    "grammar": "noun, masculine, indeclinable"
   },
   "калейдоскоп": {
     "def": "kaleidoscope",
@@ -38272,8 +38880,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "каменно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "stonily, like stone; also first element of compounds (каменно-строгий = stonily stern)",
+    "grammar": "adverb / compound element"
   },
   "каменного": {
     "def": "(form of каменный: lifeless, hard, immovable, stony)",
@@ -38290,6 +38898,10 @@ const LOCAL_DICTIONARY = {
   "каменному": {
     "def": "(form of каменный: lifeless, hard, immovable, stony)",
     "grammar": "adjective, neuter, singular, dative"
+  },
+  "каменно‑строгим": {
+    "def": "stonily stern, rigidly severe (of a facial expression)",
+    "grammar": "adjective (compound), neuter, singular, instrumental"
   },
   "каменные": {
     "def": "(form of каменный: lifeless, hard, immovable, stony)",
@@ -38334,6 +38946,14 @@ const LOCAL_DICTIONARY = {
   "камердинеру": {
     "def": "(form of камердинер: valet)",
     "grammar": "noun, masculine, singular, dative"
+  },
+  "камер‑юнкером": {
+    "def": "kammerjunker: junior court rank, gentleman of the bedchamber (obs., from German)",
+    "grammar": "noun, masculine, singular, instrumental"
+  },
+  "камер‑юнкеры": {
+    "def": "kammerjunkers: junior court rank ('назначение в камер-юнкеры' = appointment as kammerjunker) (obs.)",
+    "grammar": "noun, masculine, plural, accusative (idiom в + pl.)"
   },
   "камешку": {
     "def": "(form of камешек: pebble)",
@@ -38396,8 +39016,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "кампо": {
-    "def": "[Proper Noun / Name / Place] Kampo",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Campo — as in Кампо Формио (Campo Formio), site of the 1797 Franco-Austrian peace treaty",
+    "grammar": "noun, indeclinable (part of a place name)"
   },
   "камушек": {
     "def": "pebble, shingle",
@@ -38456,8 +39076,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "канапе": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "canapé, small sofa, settee (from French; indeclinable)",
+    "grammar": "noun, neuter, indeclinable (here prepositional)"
   },
   "канат": {
     "def": "rope, cable",
@@ -38568,8 +39188,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "капризно": {
-    "def": "",
+    "def": "capriciously, whimsically, petulantly",
     "grammar": "adverb"
+  },
+  "капризно‑весело": {
+    "def": "capriciously and merrily, with playful petulance (compound adverb)",
+    "grammar": "adverb (compound)"
+  },
+  "капризно‑игривым": {
+    "def": "capriciously playful, petulantly teasing (of a tone of voice)",
+    "grammar": "adjective (compound), masculine, singular, instrumental"
   },
   "капризы": {
     "def": "(form of каприз: whim, caprice)",
@@ -38620,7 +39248,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "карагина": {
-    "def": "[Proper Noun / Name / Place] Karagina",
+    "def": "Karagina — surname; Marya Lvovna Karagina and her daughter Julie in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "карагиной": {
@@ -38716,12 +39344,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "карл": {
-    "def": "[Proper Noun / Name / Place] Karl",
+    "def": "Karl — given name; Archduke Karl of Austria; Karl Bogdanovich Schubert in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "карла": {
-    "def": "[Proper Noun / Name / Place] Karla",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "gen. of Карл (Archduke Karl); also карла (obs.) 'a dwarf' in Tatiana's dream (Евгений Онегин)",
+    "grammar": "noun, masculine, singular (genitive of Карл; nominative of карла 'dwarf')"
   },
   "карловна": {
     "def": "(form of карлович: [Proper Noun / Name / Place] Karlovich)",
@@ -38746,6 +39374,10 @@ const LOCAL_DICTIONARY = {
   "карманах": {
     "def": "(form of карман: pocket)",
     "grammar": "noun, masculine, plural, prepositional"
+  },
+  "карманах‑то": {
+    "def": "in the pockets (в карманах) + emphatic colloquial particle -то",
+    "grammar": "noun, masculine, plural, prepositional + particle"
   },
   "кармане": {
     "def": "(form of карман: pocket)",
@@ -38800,8 +39432,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "картечный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "of grapeshot/canister (mil.): 'на картечный выстрел' = within canister range (from картечь)",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "картечными": {
     "def": "(form of картечный)",
@@ -38940,7 +39572,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "катерина": {
-    "def": "[Proper Noun / Name / Place] Katerina",
+    "def": "Katerina — female given name; Princess Katerina Semyonovna in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "кати": {
@@ -38964,15 +39596,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "катишь": {
-    "def": "[Proper Noun / Name / Place] Katish",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Catiche — French pet form of Katerina; Princess Katerina Semyonovna in Война и мир",
+    "grammar": "noun, feminine, indeclinable (French pet name)"
   },
   "катю": {
     "def": "(form of катя: [Proper Noun / Name / Place] Katya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "катя": {
-    "def": "[Proper Noun / Name / Place] Katya",
+    "def": "Katya — female given name, diminutive of Katerina; a maid in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "катят": {
@@ -39164,8 +39796,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "кг": {
-    "def": "",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "fragment of Denisov's burred speech (р -> г'), as in кг'оме = кроме 'except' (Война и мир); not 'kilogram'",
+    "grammar": "word fragment (speech distortion)"
+  },
+  "кг'оме": {
+    "def": "= кроме, except, besides ('кг'оме как пить' = except drinking); Denisov's burr (р -> г')",
+    "grammar": "preposition (speech distortion)"
+  },
+  "кг'ысе": {
+    "def": "= крысе, dative of крыса 'rat' (an officer's nickname); Denisov's burr (р -> г') (Война и мир)",
+    "grammar": "noun, feminine, singular, dative (speech distortion)"
   },
   "кегли": {
     "def": "(form of кегль: skittles)",
@@ -39288,7 +39928,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "кизляр": {
-    "def": "[Proper Noun / Name / Place] Kizlyar",
+    "def": "Kizlyar — town on the Terek in Dagestan, trading centre of the Caucasus line",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кий": {
@@ -39388,7 +40028,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, instrumental"
   },
   "кирилл": {
-    "def": "[Proper Noun / Name / Place] Kirill",
+    "def": "Kirill — male given name; Count Kirill Vladimirovich Bezukhov in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кирилла": {
@@ -39416,11 +40056,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кирсановский": {
-    "def": "[Proper Noun / Name / Place] Kirsanovskiy",
+    "def": "Kirsanovsky — of Кирсановский переулок, a lane in the town in Три сестры",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кирстен": {
-    "def": "[Proper Noun / Name / Place] Kirsten",
+    "def": "Kirsten — staff captain in Rostov's hussar regiment in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кирстену": {
@@ -39440,7 +40080,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "кисловодск": {
-    "def": "[Proper Noun / Name / Place] Kislovodsk",
+    "def": "Kislovodsk — spa town in the Caucasus (Герой нашего времени)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кисловодска": {
@@ -39480,16 +40120,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "китти": {
-    "def": "[Proper Noun / Name / Place] Kitti",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "Kitty — English-style female pet name, mentioned in Война и мир",
+    "grammar": "noun, feminine, indeclinable"
   },
   "кишки": {
     "def": "(form of кишка: intestine, hose, gut)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "клавикорд": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "clavichord (early keyboard instrument); usu. plural клавикорды ('около клавикорд' = by the clavichord)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "клавикордами": {
     "def": "(form of клавикорд)",
@@ -39648,8 +40288,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "клико": {
-    "def": "[Proper Noun / Name / Place] Kliko",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "Clicquot — Veuve Clicquot champagne (Вдовы Клико 'the Widow Clicquot's')",
+    "grammar": "noun, indeclinable (French surname/brand)"
   },
   "климат": {
     "def": "climate",
@@ -39776,8 +40416,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "ключевой": {
-    "def": "",
-    "grammar": "adjective, feminine, singular, instrumental"
+    "def": "of a spring, spring-water ('говор ключевой' = babble of a spring; from ключ 'spring')",
+    "grammar": "adjective, masculine, singular, nominative"
   },
   "ключей": {
     "def": "(form of ключ: key, clue, clef, source, spring)",
@@ -39840,8 +40480,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "кн": {
-    "def": "[Proper Noun / Name / Place] Kn",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Кн. — abbreviation of князь/княгиня (prince/princess)",
+    "grammar": "abbreviation"
   },
   "книг": {
     "def": "(form of книга: book, volume)",
@@ -39959,6 +40599,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of княжена)",
     "grammar": "noun, feminine, plural, genitive"
   },
+  "княжен‑племянниц": {
+    "def": "niece-princesses: unmarried princesses who are someone's nieces (княжна-племянница)",
+    "grammar": "noun, feminine, plural, genitive (compound)"
+  },
   "княжеская": {
     "def": "(form of княжеский: princely)",
     "grammar": "adjective, feminine, singular, nominative"
@@ -40040,7 +40684,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "кобельница": {
-    "def": "[Proper Noun / Name / Place] Kobelnitsa",
+    "def": "Kobelnitz — village near Austerlitz named in the battle disposition (Война и мир)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "коби": {
@@ -40139,6 +40783,18 @@ const LOCAL_DICTIONARY = {
     "def": "once, formerly",
     "grammar": "adverb"
   },
+  "когда‑либо": {
+    "def": "ever, at any time",
+    "grammar": "adverb"
+  },
+  "когда‑нибудь": {
+    "def": "someday, sometime; ever",
+    "grammar": "adverb"
+  },
+  "когда‑то": {
+    "def": "once, at one time, formerly",
+    "grammar": "adverb"
+  },
   "кого": {
     "def": "(form of кто: who)",
     "grammar": "pronoun, masculine, singular, genitive"
@@ -40150,6 +40806,14 @@ const LOCAL_DICTIONARY = {
   "кого-то": {
     "def": "(form of кто-то: somebody)",
     "grammar": "pronoun, masculine, singular, genitive"
+  },
+  "кого‑нибудь": {
+    "def": "someone, anyone (gen./acc. of кто-нибудь)",
+    "grammar": "pronoun (indefinite), genitive/accusative"
+  },
+  "кого‑то": {
+    "def": "someone, somebody (gen./acc. of кто-то)",
+    "grammar": "pronoun (indefinite), genitive/accusative"
   },
   "когти": {
     "def": "(form of коготь: claw, talon)",
@@ -40182,6 +40846,22 @@ const LOCAL_DICTIONARY = {
   "коей": {
     "def": "(form of кой: which, that)",
     "grammar": "adjective, feminine, singular, genitive"
+  },
+  "кое‑где": {
+    "def": "here and there, in places",
+    "grammar": "adverb"
+  },
+  "кое‑кого": {
+    "def": "certain people, a few people (gen./acc. of кое-кто)",
+    "grammar": "pronoun (indefinite), genitive/accusative"
+  },
+  "кое‑кто": {
+    "def": "some people, certain people, one or two",
+    "grammar": "pronoun (indefinite), nominative"
+  },
+  "кое‑что": {
+    "def": "something, a thing or two ('я кое-что знаю' = I know a thing or two)",
+    "grammar": "pronoun (indefinite), nominative/accusative"
   },
   "кожа": {
     "def": "skin, leather",
@@ -40228,8 +40908,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "козловский": {
-    "def": "[Proper Noun / Name / Place] Kozlovskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Kozlovsky — adjutant on Kutuzov's staff in Война и мир",
+    "grammar": "noun (adjectival surname), masculine, singular, nominative"
   },
   "козловского": {
     "def": "(form of козловский: [Proper Noun / Name / Place] Kozlovskiy)",
@@ -40248,7 +40928,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "козырев": {
-    "def": "[Proper Noun / Name / Place] Kozyrev",
+    "def": "Козырев — surname; an excise-office clerk mentioned in Три сестры",
     "grammar": "noun, masculine, singular, nominative"
   },
   "козырька": {
@@ -40280,11 +40960,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кой-где": {
-    "def": "",
+    "def": "here and there, in places (obs./colloq. variant of кое-где)",
     "grammar": "adverb"
   },
   "кой-как": {
-    "def": "[Proper Noun / Name / Place] Koy-kak",
+    "def": "somehow, with difficulty, after a fashion (obs./colloq. variant of кое-как)",
     "grammar": "adverb"
   },
   "кой-какие": {
@@ -40362,6 +41042,10 @@ const LOCAL_DICTIONARY = {
   "колбаса": {
     "def": "sausage",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "колбаса‑то": {
+    "def": "sausage (колбаса) + emphatic -то; here a soldiers' jeering nickname for a German (Война и мир)",
+    "grammar": "noun, feminine, singular, nominative + particle"
   },
   "колбасники": {
     "def": "(form of колбасник: sausage-maker, sausage dealer)",
@@ -40456,8 +41140,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "коленяк": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "= коленях: 'на коленях' = on her lap/knees (prep. pl. of колено); text corruption (Три сестры)",
+    "grammar": "noun, neuter, plural, prepositional (corrupted form)"
   },
   "коленях": {
     "def": "(form of колено: knee, elbow, joint, node, bend, generation, tribe, figure, part of a piece of music or a song)",
@@ -40484,8 +41168,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "колет": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "(he) stabs, bayonets (3sg present of колоть: 'зачем не колет его француз?')",
+    "grammar": "verb, imperfective, present, 3rd person singular"
   },
   "колете": {
     "def": "(form of колет)",
@@ -40700,8 +41384,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "коль": {
-    "def": "",
-    "grammar": "conjunction"
+    "def": "if, since (obs./folk = если, коли): 'коль возможно' = if possible",
+    "grammar": "conjunction (obs.)"
   },
   "кольнем": {
     "def": "(form of кольнуть: break, chop, split, stab, prick, slaughter, kill)",
@@ -40947,6 +41631,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of комната: room)",
     "grammar": "noun, feminine, singular, prepositional"
   },
+  "комнате‑то": {
+    "def": "room (в комнате = in the room) + emphatic colloquial particle -то",
+    "grammar": "noun, feminine, singular, prepositional + particle"
+  },
   "комнатка": {
     "def": "diminutive of ко́мната (kómnata): (small) room",
     "grammar": "noun, feminine, singular, nominative"
@@ -41010,6 +41698,14 @@ const LOCAL_DICTIONARY = {
   "кому-нибудь": {
     "def": "(form of кто-нибудь: somebody, someone, anybody, anyone)",
     "grammar": "pronoun, masculine, singular, dative"
+  },
+  "кому‑нибудь": {
+    "def": "(to) anyone, someone (dat. of кто-нибудь)",
+    "grammar": "pronoun (indefinite), dative"
+  },
+  "кому‑то": {
+    "def": "(to) someone (dat. of кто-то)",
+    "grammar": "pronoun (indefinite), dative"
   },
   "конверт": {
     "def": "envelope, cover, sleeping bag",
@@ -41090,6 +41786,14 @@ const LOCAL_DICTIONARY = {
   "конной": {
     "def": "(form of конный: mounted, horse-drawn)",
     "grammar": "adjective, feminine, singular, genitive"
+  },
+  "конно‑гвардейских": {
+    "def": "of the Horse Guards (elite cavalry guard regiment) (mil.): конно-гвардейские казармы = Horse Guards barracks",
+    "grammar": "adjective (compound), plural, genitive"
+  },
+  "конно‑гвардейском": {
+    "def": "of the Horse Guards (mil.): 'в конно-гвардейском мундире' = in a Horse Guards uniform",
+    "grammar": "adjective (compound), masculine, singular, prepositional"
   },
   "конные": {
     "def": "(form of конный: mounted, horse-drawn)",
@@ -41376,7 +42080,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, neuter, singular"
   },
   "копыт": {
-    "def": "[Proper Noun / Name / Place] Kopyt",
+    "def": "hooves; genitive plural of копыто (hoof)",
     "grammar": "noun, neuter, plural, genitive"
   },
   "копыта": {
@@ -41656,7 +42360,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "короткость": {
-    "def": "",
+    "def": "shortness ('короткость губы' = the shortness of her upper lip); also (obs.) familiarity, closeness",
     "grammar": "noun, feminine, singular, nominative"
   },
   "короткою": {
@@ -41672,12 +42376,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "корош": {
-    "def": "[Proper Noun / Name / Place] Korosh",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "'good' — a Tatar speaker's mangled хорош (Корош урус = 'good Russian') (dial.)",
+    "grammar": "adjective, short form, masculine, singular (distorted speech)"
   },
   "корошо": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "= хорошо, good, well; Tatar speaker's accented Russian ('корошо урус!' = 'good Russian!') (Кавказский пленник)",
+    "grammar": "adverb (foreign-accented distortion)"
   },
   "корою": {
     "def": "(form of кора: crust, cortex, rind, bark)",
@@ -41860,12 +42564,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "костылин": {
-    "def": "[Proper Noun / Name / Place] Kostylin",
-    "grammar": "noun, feminine, plural, genitive"
+    "def": "Костылин — surname; the heavy, timid officer captured with Zhilin in Кавказский пленник",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "костылина": {
-    "def": "[Proper Noun / Name / Place] Kostylina",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Костылина — accusative/genitive of Костылин (officer in Кавказский пленник)",
+    "grammar": "noun, masculine, singular, accusative/genitive"
   },
   "костылину": {
     "def": "(form of костылина: [Proper Noun / Name / Place] Kostylina)",
@@ -42012,7 +42716,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "кофей": {
-    "def": "[Proper Noun / Name / Place] Kofey",
+    "def": "coffee (obs./colloq. form of кофе)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кофею": {
@@ -42064,7 +42768,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "кошечка": {
-    "def": "[Proper Noun / Name / Place] Koshechka",
+    "def": "kitty, little cat (dim. of кошка); in Война и мир applied to Sonya",
     "grammar": "noun, feminine, singular, nominative"
   },
   "кошечкой": {
@@ -42080,8 +42784,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, nominative"
   },
   "кошурка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "pussycat, little cat (folk dim. of кошка; from the yuletide divination song in Евгений Онегин)",
+    "grammar": "noun, feminine, singular, nominative (folk diminutive)"
   },
   "крадучи": {
     "def": "(form of крадучить)",
@@ -42135,6 +42839,10 @@ const LOCAL_DICTIONARY = {
     "def": "beauty, beautiful woman",
     "grammar": "noun, feminine, singular, nominative"
   },
+  "красавица‑княжна": {
+    "def": "the beautiful princess (красавица 'beauty' + княжна 'unmarried princess'; of Hélène)",
+    "grammar": "noun, feminine, singular, nominative (apposition compound)"
+  },
   "красавице": {
     "def": "(form of красавица: beauty, beautiful woman)",
     "grammar": "noun, feminine, singular, prepositional"
@@ -42147,6 +42855,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of красавица: beauty, beautiful woman)",
     "grammar": "noun, feminine, singular, instrumental"
   },
+  "красавице‑княжне": {
+    "def": "(to) the beautiful princess (dat. of красавица-княжна; of Hélène)",
+    "grammar": "noun, feminine, singular, dative (apposition compound)"
+  },
   "красавицу": {
     "def": "(form of красавица: beauty, beautiful woman)",
     "grammar": "noun, feminine, singular, accusative"
@@ -42155,6 +42867,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of красавица: beauty, beautiful woman)",
     "grammar": "noun, feminine, singular, genitive"
   },
+  "красавицы‑жены": {
+    "def": "of (his) beautiful wife (gen. of красавица-жена)",
+    "grammar": "noun, feminine, singular, genitive (apposition compound)"
+  },
   "красавца": {
     "def": "(form of красавец: handsome man, Adonis)",
     "grammar": "noun, masculine, singular, genitive"
@@ -42162,6 +42878,10 @@ const LOCAL_DICTIONARY = {
   "красавцев": {
     "def": "(form of красавец: handsome man, Adonis)",
     "grammar": "noun, masculine, plural, genitive"
+  },
+  "красавцев‑людей": {
+    "def": "of (those) handsome men (gen. pl. of красавец-человек: красавец 'handsome man')",
+    "grammar": "noun, masculine, plural, genitive (apposition compound)"
   },
   "красавцы": {
     "def": "(form of красавец: handsome man, Adonis)",
@@ -42339,6 +43059,18 @@ const LOCAL_DICTIONARY = {
     "def": "(form of красный: red, Communist)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "красно‑багровым": {
+    "def": "crimson-purple, red going purple ('делаясь красно-багровым' = turning crimson)",
+    "grammar": "adjective (compound), masculine, singular, instrumental"
+  },
+  "красно‑желтой": {
+    "def": "reddish-yellow (of the dying count's head) (gen. fem.)",
+    "grammar": "adjective (compound), feminine, singular, genitive"
+  },
+  "красно‑желтом": {
+    "def": "reddish-yellow (prep.)",
+    "grammar": "adjective (compound), masculine/neuter, singular, prepositional"
+  },
   "красную": {
     "def": "(form of красный: red, Communist)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -42488,7 +43220,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "кремс": {
-    "def": "[Proper Noun / Name / Place] Krems",
+    "def": "Кремс — Krems, Austrian town on the Danube; site of an 1805 battle in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кремса": {
@@ -42500,16 +43232,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "кремско": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "first element of кремско-цнаймский 'Krems-Znaim' (road between Krems and Znaim, Austria); compound fragment",
+    "grammar": "adjective stem (compound element, place name)"
   },
   "кремском": {
     "def": "(form of кремскома)",
     "grammar": "noun, feminine, plural, genitive"
   },
+  "кремско‑цнаймской": {
+    "def": "Krems-Znaim (of the road from Krems to Znaim, Austria, 1805 campaign) (gen. fem.)",
+    "grammar": "adjective (compound, place name), feminine, singular, genitive"
+  },
   "кремсом": {
-    "def": "[Proper Noun / Name / Place] Kremsom",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Кремсом — instrumental of Кремс (Krems, Austrian town): под Кремсом, near Krems",
+    "grammar": "noun, masculine, singular, instrumental"
   },
   "кремсу": {
     "def": "(form of кремс: [Proper Noun / Name / Place] Krems)",
@@ -42744,8 +43480,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "кригс": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Kriegs- 'war-' (German), first element of compounds like кригсрат 'council of war' (mil., obs.)",
+    "grammar": "noun stem (compound element, German loan)"
   },
   "кризис": {
     "def": "crisis",
@@ -42935,6 +43671,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of кровь: blood)",
     "grammar": "noun, feminine, singular, instrumental"
   },
+  "кровь‑то": {
+    "def": "blood (кровь) + emphatic colloquial particle -то ('отчего же кровь-то?' = but why the blood?)",
+    "grammar": "noun, feminine, singular, nominative + particle"
+  },
   "кроме": {
     "def": "except, besides",
     "grammar": "preposition"
@@ -42952,7 +43692,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "кротко": {
-    "def": "",
+    "def": "meekly, gently, mildly",
     "grammar": "adverb"
   },
   "кроткого": {
@@ -43108,8 +43848,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "крузоэ": {
-    "def": "[Proper Noun / Name / Place] Kruzoe",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "Крузоэ — Crusoe, as in Робинзон Крузоэ (Defoe's Robinson Crusoe)",
+    "grammar": "noun, masculine, indeclinable"
   },
   "крупицу": {
     "def": "(form of крупица: grain, a little)",
@@ -43200,8 +43940,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "кручь": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "steep slope, precipice (folk/dial. form of круча): 'под кручь' = down the steep bank",
+    "grammar": "noun, feminine, singular, accusative"
   },
   "круши": {
     "def": "(form of крушить: destroy, shatter)",
@@ -43347,12 +44087,24 @@ const LOCAL_DICTIONARY = {
     "def": "somebody",
     "grammar": "pronoun, masculine, singular, nominative"
   },
+  "кто‑либо": {
+    "def": "anyone, anybody (whoever it might be)",
+    "grammar": "pronoun (indefinite), nominative"
+  },
+  "кто‑нибудь": {
+    "def": "someone, anyone",
+    "grammar": "pronoun (indefinite), nominative"
+  },
+  "кто‑то": {
+    "def": "someone, somebody (unknown/unnamed)",
+    "grammar": "pronoun (indefinite), nominative"
+  },
   "ку": {
-    "def": "[Proper Noun / Name / Place] Ku",
-    "grammar": "interjection"
+    "def": "syllable fragment (as in ку-ку, cuckoo call); not an independent word",
+    "grammar": "interjection (fragment)"
   },
   "кубань": {
-    "def": "[Proper Noun / Name / Place] Kuban",
+    "def": "Кубань — the Kuban, river and region of the North Caucasus",
     "grammar": "noun, feminine, singular, accusative"
   },
   "кубанью": {
@@ -43380,8 +44132,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "кувшинчик": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "little jug, small pitcher (dim. of кувшин; the tin jug Dina brings) (Кавказский пленник)",
+    "grammar": "noun, masculine, singular, accusative (diminutive)"
   },
   "кувшинчике": {
     "def": "(form of кувшинчик)",
@@ -43401,6 +44153,14 @@ const LOCAL_DICTIONARY = {
   },
   "куда-то": {
     "def": "somewhere, anywhere",
+    "grammar": "adverb"
+  },
+  "куда‑нибудь": {
+    "def": "somewhere, anywhere (no matter where)",
+    "grammar": "adverb"
+  },
+  "куда‑то": {
+    "def": "somewhere (unspecified direction)",
     "grammar": "adverb"
   },
   "кудри": {
@@ -43444,7 +44204,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "кузьмич": {
-    "def": "[Proper Noun / Name / Place] Kuzmich",
+    "def": "Кузьмич — patronymic (son of Kuzma); Сергей Кузьмич in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кузьмича": {
@@ -43528,7 +44288,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "кулыгин": {
-    "def": "[Proper Noun / Name / Place] Kulygin",
+    "def": "Кулыгин — Fyodor Kulygin, schoolmaster, Masha's husband in Три сестры",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кулыгина": {
@@ -43544,7 +44304,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, dative"
   },
   "кум": {
-    "def": "",
+    "def": "godfather of one's child; crony, gossip (kinship by baptism; the bear's 'kum' in Tatiana's dream, Евгений Онегин)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кумир": {
@@ -43628,7 +44388,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "купор": {
-    "def": "[Proper Noun / Name / Place] Kupor",
+    "def": "Купор — from 'Данила Купор' (Daniel Cooper), an anglaise dance figure in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "купора": {
@@ -43644,12 +44404,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "курагин": {
-    "def": "[Proper Noun / Name / Place] Kuragin",
-    "grammar": "noun, feminine, plural, genitive"
+    "def": "Курагин — surname; Anatole Kuragin and family in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "курагина": {
-    "def": "[Proper Noun / Name / Place] Kuragina",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Курагина — genitive of Курагин (Anatole Kuragin in Война и мир)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "курагину": {
     "def": "(form of курагина: [Proper Noun / Name / Place] Kuragina)",
@@ -43868,7 +44628,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "кутузов": {
-    "def": "[Proper Noun / Name / Place] Kutuzov",
+    "def": "Кутузов — Mikhail Kutuzov, Russian commander-in-chief in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "кутузова": {
@@ -43888,7 +44648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "кутузовский": {
-    "def": "[Proper Noun / Name / Place] Kutuzovskiy",
+    "def": "Kutuzov's, of Kutuzov (adjective from the surname Кутузов)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "кутузовского": {
@@ -44007,17 +44767,25 @@ const LOCAL_DICTIONARY = {
     "def": "(form of куш: large sum)",
     "grammar": "noun, masculine, singular, prepositional"
   },
+  "ку…зьми…ч": {
+    "def": "Кузьмич — patronymic ('son of Kuzma'), sobbed out in broken syllables in the joke about the punning petition (Война и мир)",
+    "grammar": "proper noun (patronymic), masculine, singular, nominative (broken by sobs)"
+  },
   "кх": {
-    "def": "",
-    "grammar": ""
+    "def": "kh! kh! — sound of coughing, clearing the throat (onomatopoeia/interjection)",
+    "grammar": "interjection (onomatopoeia)"
   },
   "лаборатории": {
     "def": "(form of лаборатория: laboratory)",
     "grammar": "noun, feminine, singular, prepositional"
   },
   "лавг": {
-    "def": "[Proper Noun / Name / Place] Lavg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "text fragment/OCR artifact; not a standard Russian word",
+    "grammar": "fragment (unclassifiable)"
+  },
+  "лавг'ушка": {
+    "def": "= Лаврушка, Denisov's orderly, in Denisov's burred speech (р -> г') (Война и мир)",
+    "grammar": "proper noun, masculine, singular, nominative (speech distortion)"
   },
   "лавке": {
     "def": "(form of лавка: bench, shop, store; Long seat without a back)",
@@ -44036,12 +44804,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "лавров": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "of laurels (gen. pl. of лавр); fig. honours, glory won",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "лаврушка": {
-    "def": "[Proper Noun / Name / Place] Lavrushka",
-    "grammar": "noun, singular, nominative"
+    "def": "Лаврушка — dim. of Лавр; Denisov's (later Rostov's) valet in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "лаврушке": {
     "def": "(form of лаврушка: [Proper Noun / Name / Place] Lavrushka)",
@@ -44232,7 +45000,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "ланжерон": {
-    "def": "[Proper Noun / Name / Place] Lanzheron",
+    "def": "Ланжерон — Count Langeron, French émigré general in Russian service (Война и мир)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ланжерона": {
@@ -44244,8 +45012,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "лани": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "doe, fallow deer (gen. of лань): 'трепетней гонимой лани' = more tremulous than a hunted doe",
+    "grammar": "noun, feminine, singular, genitive"
   },
   "ланит": {
     "def": "(form of ланита: cheek)",
@@ -44260,8 +45028,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "ланна": {
-    "def": "[Proper Noun / Name / Place] Lanna",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Ланна — genitive of Ланн (Marshal Lannes, French commander)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "лану": {
     "def": "(form of лан: [Proper Noun / Name / Place] Lan)",
@@ -44292,7 +45060,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "ларин": {
-    "def": "[Proper Noun / Name / Place] Larin",
+    "def": "Ларин — Dmitry Larin, Tatiana's late father in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ларина": {
@@ -44308,11 +45076,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, genitive"
   },
   "ларионович": {
-    "def": "[Proper Noun / Name / Place] Larionovich",
+    "def": "Ларионович — patronymic; Михаил Ларионович = Kutuzov in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ларрей": {
-    "def": "[Proper Noun / Name / Place] Larrey",
+    "def": "Ларрей — Larrey, Napoleon's chief surgeon in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ларрея": {
@@ -44383,6 +45151,10 @@ const LOCAL_DICTIONARY = {
     "def": "affectionateness, tenderness, sweetness",
     "grammar": "noun, feminine, singular, nominative"
   },
+  "ласково‑глянцовито": {
+    "def": "with a gentle sheen, caressingly glossy (глянцовито = old sp. of глянцевито) (compound adverb)",
+    "grammar": "adverb (compound, old spelling)"
+  },
   "ласковы": {
     "def": "(form of ласковый: affectionate, tender, sweet, caressing)",
     "grammar": "short adjective, plural"
@@ -44428,11 +45200,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "лафа": {
-    "def": "",
+    "def": "(colloq.) good luck, cushy time, easy living ('нам лафа' = we're in clover)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лафатер": {
-    "def": "[Proper Noun / Name / Place] Lafater",
+    "def": "Лафатер — Johann Lavater, Swiss physiognomist",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лафет": {
@@ -44607,6 +45379,10 @@ const LOCAL_DICTIONARY = {
     "def": "lightly, thoughtlessly, flippantly",
     "grammar": "adverb"
   },
+  "легкомысленно‑веселый": {
+    "def": "light-heartedly cheerful, frivolously gay (compound adjective)",
+    "grammar": "adjective (compound), masculine, singular, nominative"
+  },
   "легкомысленным": {
     "def": "(form of легкомысленный: light, light-minded, frivolous, light-headed, thoughtless, flippant)",
     "grammar": "adjective, neuter, singular, instrumental"
@@ -44723,6 +45499,18 @@ const LOCAL_DICTIONARY = {
     "def": "(form of лейба: [Proper Noun / Name / Place] Leyba)",
     "grammar": "noun, feminine, plural, genitive"
   },
+  "лейб‑гусар": {
+    "def": "Life Hussar — hussar of the Life Guards, the imperial household cavalry (mil., obs.)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "лейб‑медик": {
+    "def": "court physician, personal physician to the emperor (obs., mil./court title)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "лейб‑уланы": {
+    "def": "Life Guard Uhlans — lancers of the imperial Life Guards (mil., obs.)",
+    "grammar": "noun, masculine, plural, nominative"
+  },
   "лейденской": {
     "def": "(form of лейденский)",
     "grammar": "adjective, feminine, singular, genitive"
@@ -44744,7 +45532,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "лекарка": {
-    "def": "",
+    "def": "woman folk healer, quack-doctress (colloq., obs.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лекарская": {
@@ -44768,7 +45556,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "лекарша": {
-    "def": "",
+    "def": "doctor's wife; also a woman healer (colloq., obs., from лекарь)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лекарь": {
@@ -44808,8 +45596,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "лемарруа": {
-    "def": "[Proper Noun / Name / Place] Lemarrua",
-    "grammar": "noun, singular, nominative"
+    "def": "Лемарруа — Le Marois, Napoleon's aide-de-camp in Война и мир",
+    "grammar": "noun, masculine, indeclinable"
   },
   "лен": {
     "def": "fief, fee",
@@ -44860,7 +45648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "ленский": {
-    "def": "[Proper Noun / Name / Place] Lenskiy",
+    "def": "Ленский — Vladimir Lensky, young poet, Onegin's friend in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ленского": {
@@ -44912,8 +45700,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "леон": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Léon — French male given name (proper name)",
+    "grammar": "proper noun, masculine, singular, nominative"
   },
   "лепажа": {
     "def": "(form of лепаж: [Proper Noun / Name / Place] Lepazh)",
@@ -44976,7 +45764,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "лермонтов": {
-    "def": "[Proper Noun / Name / Place] Lermontov",
+    "def": "Лермонтов — Mikhail Lermontov, the poet; Solyony's model in Три сестры",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лермонтова": {
@@ -45176,7 +45964,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "лех": {
-    "def": "[Proper Noun / Name / Place] Lekh",
+    "def": "Лех — the Lech, river in Bavaria/Austria (Война и мир)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лечат": {
@@ -45248,11 +46036,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, prepositional"
   },
   "лиза": {
-    "def": "[Proper Noun / Name / Place] Liza",
+    "def": "Лиза — dim. of Елизавета; Princess Liza Bolkonskaya in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лизавета": {
-    "def": "[Proper Noun / Name / Place] Lizaveta",
+    "def": "Лизавета — colloquial form of Елизавета (Elizabeth)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лизой": {
@@ -45292,8 +46080,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
   "лилися": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "flowed, streamed (obs./poet. form of лились, past pl. of литься; of masses of troops pouring)",
+    "grammar": "verb, imperfective, past, plural, reflexive (archaic form)"
   },
   "лиловой": {
     "def": "(form of лиловый: purple, lilac, violet)",
@@ -45308,7 +46096,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "линар": {
-    "def": "[Proper Noun / Name / Place] Linar",
+    "def": "де Линар — de Linar, hero of Krüdener's novel Valérie, alluded to in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "линейном": {
@@ -45316,7 +46104,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, prepositional"
   },
   "линейский": {
-    "def": "",
+    "def": "of the (Caucasian) Line; линейский казак = Cossack of the frontier Line regiments (mil., obs.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "линией": {
@@ -45384,7 +46172,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "лирный": {
-    "def": "",
+    "def": "of the lyre; lyric, poetic (obs./poet., from лира); голос лирный = the lyre's voice",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "лирой": {
@@ -45480,7 +46268,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "лихорадочно": {
-    "def": "",
+    "def": "feverishly, hectically",
     "grammar": "adverb"
   },
   "лихорадочное": {
@@ -45500,11 +46288,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "лихтенфельс": {
-    "def": "[Proper Noun / Name / Place] Likhtenfels",
+    "def": "Лихтенфельс — Count Lichtenfels, Austrian courtier mentioned in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лихтенштейн": {
-    "def": "[Proper Noun / Name / Place] Likhtenshteyn",
+    "def": "Лихтенштейн — Prince Liechtenstein, Austrian general in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лиц": {
@@ -45872,11 +46660,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, genitive"
   },
   "ломбардный": {
-    "def": "",
+    "def": "of the state loan bank (Lombard); ломбардный билет = loan-bank (pawn) ticket (obs.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "ломбер": {
-    "def": "",
+    "def": "ombre — old three-hand card game favoured by the elderly (obs., from French/Spanish)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ломит": {
@@ -45972,7 +46760,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "лоррен": {
-    "def": "[Proper Noun / Name / Place] Lorren",
+    "def": "Лоррен — Lorrain, French doctor attending Count Bezukhov in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лоррена": {
@@ -46144,7 +46932,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "лужок": {
-    "def": "",
+    "def": "small meadow, patch of lawn (diminutive of луг)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лужу": {
@@ -46180,15 +46968,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "лукерья": {
-    "def": "[Proper Noun / Name / Place] Lukerya",
+    "def": "Лукерья — female given name (folk form of Glykeria); Лукерья Львовна in Евгений Онегин",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лукич": {
-    "def": "[Proper Noun / Name / Place] Lukich",
+    "def": "Лукич — patronymic (son of Luka); Иван Лукич in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "лукка": {
-    "def": "[Proper Noun / Name / Place] Lukka",
+    "def": "Лукка — Lucca, city and former duchy in Italy",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лукки": {
@@ -46256,7 +47044,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "лучинка": {
-    "def": "",
+    "def": "small splinter of kindling wood; rushlight sliver (diminutive of лучина)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "лучистостью": {
@@ -46328,8 +47116,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "лш": {
-    "def": "",
-    "grammar": ""
+    "def": "not a word — stray text/OCR fragment with no meaning",
+    "grammar": "fragment (non-lexical)"
   },
   "лысина": {
     "def": "star",
@@ -46376,7 +47164,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "львович": {
-    "def": "[Proper Noun / Name / Place] Lvovich",
+    "def": "Львович — patronymic (son of Lev); Николай Львович (Tuzenbach) in Три сестры",
     "grammar": "noun, masculine, singular, nominative"
   },
   "львовна": {
@@ -46744,8 +47532,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "любя": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "loving; while loving (gerund of любить: одно любя = loving one thing only)",
+    "grammar": "verbal adverb (gerund), imperfective"
   },
   "любят": {
     "def": "(form of любить: love; like)",
@@ -46784,8 +47572,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "людская": {
-    "def": "[Proper Noun / Name / Place] Lyudskaya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "people's, human (людская молвь — human talk); as noun: servants' hall (obs.)",
+    "grammar": "adjective, feminine, singular, nominative"
   },
   "людских": {
     "def": "(form of людской: human)",
@@ -46832,12 +47620,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "м": {
-    "def": "[Proper Noun / Name / Place] M",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "the letter М; here a text artifact (ordinal suffix -м; split of затем)",
+    "grammar": "letter (text fragment)"
   },
   "маг": {
     "def": "Magian, magician, wizard",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "маг'ш": {
+    "def": "march! — cavalry command марш in Denisov's burred speech (mil., colloq.)",
+    "grammar": "interjection (military command, distorted spelling)"
   },
   "магазине": {
     "def": "(form of магазин: shop, store, magazine)",
@@ -46951,12 +47743,16 @@ const LOCAL_DICTIONARY = {
     "def": "(form of мак: poppy, poppy-seed)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "мака…ты": {
+    "def": "text artifact: 'Мака…' (Gen. Mack, acc. of Мак) run together with 'Ты' (you); not one word",
+    "grammar": "fragment (proper noun + pronoun run together)"
+  },
   "маков": {
     "def": "(form of маковый: papaverous, papaveraceous)",
     "grammar": "short adjective, masculine, singular"
   },
   "маковщина": {
-    "def": "[Proper Noun / Name / Place] Makovshchina",
+    "def": "'the Mack affair' — nonce word from Gen. Mack's surname for the Ulm surrender (Война и мир)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "маком": {
@@ -47000,8 +47796,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "макуш": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "tops, crowns (of trees); gen. pl. of макушка: до макуш = up to the treetops",
+    "grammar": "noun, feminine, plural, genitive"
   },
   "макушки": {
     "def": "(form of макушка: top, summit, crown)",
@@ -47172,7 +47968,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "мальбрук": {
-    "def": "[Proper Noun / Name / Place] Malbruk",
+    "def": "Мальбрук — Marlborough, hero of the French song 'Мальбрук в поход собрался'",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мальвиной": {
@@ -47216,7 +48012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "мальчишечка": {
-    "def": "",
+    "def": "little boy, dear little lad (affectionate diminutive of мальчик)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мальчишка": {
@@ -47256,7 +48052,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "маменька": {
-    "def": "",
+    "def": "mamma, dear mother (affectionate, obs.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "маменьке": {
@@ -47276,8 +48072,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "мамзель": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "mamselle, mademoiselle (colloq., obs., from French mademoiselle)",
+    "grammar": "noun, feminine, singular, nominative (indeclinable in colloq. use)"
   },
   "мамонтовы": {
     "def": "(form of мамонтовый: [Proper Noun / Name / Place] Mamontovyy)",
@@ -47348,8 +48144,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "манифэ": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "manifesto — манифест(е) split by a French speaker's accent ('манифэ стэ'); text artifact",
+    "grammar": "noun, masculine, singular, prepositional (distorted spelling)"
   },
   "манию": {
     "def": "(form of мания: mania)",
@@ -47395,20 +48191,28 @@ const LOCAL_DICTIONARY = {
     "def": "(form of мария: [Proper Noun / Name / Place] Mariya)",
     "grammar": "noun, feminine, singular, instrumental"
   },
+  "марией‑терезией": {
+    "def": "Maria Theresa — the Austrian military Order of Maria Theresa (award); instr. of Мария‑Терезия",
+    "grammar": "proper noun, feminine, singular, instrumental"
+  },
   "марии": {
     "def": "(form of мария: [Proper Noun / Name / Place] Mariya)",
     "grammar": "noun, feminine, singular, genitive"
+  },
+  "марии‑терезии": {
+    "def": "Maria Theresa — the Austrian Order of Maria Theresa (орден Марии‑Терезии); gen. of Мария‑Терезия",
+    "grammar": "proper noun, feminine, singular, genitive"
   },
   "марию": {
     "def": "(form of мария: [Proper Noun / Name / Place] Mariya)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "мария": {
-    "def": "[Proper Noun / Name / Place] Mariya",
+    "def": "Мария — Maria/Mary, female given name",
     "grammar": "noun, feminine, singular, nominative"
   },
   "марк": {
-    "def": "[Proper Noun / Name / Place] Mark",
+    "def": "Марк — Mark/Marcus; Марк Туллий Цицерон = Marcus Tullius Cicero",
     "grammar": "noun, masculine, singular, nominative"
   },
   "маркитанта": {
@@ -47428,7 +48232,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "марков": {
-    "def": "[Proper Noun / Name / Place] Markov",
+    "def": "Марков — Count Morkov (Markov), Russian ambassador to Paris, in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "маркова": {
@@ -47452,11 +48256,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "мартын": {
-    "def": "[Proper Noun / Name / Place] Martyn",
+    "def": "Мартын — male given name; Мартын Задека, dream-book 'author' in Евгений Онегин",
     "grammar": "noun, masculine, singular, nominative"
   },
   "марфа": {
-    "def": "[Proper Noun / Name / Place] Marfa",
+    "def": "Марфа — Martha, female given name; a cook recalled in Три сестры",
     "grammar": "noun, feminine, singular, nominative"
   },
   "марш": {
@@ -47503,6 +48307,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of маршрут: route, itinerary)",
     "grammar": "noun, masculine, plural, genitive"
   },
+  "марш‑марш": {
+    "def": "charge! at full gallop! — doubled cavalry command марш‑марш (mil., obs.)",
+    "grammar": "interjection (military command)"
+  },
   "марье": {
     "def": "(form of марья: [Proper Noun / Name / Place] Marya)",
     "grammar": "noun, feminine, singular, dative"
@@ -47524,7 +48332,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "марья": {
-    "def": "[Proper Noun / Name / Place] Marya",
+    "def": "Марья — folk form of Мария; e.g. Марья Дмитриевна in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "масака": {
@@ -47644,7 +48452,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "математически": {
-    "def": "",
+    "def": "mathematically; with mathematical precision",
     "grammar": "adverb"
   },
   "матерей": {
@@ -47684,11 +48492,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "матерьялист": {
-    "def": "",
+    "def": "materialist (obs. spelling of материалист)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "матильда": {
-    "def": "[Proper Noun / Name / Place] Matilda",
+    "def": "Матильда — Matilda, female given name",
     "grammar": "noun, feminine, singular, nominative"
   },
   "матку": {
@@ -47796,8 +48604,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "маша": {
-    "def": "[Proper Noun / Name / Place] Masha",
+    "def": "Маша — dim. of Мария; Princess Marya in Война и мир, Masha in Три сестры",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "маша(сердито": {
+    "def": "stage direction run together: Маша (сердито) = Masha (angrily) (Три сестры); text artifact",
+    "grammar": "fragment (proper noun + stage direction)"
   },
   "маше": {
     "def": "(form of маша: [Proper Noun / Name / Place] Masha)",
@@ -47808,7 +48620,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "машенька": {
-    "def": "[Proper Noun / Name / Place] Mashenka",
+    "def": "Машенька — affectionate dim. of Мария (Masha)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "машет": {
@@ -47836,7 +48648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "машка": {
-    "def": "[Proper Noun / Name / Place] Mashka",
+    "def": "Машка — familiar/rough dim. of Мария (Masha)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "машу": {
@@ -47844,7 +48656,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "машук": {
-    "def": "[Proper Noun / Name / Place] Mashuk",
+    "def": "Машук — Mount Mashuk at Pyatigorsk, in the Caucasus (Герой нашего времени)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "машука": {
@@ -47924,8 +48736,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "мег": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's burred мег'завец = мерзавец 'scoundrel'; not a standalone word",
+    "grammar": "fragment (non-lexical)"
+  },
+  "мег`завца": {
+    "def": "scoundrel, villain — мерзавца (acc./gen.) in Denisov's burred speech (colloq.)",
+    "grammar": "noun, masculine, singular, accusative (distorted spelling)"
   },
   "меда": {
     "def": "(form of мёд: honey, mead)",
@@ -47936,7 +48752,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "медведев": {
-    "def": "[Proper Noun / Name / Place] Medvedev",
+    "def": "Медведев — surname of an artillery soldier in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "медведем": {
@@ -47982,6 +48798,10 @@ const LOCAL_DICTIONARY = {
   "медленность": {
     "def": "slowness",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "медленно‑торжественно": {
+    "def": "slowly and solemnly (compound adverb)",
+    "grammar": "adverb (compound)"
   },
   "медленным": {
     "def": "(form of медленный: slow)",
@@ -48060,7 +48880,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "мелион": {
-    "def": "[Proper Noun / Name / Place] Melion",
+    "def": "a million (soldier's colloq. pronunciation of миллион)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мелкая": {
@@ -48176,8 +48996,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "мельмот": {
-    "def": "[Proper Noun / Name / Place] Melmot",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "Мельмот — Melmoth the Wanderer, hero of Maturin's Gothic novel",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "мельмотом": {
     "def": "(form of мельмот: [Proper Noun / Name / Place] Melmot)",
@@ -48228,7 +49048,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "ментик": {
-    "def": "",
+    "def": "mentik — hussar's short fur-trimmed pelisse jacket worn over the shoulder (mil., obs.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ментике": {
@@ -48287,6 +49107,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of менять: change, exchange)",
     "grammar": "verb, imperfective, present, transitive, singular"
   },
+  "меня‑то": {
+    "def": "me (as for me) — меня with emphatic particle -то",
+    "grammar": "pronoun, 1st person, singular, accusative + emphatic particle"
+  },
   "мере": {
     "def": "(form of мера: measure, step)",
     "grammar": "noun, feminine, singular, dative"
@@ -48298,6 +49122,10 @@ const LOCAL_DICTIONARY = {
   "мерзавец": {
     "def": "villain, scoundrel",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "мерзавец‑то": {
+    "def": "the scoundrel, that villain — мерзавец with emphatic particle -то (colloq.)",
+    "grammar": "noun, masculine, singular, nominative + emphatic particle"
   },
   "мерзавке": {
     "def": "(form of мерзавка: mean woman)",
@@ -48316,8 +49144,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "мерзко": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "vile, loathsome; (as predicate) it is disgusting (всё мерзко = it's all vile)",
+    "grammar": "adverb (predicative)"
   },
   "мерзкую": {
     "def": "(form of мерзкий: vile, loathsome, nasty)",
@@ -48332,8 +49160,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "мери": {
-    "def": "[Proper Noun / Name / Place] Meri",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Мери — Princess Mary in Герой нашего времени (English-styled name)",
+    "grammar": "noun, feminine, indeclinable"
   },
   "мерит": {
     "def": "(form of мерить: measure, try on)",
@@ -48352,7 +49180,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "мерно": {
-    "def": "",
+    "def": "measuredly, rhythmically, evenly",
     "grammar": "adverb"
   },
   "мерного": {
@@ -48532,8 +49360,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "метаясь": {
-    "def": "[Proper Noun / Name / Place] Metayas",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "tossing about, thrashing (gerund of метаться)",
+    "grammar": "verbal adverb (imperfective gerund)"
   },
   "метель": {
     "def": "snowstorm",
@@ -48572,7 +49400,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "метрд": {
-    "def": "",
+    "def": "fragment of метрд'отель = maître d'hôtel, head waiter (from French); not a standalone word",
+    "grammar": "fragment (non-lexical)"
+  },
+  "метрд`отель": {
+    "def": "maître d'hôtel, head waiter, house steward (from French, obs. spelling)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мефистофелем": {
@@ -48799,6 +49631,10 @@ const LOCAL_DICTIONARY = {
     "def": "moment, instant",
     "grammar": "noun, masculine, singular, accusative"
   },
+  "миг'онов": {
+    "def": "Mironov — surname of a cadet (юнкер Миронов) in Denisov's burred speech (Война и мир)",
+    "grammar": "proper noun, masculine, singular, nominative (distorted spelling)"
+  },
   "мигая": {
     "def": "(form of мигать: blink, twinkle)",
     "grammar": "gerund, imperfective, present, intransitive"
@@ -48836,16 +49672,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "мила": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "sweet, charming, dear (short form of милый: очень мила = very charming)",
+    "grammar": "adjective, short form, feminine, singular"
   },
   "миланского": {
     "def": "(form of миланский)",
     "grammar": "adjective, masculine, singular, genitive"
   },
   "милашка": {
-    "def": "",
-    "grammar": "noun, singular, nominative"
+    "def": "darling, sweetie, dear little thing (colloq., affectionate)",
+    "grammar": "noun, common gender, singular, nominative"
   },
   "милая": {
     "def": "(form of милый: cute)",
@@ -48879,6 +49715,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of миллион: million)",
     "grammar": "noun, masculine, plural, genitive"
   },
+  "миллионов‑миллионов": {
+    "def": "millions upon millions — reduplicated миллион for emphasis (gen. pl.)",
+    "grammar": "numeral/noun, masculine, plural, genitive (reduplicated)"
+  },
   "миллионы": {
     "def": "(form of миллион: million)",
     "grammar": "noun, masculine, plural, nominative"
@@ -48908,7 +49748,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "милорадович": {
-    "def": "[Proper Noun / Name / Place] Miloradovich",
+    "def": "Милорадович — Gen. Mikhail Miloradovich, Russian commander in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "милорадовича": {
@@ -48951,6 +49791,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of милость: mercy, charity, favour, grace, good deed)",
     "grammar": "noun, feminine, plural, instrumental"
   },
+  "мило‑степенно": {
+    "def": "sweetly and sedately, with charming gravity (compound adverb)",
+    "grammar": "adverb (compound)"
+  },
   "милую": {
     "def": "(form of милый: cute)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -48988,8 +49832,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, prepositional"
   },
   "мими": {
-    "def": "[Proper Noun / Name / Place] Mimi",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Мими — Mimi, the name of a doll in Война и мир",
+    "grammar": "noun, feminine, indeclinable"
+  },
+  "мими‑куклу": {
+    "def": "Mimi the doll — Мими, name of the children's doll (Война и мир); acc. of Мими‑кукла",
+    "grammar": "noun, feminine, singular, accusative (with proper name)"
   },
   "мимо": {
     "def": "past, by",
@@ -49224,7 +50072,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "миронов": {
-    "def": "[Proper Noun / Name / Place] Mironov",
+    "def": "Миронов — surname of a cadet (юнкер) in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мирском": {
@@ -49252,7 +50100,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "митенька": {
-    "def": "[Proper Noun / Name / Place] Mitenka",
+    "def": "Митенька — dim. of Дмитрий; the Rostovs' steward in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "митеньку": {
@@ -49260,7 +50108,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "митрич": {
-    "def": "[Proper Noun / Name / Place] Mitrich",
+    "def": "Митрич — colloq. patronymic (from Дмитриевич); Михайло Митрич in Война и мир",
     "grammar": "noun, masculine, singular, nominative"
   },
   "митрополит": {
@@ -49268,11 +50116,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "митька": {
-    "def": "[Proper Noun / Name / Place] Mitka",
+    "def": "Митька — familiar dim. of Дмитрий",
     "grammar": "noun, masculine, singular, nominative"
   },
   "михаил": {
-    "def": "[Proper Noun / Name / Place] Mikhail",
+    "def": "Михаил — Michael, male given name",
     "grammar": "noun, masculine, singular, nominative"
   },
   "михаила": {
@@ -49292,7 +50140,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "михайло": {
-    "def": "[Proper Noun / Name / Place] Mikhaylo",
+    "def": "Михайло — folk/obs. form of Михаил (Michael)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "михайловна": {
@@ -49376,7 +50224,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "младость": {
-    "def": "",
+    "def": "youth, young years (poet./obs. = молодость)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "младую": {
@@ -49455,6 +50303,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of мять: rumple, crumple, tumble, work up, knead, brake, dress)",
     "grammar": "verb, imperfective, present, transitive, plural"
   },
+  "мне‑то": {
+    "def": "to me, for me (as for me) — мне with emphatic particle -то",
+    "grammar": "pronoun, 1st person, singular, dative + emphatic particle"
+  },
   "мнимом": {
     "def": "(form of мнимый: imaginary, sham)",
     "grammar": "adjective, masculine, singular, prepositional"
@@ -49488,7 +50340,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "многое": {
-    "def": "",
+    "def": "much, many things, a great deal (многое не говорится = much goes unsaid)",
     "grammar": "pronoun, neuter, singular, accusative"
   },
   "многом": {
@@ -49536,8 +50388,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, singular, instrumental"
   },
   "мо": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "witticism, bon mot (obs. salon borrowing of French mot)",
+    "grammar": "noun, neuter, singular, indeclinable"
   },
   "мог": {
     "def": "(form of мочь: power, might)",
@@ -49636,8 +50488,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "модно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "fashionably; (as predicate) it is fashionable (не модно = not in fashion)",
+    "grammar": "adverb (predicative)"
   },
   "модного": {
     "def": "(form of модный: fashionable, stylish)",
@@ -49724,8 +50576,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "predicative, present"
   },
   "можэ": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "can — может 'is able' in a French speaker's broken accent ('нэ можэ т' = не может); text artifact",
+    "grammar": "verb, imperfective, present, 3rd person singular (distorted spelling)"
   },
   "мозаикового": {
     "def": "(form of мозаиковый)",
@@ -49736,7 +50588,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "мозаиковый": {
-    "def": "",
+    "def": "mosaic, inlaid with mosaic (obs. = мозаичный); мозаиковый портфель = mosaic-inlaid portfolio",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "мозг": {
@@ -49832,7 +50684,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "молвь": {
-    "def": "",
+    "def": "talk, speech, hum of voices (obs./poet. = молва: людская молвь = human speech)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "молдавии": {
@@ -49948,12 +50800,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "молодецки": {
-    "def": "",
+    "def": "dashingly, gallantly, with jaunty spirit (colloq.)",
     "grammar": "adverb"
   },
   "молодецким": {
     "def": "(form of молодецкий: valiant, mettlesome)",
     "grammar": "adjective, masculine, singular, instrumental"
+  },
+  "молодецки‑накинутом": {
+    "def": "dashingly thrown on (of a coat worn jauntily over the shoulders); prep. of молодецки‑накинутый",
+    "grammar": "participle (compound), masculine, singular, prepositional"
+  },
+  "молодецки‑хитрою": {
+    "def": "dashingly sly, rakishly cunning (of a smile); instr. fem. (obs. -ою) of молодецки‑хитрый",
+    "grammar": "adjective (compound), feminine, singular, instrumental (archaic form)"
   },
   "молодого": {
     "def": "(form of молодой: young, youthful, new, bridegroom)",
@@ -50008,20 +50868,24 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "молодцоватость": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "dashing air, jaunty gallant bearing (from молодцоватый)",
+    "grammar": "noun, feminine, singular, accusative"
   },
   "молодцоватый": {
-    "def": "",
+    "def": "dashing, jaunty, gallant-looking, soldierly",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "молодцоватых": {
     "def": "(form of молодцоватый)",
     "grammar": "adjective, plural, genitive"
   },
+  "молодцов‑апшеронцев": {
+    "def": "the fine fellows of the Apsheron regiment (soldiers, молодцы‑апшеронцы); acc./gen. pl. (mil.)",
+    "grammar": "noun, masculine, plural, accusative (compound)"
+  },
   "молодцом": {
-    "def": "[Proper Noun / Name / Place] Molodtsom",
-    "grammar": "adverb"
+    "def": "splendidly, like a fine fellow; Молодцом! = well done! (instr. of молодец used adverbially)",
+    "grammar": "adverb (instrumental of молодец)"
   },
   "молодцу": {
     "def": "(form of молодец: Well done, good job; fine fellow, fine girl)",
@@ -50030,6 +50894,10 @@ const LOCAL_DICTIONARY = {
   "молодцы": {
     "def": "(form of молодец: Well done, good job; fine fellow, fine girl)",
     "grammar": "noun, masculine, plural, nominative"
+  },
+  "молодцы‑ординарцы": {
+    "def": "picked fine-fellow orderlies — dashing orderly officers of the suite (mil.)",
+    "grammar": "noun, masculine, plural, nominative (compound)"
   },
   "молодчиков": {
     "def": "(form of молодчик: swell, cut-throats)",
@@ -50099,6 +50967,14 @@ const LOCAL_DICTIONARY = {
     "def": "(form of молочный: milky, lactic)",
     "grammar": "adjective, masculine, singular, genitive"
   },
+  "молочно‑белый": {
+    "def": "milk-white, milky white (of smoke)",
+    "grammar": "adjective, masculine, singular, nominative"
+  },
+  "молочно‑белым": {
+    "def": "milk-white, milky white (of fog spread like a sea); instr. of молочно‑белый",
+    "grammar": "adjective, neuter, singular, instrumental"
+  },
   "молча": {
     "def": "silently, tacitly, without a word",
     "grammar": "adverb"
@@ -50138,6 +51014,10 @@ const LOCAL_DICTIONARY = {
   "молчаливом": {
     "def": "(form of молчаливый: taciturn, silent, tacit, unspoken)",
     "grammar": "adjective, masculine, singular, prepositional"
+  },
+  "молчаливо‑достойною": {
+    "def": "silently dignified, of quiet dignity; instr. fem. (obs. -ою) of молчаливо‑достойный",
+    "grammar": "adjective (compound), feminine, singular, instrumental (archaic form)"
   },
   "молчаливую": {
     "def": "(form of молчаливый: taciturn, silent, tacit, unspoken)",
@@ -50296,8 +51176,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "монморанси": {
-    "def": "[Proper Noun / Name / Place] Monmoransi",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Монморанси — Montmorency, ancient French noble family",
+    "grammar": "noun, masculine, indeclinable"
   },
   "монотонным": {
     "def": "(form of монотонный: monotonous)",
@@ -50336,16 +51216,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "морио": {
-    "def": "[Proper Noun / Name / Place] Morio",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Морио — abbé Morio at Anna Pavlovna's soirée (Война и мир)",
+    "grammar": "noun, masculine, indeclinable"
   },
   "морковное": {
     "def": "(form of морковный: Adjective of морковь)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "моро": {
-    "def": "[Proper Noun / Name / Place] Moro",
-    "grammar": "adverb"
+    "def": "Моро — Gen. Jean Moreau, French commander, Napoleon's rival",
+    "grammar": "noun, masculine, indeclinable"
   },
   "мороженое": {
     "def": "ice-cream",
@@ -50376,8 +51256,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "морозов": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "frosts (gen. pl. of мороз: ночных морозов = of the night frosts)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "морозы": {
     "def": "(form of мороз: frost, freezing weather)",
@@ -50404,23 +51284,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "мортемар": {
-    "def": "[Proper Noun / Name / Place] Mortemar",
-    "grammar": "noun, feminine, plural, genitive"
+    "def": "Мортемар — Vicomte de Mortemart, French émigré in Война и мир",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "мортемара": {
-    "def": "[Proper Noun / Name / Place] Mortemara",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Мортемара — genitive of Мортемар (Vicomte de Mortemart)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "мортемаром": {
     "def": "(form of мортемар: [Proper Noun / Name / Place] Mortemar)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "мортье": {
-    "def": "[Proper Noun / Name / Place] Morte",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Мортье — Marshal Mortier, French commander in Война и мир",
+    "grammar": "noun, masculine, indeclinable"
   },
   "морфей": {
-    "def": "[Proper Noun / Name / Place] Morfey",
+    "def": "Морфей — Morpheus, Greek god of dreams",
     "grammar": "noun, masculine, singular, nominative"
   },
   "морща": {
@@ -50588,7 +51468,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "мосток": {
-    "def": "",
+    "def": "small bridge, footbridge, plank crossing (diminutive of мост)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "мостом": {
@@ -50604,8 +51484,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "мосье": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "monsieur — title for a Frenchman (from French, obs. spelling of месье)",
+    "grammar": "noun, masculine, indeclinable"
   },
   "мотает": {
     "def": "(form of мотать: wind, reel, shake, squander, waste)",
@@ -50679,6 +51559,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of мой: my, mine, my people)",
     "grammar": "adjective, feminine, singular, nominative"
   },
+  "мо‑о‑ожно": {
+    "def": "'po-o-ossible' — можно drawn out for emphasis (как мо‑о‑ожно меньше = as li-i-ittle as possible)",
+    "grammar": "predicative adverb (emphatically lengthened spelling)"
+  },
   "мрак": {
     "def": "gloom, darkness",
     "grammar": "noun, masculine, singular, nominative"
@@ -50748,8 +51632,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "му": {
-    "def": "",
-    "grammar": "interjection"
+    "def": "not a standalone word: dative ending in '1‑му, 2‑му' = 'to the 1st, 2nd' (squadron)",
+    "grammar": "numeral ending, dative (text fragment)"
   },
   "мудреная": {
     "def": "(form of мудрёный: odd, queer, strange, tricky, difficult, abstruse, complicated)",
@@ -50768,8 +51652,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "мудрила": {
-    "def": "",
-    "grammar": "noun, singular, nominative"
+    "def": "was over-subtle, contrived, schemed fussily (past fem. of мудрить; colloq.)",
+    "grammar": "verb, imperfective, past, feminine, singular"
   },
   "мудрое": {
     "def": "(form of мудрый: wise, sage)",
@@ -50912,8 +51796,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "мужьев": {
-    "def": "[Proper Noun / Name / Place] Muzhev",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "husbands — nonstandard gen. pl. of муж (standard мужей) (folk/colloq.)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "мужья": {
     "def": "(form of муж: husband, man)",
@@ -51247,6 +52131,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of мушкатер)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "мушкатера‑солдата": {
+    "def": "musketeer private, common musketeer soldier (obs. мушкатер = мушкетер); acc./gen. sg. (mil.)",
+    "grammar": "noun, masculine, singular, accusative (compound)"
+  },
   "мушкатеры": {
     "def": "(form of мушкатер)",
     "grammar": "noun, masculine, plural, nominative"
@@ -51292,7 +52180,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, genitive"
   },
   "мыльце": {
-    "def": "",
+    "def": "small bar of soap (diminutive of мыло)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "мыслей": {
@@ -51368,8 +52256,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "мюрата": {
-    "def": "[Proper Noun / Name / Place] Myurata",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Мюрата — gen./acc. of Мюрат (Marshal Joachim Murat)",
+    "grammar": "noun, masculine, singular, genitive/accusative"
   },
   "мюрату": {
     "def": "(form of мюрата: [Proper Noun / Name / Place] Myurata)",
@@ -51472,8 +52360,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "н": {
-    "def": "[Proper Noun / Name / Place] N",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "the letter Н; also the initial N standing for an unnamed person",
+    "grammar": "letter (text fragment)"
   },
   "на": {
     "def": "on (place); on (day/week); on (transport means); to; onto, upon; at",
@@ -51576,7 +52464,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, prepositional"
   },
   "набожно": {
-    "def": "",
+    "def": "piously, devoutly",
     "grammar": "adverb"
   },
   "набожность": {
@@ -51680,11 +52568,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "навзничь": {
-    "def": "",
+    "def": "flat on one's back, supine, face upward",
     "grammar": "adverb"
   },
   "навзрыд": {
-    "def": "",
+    "def": "sobbing violently (плакать навзрыд = to sob one's heart out)",
     "grammar": "adverb"
   },
   "нависла": {
@@ -51768,12 +52656,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "нагло": {
-    "def": "",
+    "def": "insolently, impudently, brazenly",
     "grammar": "adverb"
   },
   "наглого": {
     "def": "(form of наглый: impudent, impertinent, insolent, barefaced, lot of nerve)",
     "grammar": "adjective, masculine, singular, genitive"
+  },
+  "нагло‑шутливо": {
+    "def": "with insolent jocularity, brazenly-jokingly (of a look; compound adverb)",
+    "grammar": "adverb (compound)"
   },
   "наглый": {
     "def": "impudent, impertinent, insolent, barefaced, lot of nerve",
@@ -51936,8 +52828,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "нада": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "'nada' = надо 'one must/need' in Bela's broken Russian ('не нада' = don't) (dial./distorted)",
+    "grammar": "predicative adverb (distorted spelling)"
   },
   "надвигается": {
     "def": "(form of надвигаться: approach, draw near, impend, be imminent)",
@@ -51948,11 +52840,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "надворный": {
-    "def": "[Proper Noun / Name / Place] Nadvornyy",
+    "def": "court- (надворный советник — court councillor, 7th civil-service rank) (hist.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "надгробный": {
-    "def": "[Proper Noun / Name / Place] Nadgrobnyy",
+    "def": "gravestone-, tomb- (надгробный памятник — grave monument; надгробный мадригал — epitaph)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "наддай": {
@@ -52480,7 +53372,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "наивно": {
-    "def": "",
+    "def": "naively, ingenuously",
     "grammar": "adverb"
   },
   "наивное": {
@@ -52708,8 +53600,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "наклонясь": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "bending over, stooping, leaning down (gerund of наклониться)",
+    "grammar": "verbal adverb (gerund), perfective"
   },
   "наклоняюсь": {
     "def": "(form of наклоняться: stoop, bend)",
@@ -52736,8 +53628,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "наконец-таки": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "at long last, finally after all (наконец + emphatic particle -таки)",
+    "grammar": "adverb + emphatic particle"
+  },
+  "наконец‑то": {
+    "def": "at last!, finally (наконец + emphatic particle -то)",
+    "grammar": "adverb + emphatic particle"
+  },
+  "наконец…наконец": {
+    "def": "'finally… finally' — hesitating repetition of наконец 'at last, in the end'; text artifact",
+    "grammar": "adverb (repeated, with ellipsis)"
   },
   "накопилось": {
     "def": "(form of накопиться)",
@@ -52931,6 +53831,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of намозолить)",
     "grammar": "verb, perfective, future, transitive, plural"
   },
+  "нам‑то": {
+    "def": "to us, for us (as for us) — нам with emphatic particle -то",
+    "grammar": "pronoun, 1st person, plural, dative + emphatic particle"
+  },
   "нанесенная": {
     "def": "(form of нанести: inflict, deal; apply, put-on, lay on; pay)",
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, nominative"
@@ -52952,8 +53856,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "нап": {
-    "def": "[Proper Noun / Name / Place] Nap",
-    "grammar": ""
+    "def": "fragment, apparently of Наполеон (Napoleon); not an independent word",
+    "grammar": "fragment (unclassifiable)"
+  },
+  "напoлеон": {
+    "def": "Napoleon (Bonaparte), Emperor of the French; spelling contains a stray Latin 'o' (text artifact)",
+    "grammar": "proper noun, masculine, singular, nominative"
   },
   "нападать": {
     "def": "attack, assault, come, fall",
@@ -53032,11 +53940,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "наперерез": {
-    "def": "",
+    "def": "so as to cut across, to head off, intercepting (катить наперерез = ride to cut one off)",
     "grammar": "adverb"
   },
   "наперерыв": {
-    "def": "",
+    "def": "vying with one another, each trying to outdo the rest (obs. = наперебой)",
     "grammar": "adverb"
   },
   "наперечет": {
@@ -53119,6 +54027,10 @@ const LOCAL_DICTIONARY = {
     "def": "get drunk, get tight",
     "grammar": "infinitive, perfective, intransitive"
   },
+  "напиться‑то": {
+    "def": "to get a drink, drink one's fill — напиться with emphatic particle -то",
+    "grammar": "verb, infinitive, perfective, reflexive + emphatic particle"
+  },
   "напишет": {
     "def": "(form of написать: write; paint)",
     "grammar": "verb, perfective, future, transitive, singular"
@@ -53164,8 +54076,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "напоить": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to water (a horse), give to drink",
+    "grammar": "verb, infinitive, perfective, transitive"
   },
   "напоказ": {
     "def": "for show",
@@ -53452,7 +54364,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, passive, transitive, masculine, singular, nominative"
   },
   "напыщенно": {
-    "def": "",
+    "def": "pompously, bombastically, with affected grandeur",
     "grammar": "adverb"
   },
   "напьется": {
@@ -53544,8 +54456,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "наруже": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "outside, in the open, outwardly shown (obs. = снаружи/наружу: всё наруже = all laid bare)",
+    "grammar": "adverb (obsolete form)"
   },
   "наружно": {
     "def": "outwardly",
@@ -53632,8 +54544,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, masculine, singular"
   },
   "наряжения": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "dressing up (in fancy dress), costuming (gen. sg. of наряжение, from наряжать)",
+    "grammar": "noun, neuter, singular, genitive"
   },
   "нас": {
     "def": "(form of мы: we)",
@@ -53708,8 +54620,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "наскуча": {
-    "def": "[Proper Noun / Name / Place] Naskucha",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "having wearied of, grown bored with (arch. gerund of наскучить)",
+    "grammar": "verbal adverb (archaic gerund)"
   },
   "наскучив": {
     "def": "(form of наскучить: bore, annoy, please)",
@@ -53879,6 +54791,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of насмешливый: mocking, derisive, given to mocking)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "насмешливо‑улыбающегося": {
+    "def": "mockingly smiling (of his mouth); gen. of насмешливо‑улыбающийся",
+    "grammar": "participle (compound), masculine, singular, genitive"
+  },
   "насмешливую": {
     "def": "(form of насмешливый: mocking, derisive, given to mocking)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -53980,8 +54896,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, feminine, singular"
   },
   "настороже": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "on the alert, on one's guard (быть настороже = to be on the watch)",
+    "grammar": "adverb (predicative)"
   },
   "насторожила": {
     "def": "(form of насторожить: put on his, her guard)",
@@ -54004,7 +54920,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, neuter, singular"
   },
   "настоятельно": {
-    "def": "",
+    "def": "insistently, urgently, pressingly",
     "grammar": "adverb"
   },
   "настоятельность": {
@@ -54052,8 +54968,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "настоящэ": {
-    "def": "[Proper Noun / Name / Place] Nastoyashche",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "real, true — eye-dialect for настоящий, rendering the colonel's German accent",
+    "grammar": "adjective, masculine, singular, nominative (distorted spelling)"
   },
   "настрадались": {
     "def": "(form of настрадаться: suffer much, go through a lot)",
@@ -54140,7 +55056,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "настя": {
-    "def": "[Proper Noun / Name / Place] Nastya",
+    "def": "Настя — dim. of Анастасия (Anastasia)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "насупливался": {
@@ -54164,19 +55080,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "насытиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to be satiated, eat/have one's fill; (fig.) to be sated",
+    "grammar": "verb, infinitive, perfective, reflexive"
   },
   "насыщенная": {
     "def": "(form of насыщенный: saturate; busy)",
     "grammar": "adjective, feminine, singular, nominative"
   },
   "натали": {
-    "def": "[Proper Noun / Name / Place] Natali",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Натали — Natalie, French society form of Наталья (Война и мир)",
+    "grammar": "noun, feminine, indeclinable"
   },
   "наталия": {
-    "def": "[Proper Noun / Name / Place] Nataliya",
+    "def": "Наталия — Natalia; Наталия Ивановна, Andrey's wife Natasha in Три сестры",
     "grammar": "noun, feminine, singular, nominative"
   },
   "натальи": {
@@ -54184,7 +55100,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "наталья": {
-    "def": "[Proper Noun / Name / Place] Natalya",
+    "def": "Наталья — Natalya, female given name",
     "grammar": "noun, feminine, singular, nominative"
   },
   "натасканной": {
@@ -54192,7 +55108,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, genitive"
   },
   "наташа": {
-    "def": "[Proper Noun / Name / Place] Natasha",
+    "def": "Наташа — dim. of Наталья; Natasha Rostova in Война и мир",
     "grammar": "noun, feminine, singular, nominative"
   },
   "наташе": {
@@ -54264,8 +55180,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "натянуто": {
-    "def": "",
+    "def": "stiffly, in a strained/forced manner; (pred.) forced, unnatural",
     "grammar": "adverb"
+  },
+  "натянуто‑неестественное": {
+    "def": "strained and unnatural (of a facial expression); compound of натянуто + неестественный",
+    "grammar": "adjective, compound, neuter, singular, accusative"
   },
   "натянутый": {
     "def": "tight, stiff, strained",
@@ -54332,7 +55252,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "нахал": {
-    "def": "",
+    "def": "impudent fellow, insolent brazen person (colloq.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "нахальство": {
@@ -54640,7 +55560,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "начальнически": {
-    "def": "",
+    "def": "in a commanding, superior-officer tone; bossily",
     "grammar": "adverb"
   },
   "начальническим": {
@@ -54816,8 +55736,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "наш": {
-    "def": "[Proper Noun / Name / Place] Nash",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "our, ours",
+    "grammar": "possessive pronoun, masculine, singular, nominative"
   },
   "наша": {
     "def": "(form of наш: [Proper Noun / Name / Place] Nash)",
@@ -54832,8 +55752,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, genitive"
   },
   "нашед": {
-    "def": "[Proper Noun / Name / Place] Nashed",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "having found (arch. past gerund of найти)",
+    "grammar": "verbal adverb (archaic gerund)"
   },
   "нашедшее": {
     "def": "(form of найти: find)",
@@ -54900,8 +55820,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "ная": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment (adjectival ending -ная of a hyphen-split word); not an independent word",
+    "grammar": "word fragment (adjectival ending)"
+  },
+  "на‑днях": {
+    "def": "the other day; (of future) one of these days, very soon (modern на днях)",
+    "grammar": "adverb (obs. hyphenated spelling)"
+  },
+  "на‑перевес": {
+    "def": "(of a rifle/bayonet) levelled, held tilted forward at the ready (modern наперевес; mil.)",
+    "grammar": "adverb (obs. hyphenated spelling)"
+  },
+  "на‑цыпочках": {
+    "def": "on tiptoe (modern на цыпочках)",
+    "grammar": "adverb (obs. hyphenated spelling)"
   },
   "не": {
     "def": "not",
@@ -54936,8 +55868,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, prepositional"
   },
   "небесех": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "in the heavens (Church Slavonic locative plural of небо, as in Отче наш... на небесех)",
+    "grammar": "noun, neuter, plural, locative (Church Slavonic)"
   },
   "небесная": {
     "def": "(form of небесный: celestial, heavenly, divine)",
@@ -55156,8 +56088,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "невесело": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "cheerlessly, gloomily; (impers. pred.) невесело мне = I feel low",
+    "grammar": "adverb (also impersonal predicative)"
   },
   "невеселы": {
     "def": "(form of невесёлый: joyless, mirthless)",
@@ -55248,7 +56180,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "невинно": {
-    "def": "",
+    "def": "innocently, guiltlessly; without being to blame",
     "grammar": "adverb"
   },
   "невинное": {
@@ -55288,8 +56220,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "невмочь": {
-    "def": "",
-    "grammar": "predicative, present"
+    "def": "beyond one's strength, unbearable (colloq. predicative: пришло ему невмочь = became too much for him)",
+    "grammar": "predicative, impersonal"
   },
   "невниманию": {
     "def": "(form of невнимание: lack of attention, inattention, lack of consideration)",
@@ -55456,7 +56388,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "невысоко": {
-    "def": "",
+    "def": "not high, low; (fig.) хватает невысоко = aims low, falls short",
     "grammar": "adverb"
   },
   "невысокого": {
@@ -55476,12 +56408,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "невыученный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "unlearned, not memorized (of a school lesson)",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "невычищенный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "uncleaned, unpolished (of a soldier's badge; mil. context)",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "нег": {
     "def": "(form of нега: contentment, bliss, comfort, prosperity)",
@@ -55648,15 +56580,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "недоброжелательство": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "ill-will, malevolence, hostility",
+    "grammar": "noun, neuter, singular, accusative"
   },
   "недоброжелательством": {
     "def": "(form of недоброжелательство)",
     "grammar": "noun, neuter, singular, instrumental"
   },
   "недоброхотство": {
-    "def": "",
+    "def": "ill-will, unkindness, malevolence (obs.)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "недобрые": {
@@ -55852,8 +56784,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, feminine, singular, genitive"
   },
   "неестественно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "unnaturally, in a forced way; (pred.) unnatural",
+    "grammar": "adverb (also predicative)"
   },
   "неестественное": {
     "def": "(form of неестественный: unnatural, affected)",
@@ -55935,6 +56867,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of нежность: tenderness, delicacy)",
     "grammar": "noun, feminine, singular, instrumental"
   },
+  "нежно‑грустно": {
+    "def": "with tender sadness, tenderly and sorrowfully (compound adverb)",
+    "grammar": "adverb, compound"
+  },
   "нежную": {
     "def": "(form of нежный: tender, delicate, loving, affectionate, fond)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -56008,11 +56944,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "незапно": {
-    "def": "[Proper Noun / Name / Place] Nezapno",
-    "grammar": ""
+    "def": "suddenly (obs./poet. for внезапно)",
+    "grammar": "adverb"
   },
   "незапный": {
-    "def": "",
+    "def": "sudden (obs. poetic = внезапный)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "незваных": {
@@ -56056,8 +56992,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "незнаемый": {
-    "def": "[Proper Noun / Name / Place] Neznaemyy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "unknown, unnoticed (obs. passive participle of знать)",
+    "grammar": "participle (adjectival), masculine, singular, nominative"
   },
   "незнаком": {
     "def": "(form of незнакомый: unknown, unfamiliar, unconversant)",
@@ -56179,6 +57115,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of неизменный: invariable, immutable, unfailing, devoted, true, customary)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "неизменно‑требователен": {
+    "def": "invariably demanding, unfailingly exacting (short form of неизменно‑требовательный)",
+    "grammar": "adjective, short form, masculine, singular (compound)"
+  },
   "неизменным": {
     "def": "(form of неизменный: invariable, immutable, unfailing, devoted, true, customary)",
     "grammar": "adjective, masculine, singular, instrumental"
@@ -56252,7 +57192,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "неисправленный": {
-    "def": "",
+    "def": "unreformed, uncorrected; (of a person) incorrigible (неисправленный чудак = unreformed eccentric)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "неисправность": {
@@ -56364,15 +57304,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "некрасиво": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "unattractively; (pred.) plain, unsightly, not nice-looking",
+    "grammar": "adverb (also predicative)"
   },
   "некрасивое": {
     "def": "(form of некрасивый: plain, not beautiful, not good-looking, ugly, not nice)",
     "grammar": "adjective, neuter, singular, nominative"
   },
   "некрасивость": {
-    "def": "",
+    "def": "plainness, homeliness, lack of beauty",
     "grammar": "noun, feminine, singular, nominative"
   },
   "некрасивый": {
@@ -56527,6 +57467,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of немецкий: German)",
     "grammar": "adjective, feminine, singular, accusative"
   },
+  "немец‑доктор": {
+    "def": "German doctor (compound: немец + доктор)",
+    "grammar": "noun, compound, masculine, singular, nominative"
+  },
   "немилость": {
     "def": "disgrace",
     "grammar": "noun, feminine, singular, accusative"
@@ -56611,6 +57555,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of немец: German; German man)",
     "grammar": "noun, masculine, singular, instrumental"
   },
+  "немцем‑хозяином": {
+    "def": "German landlord/host (instrumental of compound немец‑хозяин)",
+    "grammar": "noun, compound, masculine, singular, instrumental"
+  },
   "немцу": {
     "def": "(form of немец: German; German man)",
     "grammar": "noun, masculine, singular, dative"
@@ -56620,8 +57568,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "немчура": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "German (pejorative colloq., collective/derogatory for немец)",
+    "grammar": "noun, common gender (fem. form), singular, nominative"
   },
   "немые": {
     "def": "(form of немой: dumb, mute)",
@@ -56638,6 +57586,10 @@ const LOCAL_DICTIONARY = {
   "немых": {
     "def": "(form of немой: dumb, mute)",
     "grammar": "adjective, plural, genitive"
+  },
+  "нем…они": {
+    "def": "run-together text fragment: (о) нем 'him' + они 'they'; not a dictionary word",
+    "grammar": "text fragment (pronoun forms)"
   },
   "ненавидел": {
     "def": "(form of ненавидеть: hate, loathe, detest, abhor, execrate)",
@@ -56752,7 +57704,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "необстреленный": {
-    "def": "",
+    "def": "not yet been under fire, green, unseasoned (mil.; modern необстрелянный)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "необузданных": {
@@ -56823,6 +57775,14 @@ const LOCAL_DICTIONARY = {
     "def": "(form of необыкновенный: unusual, uncommon, extraordinary)",
     "grammar": "adjective, neuter, singular, dative"
   },
+  "необыкновенно‑верно": {
+    "def": "with extraordinary accuracy, unusually faithfully (compound adverb)",
+    "grammar": "adverb, compound"
+  },
+  "необыкновенно‑торжественно": {
+    "def": "unusually solemn(ly); (pred.) extraordinarily solemn (of a face)",
+    "grammar": "adverb, compound (predicative use)"
+  },
   "необыкновенную": {
     "def": "(form of необыкновенный: unusual, uncommon, extraordinary)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -56844,7 +57804,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "необычайно": {
-    "def": "",
+    "def": "extraordinarily, uncommonly; (pred.) extraordinary",
     "grammar": "adverb"
   },
   "необычайное": {
@@ -56854,6 +57814,10 @@ const LOCAL_DICTIONARY = {
   "необычайною": {
     "def": "(form of необычайный: extraordinary, exceptional)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "необычайно‑широким": {
+    "def": "extraordinarily broad/wide (of a forehead; instrumental of необычайно‑широкий)",
+    "grammar": "adjective, compound, masculine, singular, instrumental"
   },
   "необычайным": {
     "def": "(form of необычайный: extraordinary, exceptional)",
@@ -56878,6 +57842,14 @@ const LOCAL_DICTIONARY = {
   "неожиданностью": {
     "def": "(form of неожиданность: unexpectedness, surprise, suddenness)",
     "grammar": "noun, feminine, singular, instrumental"
+  },
+  "неожиданно‑грубое": {
+    "def": "unexpectedly coarse, suddenly rude (of an expression)",
+    "grammar": "adjective, compound, neuter, singular, accusative"
+  },
+  "неожиданно‑доброй": {
+    "def": "unexpectedly kind (улыбнулся неожиданно‑доброй улыбкой = smiled an unexpectedly kind smile)",
+    "grammar": "adjective, compound, feminine, singular, instrumental"
   },
   "неожиданную": {
     "def": "(form of неожиданный: unexpected, sudden)",
@@ -56944,7 +57916,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "неосторожно": {
-    "def": "[Proper Noun / Name / Place] Neostorozhno",
+    "def": "carelessly, imprudently, incautiously",
     "grammar": "adverb"
   },
   "неосторожность": {
@@ -56952,7 +57924,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "неотвязчивый": {
-    "def": "",
+    "def": "importunate, persistent, that will not leave one alone (of his lorgnette; obs. = неотвязный)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "неотлучно": {
@@ -56968,7 +57940,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "неотступно": {
-    "def": "",
+    "def": "relentlessly, persistently, without letting up",
     "grammar": "adverb"
   },
   "неохотно": {
@@ -57127,6 +58099,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of непонятный: incomprehensible, unintelligible, obscure)",
     "grammar": "adjective, masculine, singular, prepositional"
   },
+  "непонятно‑привлекательное": {
+    "def": "incomprehensibly attractive, alluring in an inexplicable way (of a being)",
+    "grammar": "adjective, compound, neuter, singular, nominative"
+  },
   "непонятны": {
     "def": "(form of непонятный: incomprehensible, unintelligible, obscure)",
     "grammar": "short adjective, plural"
@@ -57267,6 +58243,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of непреодолимый: insuperable, insurmountable, irresistible, unconquerable)",
     "grammar": "adjective, neuter, singular, nominative"
   },
+  "непреодолимо‑клонивший": {
+    "def": "irresistibly weighing (him) down (of sleep; participle of клонить 'to bend, make drowsy')",
+    "grammar": "participle, past active, masculine, singular, nominative (compound)"
+  },
   "непреодолимый": {
     "def": "insuperable, insurmountable, irresistible, unconquerable",
     "grammar": "adjective, masculine, singular, nominative"
@@ -57284,8 +58264,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "непривычно": {
-    "def": "",
+    "def": "unusually, uncharacteristically; contrary to one's habit",
     "grammar": "adverb"
+  },
+  "непривычно‑поспешными": {
+    "def": "unwontedly hasty (of steps; instrumental plural of непривычно‑поспешный)",
+    "grammar": "adjective, compound, plural, instrumental"
   },
   "непривычный": {
     "def": "unused, unaccustomed, unwonted, unusual",
@@ -57459,6 +58443,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of неприятный: unpleasant, disagreeable, annoying, objectionable, obnoxious)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "неприятно‑растерянным": {
+    "def": "unpleasantly bewildered, disagreeably confused (of a facial expression)",
+    "grammar": "adjective, compound, neuter, singular, instrumental"
+  },
   "неприятную": {
     "def": "(form of неприятный: unpleasant, disagreeable, annoying, objectionable, obnoxious)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -57516,7 +58504,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "неразлучно": {
-    "def": "",
+    "def": "inseparably, always together with",
     "grammar": "adverb"
   },
   "неразлучны": {
@@ -57575,6 +58563,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of нервичный)",
     "grammar": "short adjective, neuter, singular"
   },
+  "нервично‑размягченном": {
+    "def": "nervously softened, in a state of nervous tenderness (of an emotional state; нервично obs. = нервно)",
+    "grammar": "adjective, compound, neuter, singular, prepositional"
+  },
   "нервно": {
     "def": "nervously",
     "grammar": "adverb"
@@ -57616,7 +58608,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "нерешимость": {
-    "def": "",
+    "def": "indecision, irresolution (obs. = нерешительность)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "нерешительно": {
@@ -57664,8 +58656,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "нерусский": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "non-Russian, un-Russian (of landscape, people)",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "нерусское": {
     "def": "(form of нерусский)",
@@ -57680,20 +58672,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, masculine, singular"
   },
   "несамоуверенный": {
-    "def": "",
+    "def": "lacking self-assurance, diffident, unconfident",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "несветский": {
-    "def": "",
+    "def": "not of high society, lacking society polish, unworldly",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "несвицкий": {
-    "def": "[Proper Noun / Name / Place] Nesvitskiy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Несвицкий — Prince Nesvitsky, stout, good-natured staff officer, comrade of Prince Andrei in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "несвицким": {
-    "def": "[Proper Noun / Name / Place] Nesvitskim",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Несвицкий — Prince Nesvitsky, staff officer in Война и мир (instrumental case: 'with Nesvitsky')",
+    "grammar": "noun (surname), masculine, singular, instrumental"
   },
   "несвицкого": {
     "def": "(form of несвицкий: [Proper Noun / Name / Place] Nesvitskiy)",
@@ -57724,8 +58716,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "несдобровать": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "(one) will come to grief, will not get off unharmed (colloq., impersonal: одному из нас несдобровать)",
+    "grammar": "infinitive, perfective, impersonal"
   },
   "несет": {
     "def": "(form of нести: to carry, bear, bring; to lay eggs)",
@@ -57763,6 +58755,10 @@ const LOCAL_DICTIONARY = {
     "def": "some, a few",
     "grammar": "adverb"
   },
+  "несколько‑тысячная": {
+    "def": "numbering several thousand, several-thousand-strong (of an army)",
+    "grammar": "adjective, compound, feminine, singular, nominative"
+  },
   "нескольку": {
     "def": "(form of несколько: some, a few)",
     "grammar": "numeral, dative"
@@ -57792,8 +58788,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "нескучно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "not boring; (impers. pred.) будет нескучно = one will not be bored",
+    "grammar": "adverb (impersonal predicative)"
   },
   "несла": {
     "def": "(form of нести: to carry, bear, bring; to lay eggs)",
@@ -57812,7 +58808,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "неслышно": {
-    "def": "",
+    "def": "inaudibly, noiselessly, silently",
     "grammar": "adverb"
   },
   "неслышными": {
@@ -57832,8 +58828,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, passive, transitive, feminine, singular, nominative"
   },
   "несносно": {
-    "def": "[Proper Noun / Name / Place] Nesnosno",
-    "grammar": "adverb"
+    "def": "unbearably, insufferably; (as predicate) it is unbearable",
+    "grammar": "adverb / predicative"
   },
   "несносны": {
     "def": "(form of несносный: unbearable, intolerable, insupportable)",
@@ -57875,6 +58871,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of несообразный: incongruous, incompatible, foolish, absurd)",
     "grammar": "short adjective, neuter, singular"
   },
+  "несообразно‑длинною": {
+    "def": "disproportionately long (of a waist; instrumental, obs. ending -ою)",
+    "grammar": "adjective, compound, feminine, singular, instrumental (obs.)"
+  },
   "несоразмерною": {
     "def": "(form of несоразмерный: disproportionate)",
     "grammar": "adjective, feminine, singular, instrumental"
@@ -57884,7 +58884,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "неспокойно": {
-    "def": "",
+    "def": "uneasily, restlessly, anxiously",
     "grammar": "adverb"
   },
   "неспособен": {
@@ -58056,8 +59056,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "predicative, present"
   },
   "нет-с": {
-    "def": "[Proper Noun / Name / Place] Net-s",
-    "grammar": "predicative, present"
+    "def": "no, sir / no, madam (obs.; нет with the deferential particle -с)",
+    "grammar": "negative particle with deferential particle -с"
   },
   "нетактично": {
     "def": "(form of нетактичный: tactless)",
@@ -58108,8 +59108,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "неторопливо": {
-    "def": "",
+    "def": "unhurriedly, deliberately, without haste",
     "grammar": "adverb"
+  },
+  "неторопливо‑сказанное": {
+    "def": "unhurriedly spoken, uttered without haste (of a word)",
+    "grammar": "participle, past passive, neuter, singular, accusative (compound)"
   },
   "неточный": {
     "def": "inaccurate, inexact",
@@ -58122,6 +59126,10 @@ const LOCAL_DICTIONARY = {
   "нету": {
     "def": "there is no, there are no",
     "grammar": "predicative, present"
+  },
+  "нет‑с": {
+    "def": "no, sir (нет + deferential particle -с, obs. polite speech)",
+    "grammar": "particle (negation with deferential -с)"
   },
   "неуверенность": {
     "def": "uncertainty",
@@ -58152,7 +59160,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "неудачно": {
-    "def": "",
+    "def": "unsuccessfully, unluckily; infelicitously (of a badly chosen topic)",
     "grammar": "adverb"
   },
   "неудачной": {
@@ -58172,8 +59180,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "неудержимо": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "irrepressibly, unstoppably; (pred.) unstoppable",
+    "grammar": "adverb (also predicative)"
   },
   "неудержимом": {
     "def": "(form of неудержимый: irrepressible)",
@@ -58212,8 +59220,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "particle"
   },
   "неужто": {
-    "def": "[Proper Noun / Name / Place] Neuzhto",
-    "grammar": "interjection"
+    "def": "really? can it be? surely not? (colloq., = неужели)",
+    "grammar": "interrogative particle"
   },
   "неуклюж": {
     "def": "(form of неуклюжий: clumsy, lumbering, awkward)",
@@ -58252,7 +59260,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "неумолимо": {
-    "def": "",
+    "def": "implacably, inexorably, relentlessly",
     "grammar": "adverb"
   },
   "неумолимых": {
@@ -58348,8 +59356,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "нечисто": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "(pred., colloq.) haunted, uncanny (там нечисто = evil spirits are about); lit. unclean",
+    "grammar": "predicative adverb"
   },
   "нечистоту": {
     "def": "(form of нечистота: dirtiness)",
@@ -58364,8 +59372,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, neuter, singular"
   },
   "нешто": {
-    "def": "",
-    "grammar": "particle"
+    "def": "really?, surely not; is it possible (colloq./dial. = разве)",
+    "grammar": "particle (colloq./dial.)"
   },
   "нешуточное": {
     "def": "(form of нешуточный: serious, grave)",
@@ -58376,7 +59384,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, feminine, singular, instrumental"
   },
   "неясно": {
-    "def": "",
+    "def": "unclearly, vaguely, indistinctly",
     "grammar": "adverb"
   },
   "неясное": {
@@ -58390,6 +59398,10 @@ const LOCAL_DICTIONARY = {
   "неясность": {
     "def": "vagueness",
     "grammar": "noun, feminine, singular, accusative"
+  },
+  "неясно‑горевших": {
+    "def": "dimly burning, glowing indistinctly (of campfires in fog)",
+    "grammar": "participle, past active, plural, genitive (compound)"
   },
   "неясны": {
     "def": "(form of неясный: vague)",
@@ -58588,8 +59600,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "pronoun, singular, instrumental"
   },
   "никитенко": {
-    "def": "[Proper Noun / Name / Place] Nikitenko",
-    "grammar": "noun, singular, nominative"
+    "def": "Никитенко — surname of a hussar soldier riding ahead of Rostov in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative (indeclinable)"
   },
   "никогда": {
     "def": "never, ever",
@@ -58598,6 +59610,10 @@ const LOCAL_DICTIONARY = {
   "никого": {
     "def": "(form of никто: nobody, no one)",
     "grammar": "pronoun, singular, accusative"
+  },
+  "никого,никого": {
+    "def": "no one at all (никого 'no one', genitive of никто, doubled for emphasis; run-together text)",
+    "grammar": "pronoun, genitive, repeated for emphasis"
   },
   "николавны": {
     "def": "(form of николаевич: [Proper Noun / Name / Place] Nikolaevich)",
@@ -58616,8 +59632,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "николай": {
-    "def": "[Proper Noun / Name / Place] Nikolay",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Николай — Nikolai, male given name; Nikolai Rostov, the count's elder son in Война и мир",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "николаю": {
     "def": "(form of николай: [Proper Noun / Name / Place] Nikolay)",
@@ -58628,8 +59644,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "николенька": {
-    "def": "[Proper Noun / Name / Place] Nikolenka",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Николенька — Nikolenka, affectionate diminutive of Николай (Nikolai Rostov in Война и мир)",
+    "grammar": "noun (given name, diminutive), masculine, singular, nominative"
+  },
+  "николенька…ранен…письмо": {
+    "def": "broken utterance: 'Nikolenka… wounded… a letter' (Николенька = pet form of Nikolai Rostov, Война и мир)",
+    "grammar": "text fragment (proper name + short participle + noun)"
   },
   "николеньки": {
     "def": "(form of николенька: [Proper Noun / Name / Place] Nikolenka)",
@@ -58692,8 +59712,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "нина": {
-    "def": "[Proper Noun / Name / Place] Nina",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Нина — Nina, female given name; Nina Voronskaya, celebrated Petersburg beauty in Евгений Онегин",
+    "grammar": "noun (given name), feminine, singular, nominative"
   },
   "ниной": {
     "def": "(form of нина: [Proper Noun / Name / Place] Nina)",
@@ -58735,13 +59755,21 @@ const LOCAL_DICTIONARY = {
     "def": "(form of они-то: they)",
     "grammar": "pronoun, plural, genitive"
   },
+  "них.он": {
+    "def": "run-together text fragment: (на) них 'them' + Он 'he'; not a dictionary word",
+    "grammar": "text fragment (pronoun forms)"
+  },
+  "них‑то": {
+    "def": "them (prepositional of они) with emphatic particle -то: на них‑то = on precisely them",
+    "grammar": "pronoun, 3rd person plural, prepositional + emphatic particle -то"
+  },
   "ничего": {
     "def": "not badly, passably, so-so, not bad, never mind, all right; nothing",
     "grammar": "adverb"
   },
   "ничего-с": {
-    "def": "[Proper Noun / Name / Place] Nichego-s",
-    "grammar": "adverb"
+    "def": "it's nothing, sir; not at all, sir (obs.; ничего with deferential particle -с)",
+    "grammar": "pronoun/adverb with deferential particle -с"
   },
   "ничей": {
     "def": "draw, drawn game",
@@ -58802,6 +59830,10 @@ const LOCAL_DICTIONARY = {
   "ничтожность": {
     "def": "insignificance",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "ничтожно‑мелких": {
+    "def": "insignificantly petty, trivially small (of interests)",
+    "grammar": "adjective, compound, plural, genitive"
   },
   "ничтожны": {
     "def": "(form of ничтожный: insignificant, trifling, contemptible, worthless, paltry)",
@@ -58932,8 +59964,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "новосильцев": {
-    "def": "[Proper Noun / Name / Place] Novosiltsev",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "Новосильцев — Nikolai Novosiltsev, statesman and adviser to Tsar Alexander I, mentioned in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "новосильцева": {
     "def": "(form of новосильцев: [Proper Noun / Name / Place] Novosiltsev)",
@@ -58979,6 +60011,10 @@ const LOCAL_DICTIONARY = {
     "def": "new, novel",
     "grammar": "adjective, masculine, singular, nominative"
   },
+  "новый‑йорк": {
+    "def": "Новый‑Йорк — New York (city in America; obs. Russian form of Нью-Йорк)",
+    "grammar": "proper noun, masculine, singular, accusative"
+  },
   "новым": {
     "def": "(form of новый: new, novel)",
     "grammar": "adjective, plural, dative"
@@ -59000,7 +60036,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "ногаец": {
-    "def": "",
+    "def": "a Nogai, member of a Turkic people of the northern Caucasus/steppe",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ногайцем": {
@@ -59080,7 +60116,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "ножичек": {
-    "def": "",
+    "def": "little knife, penknife (double diminutive of нож)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ножичком": {
@@ -59116,7 +60152,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, nominative"
   },
   "ножнички": {
-    "def": "",
+    "def": "little scissors (diminutive of ножницы)",
     "grammar": "noun, plural, nominative"
   },
   "ножом": {
@@ -59232,8 +60268,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "ностица": {
-    "def": "[Proper Noun / Name / Place] Nostitsa",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Ностиц — Count Nostitz, Austrian general in Война и мир ('letters from Count Nostitz')",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "носу": {
     "def": "(form of нос: nose, beak, bow, head, prow)",
@@ -59344,7 +60380,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "ночью": {
-    "def": "[Proper Noun / Name / Place] Nochyu",
+    "def": "at night, by night (instrumental of ночь used adverbially)",
     "grammar": "adverb"
   },
   "ношей": {
@@ -59412,7 +60448,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "нравственно": {
-    "def": "",
+    "def": "morally, mentally, spiritually (страдать нравственно = to suffer mentally, opp. physically)",
     "grammar": "adverb"
   },
   "нравственного": {
@@ -59456,7 +60492,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "ну-у": {
-    "def": "[Proper Noun / Name / Place] Nu-u",
+    "def": "we-e-ell! (drawn-out ну, expressing surprise, doubt or emphasis)",
     "grammar": "interjection"
   },
   "нужда": {
@@ -59487,6 +60523,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of нужный: necessary, needed)",
     "grammar": "adjective, neuter, singular, nominative"
   },
+  "нужное‑то": {
+    "def": "the needed/important thing (нужное used as noun + emphatic particle -то, colloq.)",
+    "grammar": "adjective used as noun, neuter, singular, accusative + particle -то"
+  },
   "нужны": {
     "def": "(form of нужный: necessary, needed)",
     "grammar": "short adjective, plural"
@@ -59504,8 +60544,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, instrumental"
   },
   "нул": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment (likely end of a hyphen-split past-tense verb in -нул, e.g. взгля-нул); not an independent word",
+    "grammar": "word fragment (verb ending)"
   },
   "нулями": {
     "def": "(form of нуль: nought, zero, cipher, o, a nobody, a nonentity)",
@@ -59516,20 +60556,28 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, passive, transitive, feminine, singular, genitive"
   },
   "нут": {
-    "def": "[Proper Noun / Name / Place] Nut",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "well now, come on (colloq.; ну with emphatic particle -т, as in ну-т; likely tokenization fragment)",
+    "grammar": "particle"
   },
   "нутро": {
     "def": "inside, interior",
     "grammar": "noun, neuter, singular, accusative"
+  },
+  "нут‑ка": {
+    "def": "come on now!, well then, let's see! (colloq. = ну-тка, ну-ка)",
+    "grammar": "particle (colloq.)"
+  },
+  "ну‑ка": {
+    "def": "come on!, now then!, let's see! (colloq. prompting particle)",
+    "grammar": "particle (colloq.)"
   },
   "нывшей": {
     "def": "(form of ныть: ache, whine, whimper, complain moan)",
     "grammar": "participle, imperfective, past, active, intransitive, feminine, singular, genitive"
   },
   "ный": {
-    "def": "",
-    "grammar": ""
+    "def": "suffix in numeral compounds: 4.000‑ный отряд = 4,000-strong detachment; word fragment, not independent",
+    "grammar": "adjectival suffix (word fragment)"
   },
   "ныла": {
     "def": "(form of ныть: ache, whine, whimper, complain moan)",
@@ -59575,6 +60623,10 @@ const LOCAL_DICTIONARY = {
     "def": "nowadays",
     "grammar": "adverb"
   },
+  "нынче‑завтра": {
+    "def": "any day now, today or tomorrow, very soon (colloq.)",
+    "grammar": "adverb, compound (colloq.)"
+  },
   "нырнув": {
     "def": "(form of нырнуть: dive)",
     "grammar": "gerund, perfective, past, intransitive"
@@ -59588,8 +60640,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "нэ": {
-    "def": "",
-    "grammar": ""
+    "def": "'not' — phonetic spelling of не rendering a foreign (German) accent (нэ можэт = не может)",
+    "grammar": "particle (nonstandard phonetic spelling of не)"
   },
   "нюни": {
     "def": "(form of нюня: sniveller, cry-baby)",
@@ -59624,7 +60676,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "нянька": {
-    "def": "",
+    "def": "nanny, nursemaid (colloq. of няня)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "няньки": {
@@ -59640,8 +60692,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "о-го": {
-    "def": "[Proper Noun / Name / Place] O-go",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "oho! (exclamation of surprise or appreciation)",
+    "grammar": "interjection"
   },
   "об": {
     "def": "(form of о: about; of; on; against)",
@@ -59748,7 +60800,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "обворожительно": {
-    "def": "",
+    "def": "charmingly, bewitchingly, enchantingly",
     "grammar": "adverb"
   },
   "обворожительного": {
@@ -59912,8 +60964,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "обедывал": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "used to dine (obs. iterative/habitual past of обедать)",
+    "grammar": "verb, imperfective iterative, past, masculine, singular (obs.)"
   },
   "обежала": {
     "def": "(form of обежать: run, call, look in, see, call on, everybody, run round, run past, run round to see, visit all, outrun)",
@@ -59964,15 +61016,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, feminine, genitive"
   },
   "обер": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "ober-, chief, senior (German prefix in ranks, e.g. обер‑гофмаршал); word element, not independent",
+    "grammar": "prefix (in compound rank titles)"
   },
   "оберегали": {
     "def": "(form of оберегать: guard, protect)",
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "оберечь": {
-    "def": "",
+    "def": "to protect, guard, keep safe from harm (pf.)",
     "grammar": "infinitive, perfective, transitive"
   },
   "обернешься": {
@@ -59998,6 +61050,14 @@ const LOCAL_DICTIONARY = {
   "обернуться": {
     "def": "turn around, look back",
     "grammar": "infinitive, perfective, intransitive"
+  },
+  "обер‑гофмаршал": {
+    "def": "Grand Marshal of the Court (obs. Russian court rank, from German Oberhofmarschall)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "обер‑гофмаршалу": {
+    "def": "to the Grand Marshal of the Court (dative of обер‑гофмаршал, obs. court rank)",
+    "grammar": "noun, masculine, singular, dative"
   },
   "обеспечен": {
     "def": "(form of обеспечить: provide, furnish)",
@@ -60431,6 +61491,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of обманщик: deceiver, cheat, fraud, trickster, impostor)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "обманщика‑немца": {
+    "def": "the German deceiver/impostor (accusative of compound обманщик‑немец)",
+    "grammar": "noun, compound, masculine, singular, accusative"
+  },
   "обманщиков": {
     "def": "(form of обманщик: deceiver, cheat, fraud, trickster, impostor)",
     "grammar": "noun, masculine, plural, genitive"
@@ -60800,7 +61864,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "обольстить": {
-    "def": "",
+    "def": "to seduce; to entice, beguile (pf.)",
     "grammar": "infinitive, perfective, transitive"
   },
   "обомлела": {
@@ -60980,8 +62044,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, neuter, singular"
   },
   "образок": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "small icon, little holy image worn on the person (diminutive of образ)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "образом": {
     "def": "(form of образ: shape, form, appearance, image, mode, manner, icon, sacred image)",
@@ -61356,8 +62420,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "обуться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to put on one's boots/footwear (pf., reflexive)",
+    "grammar": "infinitive, perfective, reflexive"
   },
   "обухе": {
     "def": "(form of обух: butt, back, eye-bolt)",
@@ -61424,12 +62488,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "обшество": {
-    "def": "",
+    "def": "society, company (nonstandard spelling of общество rendering colloq. speech; водяное общество = spa society)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "обшикать": {
-    "def": "[Proper Noun / Name / Place] Obshikat",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to hiss (an actor or performance) off the stage, boo (colloq.)",
+    "grammar": "verb, infinitive, perfective, transitive"
   },
   "обширному": {
     "def": "(form of обширный: spacious, vast, extensive)",
@@ -61580,8 +62644,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "объемлет": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "embraces, seizes, takes hold of (archaic present of объять: мысль одна его объемлет = one thought grips him)",
+    "grammar": "verb, 3rd person singular, present (archaic)"
   },
   "объехав": {
     "def": "(form of объехать: go around; travel around)",
@@ -61876,8 +62940,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "ово": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment (likely part of a hyphen-split word, e.g. ending -ово); not an independent word",
+    "grammar": "word fragment"
   },
   "овраг": {
     "def": "ravine, gully",
@@ -61936,7 +63000,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "оглушительно": {
-    "def": "",
+    "def": "deafeningly (of a roar or shout)",
     "grammar": "adverb"
   },
   "оглушительном": {
@@ -62191,6 +63255,10 @@ const LOCAL_DICTIONARY = {
     "def": "pain, distress, grieve",
     "grammar": "infinitive, perfective, transitive"
   },
+  "ого‑го‑го‑го‑го": {
+    "def": "prolonged exultant shout, 'oho-ho-ho!' (interjection)",
+    "grammar": "interjection"
+  },
   "ограда": {
     "def": "fence",
     "grammar": "noun, feminine, singular, nominative"
@@ -62284,8 +63352,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "огу": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of a drawn-out shout (cf. ого-го); tokenization artifact, not a standalone word",
+    "grammar": "interjection (fragment)"
   },
   "огуречным": {
     "def": "(form of огуречный: Adjective of огурец)",
@@ -62511,6 +63579,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of одинаковый: identical, the same)",
     "grammar": "adjective, masculine, singular, prepositional"
   },
+  "одинаково‑крепким": {
+    "def": "equally firm (of a handshake); instr. of одинаково-крепкий",
+    "grammar": "adjective (compound), neuter, singular, instrumental"
+  },
   "одинаковые": {
     "def": "(form of одинаковый: identical, the same)",
     "grammar": "adjective, plural, nominative"
@@ -62583,6 +63655,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of одиночка: lone person, solitary cell, one-man cell, single-oar; alone)",
     "grammar": "noun, singular, dative"
   },
+  "один‑на‑один": {
+    "def": "one on one, alone together in private (mod. один на один)",
+    "grammar": "adverb (set phrase)"
+  },
   "одичала": {
     "def": "(form of одичалый: panic-stricken)",
     "grammar": "short adjective, feminine, singular"
@@ -62648,7 +63724,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "однообразно": {
-    "def": "",
+    "def": "monotonously, uniformly",
     "grammar": "adverb"
   },
   "однообразного": {
@@ -62662,6 +63738,10 @@ const LOCAL_DICTIONARY = {
   "однообразному": {
     "def": "(form of однообразный: monotonous)",
     "grammar": "adjective, masculine, singular, dative"
+  },
+  "однообразно‑разнообразными": {
+    "def": "monotonously varied (Tolstoy's oxymoron for the soldiers' faces); instr. pl.",
+    "grammar": "adjective (compound), plural, instrumental"
   },
   "однообразные": {
     "def": "(form of однообразный: monotonous)",
@@ -62698,6 +63778,10 @@ const LOCAL_DICTIONARY = {
   "одоб": {
     "def": "(form of одоба)",
     "grammar": "noun, feminine, plural, genitive"
+  },
+  "одоб'яю": {
+    "def": "= одобряю 'I approve' (Denisov's burred r)",
+    "grammar": "verb, imperfective, present, 1st person singular"
   },
   "одобрен": {
     "def": "(form of одобрить: approve, agree, endorse, encourage)",
@@ -62800,8 +63884,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "ожа": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of a longer word (OCR/tokenization artifact); not a standalone word",
+    "grammar": "fragment"
   },
   "ожаривает": {
     "def": "(form of ожаривать)",
@@ -62812,8 +63896,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "ожесточиться": {
-    "def": "[Proper Noun / Name / Place] Ozhestochitsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to grow hard-hearted, become embittered, harden",
+    "grammar": "verb, infinitive, perfective, reflexive, intransitive"
   },
   "оживи": {
     "def": "(form of ожить: return to life, revive)",
@@ -62886,6 +63970,14 @@ const LOCAL_DICTIONARY = {
   "оживленною": {
     "def": "(form of оживлённый: animated, boisterous)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "оживленно‑недовольный": {
+    "def": "animatedly displeased (of Kutuzov's voice)",
+    "grammar": "adjective (compound), masculine, singular, nominative"
+  },
+  "оживленно‑переговаривавшими": {
+    "def": "animatedly conversing (of voices); instr. pl. of past active participle",
+    "grammar": "participle (compound), imperfective, past active, plural, instrumental"
   },
   "оживленные": {
     "def": "(form of оживлённый: animated, boisterous)",
@@ -63040,11 +64132,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, neuter, singular"
   },
   "оз": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "misprint for из 'out of' (оз дому = из дому, out of the house)",
+    "grammar": "preposition (misprint)"
   },
   "озабоченно": {
-    "def": "",
+    "def": "with a preoccupied, anxious air",
     "grammar": "adverb"
   },
   "озабоченный": {
@@ -63100,8 +64192,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, dative"
   },
   "озеров": {
-    "def": "[Proper Noun / Name / Place] Ozerov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Озеров — Vladislav Ozerov (1769–1816), Russian tragic playwright praised in Евгений Онегин",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "озером": {
     "def": "(form of озеро: lake)",
@@ -63176,8 +64268,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "ойти": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "truncated infinitive in -ойти (уйти/отойти/пройти 'to go away/through'); text artifact",
+    "grammar": "infinitive, perfective, intransitive (fragment)"
   },
   "оказалось": {
     "def": "(form of оказаться: to turn out to be, to be found to be)",
@@ -63432,8 +64524,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "окромя": {
-    "def": "",
-    "grammar": "preposition"
+    "def": "= кроме 'except, besides' (colloq./dial.)",
+    "grammar": "preposition (+ genitive), dialectal"
   },
   "окроплю": {
     "def": "(form of окропить: sprinkle)",
@@ -63448,7 +64540,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, accusative"
   },
   "округло": {
-    "def": "",
+    "def": "roundly, in smooth sweeping fashion (of movement)",
     "grammar": "adverb"
   },
   "округлял": {
@@ -63556,8 +64648,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "октав": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "octaves: ottava-rima stanzas (Torquato Tasso's); gen. pl. of октава",
+    "grammar": "noun, feminine, plural, genitive"
   },
   "октябре": {
     "def": "(form of октябрь: October)",
@@ -63604,8 +64696,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "оленька": {
-    "def": "[Proper Noun / Name / Place] Olenka",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Оленька — Olenka, affectionate diminutive of Ольга (Olga Larina in Евгений Онегин)",
+    "grammar": "noun (given name, diminutive), feminine, singular, nominative"
   },
   "оленькин": {
     "def": "(form of оленькина: [Proper Noun / Name / Place] Olenkina)",
@@ -63616,8 +64708,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "олечка": {
-    "def": "[Proper Noun / Name / Place] Olechka",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Олечка — Olechka, affectionate diminutive of Ольга (Olga Prozorova in Три сестры)",
+    "grammar": "noun (given name, diminutive), feminine, singular, nominative"
   },
   "оли": {
     "def": "(form of оля: [Proper Noun / Name / Place] Olya)",
@@ -63632,8 +64724,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "ольга": {
-    "def": "[Proper Noun / Name / Place] Olga",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Ольга — Olga, female given name (Olga Larina in Евгений Онегин; a young relation in Война и мир)",
+    "grammar": "noun (given name), feminine, singular, nominative"
   },
   "ольге": {
     "def": "(form of ольга: [Proper Noun / Name / Place] Olga)",
@@ -63644,8 +64736,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "ольгин": {
-    "def": "[Proper Noun / Name / Place] Olgin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Olga's, belonging to Olga (possessive adjective from Ольга: 'Ольгин обожатель' — Olga's admirer)",
+    "grammar": "possessive adjective, masculine, singular, nominative"
   },
   "ольгиной": {
     "def": "(form of ольгин: [Proper Noun / Name / Place] Olgin)",
@@ -63668,16 +64760,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "ольмюца": {
-    "def": "[Proper Noun / Name / Place] Olmyutsa",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Ольмюц — Olmütz (now Olomouc), Moravian town, Allied headquarters before Austerlitz in Война и мир",
+    "grammar": "noun (place name), masculine, singular, genitive"
   },
   "ольмюце": {
     "def": "(form of ольмюца: [Proper Noun / Name / Place] Olmyutsa)",
     "grammar": "noun, feminine, singular, dative"
   },
   "ольмюцкий": {
-    "def": "[Proper Noun / Name / Place] Olmyutskiy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "of Olmütz (Olomouc): the Olmütz palace occupied by the emperors in Война и мир",
+    "grammar": "adjective, masculine, singular, nominative"
   },
   "ольмюцкое": {
     "def": "(form of ольмюцкий: [Proper Noun / Name / Place] Olmyutskiy)",
@@ -63692,16 +64784,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "олюшка": {
-    "def": "[Proper Noun / Name / Place] Olyushka",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Олюшка — Olyushka, tender diminutive of Ольга (Olga Prozorova in Три сестры)",
+    "grammar": "noun (given name, diminutive), feminine, singular, nominative"
   },
   "олюшкой": {
     "def": "(form of олюшка: [Proper Noun / Name / Place] Olyushka)",
     "grammar": "noun, feminine, singular, instrumental"
   },
   "оля": {
-    "def": "[Proper Noun / Name / Place] Olya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Оля — Olya, diminutive of Ольга (Olga Prozorova in Три сестры)",
+    "grammar": "noun (given name, diminutive), feminine, singular, nominative"
   },
   "оме": {
     "def": "(form of ома)",
@@ -63723,17 +64815,21 @@ const LOCAL_DICTIONARY = {
     "def": "he; it (masculine inanimate nouns)",
     "grammar": "pronoun, masculine, singular, nominative"
   },
+  "он,сияя": {
+    "def": "он 'he' + сияя 'beaming' run together (tokenization artifact)",
+    "grammar": "pronoun + gerund (text artifact)"
+  },
   "она": {
     "def": "she, it, he, she, it, he, she",
     "grammar": "pronoun, feminine, singular, nominative"
   },
   "оне": {
-    "def": "",
-    "grammar": ""
+    "def": "= они 'they' (obs. feminine plural, old orthography)",
+    "grammar": "pronoun, 3rd person, plural, nominative (obs.)"
   },
   "онегин": {
-    "def": "[Proper Noun / Name / Place] Onegin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Онегин — Eugene Onegin, the jaded Petersburg dandy who is the hero of Pushkin's novel in verse",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "онегина": {
     "def": "(form of онегин: [Proper Noun / Name / Place] Onegin)",
@@ -63759,6 +64855,10 @@ const LOCAL_DICTIONARY = {
     "def": "they",
     "grammar": "pronoun, plural, nominative"
   },
+  "они‑то": {
+    "def": "precisely they, it was they (emphatic); они + particle -то",
+    "grammar": "pronoun, 3rd person plural, nominative + emphatic particle"
+  },
   "оно": {
     "def": "it, he, she",
     "grammar": "pronoun, neuter, singular, nominative"
@@ -63772,16 +64872,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "ону": {
-    "def": "",
-    "grammar": ""
+    "def": "that (one); acc. fem. sg. of оный (obs., Church Slavonic)",
+    "grammar": "pronoun (demonstrative), feminine, singular, accusative (obs.)"
   },
   "онуфриичем": {
     "def": "(form of онуфриич: [Proper Noun / Name / Place] Onufriich)",
     "grammar": "noun, masculine, singular, instrumental"
   },
   "оооо": {
-    "def": "[Proper Noun / Name / Place] Oooo",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "ooooh! (drawn-out groan or cry of pain)",
+    "grammar": "interjection"
   },
   "ооох": {
     "def": "(form of ооохнуть: [Proper Noun / Name / Place] Oookhnut)",
@@ -63864,8 +64964,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "опг": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's burred speech (cf. опг'окину = опрокину); not a standalone word",
+    "grammar": "fragment"
+  },
+  "опг'окину": {
+    "def": "= опрокину 'I'll overturn, rout (them)' (from опрокинуть; Denisov's burred r)",
+    "grammar": "verb, perfective, future, 1st person singular"
   },
   "опеки": {
     "def": "(form of опека: guardianship, wardship, tutelage, trusteeship, guardians, Board of guardians, care, surveillance)",
@@ -63904,8 +65008,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, intransitive"
   },
   "опершися": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "having leaned (on); archaic gerund of опереться (mod. опершись)",
+    "grammar": "gerund, perfective (archaic form)"
   },
   "опирается": {
     "def": "(form of опираться: lean, rest, be guided)",
@@ -64148,7 +65252,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "определительный": {
-    "def": "",
+    "def": "determining, definite; precise (obs.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "определить": {
@@ -64180,7 +65284,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "опрокинуться": {
-    "def": "",
+    "def": "to fall backwards, topple over",
     "grammar": "infinitive, perfective, intransitive"
   },
   "опрометью": {
@@ -64323,6 +65427,10 @@ const LOCAL_DICTIONARY = {
     "def": "again",
     "grammar": "adverb"
   },
+  "опять‑таки": {
+    "def": "then again, all the same, but still (colloq.)",
+    "grammar": "adverb (with particle -таки)"
+  },
   "оранжерее": {
     "def": "(form of оранжерея: hothouse, greenhouse, conservatory)",
     "grammar": "noun, feminine, singular, dative"
@@ -64344,8 +65452,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "орая": {
-    "def": "[Proper Noun / Name / Place] Oraya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "fragment of вторая ('second') from the heading 'ЧАСТЬ ВТОРАЯ' (Part Two); not an actual word",
+    "grammar": "text fragment (adjective ending)"
   },
   "орбит": {
     "def": "(form of орбита: orbit, sphere of influence, eye-socket)",
@@ -64400,12 +65508,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "оригинально": {
-    "def": "",
+    "def": "in an original way, distinctively",
     "grammar": "adverb"
   },
   "оригинальной": {
     "def": "(form of оригинальный: original)",
     "grammar": "adjective, feminine, singular, genitive"
+  },
+  "оригинально‑остроумными": {
+    "def": "original-and-witty, strikingly clever (of Bilibin's phrases); instr. pl.",
+    "grammar": "adjective (compound), plural, instrumental"
   },
   "оригинальных": {
     "def": "(form of оригинальный: original)",
@@ -64516,7 +65628,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "освежиться": {
-    "def": "",
+    "def": "to refresh oneself, get some fresh air",
     "grammar": "infinitive, perfective, intransitive"
   },
   "осветила": {
@@ -64668,8 +65780,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "осетин-извозчик": {
-    "def": "[Proper Noun / Name / Place] Osetin-izvozchik",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "an Ossetian driver/cabman (hired native driver in the Caucasus)",
+    "grammar": "compound noun, masculine, singular, nominative"
   },
   "осетина": {
     "def": "(form of осетин: Osset)",
@@ -64720,7 +65832,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "оскорбительно": {
-    "def": "",
+    "def": "insultingly, offensively",
     "grammar": "adverb"
   },
   "оскорбительного": {
@@ -64820,7 +65932,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "ослепительно": {
-    "def": "",
+    "def": "dazzlingly, blindingly (e.g. ослепительно белый)",
     "grammar": "adverb"
   },
   "ослепительной": {
@@ -64892,7 +66004,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "осмотреться": {
-    "def": "",
+    "def": "to look around, get one's bearings",
     "grammar": "infinitive, perfective, intransitive"
   },
   "осмотри": {
@@ -64983,6 +66095,18 @@ const LOCAL_DICTIONARY = {
     "def": "(form of особенный: special, particular, peculiar)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "особенно‑заманчивым": {
+    "def": "especially enticing, tempting; instr. sg.",
+    "grammar": "adjective (compound), masculine/neuter, singular, instrumental"
+  },
+  "особенно‑медленно": {
+    "def": "with especial slowness, pointedly slowly",
+    "grammar": "adverb (compound)"
+  },
+  "особенно‑небрежно": {
+    "def": "with especial nonchalance, pointedly offhand",
+    "grammar": "adverb (compound)"
+  },
   "особенную": {
     "def": "(form of особенный: special, particular, peculiar)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -65000,7 +66124,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, instrumental"
   },
   "особливо": {
-    "def": "",
+    "def": "= особенно 'especially, particularly' (obs./colloq.)",
     "grammar": "adverb"
   },
   "особое": {
@@ -65036,7 +66160,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "осрамить": {
-    "def": "",
+    "def": "to disgrace, put to shame",
     "grammar": "infinitive, perfective, transitive"
   },
   "оставайся": {
@@ -65176,8 +66300,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "осталася": {
-    "def": "[Proper Noun / Name / Place] Ostalasya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "remained, stayed, was left (archaic/poetic form of осталась)",
+    "grammar": "verb, perfective, past, feminine, singular, reflexive"
   },
   "остались": {
     "def": "(form of остаться: remain, stay, be left)",
@@ -65320,8 +66444,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "остановилася": {
-    "def": "[Proper Noun / Name / Place] Ostanovilasya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "stopped, came to a halt (archaic/poetic form of остановилась)",
+    "grammar": "verb, perfective, past, feminine, singular, reflexive"
   },
   "остановили": {
     "def": "(form of остановить: stop, bring to stop)",
@@ -65444,8 +66568,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, instrumental"
   },
   "остер": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "sharp-witted, keen (short form of острый, of wit/conversation)",
+    "grammar": "adjective, short form, masculine, singular"
   },
   "остов": {
     "def": "(form of ост: east)",
@@ -65632,7 +66756,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "осьмерка": {
-    "def": "",
+    "def": "= восьмерка: the eight (playing card) (obs.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "осьмнадцатой": {
@@ -65640,12 +66764,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "осьмнадцать": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "= восемнадцать 'eighteen' (obs.)",
+    "grammar": "numeral, cardinal (obs.)"
   },
   "осьмого": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "of the year (eighteen hundred and) eight; gen. of осьмой = восьмой 'eighth' (obs.)",
+    "grammar": "numeral, ordinal, masculine, singular, genitive (obs.)"
   },
   "осях": {
     "def": "(form of ось: axis, axle, spindle, pin)",
@@ -65899,6 +67023,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of ответ: answer, reply, response)",
     "grammar": "noun, masculine, plural, accusative"
   },
+  "ответы,которые": {
+    "def": "ответы 'answers' + которые 'which' run together (tokenization artifact)",
+    "grammar": "noun + relative pronoun (text artifact)"
+  },
   "отвечает": {
     "def": "(form of отвечать: answer, reply, respond)",
     "grammar": "verb, imperfective, present, intransitive, singular"
@@ -66076,7 +67204,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "отвсюду": {
-    "def": "[Proper Noun / Name / Place] Otvsyudu",
+    "def": "from everywhere, from all sides (obs./poet.; = отовсюду)",
     "grammar": "adverb"
   },
   "отвык": {
@@ -66256,7 +67384,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, accusative"
   },
   "отделаться": {
-    "def": "",
+    "def": "to get rid of, shake off (a person)",
     "grammar": "infinitive, perfective, intransitive"
   },
   "отделению": {
@@ -66450,6 +67578,10 @@ const LOCAL_DICTIONARY = {
   "отец": {
     "def": "father",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "отец‑старик": {
+    "def": "aged father, old father (apposition: отец + старик)",
+    "grammar": "noun (compound), masculine, singular, nominative"
   },
   "отеческой": {
     "def": "(form of отеческий: fatherly, paternal)",
@@ -66811,6 +67943,10 @@ const LOCAL_DICTIONARY = {
     "def": "from where",
     "grammar": "adverb"
   },
+  "откуда‑то": {
+    "def": "from somewhere (indefinite)",
+    "grammar": "adverb"
+  },
   "отлив": {
     "def": "ebb, ebb-tide, low-tide, tint, play of colours",
     "grammar": "gerund, perfective, past, transitive"
@@ -66940,7 +68076,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "отменно": {
-    "def": "[Proper Noun / Name / Place] Otmenno",
+    "def": "exceedingly, remarkably, excellently (obs.)",
     "grammar": "adverb"
   },
   "отменной": {
@@ -66972,7 +68108,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "отмстить": {
-    "def": "",
+    "def": "= отомстить 'to avenge, take revenge (for)' (obs. form)",
     "grammar": "infinitive, perfective, transitive"
   },
   "отнекивался": {
@@ -67200,7 +68336,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "отпереться": {
-    "def": "",
+    "def": "to deny, refuse to own up (colloq.); lit. also: to come unlocked",
     "grammar": "infinitive, perfective, intransitive"
   },
   "отпечаток": {
@@ -67524,7 +68660,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "отродясь": {
-    "def": "[Proper Noun / Name / Place] Otrodyas",
+    "def": "never in one's life, never since birth (colloq., with negation)",
     "grammar": "adverb"
   },
   "отрок": {
@@ -67544,7 +68680,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "отрывисто": {
-    "def": "",
+    "def": "abruptly, jerkily, in short bursts",
     "grammar": "adverb"
   },
   "отрывки": {
@@ -67552,7 +68688,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "отрывочно": {
-    "def": "",
+    "def": "disjointedly, in fragments",
     "grammar": "adverb"
   },
   "отрывочные": {
@@ -67604,8 +68740,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "отст": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment/abbreviation, likely of отставной 'retired' (mil.) or similar; not a standalone word",
+    "grammar": "fragment"
+  },
+  "отстaн": {
+    "def": "misencoded отстану 'I won't leave off, won't let it drop' (from отстать; Latin 'a' artifact)",
+    "grammar": "verb, perfective, future, 1st person singular (text artifact)"
   },
   "отстав": {
     "def": "(form of отстать: lag behind, be backward, be behind, be behindhand, be slow, come off)",
@@ -67864,7 +69004,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "оттого-то": {
-    "def": "[Proper Noun / Name / Place] Ottogo-to",
+    "def": "that is precisely why, for that very reason",
+    "grammar": "adverb (with emphatic particle -то)"
+  },
+  "оттого‑то": {
+    "def": "that is exactly why, for that very reason",
     "grammar": "adverb"
   },
   "оттолкнув": {
@@ -67983,6 +69127,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of отец: father)",
     "grammar": "noun, masculine, singular, dative"
   },
+  "отцу‑то": {
+    "def": "to (your) father (emphatic); dat. of отец + particle -то",
+    "grammar": "noun, masculine, singular, dative + emphatic particle"
+  },
   "отцы": {
     "def": "(form of отец: father)",
     "grammar": "noun, masculine, plural, nominative"
@@ -68058,6 +69206,10 @@ const LOCAL_DICTIONARY = {
   "отчего": {
     "def": "(form of отчий: paternal)",
     "grammar": "adjective, masculine, singular, genitive"
+  },
+  "отчего‑то": {
+    "def": "for some reason",
+    "grammar": "adverb"
   },
   "отчество": {
     "def": "patronymic",
@@ -68235,6 +69387,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of офицер: officer)",
     "grammar": "noun, masculine, plural, prepositional"
   },
+  "офицера‑то": {
+    "def": "the officer (emphatic); acc. of офицер + particle -то",
+    "grammar": "noun, masculine, singular, accusative + emphatic particle"
+  },
   "офицере": {
     "def": "(form of офицер: officer)",
     "grammar": "noun, masculine, singular, prepositional"
@@ -68360,7 +69516,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, masculine, singular, nominative"
   },
   "охлопать": {
-    "def": "",
+    "def": "to applaud loudly, clap for (obs. colloq.; here of applauding a dancer)",
     "grammar": "infinitive, perfective, transitive"
   },
   "охнет": {
@@ -68500,8 +69656,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "очаровательно": {
-    "def": "[Proper Noun / Name / Place] Ocharovatelno",
-    "grammar": "adverb"
+    "def": "charmingly, delightfully; (as exclamation) charming!",
+    "grammar": "adverb / predicative"
   },
   "очаровательный": {
     "def": "charming, fascinating",
@@ -68531,6 +69687,10 @@ const LOCAL_DICTIONARY = {
     "def": "very, very much, greatly",
     "grammar": "adverb"
   },
+  "очень‑то": {
+    "def": "(not) all that much, (not) particularly (colloq., with negation)",
+    "grammar": "adverb + emphatic particle"
+  },
   "очередь": {
     "def": "queue, line; turn",
     "grammar": "noun, feminine, singular, accusative"
@@ -68544,7 +69704,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "очерстветь": {
-    "def": "",
+    "def": "to grow callous, hardened (of the heart)",
     "grammar": "infinitive, perfective, intransitive"
   },
   "очертаний": {
@@ -68608,8 +69768,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "очь": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment, likely of очи 'eyes' (poet.) or a longer word; text artifact",
+    "grammar": "fragment"
   },
   "ошибаетесь": {
     "def": "(form of ошибаться: make mistakes, be mistaken, make a mistake, err, be wrong, be at fault)",
@@ -68707,9 +69867,21 @@ const LOCAL_DICTIONARY = {
     "def": "(form of ощущение: feeling; sensation)",
     "grammar": "noun, neuter, singular, genitive"
   },
+  "о‑о‑о‑а‑а‑а": {
+    "def": "prolonged roar/moan of a crowd (interjection)",
+    "grammar": "interjection"
+  },
   "п": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "the letter п; here from the abbreviation и т. п. (и тому подобное 'and so on')",
+    "grammar": "abbreviation (letter)"
+  },
+  "пeрехватила": {
+    "def": "= перехватила '(she) intercepted, caught' (from перехватить; Latin 'e' artifact)",
+    "grammar": "verb, perfective, past, feminine, singular"
+  },
+  "пocлшaлиcь": {
+    "def": "= послышались 'were heard, rang out' (from послышаться; mixed-script/OCR artifact)",
+    "grammar": "verb, perfective, past, plural (reflexive)"
   },
   "па": {
     "def": "pas, step",
@@ -68724,8 +69896,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "павлович": {
-    "def": "[Proper Noun / Name / Place] Pavlovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Павлович — patronymic 'son of Pavel'; Александр Павлович = Tsar Alexander I in Война и мир",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "павловича": {
     "def": "(form of павлович: [Proper Noun / Name / Place] Pavlovich)",
@@ -68760,7 +69932,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "павлоградский": {
-    "def": "[Proper Noun / Name / Place] Pavlogradskiy",
+    "def": "Pavlograd (attributive): the Pavlograd Hussar Regiment, Nikolai Rostov's regiment in Война и мир",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "павлоградскими": {
@@ -68792,7 +69964,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, active, intransitive, plural, nominative"
   },
   "паг": {
-    "def": "",
+    "def": "fragment of паг'оль = пароль (faro stake; Denisov's burred r); not a standalone word",
+    "grammar": "fragment"
+  },
+  "паг'оль": {
+    "def": "= пароль: paroli, doubled stake in faro (card game; Denisov's burred r)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "падавшего": {
@@ -69088,7 +70264,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "папенька": {
-    "def": "",
+    "def": "papa, daddy (affectionate, dated)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "папеньку": {
@@ -69188,8 +70364,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, neuter, singular"
   },
   "парис": {
-    "def": "[Proper Noun / Name / Place] Paris",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Парис — Paris, the Trojan prince who won Helen; used figuratively for a handsome beau/lady-killer",
+    "grammar": "noun (mythological name), masculine, singular, nominative"
   },
   "парка": {
     "def": "steaming, parka",
@@ -69372,7 +70548,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "паф": {
-    "def": "",
+    "def": "bang! (gunshot onomatopoeia)",
     "grammar": "interjection"
   },
   "паха": {
@@ -69419,9 +70595,45 @@ const LOCAL_DICTIONARY = {
     "def": "(form of паясничать: clown around)",
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
+  "па‑де‑кале": {
+    "def": "Pas-de-Calais — the Strait of Dover (Napoleon's planned crossing)",
+    "grammar": "noun, proper name, indeclinable"
+  },
+  "па‑звольте": {
+    "def": "= позвольте 'allow me, excuse me' (affected drawled pronunciation)",
+    "grammar": "verb, imperative, plural (polite)"
+  },
   "пг": {
-    "def": "[Proper Noun / Name / Place] Pg",
-    "grammar": ""
+    "def": "fragment rendering Denisov's guttural r in Война и мир ('пг`axa' = праха, 'of dust'); not a word",
+    "grammar": "text fragment"
+  },
+  "пг'авда": {
+    "def": "= правда 'true! the truth' (Denisov's burred r)",
+    "grammar": "noun, feminine, singular, nominative (used predicatively)"
+  },
+  "пг'евосходительство": {
+    "def": "= превосходительство '(Your) Excellency' (Denisov's burred r)",
+    "grammar": "noun, neuter, singular, nominative"
+  },
+  "пг'едставить": {
+    "def": "= представить (себе) 'to imagine' (Denisov's burred r)",
+    "grammar": "infinitive, perfective, transitive"
+  },
+  "пг'иказом": {
+    "def": "= приказом 'by (official) order'; instr. of приказ (Denisov's burred r)",
+    "grammar": "noun, masculine, singular, instrumental"
+  },
+  "пг'одулся": {
+    "def": "= продулся 'lost everything at cards' (colloq.; Denisov's burred r)",
+    "grammar": "verb, perfective, past, masculine, singular (reflexive)"
+  },
+  "пг'ойти": {
+    "def": "= пройти 'to pass, get through' (Denisov's burred r)",
+    "grammar": "infinitive, perfective, intransitive"
+  },
+  "пг'очь": {
+    "def": "= прочь 'away! off with you!' (Denisov's burred r)",
+    "grammar": "adverb/interjection"
   },
   "певец": {
     "def": "singer",
@@ -69450,6 +70662,10 @@ const LOCAL_DICTIONARY = {
   "пег": {
     "def": "(form of пегий: skewbald, piebald)",
     "grammar": "short adjective, masculine, singular"
+  },
+  "пег'вый": {
+    "def": "= первый 'first' (в первый день — on the first day; Denisov's burred r)",
+    "grammar": "adjective (ordinal), masculine, singular, accusative"
   },
   "педагог": {
     "def": "teacher, pedagogue, educational specialist",
@@ -69872,7 +71088,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "переворотить": {
-    "def": "",
+    "def": "to turn over, turn round (colloq. = перевернуть)",
     "grammar": "infinitive, perfective, transitive"
   },
   "переврал": {
@@ -69904,8 +71120,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "перевязочный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "dressing-, first-aid (mil.): перевязочный пункт = dressing station",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "перегибается": {
     "def": "(form of перегибаться: bend, lean over, lean)",
@@ -69952,7 +71168,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
   "переговариваться": {
-    "def": "",
+    "def": "to exchange remarks, call back and forth to one another",
     "grammar": "infinitive, imperfective, intransitive"
   },
   "переговариваясь": {
@@ -70296,8 +71512,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, transitive"
   },
   "перекланяться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to bow too much, overdo one's bowing (opp. не докланяться)",
+    "grammar": "infinitive, perfective, intransitive (reflexive)"
   },
   "перекликались": {
     "def": "(form of перекликаться: call to one another, have something in common)",
@@ -70588,7 +71804,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "переправить": {
-    "def": "",
+    "def": "to convey across, ferry (an army) over",
     "grammar": "infinitive, perfective, transitive"
   },
   "переправиться": {
@@ -70644,8 +71860,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "перерез": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "cutting-off: на перерез = so as to intercept, head off (mod. наперерез)",
+    "grammar": "noun, masculine, singular, accusative (in set phrase)"
   },
   "перерезал": {
     "def": "(form of перерезать: cut, cut off, break, kill, slaughter)",
@@ -71000,7 +72216,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "перечесть": {
-    "def": "",
+    "def": "to count over (всех не перечесть — too many to count); also to reread (obs.)",
     "grammar": "infinitive, perfective, transitive"
   },
   "перечете": {
@@ -71052,8 +72268,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, neuter, singular"
   },
   "пери": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "peri — fairy-like beauty of Persian myth; term of endearment",
+    "grammar": "noun, feminine, indeclinable"
   },
   "перила": {
     "def": "rail, hand-rail, banisters",
@@ -71108,8 +72324,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "перси": {
-    "def": "",
-    "grammar": "noun, plural, nominative"
+    "def": "breast, bosom (poet., obs.; plural only)",
+    "grammar": "noun, plural only, accusative"
   },
   "персидская": {
     "def": "(form of персидский: Persian)",
@@ -71168,8 +72384,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, prepositional"
   },
   "перу": {
-    "def": "[Proper Noun / Name / Place] Peru",
-    "grammar": "noun, neuter, singular, genitive"
+    "def": "to the pen, for the quill (dative of перо 'pen, quill': 'Перу старинной нет охоты' — not the country)",
+    "grammar": "noun, neuter, singular, dative"
   },
   "перхает": {
     "def": "(form of перхать: cough)",
@@ -71352,7 +72568,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "петербургский": {
-    "def": "",
+    "def": "Petersburg (adj.), of St Petersburg",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "петербургским": {
@@ -71376,8 +72592,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "петизанфан": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "mangled French petits enfants 'little children' (nursery phrase)",
+    "grammar": "noun phrase (Gallicism), used as address"
   },
   "петр": {
     "def": "(form of пётр: [Proper Noun / Name / Place] Pyotr)",
@@ -71396,12 +72612,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "петров": {
-    "def": "[Proper Noun / Name / Place] Petrov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Петров — Petrov, common Russian surname; a soldier addressed by name in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "петрович": {
-    "def": "[Proper Noun / Name / Place] Petrovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Петрович — patronymic 'son of Pyotr' (Василий Петрович, the major in Герой нашего времени)",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "петровиче": {
     "def": "(form of петрович: [Proper Noun / Name / Place] Petrovich)",
@@ -71412,7 +72628,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "петровский": {
-    "def": "[Proper Noun / Name / Place] Petrovskiy",
+    "def": "Petrovsky (attributive): Петровский замок, Petrovsky Palace near Moscow in Евгений Онегин",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "петру": {
@@ -71420,8 +72636,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "петруша": {
-    "def": "[Proper Noun / Name / Place] Petrusha",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Петруша — Petrusha, affectionate diminutive of Пётр (used of Pierre Bezukhov in Война и мир)",
+    "grammar": "noun (given name, diminutive), masculine, singular, nominative"
   },
   "петрушка": {
     "def": "Parsley; Punch-and-Judy show",
@@ -71464,8 +72680,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "петя": {
-    "def": "[Proper Noun / Name / Place] Petya",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Петя — Petya, diminutive of Пётр; Petya Rostov, the youngest Rostov son in Война и мир",
+    "grammar": "noun (given name, diminutive), masculine, singular, nominative"
   },
   "пехота": {
     "def": "infantry, the foot",
@@ -71648,8 +72864,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "печорин": {
-    "def": "[Proper Noun / Name / Place] Pechorin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Печорин — Grigory Pechorin, the Byronic protagonist of Герой нашего времени",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "печорина": {
     "def": "(form of печорин: [Proper Noun / Name / Place] Pechorin)",
@@ -71724,7 +72940,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "пиит": {
-    "def": "",
+    "def": "poet (obs., Church Slavonic; often ironic)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "пик": {
@@ -72008,8 +73224,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "пиф-паф": {
-    "def": "[Proper Noun / Name / Place] Pif-paf",
-    "grammar": "interjection"
+    "def": "bang-bang! (imitation of gunshots)",
+    "grammar": "onomatopoeic interjection"
   },
   "пишет": {
     "def": "(form of писать: write; paint)",
@@ -72112,7 +73328,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "пламенно": {
-    "def": "",
+    "def": "ardently, fierily, passionately",
     "grammar": "adverb"
   },
   "пламенное": {
@@ -72236,7 +73452,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "платьице": {
-    "def": "",
+    "def": "little dress (dim. of платье 'dress')",
     "grammar": "noun, neuter, singular, prepositional"
   },
   "платья": {
@@ -72656,8 +73872,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "площадной": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "coarse, vulgar (lit. 'of the marketplace'; of lampoons/abuse)",
+    "grammar": "adjective, feminine, singular, genitive"
   },
   "площадных": {
     "def": "(form of площадной)",
@@ -72674,6 +73890,10 @@ const LOCAL_DICTIONARY = {
   "плута": {
     "def": "(form of плут: cheat, swindler, knave, rogue)",
     "grammar": "noun, masculine, singular, genitive"
+  },
+  "плута‑лакея": {
+    "def": "the rogue of a lackey; gen. of плут-лакей (плут 'rogue' + лакей 'footman')",
+    "grammar": "noun (compound), masculine, singular, genitive"
   },
   "плутов": {
     "def": "(form of плут: cheat, swindler, knave, rogue)",
@@ -72764,8 +73984,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, transitive, masculine, singular, genitive"
   },
   "пни": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "tree stumps; acc. pl. of пень",
+    "grammar": "noun, masculine, plural, accusative"
   },
   "по": {
     "def": "along, down; on the subject of; by the means of; hit or punch somewhere; after a age",
@@ -72792,12 +74012,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, nominative"
   },
   "по-итальянский": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "in Italian (nonstandard for по-итальянски; знать по-итальянски = to know Italian)",
+    "grammar": "adverb (nonstandard form)"
   },
   "по-ихнему": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in their language; their way (colloq., from ихний 'their')",
+    "grammar": "adverb (colloquial)"
   },
   "по-казацки": {
     "def": "(form of по-казацк)",
@@ -72808,7 +74028,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, dative"
   },
   "по-латыни": {
-    "def": "",
+    "def": "in Latin",
     "grammar": "adverb"
   },
   "по-моему": {
@@ -72816,7 +74036,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "по-мужицки": {
-    "def": "",
+    "def": "like a peasant, in peasant fashion (translator's note glossing the French)",
     "grammar": "adverb"
   },
   "по-нашему": {
@@ -72824,11 +74044,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "по-немецки": {
-    "def": "",
+    "def": "in German",
     "grammar": "adverb"
   },
   "по-походному": {
-    "def": "",
+    "def": "in campaign style, as in the field / on the march (mil.)",
     "grammar": "adverb"
   },
   "по-прежнему": {
@@ -72844,7 +74064,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "по-своему": {
-    "def": "",
+    "def": "in one's own way; here: in their own tongue",
     "grammar": "adverb"
   },
   "по-старому": {
@@ -72852,7 +74072,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "по-татарски": {
-    "def": "",
+    "def": "in Tatar (the Tatar language)",
     "grammar": "adverb"
   },
   "по-твоему": {
@@ -72860,7 +74080,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "по-французски": {
-    "def": "",
+    "def": "in French",
     "grammar": "adverb"
   },
   "по-христиански": {
@@ -72915,6 +74135,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of победительный)",
     "grammar": "short adjective, neuter, singular"
   },
+  "победительно‑действующую": {
+    "def": "victoriously acting, conquering in its effect (of Hélène's beauty; победительно + действующий)",
+    "grammar": "adjective (compound participle), feminine, singular, accusative"
+  },
   "победительным": {
     "def": "(form of победительный)",
     "grammar": "adjective, masculine, singular, instrumental"
@@ -72928,7 +74152,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "победоносно": {
-    "def": "",
+    "def": "victoriously, triumphantly",
     "grammar": "adverb"
   },
   "победоносного": {
@@ -72992,20 +74216,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "побесить": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to tease, vex, make (someone) angry for a while (colloq., pf. of бесить)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "побеспокоиться": {
     "def": "trouble",
     "grammar": "infinitive, perfective, intransitive"
   },
   "побиваша": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(they) smote, slew — Church Slavonic aorist of побити; 'своя своих побиваша' = own slew their own",
+    "grammar": "verb, aorist, third person plural (Church Slavonic)"
   },
   "побигла": {
-    "def": "[Proper Noun / Name / Place] Pobigla",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(she) ran off (Ukrainian/dialect for побежала, in a Cossack's speech)",
+    "grammar": "verb, perfective, past, feminine, singular (dial.)"
   },
   "побил": {
     "def": "(form of побить: beat down, lay, nip)",
@@ -73344,16 +74568,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "поверь": {
-    "def": "[Proper Noun / Name / Place] Pover",
-    "grammar": "conjunction"
+    "def": "believe (me)! trust me! (imperative of поверить)",
+    "grammar": "verb, imperative, 2nd person singular, perfective"
   },
   "поверье": {
     "def": "popular belief, superstition",
     "grammar": "noun, neuter, singular, nominative"
   },
   "поверьте": {
-    "def": "[Proper Noun / Name / Place] Poverte",
-    "grammar": "conjunction"
+    "def": "believe (me), I assure you (polite/plural imperative of поверить)",
+    "grammar": "verb, imperative, 2nd person plural, perfective"
   },
   "поверяется": {
     "def": "(form of поверяться)",
@@ -73484,8 +74708,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "повог": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of Denisov's burred speech (г for р), as in повог'ачивайся = поворачивайся 'look lively'",
+    "grammar": "verb fragment (burred speech)"
+  },
+  "повог`ачивайся": {
+    "def": "= поворачивайся 'get a move on, look lively!' (Denisov's burr: г for р)",
+    "grammar": "verb, imperfective, imperative, second person singular (burred speech)"
   },
   "повод": {
     "def": "reason",
@@ -73724,8 +74952,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, plural"
   },
   "пог": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of Denisov's burred speech (г for р), as in пог'оху = пороху 'gunpowder'",
+    "grammar": "noun fragment (burred speech)"
+  },
+  "пог'оху": {
+    "def": "= пороху, partitive gen. of порох 'gunpowder' (Denisov's burr); понюхать пороху = to see action (mil.)",
+    "grammar": "noun, masculine, singular, partitive genitive (burred speech)"
   },
   "погасший": {
     "def": "(form of погаснуть: turn off)",
@@ -73932,8 +75164,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "погодя": {
-    "def": "[Proper Noun / Name / Place] Pogodya",
-    "grammar": "adverb"
+    "def": "after a while, a little later (немного погодя; gerund of погодить 'to wait a bit')",
+    "grammar": "verbal adverb (gerund), perfective; used adverbially"
   },
   "погоню": {
     "def": "(form of погоня: pursuit, chase, pursuers)",
@@ -73944,8 +75176,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "погоняться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to chase after for a while (pf.); погоняться за дичью = to go hunting game",
+    "grammar": "verb, perfective, infinitive, intransitive"
   },
   "погоняя": {
     "def": "(form of погонять: drive on, urge on, hurry on)",
@@ -74180,8 +75412,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "подбавить": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to add (some more), top up (pf.)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "подбадривает": {
     "def": "(form of подбадривать: [Proper Noun / Name / Place] Podbadrivat)",
@@ -74440,7 +75672,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, accusative"
   },
   "подгалстушник": {
-    "def": "",
+    "def": "stock worn under a cravat, necktie liner (obs., 19th-c. dress)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "подгоняя": {
@@ -74476,8 +75708,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "подделаться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to fall in with, adapt oneself to (someone's tone); imitate (pf.)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "поддельно": {
     "def": "(form of поддельный: false, counterfeit, sham, spurious, fake, imitation, forged)",
@@ -74528,7 +75760,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "поделом": {
-    "def": "[Proper Noun / Name / Place] Podelom",
+    "def": "deservedly; (поделом тебе) it serves you right",
     "grammar": "adverb"
   },
   "поделывали": {
@@ -74615,6 +75847,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of пойти: go; walk)",
     "grammar": "verb, perfective, intransitive, plural"
   },
+  "поди‑ка": {
+    "def": "come here, come now (colloq. imperative of пойти + emphatic particle -ка)",
+    "grammar": "verb, imperative, second person singular + particle -ка (colloquial)"
+  },
   "подкапываться": {
     "def": "sap, undermine",
     "grammar": "infinitive, imperfective, intransitive"
@@ -74676,8 +75912,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "подкумок": {
-    "def": "[Proper Noun / Name / Place] Podkumok",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Подкумок — the Podkumok, river flowing through Kislovodsk and Pyatigorsk in Герой нашего времени",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "подле": {
     "def": "by the side of, by side",
@@ -74740,7 +75976,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "подлом": {
-    "def": "",
+    "def": "a break, snapping (at the base); act of breaking (from подломить)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "подлости": {
@@ -75188,7 +76424,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "подольский": {
-    "def": "[Proper Noun / Name / Place] Podolskiy",
+    "def": "Podolsk (attributive): the Podolsk Chasseur Regiment in Война и мир",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "подольского": {
@@ -75216,8 +76452,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "подошед": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "having approached, having come up to (arch. gerund of подойти = подойдя)",
+    "grammar": "verbal adverb (gerund), perfective (archaic form of подойдя)"
   },
   "подошедшая": {
     "def": "(form of подойти: approach)",
@@ -75340,7 +76576,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "подпрапорщик": {
-    "def": "",
+    "def": "sub-ensign — NCO rank below praporshchik in the Imperial army (mil., hist.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "подпруги": {
@@ -75744,8 +76980,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "подурачить": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to make a fool of, dupe (someone) (pf., colloq.)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "подурнела": {
     "def": "(form of подурнеть)",
@@ -75960,8 +77196,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "подъемлет": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "raises, lifts up (arch. poet. = поднимает; from подъяти/подъемлю)",
+    "grammar": "verb, present, third person singular (archaic)"
   },
   "подъемлют": {
     "def": "(form of подъемать: [Proper Noun / Name / Place] Podemat)",
@@ -76012,8 +77248,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "подымать": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to lift, raise (colloq./older variant of поднимать)",
+    "grammar": "verb, imperfective, infinitive, transitive"
   },
   "подымаются": {
     "def": "(form of подыматься: [Proper Noun / Name / Place] Podymatsya)",
@@ -76076,8 +77312,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "поедом": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "here likely = поедем 'let's ride on' (text corruption); as adverb only in поедом есть 'to nag mercilessly' (colloq.)",
+    "grammar": "adverb (colloquial)"
   },
   "поеду": {
     "def": "(form of поехать: go somewhere in a vehicle; go for a ride, go for a drive)",
@@ -76508,8 +77744,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "поздной": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "late (arch. poet. form of поздней, instr. fem. of поздний: зарею поздной 'by the late glow')",
+    "grammar": "adjective, feminine, singular, instrumental (archaic form)"
   },
   "поздоровавшись": {
     "def": "(form of поздороваться: say how do you do, greet, hail)",
@@ -76604,8 +77840,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "позлословить": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to gossip, speak maliciously for a while (pf.)",
+    "grammar": "verb, perfective, infinitive, intransitive"
   },
   "познакомил": {
     "def": "(form of познакомить: acquaint, introduce)",
@@ -76640,8 +77876,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "познаша": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(they) knew, recognized — Church Slavonic aorist of познати; 'своя своих не познаша' = own knew not their own",
+    "grammar": "verb, aorist, third person plural (Church Slavonic)"
   },
   "позови": {
     "def": "(form of позвать: call, call upon)",
@@ -76710,6 +77946,10 @@ const LOCAL_DICTIONARY = {
   "пойдемте-ка": {
     "def": "(form of пойти-ка)",
     "grammar": "verb, perfective, intransitive, plural"
+  },
+  "пойдемте‑ка": {
+    "def": "come, let's go (hortative пойдемте + emphatic particle -ка) (colloq.)",
+    "grammar": "verb, hortative imperative, first person plural + particle -ка"
   },
   "пойдет": {
     "def": "(form of пойти: go; walk)",
@@ -76920,8 +78160,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "покаместь": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "meanwhile, for the time being (obs./colloq. = пока, покамест)",
+    "grammar": "adverb (obsolete/colloquial)"
   },
   "покатает": {
     "def": "(form of покатать: roll for a while, take for a drive)",
@@ -77084,8 +78324,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, imperfective, past, passive, masculine, singular"
   },
   "покои": {
-    "def": "",
-    "grammar": "noun, plural, accusative"
+    "def": "chambers, private rooms, apartments (usu. plural; obs.)",
+    "grammar": "noun, masculine, plural, accusative"
   },
   "покоится": {
     "def": "(form of покоиться: rest, repose, lie)",
@@ -77146,6 +78386,10 @@ const LOCAL_DICTIONARY = {
   "покойся": {
     "def": "(form of покоиться: rest, repose, lie)",
     "grammar": "verb, imperfective, intransitive, singular"
+  },
+  "покой‑ер‑п": {
+    "def": "old Russian letter-names spelling a word out: покой = П, ер = Ъ, then п (the steward's spelt ending, joke in Война и мир)",
+    "grammar": "letter names used as spelling (noun phrase)"
   },
   "поколебало": {
     "def": "(form of поколебать: shake)",
@@ -77459,6 +78703,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of полагать: suppose, assume; think, believe)",
     "grammar": "verb, imperfective, past, transitive, masculine, singular"
   },
+  "полагал,что": {
+    "def": "= полагал, что: '(he) supposed, believed that' (space missing in text; полагать + conjunction что)",
+    "grammar": "verb, imperfective, past, masculine + conjunction (run-together tokens)"
+  },
   "полагали": {
     "def": "(form of полагать: suppose, assume; think, believe)",
     "grammar": "verb, imperfective, past, transitive, plural"
@@ -77540,8 +78788,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "полегонечку": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "gently, little by little, ever so carefully (colloq. dim. of полегоньку)",
+    "grammar": "adverb (colloquial diminutive)"
   },
   "полежал": {
     "def": "(form of полежать: lie, lie down, have lie-down)",
@@ -77608,8 +78856,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "полжизни": {
-    "def": "[Proper Noun / Name / Place] Polzhizni",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "half a life, half one's life ('Полжизни за стакан чаю!' — half my life for a glass of tea)",
+    "grammar": "noun, feminine, singular (пол- + genitive of жизнь)"
   },
   "ползали": {
     "def": "(form of ползать: creep, crawl)",
@@ -77694,6 +78942,10 @@ const LOCAL_DICTIONARY = {
   "полка": {
     "def": "shelf, berth, weeding",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "полка.да": {
+    "def": "= полка. Да: gen. of полк 'regiment' + да 'and/but' (sentence break lost in text)",
+    "grammar": "noun, masculine, singular, genitive + particle (run-together tokens)"
   },
   "полке": {
     "def": "(form of полка: shelf, berth, weeding)",
@@ -78068,8 +79320,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "полстакана": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "half a glass (пол- + стакан)",
+    "grammar": "noun, masculine, singular (пол- compound), accusative/genitive"
   },
   "полтинников": {
     "def": "(form of полтинник: fifty copecks, fifty-copeck piece)",
@@ -78084,8 +79336,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, masculine, nominative"
   },
   "полтораста": {
-    "def": "",
-    "grammar": "numeral, nominative"
+    "def": "a hundred and fifty",
+    "grammar": "numeral, nominative/accusative"
   },
   "полу": {
     "def": "(form of пол: floor, sex)",
@@ -78124,8 +79376,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, accusative"
   },
   "полужуравль": {
-    "def": "[Proper Noun / Name / Place] Poluzhuravl",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "half-crane (fantastic hybrid creature in Tatyana's dream: 'полужуравль и полукот')",
+    "grammar": "compound noun, masculine, singular, nominative"
   },
   "полузакрытые": {
     "def": "(form of полузакрытый)",
@@ -78140,7 +79392,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, active, intransitive, feminine, singular, nominative"
   },
   "полукот": {
-    "def": "",
+    "def": "half-cat (dream monster in Tatiana's dream: half-crane, half-cat)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "полукруг": {
@@ -78180,7 +79432,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "полураскрытый": {
-    "def": "",
+    "def": "half-open, half-parted",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "полурусского": {
@@ -78200,8 +79452,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "полутемно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "(it is) half-dark, dim (impersonal predicative)",
+    "grammar": "predicative adverb"
   },
   "полутора": {
     "def": "(form of полтора: one and a half)",
@@ -78324,8 +79576,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "полушопотом": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in a half-whisper (old spelling of полушёпотом)",
+    "grammar": "adverb (instrumental of полушёпот)"
   },
   "полушубке": {
     "def": "(form of полушубок: short sheepskin coat, sheepskin jacket)",
@@ -78336,8 +79588,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, accusative"
   },
   "полчасика": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "half an hour (dim.; с полчасика = about half an hour) (colloq.)",
+    "grammar": "noun, masculine, singular (пол- compound, diminutive), accusative/genitive"
   },
   "полы": {
     "def": "(form of пола: skirt, flap, lap)",
@@ -78660,7 +79912,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "поминутно": {
-    "def": "",
+    "def": "every minute, continually, incessantly",
     "grammar": "adverb"
   },
   "помирая": {
@@ -78724,8 +79976,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "помога": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "help, aid; helper (folk/colloq. = помощь): 'я тебе во всем помога'",
+    "grammar": "noun, feminine, singular, nominative (colloquial/folk)"
   },
   "помогала": {
     "def": "(form of помогать: help, assist, aid)",
@@ -78864,8 +80116,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "понасажать": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to plant a quantity of (here and there) (pf., colloq.)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "поневоле": {
     "def": "willy-nilly",
@@ -78950,6 +80202,10 @@ const LOCAL_DICTIONARY = {
   "понимать": {
     "def": "understand, comprehend, realize",
     "grammar": "infinitive, imperfective, transitive"
+  },
+  "понимать,что": {
+    "def": "= понимать, что: 'to understand that' (space missing in text; понимать + conjunction что)",
+    "grammar": "verb, imperfective, infinitive + conjunction (run-together tokens)"
   },
   "понимаю": {
     "def": "(form of понимать: understand, comprehend, realize)",
@@ -79224,8 +80480,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "поподчивать": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to treat (someone) to, regale with (obs. spelling of попотчевать)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "попойка": {
     "def": "drinking-bout, carouse",
@@ -79256,8 +80512,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "попользоваться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to profit by, take some advantage of, get some benefit (pf., colloq.)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "попомните": {
     "def": "(form of попомнить: remember)",
@@ -79282,6 +80538,10 @@ const LOCAL_DICTIONARY = {
   "поправей": {
     "def": "(form of правый: right-winger)",
     "grammar": "comparative"
+  },
+  "поправей‑то": {
+    "def": "a bit more to the right (colloq. comparative поправей + emphatic particle -то)",
+    "grammar": "comparative adverb + particle -то (colloquial)"
   },
   "поправившиеся": {
     "def": "(form of поправиться: get well, get healthy, recover; gain weight, put on weight)",
@@ -79515,6 +80775,10 @@ const LOCAL_DICTIONARY = {
     "def": "amazing, astonishing",
     "grammar": "adverb"
   },
+  "поразительно‑несоразмерною": {
+    "def": "strikingly disproportionate (waist strikingly out of proportion to the legs; compound adverb + adjective)",
+    "grammar": "adjective (compound), feminine, singular, instrumental"
+  },
   "поразить": {
     "def": "strike, engage, hit, startle, stagger, affect",
     "grammar": "infinitive, perfective, transitive"
@@ -79528,8 +80792,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "порассказать": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to tell, recount (a good deal, at leisure) (pf., colloq.)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "поре": {
     "def": "(form of пора: time; it is time to)",
@@ -79552,8 +80816,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "поровняться": {
-    "def": "[Proper Noun / Name / Place] Porovnyatsya",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to draw level (with), come alongside (obs. spelling of поравняться)",
+    "grammar": "verb, infinitive, perfective, reflexive, intransitive"
   },
   "порог": {
     "def": "threshold, rapids, doorstep",
@@ -79644,7 +80908,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "порою": {
-    "def": "[Proper Noun / Name / Place] Poroyu",
+    "def": "at times, now and then, occasionally (instrumental of пора used adverbially)",
     "grammar": "adverb"
   },
   "портативного": {
@@ -79804,7 +81068,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "порывисто": {
-    "def": "",
+    "def": "impetuously, jerkily, in bursts",
     "grammar": "adverb"
   },
   "порывов": {
@@ -79834,6 +81098,10 @@ const LOCAL_DICTIONARY = {
   "порядку": {
     "def": "(form of порядок: In order, sequence, procedure, array, usages, customs)",
     "grammar": "noun, masculine, singular, dative"
+  },
+  "порядку‑то": {
+    "def": "order (порядок, partitive gen. порядку + emphatic -то): Порядку-то нет! = there's no order at all",
+    "grammar": "noun, masculine, singular, partitive genitive + particle -то"
   },
   "порядок": {
     "def": "In order, sequence, procedure, array, usages, customs",
@@ -79968,8 +81236,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "посереди": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in the middle (of), amid (colloq./obs. = посреди)",
+    "grammar": "adverb/preposition (colloquial)"
   },
   "посередине": {
     "def": "in the middle, half way along",
@@ -80316,8 +81584,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "послэ": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "fragment of послэ днэ = последней 'last' (German colonel's accented Russian: до последней капли крови)",
+    "grammar": "adjective fragment (accented speech)"
   },
   "посматривал": {
     "def": "(form of посматривать: look)",
@@ -80376,8 +81644,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, transitive"
   },
   "посмотрейть": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "= посмотреть 'to have a look' (German officer's accented Russian)",
+    "grammar": "verb, perfective, infinitive (accented speech)"
   },
   "посмотрел": {
     "def": "(form of посмотреть: look, watch)",
@@ -80423,6 +81691,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of посмотреть: look, watch)",
     "grammar": "verb, perfective, future, transitive, plural"
   },
+  "посмотрите‑ка": {
+    "def": "just look, do look (polite imperative + emphatic particle -ка)",
+    "grammar": "verb, imperative, second person plural + particle -ка"
+  },
   "посмотришь": {
     "def": "(form of посмотреть: look, watch)",
     "grammar": "verb, perfective, future, transitive, singular"
@@ -80444,8 +81716,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "посоветоваться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to consult, seek advice (with someone) (pf.)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "посольства": {
     "def": "(form of посольство: embassy)",
@@ -80644,8 +81916,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "постеле": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in bed (obs./poet. prepositional of постеля = постель 'bed')",
+    "grammar": "noun, feminine, singular, prepositional (archaic form of постели)"
   },
   "постели": {
     "def": "(form of постель: bed)",
@@ -81187,6 +82459,10 @@ const LOCAL_DICTIONARY = {
     "def": "because",
     "grammar": "adverb"
   },
+  "потому‑то": {
+    "def": "that is (precisely) why, for that very reason (потому + emphatic -то)",
+    "grammar": "adverb (conjunctive) with particle -то"
+  },
   "потонет": {
     "def": "(form of потонуть: sink, go down, drown, be lost)",
     "grammar": "verb, perfective, future, intransitive, singular"
@@ -81300,8 +82576,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "потужить": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to grieve a little, sorrow for a while (pf.)",
+    "grammar": "verb, perfective, infinitive, intransitive"
   },
   "потупила": {
     "def": "(form of потупить: downcast, droop)",
@@ -81380,12 +82656,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "поучить": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to teach (a little), school, give (someone) a lesson (pf.)",
+    "grammar": "verb, perfective, infinitive, transitive"
   },
   "пофилософствовать": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to philosophize (for a while), indulge in philosophizing (pf.)",
+    "grammar": "verb, perfective, infinitive, intransitive"
   },
   "пофилософствуем": {
     "def": "(form of пофилософствовать)",
@@ -81588,8 +82864,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "похорониться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to bury oneself away (fig.: to shut oneself up in the country) (pf., colloq.)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "похороны": {
     "def": "burial, funeral",
@@ -81656,8 +82932,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "поцеловаться": {
-    "def": "[Proper Noun / Name / Place] Potselovatsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to kiss (one another), exchange kisses",
+    "grammar": "verb, infinitive, perfective, reciprocal-reflexive, intransitive"
   },
   "поцелуе": {
     "def": "(form of поцелуй: kiss)",
@@ -81699,6 +82975,14 @@ const LOCAL_DICTIONARY = {
     "def": "for some reason",
     "grammar": "adverb"
   },
+  "почему‑нибудь": {
+    "def": "for some reason or other, for any reason",
+    "grammar": "adverb (indefinite)"
+  },
+  "почему‑то": {
+    "def": "for some reason",
+    "grammar": "adverb"
+  },
   "почерком": {
     "def": "(form of почерк: handwriting)",
     "grammar": "noun, masculine, singular, instrumental"
@@ -81708,8 +82992,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "почерпать": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to draw (from), derive (strength, ideas) (obs. impf.; cf. modern черпать/почерпнуть)",
+    "grammar": "verb, imperfective, infinitive, transitive (archaic)"
   },
   "почестей": {
     "def": "(form of почесть: honour)",
@@ -81844,7 +83128,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "почтительно": {
-    "def": "",
+    "def": "respectfully, deferentially",
     "grammar": "adverb"
   },
   "почтительное": {
@@ -81912,8 +83196,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "почуя": {
-    "def": "[Proper Noun / Name / Place] Pochuya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "having scented, sensing (archaic gerund of почуять: 'снег почуя' — scenting the snow)",
+    "grammar": "verbal adverb (gerund), perfective"
   },
   "пошатнулась": {
     "def": "(form of пошатнуться: stagger, shake, lean on one side, be shaken)",
@@ -81936,8 +83220,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "пошевелиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to stir, make a slight movement (pf.)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "пошевельнула": {
     "def": "(form of пошевельнуть)",
@@ -81948,8 +83232,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "пошептаться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to whisper together (for a while), exchange whispers (pf.)",
+    "grammar": "verb, perfective, infinitive, reflexive"
   },
   "пошире": {
     "def": "(form of широкий: wide, broad)",
@@ -81974,6 +83258,10 @@ const LOCAL_DICTIONARY = {
   "пошлите": {
     "def": "(form of послать: send, dispatch)",
     "grammar": "verb, perfective, transitive, plural"
+  },
+  "пошли‑ка": {
+    "def": "send (for) (imperative of послать + -ка): пошли-ка за вином = do send for wine (colloq.)",
+    "grammar": "verb, perfective, imperative, second person singular + particle -ка"
   },
   "пошло": {
     "def": "(form of пойти: go; walk)",
@@ -82076,7 +83364,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "поэтичность": {
-    "def": "",
+    "def": "poetic quality, poeticalness",
     "grammar": "noun, feminine, singular, nominative"
   },
   "поэтом": {
@@ -82164,12 +83452,96 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "поясок": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "little belt, sash (dim. of пояс)",
+    "grammar": "noun, masculine, singular, accusative (diminutive)"
   },
   "поясом": {
     "def": "(form of пояс: belt, girdle, sash, waistband, waist, zone)",
     "grammar": "noun, masculine, singular, instrumental"
+  },
+  "по‑английски": {
+    "def": "in English",
+    "grammar": "adverb"
+  },
+  "по‑балетному": {
+    "def": "balletically, as in ballet, with ballet-like grace",
+    "grammar": "adverb"
+  },
+  "по‑вашему": {
+    "def": "in your opinion; your way",
+    "grammar": "adverb"
+  },
+  "по‑гусарски": {
+    "def": "like a hussar, hussar-fashion (mil.)",
+    "grammar": "adverb"
+  },
+  "по‑домашнему": {
+    "def": "informally, in home style (dress/manner)",
+    "grammar": "adverb"
+  },
+  "по‑итальянски": {
+    "def": "in Italian",
+    "grammar": "adverb"
+  },
+  "по‑моему": {
+    "def": "in my opinion; my way",
+    "grammar": "adverb"
+  },
+  "по‑нашему": {
+    "def": "in our opinion, our way; here also: in our language",
+    "grammar": "adverb"
+  },
+  "по‑немецки": {
+    "def": "in German",
+    "grammar": "adverb"
+  },
+  "по‑новому": {
+    "def": "in a new way, in the new fashion",
+    "grammar": "adverb"
+  },
+  "по‑одиночке": {
+    "def": "one by one, singly (modern spelling поодиночке)",
+    "grammar": "adverb"
+  },
+  "по‑русски": {
+    "def": "in Russian",
+    "grammar": "adverb"
+  },
+  "по‑своему": {
+    "def": "in one's own way, after one's own fashion",
+    "grammar": "adverb"
+  },
+  "по‑солдатски": {
+    "def": "like a soldier, soldier-fashion (mil.)",
+    "grammar": "adverb"
+  },
+  "по‑старинному": {
+    "def": "in the old-fashioned way, after the old style",
+    "grammar": "adverb"
+  },
+  "по‑старому": {
+    "def": "as before, in the old way",
+    "grammar": "adverb"
+  },
+  "по‑товарищески": {
+    "def": "in a comradely way, as a friend/comrade",
+    "grammar": "adverb"
+  },
+  "по‑турецки": {
+    "def": "Turkish-fashion; сидеть по-турецки = to sit cross-legged",
+    "grammar": "adverb"
+  },
+  "по‑французски": {
+    "def": "in French (говорить по-французски = to speak French)",
+    "grammar": "adverb"
+  },
+  "по‑хранцузски": {
+    "def": "in French (soldiers' colloquial distortion of по-французски)",
+    "grammar": "adverb (colloq. distortion)"
+  },
+  "по‑чешски": {
+    "def": "in Czech (of speaking the Czech language)",
+    "grammar": "adverb"
   },
   "прав": {
     "def": "(form of право: right, licence, law, really, truly, indeed)",
@@ -82191,6 +83563,10 @@ const LOCAL_DICTIONARY = {
     "def": "truth",
     "grammar": "particle"
   },
+  "правда...вы": {
+    "def": "two run-together words: правда ‘truth’ + вы ‘you’ (“вам видна правда... Вы одна...”)",
+    "grammar": "noun, feminine, singular, nominative + pronoun (run together in text)"
+  },
   "правде": {
     "def": "(form of правда: truth)",
     "grammar": "noun, feminine, singular, dative"
@@ -82205,6 +83581,10 @@ const LOCAL_DICTIONARY = {
   },
   "правду": {
     "def": "(form of правда: truth)",
+    "grammar": "noun, feminine, singular, accusative"
+  },
+  "правду‑матку": {
+    "def": "the plain blunt truth (colloq. правда-матка; правду-матку сказать = tell it straight)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "праведника": {
@@ -82336,8 +83716,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "прадт": {
-    "def": "[Proper Noun / Name / Place] Pradt",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Прадт — Dominique de Pradt (1759–1837), French abbé and political writer on Onegin's bookshelf",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "праздник": {
     "def": "holiday, feast, a festive occasion",
@@ -82444,8 +83824,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "пратер": {
-    "def": "[Proper Noun / Name / Place] Prater",
-    "grammar": "verb, imperfective, past, transitive, masculine, singular"
+    "def": "Пратер — the Prater, great public park in Vienna, mentioned in Война и мир",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "пратера": {
     "def": "(form of пратер: [Proper Noun / Name / Place] Prater)",
@@ -82460,24 +83840,24 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "прац": {
-    "def": "[Proper Noun / Name / Place] Prats",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Прац — Pratzen, village near Austerlitz; the Pratzen Heights were central to the battle in Война и мир",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "праца": {
-    "def": "[Proper Noun / Name / Place] Pratsa",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Прац — Pratzen, village at Austerlitz in Война и мир (genitive: 'около деревни Праца')",
+    "grammar": "noun (place name), masculine, singular, genitive"
   },
   "працена": {
-    "def": "[Proper Noun / Name / Place] Pratsena",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Працен — Pratzen, village at Austerlitz in Война и мир ('из Працена' — from Pratzen)",
+    "grammar": "noun (place name), masculine, singular, genitive"
   },
   "праценские": {
     "def": "(form of праценский: [Proper Noun / Name / Place] Pratsenskiy)",
     "grammar": "noun, masculine, singular, prepositional"
   },
   "праценским": {
-    "def": "[Proper Noun / Name / Place] Pratsenskim",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Pratzen (attributive): the Pratzen Heights (Праценские высоты) at Austerlitz in Война и мир",
+    "grammar": "adjective, plural, dative"
   },
   "праценских": {
     "def": "(form of праценский: [Proper Noun / Name / Place] Pratsenskiy)",
@@ -82488,15 +83868,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, prepositional"
   },
   "працом": {
-    "def": "[Proper Noun / Name / Place] Pratsom",
-    "grammar": ""
+    "def": "Прац — Pratzen, village at Austerlitz in Война и мир (instrumental: 'под Працом' — near Pratzen)",
+    "grammar": "noun (place name), masculine, singular, instrumental"
   },
   "працу": {
     "def": "(form of праца: [Proper Noun / Name / Place] Pratsa)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "пребледный": {
-    "def": "",
+    "def": "extremely pale, pale as can be (intensive пре- + бледный)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "пребывании": {
@@ -82508,7 +83888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "превежливо": {
-    "def": "",
+    "def": "most politely, with great courtesy (intensive пре- + вежливо)",
     "grammar": "adverb"
   },
   "превозмогли": {
@@ -82580,11 +83960,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "прегадкий": {
-    "def": "",
+    "def": "thoroughly nasty, most vile (intensive пре- + гадкий)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "преглупый": {
-    "def": "[Proper Noun / Name / Place] Preglupyy",
+    "def": "very stupid, utterly foolish (intensive prefix пре-)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "преград": {
@@ -82608,8 +83988,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "предалася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "gave herself up to, devoted herself to (arch./poetic form of предалась, from предаться)",
+    "grammar": "verb, perfective, past, feminine, reflexive (archaic form)"
   },
   "предался": {
     "def": "(form of предаться: [Proper Noun / Name / Place] Predatsya)",
@@ -82660,8 +84040,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "предаться": {
-    "def": "[Proper Noun / Name / Place] Predatsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to give oneself up to, abandon oneself to, indulge in",
+    "grammar": "verb, infinitive, perfective, reflexive, intransitive"
   },
   "предаюсь": {
     "def": "(form of предаваться: give oneself up)",
@@ -83276,7 +84656,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "предуведомить": {
-    "def": "",
+    "def": "to forewarn, to notify in advance (obs.)",
     "grammar": "infinitive, perfective, transitive"
   },
   "предузнав": {
@@ -83336,7 +84716,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, active, transitive, feminine, singular, nominative"
   },
   "предчувствовать": {
-    "def": "",
+    "def": "to have a presentiment of, to sense (something) in advance",
     "grammar": "infinitive, imperfective, transitive"
   },
   "предчувствует": {
@@ -83366,6 +84746,10 @@ const LOCAL_DICTIONARY = {
   "преждевременно": {
     "def": "prematurely",
     "grammar": "adverb"
+  },
+  "прежде‑неподвижные": {
+    "def": "previously motionless (compound: прежде ‘formerly’ + неподвижный ‘motionless’)",
+    "grammar": "adjective, plural, nominative (compound)"
   },
   "прежнего": {
     "def": "(form of прежний: former)",
@@ -83488,7 +84872,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "презрительно": {
-    "def": "",
+    "def": "contemptuously, scornfully, disdainfully",
     "grammar": "adverb"
   },
   "презрительного": {
@@ -83744,7 +85128,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "преопасный": {
-    "def": "",
+    "def": "most dangerous, highly perilous (intensive пре- + опасный)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "препараты": {
@@ -83820,7 +85204,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "прескверный": {
-    "def": "",
+    "def": "utterly bad, wretched (intensive пре- + скверный; прескверный желудок = a rotten stomach)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "прескучные": {
@@ -83920,11 +85304,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "преупрямый": {
-    "def": "",
+    "def": "extremely stubborn, obstinate as can be (intensive пре- + упрямый)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "прехладнокровно": {
-    "def": "",
+    "def": "with utmost composure, quite cold-bloodedly (intensive пре- + хладнокровно)",
     "grammar": "adverb"
   },
   "прехорошенькая": {
@@ -83944,8 +85328,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "пржебышевский": {
-    "def": "[Proper Noun / Name / Place] Przhebyshevskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Пржебышевский — Przhebyshevsky, Russian general whose column surrendered at Austerlitz in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "пржебышевского": {
     "def": "(form of пржебышевский: [Proper Noun / Name / Place] Przhebyshevskiy)",
@@ -84232,8 +85616,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "привесть": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "to bring (obs. infinitive of привести; привесть в ясность = to bring into clarity)",
+    "grammar": "infinitive, perfective, transitive (obs. form)"
   },
   "привета": {
     "def": "(form of привет: hello (informal), hi (informal))",
@@ -84344,7 +85728,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "привлекательно": {
-    "def": "",
+    "def": "attractively, alluringly; (as predicate) is attractive",
     "grammar": "adverb"
   },
   "привлекательное": {
@@ -84484,8 +85868,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "привычно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "habitually, as was customary; familiar to (кому-либо)",
+    "grammar": "adverb (also short-form adjective, neuter)"
   },
   "привычное": {
     "def": "(form of привычный: habitual, usual, accustomed)",
@@ -84604,8 +85988,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, active, intransitive, plural, genitive"
   },
   "приглядываться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to look closely, observe attentively, keep an eye on things",
+    "grammar": "infinitive, imperfective, intransitive, reflexive"
   },
   "приглядываются": {
     "def": "(form of приглядываться)",
@@ -84628,7 +86012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, plural"
   },
   "пригнать": {
-    "def": "",
+    "def": "to drive (livestock) to a place, herd in (пригнать баранов = drive in the sheep)",
     "grammar": "infinitive, perfective, transitive"
   },
   "пригнув": {
@@ -84756,8 +86140,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, masculine, singular"
   },
   "приготовляться": {
-    "def": "[Proper Noun / Name / Place] Prigotovlyatsya",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to prepare oneself, get ready (imperfective)",
+    "grammar": "verb, infinitive, imperfective, reflexive, intransitive"
   },
   "приготовляют": {
     "def": "(form of приготовлять)",
@@ -85122,6 +86506,10 @@ const LOCAL_DICTIONARY = {
   "приехал": {
     "def": "(form of приехать: arrive, come)",
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
+  },
+  "приехал,совсем": {
+    "def": "two run-together words: приехал ‘(he) arrived’ + совсем ‘quite, completely’",
+    "grammar": "verb, perfective, past, masculine + adverb (run together in text)"
   },
   "приехала": {
     "def": "(form of приехать: arrive, come)",
@@ -85503,6 +86891,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of приклад: butt, butt-stock, trimmings)",
     "grammar": "noun, masculine, singular, instrumental"
   },
+  "прикладом‑то": {
+    "def": "with the rifle butt (instrumental of приклад + emphatic colloq. particle -то)",
+    "grammar": "noun, masculine, singular, instrumental + emphatic particle"
+  },
   "прикладывая": {
     "def": "(form of прикладывать: invest, spend, put)",
     "grammar": "gerund, imperfective, present, transitive"
@@ -85736,15 +87128,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "прим": {
-    "def": "[Proper Noun / Name / Place] Prim",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "note (abbreviation of примечание, in '(Прим. автора)' — author's note)",
+    "grammar": "abbreviation of noun, neuter"
   },
   "приманками": {
     "def": "(form of приманка: bait, lure, enticement)",
     "grammar": "noun, feminine, plural, instrumental"
   },
   "приманчивый": {
-    "def": "",
+    "def": "alluring, enticing (obs.; = заманчивый)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "примем": {
@@ -85796,7 +87188,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "приметно": {
-    "def": "",
+    "def": "noticeably, perceptibly (едва приметно = barely perceptibly)",
     "grammar": "adverb"
   },
   "примется": {
@@ -86032,8 +87424,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "принимания": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "receiving (of guests) (verbal noun from принимать; дело принимания = the business of receiving)",
+    "grammar": "noun, neuter, singular, genitive"
   },
   "принимать": {
     "def": "take; to admit, to accept; to receive; to make",
@@ -86148,8 +87540,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "принялася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "set about, took up (за книги = took to her books) (arch./poetic form of принялась)",
+    "grammar": "verb, perfective, past, feminine, reflexive (archaic form)"
   },
   "приняли": {
     "def": "(form of принять: to take; to admit, to accept; to receive)",
@@ -86252,8 +87644,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "приостановиться": {
-    "def": "[Proper Noun / Name / Place] Priostanovitsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to pause, halt for a moment, stop briefly",
+    "grammar": "verb, infinitive, perfective, reflexive, intransitive"
   },
   "припадать": {
     "def": "fall down, press oneself",
@@ -86324,8 +87716,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "приподнялася": {
-    "def": "[Proper Noun / Name / Place] Pripodnyalasya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "rose slightly, heaved, lifted a little (archaic/poetic form of приподнялась)",
+    "grammar": "verb, perfective, past, feminine, singular, reflexive"
   },
   "приподнялись": {
     "def": "(form of приподняться: to raise oneself)",
@@ -86452,7 +87844,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "присест": {
-    "def": "",
+    "def": "a sitting, spell of sitting (продолжительный присест = a long-drawn-out stay; cf. в один присест)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "присесть": {
@@ -86639,6 +88031,10 @@ const LOCAL_DICTIONARY = {
     "def": "fixedly, intently",
     "grammar": "adverb"
   },
+  "пристально‑холодным": {
+    "def": "fixed and cold, intently cold (of a gaze) (compound: пристальный + холодный)",
+    "grammar": "adjective, masculine, singular, instrumental (compound)"
+  },
   "пристани": {
     "def": "(form of пристань: Wharf, pier)",
     "grammar": "noun, feminine, singular, genitive"
@@ -86668,12 +88064,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, transitive"
   },
   "пристроить": {
-    "def": "[Proper Noun / Name / Place] Pristroit",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to settle, place, fix (someone) up (in a post, marriage etc.)",
+    "grammar": "verb, infinitive, perfective, transitive"
   },
   "пристроиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to find oneself a snug place/berth, get attached (e.g. to a staff post)",
+    "grammar": "infinitive, perfective, intransitive, reflexive"
   },
   "приступая": {
     "def": "(form of приступать: get started, start, proceed)",
@@ -86784,8 +88180,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, instrumental"
   },
   "притворность": {
-    "def": "",
+    "def": "feignedness, pretence, insincerity (притворность интереса = feigned interest)",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "притворно‑глубокомысленного": {
+    "def": "feignedly profound, mock-thoughtful (of an air/expression) (compound)",
+    "grammar": "adjective, masculine, singular, genitive (compound)"
+  },
+  "притворно‑сладкое": {
+    "def": "feignedly sweet, falsely sugary (of an expression) (compound)",
+    "grammar": "adjective, neuter, singular, accusative (compound)"
+  },
+  "притворно‑тихим": {
+    "def": "feignedly quiet, put-on soft (of a voice) (compound)",
+    "grammar": "adjective, masculine, singular, instrumental (compound)"
   },
   "притворную": {
     "def": "(form of притворный: affected, pretended, feigned, sham)",
@@ -86856,8 +88264,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "притти": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "to come, to arrive (old orthographic variant of прийти)",
+    "grammar": "infinitive, perfective, intransitive (old spelling)"
   },
   "притулиться": {
     "def": "find room for oneself",
@@ -87352,8 +88760,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "приять": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to accept, to take upon oneself (arch./poetic = принять; приять оковы = accept fetters)",
+    "grammar": "infinitive, perfective, transitive (archaic)"
   },
   "про": {
     "def": "about, for",
@@ -87456,16 +88864,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, nominative"
   },
   "пробойчик": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "small hasp/staple for a padlock (dim. of пробой)",
+    "grammar": "noun, masculine, singular, nominative (diminutive)"
   },
   "пробормотал": {
     "def": "(form of пробормотать: mutter, mumble)",
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "пробочка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "little cork, small stopper (dim. of пробка)",
+    "grammar": "noun, feminine, singular, nominative (diminutive)"
   },
   "пробрался": {
     "def": "(form of пробраться: steal; to make one's way in forcibly)",
@@ -87728,7 +89136,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "проворно": {
-    "def": "",
+    "def": "nimbly, briskly, quickly",
     "grammar": "adverb"
   },
   "проворный": {
@@ -87984,8 +89392,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, plural"
   },
   "продолжительно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "for a long time, protractedly; (short adj) prolonged",
+    "grammar": "adverb (also short-form adjective, neuter)"
   },
   "продолжительный": {
     "def": "long, prolonged",
@@ -88228,8 +89636,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "прозоров": {
-    "def": "[Proper Noun / Name / Place] Prozorov",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "Прозоров — Prozorov, family name of the three sisters and their brother Andrei in Три сестры",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "прозорова": {
     "def": "(form of прозоров: [Proper Noun / Name / Place] Prozorov)",
@@ -88292,8 +89700,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short participle, perfective, past, passive, neuter, singular"
   },
   "проиграться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to gamble away one's money, lose everything at play",
+    "grammar": "infinitive, perfective, intransitive, reflexive"
   },
   "проигрывал": {
     "def": "(form of проигрывать: lose, be defeated)",
@@ -88864,7 +90272,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "проницательно": {
-    "def": "",
+    "def": "penetratingly, shrewdly, with a knowing air",
     "grammar": "adverb"
   },
   "проницательном": {
@@ -88912,8 +90320,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, plural"
   },
   "пропадший": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "lost, done for, ruined (colloq.; пропадший человек = a hopeless case, a goner)",
+    "grammar": "adjective, masculine, singular, nominative (colloq.)"
   },
   "пропал": {
     "def": "(form of пропасть: precipice, abyss, chasm; lots, tons)",
@@ -89316,7 +90724,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "простодушно": {
-    "def": "",
+    "def": "artlessly, ingenuously, open-heartedly",
     "grammar": "adverb"
   },
   "простодушной": {
@@ -89352,8 +90760,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "просторно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "spaciously; (impers. predicate) there is ample room, one feels free and easy",
+    "grammar": "adverb (predicative)"
   },
   "просторным": {
     "def": "(form of просторный: spacious, roomy, loose, wide)",
@@ -89396,7 +90804,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "пространно": {
-    "def": "",
+    "def": "at length, expansively, verbosely",
     "grammar": "adverb"
   },
   "пространство": {
@@ -89560,8 +90968,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "противность": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "opposition; в противность (+ gen.) = contrary to, in defiance of (obs.)",
+    "grammar": "noun, feminine, singular, accusative (in set phrase в противность)"
   },
   "противные": {
     "def": "(form of противный: disgusting)",
@@ -89656,8 +91064,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "протопопов": {
-    "def": "[Proper Noun / Name / Place] Protopopov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Протопопов — Protopopov, chairman of the district council and Natasha's admirer in Три сестры",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "протопопова": {
     "def": "(form of протопопов: [Proper Noun / Name / Place] Protopopov)",
@@ -89860,8 +91268,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "прохор": {
-    "def": "[Proper Noun / Name / Place] Prokhor",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Прохор — Prokhor, male given name (Прохор Игнатьич, addressed by Denisov in Война и мир)",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "процентой": {
     "def": "(form of процента)",
@@ -89872,8 +91280,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "проч": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "etc., and so forth (и проч. = abbreviation of и прочее)",
+    "grammar": "abbreviation (of прочее ‘the rest’)"
   },
   "прочая": {
     "def": "(form of прочий: other)",
@@ -89988,8 +91396,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "прошедшее": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "the past (substantivized participle of пройти)",
+    "grammar": "noun, neuter, singular, nominative (substantivized adjective)"
   },
   "прошедшем": {
     "def": "(form of прошедшее)",
@@ -90195,6 +91603,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of прояснять)",
     "grammar": "verb, imperfective, present, transitive, singular"
   },
+  "про‑пус‑тить": {
+    "def": "to let through, make way (пропустить spelled out syllable by syllable for emphasis: “Из-воль-те про-пус-тить!”)",
+    "grammar": "infinitive, perfective, transitive (syllabified spelling)"
+  },
   "пруд": {
     "def": "pond",
     "grammar": "noun, masculine, singular, accusative"
@@ -90236,8 +91648,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "пруссия": {
-    "def": "[Proper Noun / Name / Place] Prussiya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Пруссия — Prussia, the German kingdom, discussed in the political talk of Война и мир",
+    "grammar": "noun (place name), feminine, singular, nominative"
   },
   "прусский": {
     "def": "Prussian",
@@ -90264,8 +91676,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "прыг": {
-    "def": "",
-    "grammar": "interjection"
+    "def": "hop! jump! (verbal interjection of sudden action: Татьяна прыг = Tatyana darted/leapt)",
+    "grammar": "verbal interjection (predicative)"
   },
   "прыгает": {
     "def": "(form of прыгать: spring, jump, leap, bound, bounce)",
@@ -90620,8 +92032,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, instrumental"
   },
   "пулять": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to hurl, pelt, chuck (colloq.; каменьями пулять = to pelt with stones)",
+    "grammar": "infinitive, imperfective, transitive (colloq.)"
   },
   "пулях": {
     "def": "(form of пуля: bullet, projectile)",
@@ -90647,6 +92059,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of пунцовый: crimson)",
     "grammar": "short adjective, neuter, singular"
   },
+  "пунцово‑красному": {
+    "def": "crimson-red, flushed scarlet (compound: пунцовый + красный)",
+    "grammar": "adjective, masculine, singular, dative (compound)"
+  },
   "пунцовый": {
     "def": "crimson",
     "grammar": "adjective, masculine, singular, nominative"
@@ -90656,8 +92072,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "пус": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment: middle syllable of про-пус-тить ‘let through’ spelled out for emphasis; not an independent word",
+    "grammar": "fragment (syllable of пропустить)"
   },
   "пускавшую": {
     "def": "(form of пускать: let, allow; set in motion, put in action, set working)",
@@ -90672,8 +92088,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "пускай": {
-    "def": "[Proper Noun / Name / Place] Puskay",
-    "grammar": "conjunction"
+    "def": "let (him/them...); all right, so be it (colloq., = пусть)",
+    "grammar": "particle / conjunction"
   },
   "пускала": {
     "def": "(form of пускать: let, allow; set in motion, put in action, set working)",
@@ -90760,8 +92176,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "пуститься": {
-    "def": "[Proper Noun / Name / Place] Pustitsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to set off, venture, launch (into); пуститься через пролив — to set out across the strait",
+    "grammar": "verb, infinitive, perfective, reflexive, intransitive"
   },
   "пусто": {
     "def": "be empty",
@@ -90860,15 +92276,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "пустяков": {
-    "def": "[Proper Noun / Name / Place] Pustyakov",
-    "grammar": "noun, masculine, plural, genitive"
+    "def": "of trifles (gen. pl. of пустяк 'trifle'); also Пустяков, comic fat squire in Евгений Онегин",
+    "grammar": "noun, masculine, plural, genitive; also surname, nominative"
   },
   "пустякову": {
     "def": "(form of пустяков: [Proper Noun / Name / Place] Pustyakov)",
     "grammar": "noun, masculine, singular, dative"
   },
   "пустячок": {
-    "def": "[Proper Noun / Name / Place] Pustyachok",
+    "def": "a mere trifle, little nothing (diminutive of пустяк)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "пустяшная": {
@@ -91100,8 +92516,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "пуще": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "more, worse, all the more (colloq./folk; пуще прежнего = worse than before)",
+    "grammar": "adverb, comparative (colloq.)"
   },
   "пущен": {
     "def": "(form of пустить: let, allow; set in motion, put in action, set working; shoot, loose; turn on; let go)",
@@ -91256,7 +92672,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "пышно": {
-    "def": "",
+    "def": "sumptuously, magnificently, luxuriantly (пышно убрана = gorgeously adorned)",
     "grammar": "adverb"
   },
   "пышность": {
@@ -91280,8 +92696,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "пьер": {
-    "def": "[Proper Noun / Name / Place] Per",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Пьер — Pierre Bezukhov, the count's illegitimate son and a protagonist of Война и мир",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "пьера": {
     "def": "(form of пьер: [Proper Noun / Name / Place] Per)",
@@ -91412,8 +92828,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "пятигорск": {
-    "def": "[Proper Noun / Name / Place] Pyatigorsk",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Пятигорск — Pyatigorsk, spa town in the Caucasus, main setting of 'Княжна Мери' in Герой нашего времени",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "пятигорска": {
     "def": "(form of пятигорск: [Proper Noun / Name / Place] Pyatigorsk)",
@@ -91532,12 +92948,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, instrumental"
   },
   "р": {
-    "def": "[Proper Noun / Name / Place] R",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "the letter r; artifact of mixed Latin/Cyrillic type in French phrases ('Рrincesse', 'рroverbe'); not a word",
+    "grammar": "letter (text artifact)"
   },
   "ра": {
-    "def": "[Proper Noun / Name / Place] Ra",
-    "grammar": ""
+    "def": "stray syllable from broken-off speech in Три сестры ('ра...'); not an actual word",
+    "grammar": "text fragment"
+  },
+  "раchеttе": {
+    "def": "Pachette — French pet name for Praskovya, Tatyana's mother, used by her cousin Princess Alina (Евгений Онегин)",
+    "grammar": "proper noun (French pet name), used vocatively"
   },
   "раб": {
     "def": "slave, serf, bondman, bondslave",
@@ -91707,6 +93127,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of равномерный: even, uniform)",
     "grammar": "adjective, neuter, singular, nominative"
   },
+  "равномерно‑быстро": {
+    "def": "with uniform swiftness, evenly and fast (compound adverb, of a cannonball's whistle)",
+    "grammar": "adverb (compound)"
+  },
   "равномерную": {
     "def": "(form of равномерный: even, uniform)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -91772,8 +93196,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "радостн": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "joyfully — truncated form of радостно (stage direction in Три сестры: “радостно”)",
+    "grammar": "adverb (truncated form)"
   },
   "радостна": {
     "def": "(form of радостный: glad, joyous, joyful)",
@@ -91896,8 +93320,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "раевич": {
-    "def": "[Proper Noun / Name / Place] Raevich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Раевич — Raevich, a Moscow dandy and gambler mentioned in Герой нашего времени",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "раевичем": {
     "def": "(form of раевич: [Proper Noun / Name / Place] Raevich)",
@@ -92060,8 +93484,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "разболтать": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to blab, blurt out, divulge (colloq.)",
+    "grammar": "infinitive, perfective, transitive (colloq.)"
   },
   "разбора": {
     "def": "(form of разбор: analysis, investigation, parsing, critique)",
@@ -92667,6 +94091,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of раздражённость)",
     "grammar": "noun, feminine, singular, genitive"
   },
+  "раздраженно‑оживленными": {
+    "def": "irritatedly animated, excitedly worked-up (of people) (compound)",
+    "grammar": "adjective, plural, instrumental (compound)"
+  },
   "раздраженный": {
     "def": "(form of раздражить: irritate, annoy, put out, exasperate)",
     "grammar": "participle, perfective, past, passive, transitive, masculine, singular, nominative"
@@ -92704,8 +94132,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "раздув": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "having puffed out, having ballooned (раздув баллоном платье = ballooning her dress; gerund of раздуть)",
+    "grammar": "verbal adverb (gerund), perfective"
   },
   "раздувая": {
     "def": "(form of раздувать: fan, blow, rouse, exaggerate, swell, push, boost, blow about, flutter)",
@@ -92760,7 +94188,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, transitive"
   },
   "разительно": {
-    "def": "",
+    "def": "strikingly, startlingly (from obs. разительный ‘striking’)",
     "grammar": "adverb"
   },
   "разлетится": {
@@ -92816,7 +94244,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, nominative"
   },
   "различно": {
-    "def": "[Proper Noun / Name / Place] Razlichno",
+    "def": "differently, in various ways",
     "grammar": "adverb"
   },
   "различное": {
@@ -92960,7 +94388,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "размеренность": {
-    "def": "",
+    "def": "measuredness, regularity, even rhythm (of movement)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "разместились": {
@@ -93028,8 +94456,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "разно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "differently, variously (obs./colloq. = по-разному)",
+    "grammar": "adverb (obs.)"
   },
   "разногласие": {
     "def": "disagreement, difference of opinion, discord",
@@ -93088,8 +94516,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "разнотой": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "difference, dissimilarity (obs. разнота; взаимной разнотой = by their mutual unlikeness)",
+    "grammar": "noun, feminine, singular, instrumental (obs.)"
   },
   "разноцветных": {
     "def": "(form of разноцветный: many-coloured, motley, variegated)",
@@ -93098,6 +94526,10 @@ const LOCAL_DICTIONARY = {
   "разноязычная": {
     "def": "(form of разноязычный: polyglot)",
     "grammar": "adjective, feminine, singular, nominative"
+  },
+  "разно‑образно‑строгими": {
+    "def": "variedly stern, stern in diverse ways (разнообразно-строгий, hyphenated in text) (of faces)",
+    "grammar": "adjective, plural, instrumental (compound)"
   },
   "разные": {
     "def": "(form of разный: different, diverse, various)",
@@ -93168,8 +94600,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "разойтиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to part, go their separate ways (arch./poetic infinitive of разойтись; разойтиться полюбовно = part amicably)",
+    "grammar": "infinitive, perfective, intransitive, reflexive (archaic form)"
   },
   "разом": {
     "def": "at the same time, together, at once, at one go",
@@ -93248,8 +94680,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, active, transitive, masculine, singular, nominative"
   },
   "разрешалася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "was breaking up, dissolving (разрешалася зима = winter was breaking; arch. form of разрешалась)",
+    "grammar": "verb, imperfective, past, feminine, reflexive (archaic form)"
   },
   "разрешалось": {
     "def": "(form of разрешаться: be allowed, be solved, be settled)",
@@ -93364,7 +94796,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "разрядить": {
-    "def": "",
+    "def": "to unload, discharge (a firearm)",
     "grammar": "infinitive, perfective, transitive"
   },
   "разу": {
@@ -93372,7 +94804,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular"
   },
   "разуверить": {
-    "def": "",
+    "def": "to undeceive, dissuade, make (someone) give up a belief",
     "grammar": "infinitive, perfective, transitive"
   },
   "разуверьтесь": {
@@ -93380,8 +94812,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, intransitive, plural"
   },
   "разуверять": {
-    "def": "[Proper Noun / Name / Place] Razuveryat",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to disabuse, dissuade (someone) of a belief, make (someone) stop believing",
+    "grammar": "verb, infinitive, imperfective, transitive"
   },
   "разулись": {
     "def": "(form of разуться)",
@@ -93392,8 +94824,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "разумеется": {
-    "def": "[Proper Noun / Name / Place] Razumeetsya",
-    "grammar": "conjunction"
+    "def": "of course, naturally, it goes without saying (parenthetical; lit. 'it is understood')",
+    "grammar": "verb, 3rd person singular, present, reflexive; used parenthetically"
   },
   "разумел": {
     "def": "(form of разуметь: understand, mean)",
@@ -93548,8 +94980,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "ран": {
-    "def": "",
-    "grammar": "noun, feminine, singular, genitive"
+    "def": "of wounds (gen. pl. of рана ‘wound’; от полученных ран = from the wounds received)",
+    "grammar": "noun, feminine, plural, genitive"
   },
   "рана": {
     "def": "wound, injury",
@@ -94003,6 +95435,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of распоряжение: order, instruction, direction, decree)",
     "grammar": "noun, neuter, plural, prepositional"
   },
+  "распоряжения‑то": {
+    "def": "orders, arrangements (pl. of распоряжение + emphatic colloq. particle -то)",
+    "grammar": "noun, neuter, plural, nominative + emphatic particle"
+  },
   "распояской": {
     "def": "(form of распояска)",
     "grammar": "noun, feminine, singular, instrumental"
@@ -94236,8 +95672,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "рассеянность": {
-    "def": "",
-    "grammar": "noun, feminine, singular, accusative"
+    "def": "absent-mindedness, distractedness",
+    "grammar": "noun, feminine, singular, nominative"
   },
   "рассеянную": {
     "def": "(form of рассеянный: absent-minded, scatterbrained, distracted, unorganized)",
@@ -94324,7 +95760,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "рассказчик": {
-    "def": "",
+    "def": "narrator, storyteller (here: the man telling the anecdote)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "рассказчика": {
@@ -94632,8 +96068,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "расстроивать": {
-    "def": "",
-    "grammar": "infinitive, imperfective, transitive"
+    "def": "to throw into disorder, break up (the ranks) (obs. variant of расстраивать)",
+    "grammar": "infinitive, imperfective, transitive (obs. form)"
   },
   "расстроившимся": {
     "def": "(form of расстроиться: be upset; fall apart)",
@@ -94744,8 +96180,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "рассыпалася": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "scattered, crumbled to pieces (of a falling star) (arch./poetic form of рассыпалась)",
+    "grammar": "verb, perfective, past, feminine, reflexive (archaic form)"
   },
   "рассыпались": {
     "def": "(form of рассыпаться: spill, scatter, scamper off, go to pieces, crumble)",
@@ -94784,7 +96220,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "растворить": {
-    "def": "",
+    "def": "to dissolve (in liquid) (растворить и употреблять = dissolve and take, of a prescription)",
     "grammar": "infinitive, perfective, transitive"
   },
   "растение": {
@@ -94904,8 +96340,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "растянуться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to stretch out, string out in a long line (of a column of troops)",
+    "grammar": "infinitive, perfective, intransitive, reflexive"
   },
   "расфранченные": {
     "def": "(form of расфрантить)",
@@ -95048,12 +96484,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "рат": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment (e.g. of импе-ратор ‘emperor’ in broken accented speech); not an independent word",
+    "grammar": "fragment"
   },
   "ратор": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "word fragment: second half of импэ ратор = император ‘emperor’ in a German officer's accented speech",
+    "grammar": "fragment (part of noun император)"
   },
   "ратора": {
     "def": "(form of ратор)",
@@ -95260,7 +96696,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "редингот": {
-    "def": "",
+    "def": "redingote, long fitted frock-coat/riding coat (obs., from French redingote)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "рединготом": {
@@ -95328,7 +96764,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "резво": {
-    "def": "",
+    "def": "briskly, friskily, nimbly",
     "grammar": "adverb"
   },
   "резвость": {
@@ -95552,8 +96988,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "репнина": {
-    "def": "[Proper Noun / Name / Place] Repnina",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Репнин — Prince Repnin, colonel of the Chevalier Guards wounded at Austerlitz (Война и мир); genitive/accusative form",
+    "grammar": "noun (surname), masculine, singular, genitive/accusative"
   },
   "репутации": {
     "def": "(form of репутация: reputation, image)",
@@ -95908,8 +97344,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "рисковайт": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "to risk (German officer's mangled Russian for рисковать: “Зачем рисковайт!”)",
+    "grammar": "verb, infinitive (distorted foreign speech)"
   },
   "рисковал": {
     "def": "(form of рисковать: run risks, take chances, risk, venture)",
@@ -95980,8 +97416,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "ро": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment/syllable; not an independent word",
+    "grammar": "fragment"
   },
   "робевшие": {
     "def": "(form of робеть: be timid, funk, quail)",
@@ -96008,8 +97444,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "робинзона": {
-    "def": "[Proper Noun / Name / Place] Robinzona",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Робинзон (Крузо) — Robinson Crusoe, Defoe's castaway hero; genitive form",
+    "grammar": "noun (name), masculine, singular, genitive"
   },
   "робким": {
     "def": "(form of робкий: shy, timid, bashful)",
@@ -96020,7 +97456,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "робко": {
-    "def": "",
+    "def": "timidly, shyly, diffidently",
     "grammar": "adverb"
   },
   "робкого": {
@@ -96212,8 +97648,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "родничек": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "little spring (of water) (dim. of родник)",
+    "grammar": "noun, masculine, singular, nominative (diminutive)"
   },
   "родной": {
     "def": "(form of родный: relatives, kin, loved ones)",
@@ -96312,8 +97748,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, nominative"
   },
   "родэ": {
-    "def": "[Proper Noun / Name / Place] Rode",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Родэ — Rode, second lieutenant in Три сестры",
+    "grammar": "noun (surname), masculine, indeclinable"
   },
   "родятся": {
     "def": "(form of родиться: be born, come into being, arise, thrive)",
@@ -96384,8 +97820,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "рожков": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "of bugles/little horns (gen. pl. of рожок; звуки рожков = the sound of bugles)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "рожок": {
     "def": "small horn, hornlet, horn, clarion, bugle, feeding-bottle, shoe-horn",
@@ -96484,8 +97920,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, instrumental"
   },
   "рома": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "of rum (gen. sg. of ром; бутылка рома = a bottle of rum)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "роман": {
     "def": "novel, romance, love affair",
@@ -96512,8 +97948,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "романович": {
-    "def": "[Proper Noun / Name / Place] Romanovich",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Романович — patronymic 'son of Roman' (Иван Романович Чебутыкин in Три сестры)",
+    "grammar": "noun (patronymic), masculine, singular, nominative"
   },
   "романом": {
     "def": "(form of роман: novel, romance, love affair)",
@@ -96548,16 +97984,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, accusative"
   },
   "романчик": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "a little romance, petty love affair (dim. of роман, colloq./dismissive)",
+    "grammar": "noun, masculine, singular, nominative (diminutive)"
   },
   "романы": {
     "def": "(form of роман: novel, romance, love affair)",
     "grammar": "noun, masculine, plural, nominative"
   },
   "романыч": {
-    "def": "[Proper Noun / Name / Place] Romanych",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Романыч — colloquial contracted form of the patronymic Романович (Иван Романыч in Три сестры)",
+    "grammar": "noun (patronymic), masculine, singular, nominative (colloq.)"
   },
   "ромом": {
     "def": "(form of ром: rum)",
@@ -96584,8 +98020,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "роо": {
-    "def": "[Proper Noun / Name / Place] Roo",
-    "grammar": ""
+    "def": "not a Russian word: beginning of 'Poor Yorick' (Hamlet) printed with Cyrillic letters in Евгений Онегин",
+    "grammar": "foreign-word fragment (English 'poor')"
   },
   "ропот": {
     "def": "murmur, grumble",
@@ -96724,8 +98160,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "ростов": {
-    "def": "[Proper Noun / Name / Place] Rostov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ростов — Rostov, family surname of Count Ilya Rostov and Nikolai in Война и мир",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "ростова": {
     "def": "(form of ростов: [Proper Noun / Name / Place] Rostov)",
@@ -96880,8 +98316,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "рт": {
-    "def": "",
-    "grammar": "noun, feminine, singular, genitive"
+    "def": "mouth — fragment of рта (gen. of рот), printed “ртa” with a Latin ‘a’ in the text",
+    "grammar": "noun, masculine, singular, genitive (fragment)"
   },
   "рта": {
     "def": "(form of рот: mouth)",
@@ -96948,8 +98384,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "руби": {
-    "def": "[Proper Noun / Name / Place] Rubi",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "slash! cut (him) down! — imperative of рубить (mil., cavalry command)",
+    "grammar": "verb, imperative, 2nd person singular, imperfective"
   },
   "рубившей": {
     "def": "(form of рубить: fell, hew, hack, chop, mince, cut, sabre, slash, put up, erect, give it to straight from the shoulder, not mince matters)",
@@ -97216,8 +98652,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "русски": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in Russian — component of the adverb по-русски; not used on its own",
+    "grammar": "adverb (component of по-русски)"
   },
   "русские": {
     "def": "(form of русский: Russian man)",
@@ -97264,8 +98700,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "руссо": {
-    "def": "[Proper Noun / Name / Place] Russo",
-    "grammar": "noun, singular, nominative"
+    "def": "Руссо — Jean-Jacques Rousseau, French philosopher; his Confessions are discussed",
+    "grammar": "noun (surname), masculine, indeclinable"
   },
   "русые": {
     "def": "(form of русый: light brown)",
@@ -97472,8 +98908,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "рэ": {
-    "def": "",
-    "grammar": ""
+    "def": "syllable/fragment rendering accented speech (cf. импэ ратор-style spellings); not an independent word",
+    "grammar": "fragment"
   },
   "рюмки": {
     "def": "(form of рюмка: shot glass)",
@@ -97532,8 +98968,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, prepositional"
   },
   "рядком": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in a row, side by side (colloq., from рядок; сели рядком = sat down in a row)",
+    "grammar": "adverb (colloq.)"
   },
   "рядов": {
     "def": "(form of ряд: row, line, tier; file, rank; series; a number of, several)",
@@ -97571,13 +99007,25 @@ const LOCAL_DICTIONARY = {
     "def": "(form of рязанский)",
     "grammar": "adjective, neuter, singular, genitive"
   },
+  "р‑р‑рэ": {
+    "def": "speech fragment: rolled 'r' in умэр-р-рэт (= умереть, to die), mimicking a German colonel's accent (Война и мир)",
+    "grammar": "interjection / expressive speech fragment"
+  },
   "с": {
     "def": "with; from; since; off, remove from",
     "grammar": "preposition"
   },
+  "сhèrе": {
+    "def": "dear (French chère, fem.), as in ma chère 'my dear' (French; mixed-script spelling)",
+    "grammar": "adjective, feminine, singular (French)"
+  },
   "са": {
-    "def": "[Proper Noun / Name / Place] Sa",
-    "grammar": ""
+    "def": "not an independent word — stray fragment of a foreign or broken-off word (no corpus context)",
+    "grammar": "word fragment"
+  },
+  "саmро": {
+    "def": "Campo — from Campo Formio, site of the 1797 Franco-Austrian peace treaty (proper name; mixed-script spelling)",
+    "grammar": "proper noun (place name)"
   },
   "саблей": {
     "def": "(form of сабля: sabre, saber)",
@@ -97620,7 +99068,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, transitive, singular"
   },
   "садик": {
-    "def": "",
+    "def": "little garden (dim. of сад)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "садики": {
@@ -97768,7 +99216,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "салоп": {
-    "def": "",
+    "def": "salop — woman's loose fur-lined cloak (obs., from French)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "салопа": {
@@ -97832,7 +99280,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "самлюбие": {
-    "def": "",
+    "def": "self-esteem, vanity, pride (= самолюбие; variant spelling)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "само": {
@@ -97888,7 +99336,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "самодовольствие": {
-    "def": "[Proper Noun / Name / Place] Samodovolstvie",
+    "def": "self-satisfaction, complacency (obs. variant of самодовольство)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "самодовольством": {
@@ -98088,8 +99536,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "сапожок": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "small boot (dim. of сапог); here a silver-embroidered Tatar boot",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "сарае": {
     "def": "(form of сарай: shed, barn)",
@@ -98100,8 +99548,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "саратов": {
-    "def": "[Proper Noun / Name / Place] Saratov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Саратов — Saratov, city on the Volga",
+    "grammar": "noun (place name), masculine, singular, nominative/accusative"
   },
   "сарафаны": {
     "def": "(form of сарафан: sarafan, sun-dress)",
@@ -98116,7 +99564,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "сардонически": {
-    "def": "",
+    "def": "sardonically, with bitter mockery",
     "grammar": "adverb"
   },
   "сатана": {
@@ -98136,8 +99584,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "сафи": {
-    "def": "",
-    "grammar": "noun, masculine, singular, genitive"
+    "def": "nonsense word — a soldier's gibberish imitating foreign speech (Война и мир)",
+    "grammar": "indeclinable (nonsense word)"
   },
   "сафьянные": {
     "def": "(form of сафьянный: morocco)",
@@ -98268,8 +99716,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "сбогар": {
-    "def": "[Proper Noun / Name / Place] Sbogar",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Сбогар — Jean Sbogar, noble-bandit hero of Charles Nodier's novel, one of Tatyana's literary idols (Евгений Онегин)",
+    "grammar": "noun (name), masculine, singular, nominative"
   },
   "сбоку": {
     "def": "from one side, on one side, at the side",
@@ -98332,8 +99780,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "св": {
-    "def": "[Proper Noun / Name / Place] Sv",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "св. — abbreviation of святой 'Saint' (e.g. св. Николай)",
+    "grammar": "abbreviation (of adjective святой)"
   },
   "свадьба": {
     "def": "wedding",
@@ -98496,7 +99944,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, neuter, singular"
   },
   "свезти": {
-    "def": "",
+    "def": "to cart off, take away, convey (pf.)",
     "grammar": "infinitive, perfective, transitive"
   },
   "свезут": {
@@ -98504,8 +99952,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, plural"
   },
   "свекора": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "father-in-law (husband's father) — form of свёкор",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "свекоре": {
     "def": "(form of свекора)",
@@ -98571,6 +100019,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of сверхъестественный: supernatural, preternatural)",
     "grammar": "short adjective, neuter, singular"
   },
+  "сверхъестественно‑прекрасное": {
+    "def": "supernaturally beautiful (Tolstoy's compound epithet)",
+    "grammar": "adjective, neuter, singular, accusative (compound)"
+  },
   "сверхъестественным": {
     "def": "(form of сверхъестественный: supernatural, preternatural)",
     "grammar": "adjective, masculine, singular, instrumental"
@@ -98580,8 +100032,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, transitive"
   },
   "свершить": {
-    "def": "[Proper Noun / Name / Place] Svershit",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to accomplish, perform, complete (elevated/poetic; = совершить)",
+    "grammar": "verb, infinitive, perfective, transitive"
   },
   "свершиться": {
     "def": "be done, be in progress, come true",
@@ -98596,8 +100048,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "свесть": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "to bring together, strike up (obs. infinitive of свести); знакомство свесть = strike up an acquaintance",
+    "grammar": "infinitive, perfective, transitive (obs. form)"
   },
   "свет": {
     "def": "light, world, society",
@@ -98660,8 +100112,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "светлана": {
-    "def": "[Proper Noun / Name / Place] Svetlana",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Светлана — Svetlana, heroine of Zhukovsky's ballad, invoked in Евгений Онегин; female given name",
+    "grammar": "noun (given name), feminine, singular, nominative"
   },
   "светлане": {
     "def": "(form of светлана: [Proper Noun / Name / Place] Svetlana)",
@@ -98920,8 +100372,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "свистения": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "whistling (verbal noun from свистеть); here the whistle of bullets",
+    "grammar": "noun, neuter, singular, genitive"
   },
   "свисти": {
     "def": "(form of свистеть: whistle, sing, pipe, whine)",
@@ -98972,7 +100424,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "свитский": {
-    "def": "[Proper Noun / Name / Place] Svitskiy",
+    "def": "of the (imperial) suite; свитский офицер — officer of the Tsar's suite/staff (mil., obs.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "свитским": {
@@ -99112,7 +100564,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "своевольство": {
-    "def": "",
+    "def": "self-will, wilfulness, waywardness",
     "grammar": "noun, neuter, singular, nominative"
   },
   "своего": {
@@ -99159,6 +100611,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of свой: my; your; his; her; our; their)",
     "grammar": "adjective, plural, genitive"
   },
+  "своих‑то": {
+    "def": "one's own (men, side) — свои with emphatic -то; в своих-то зажарили = fired on their own men",
+    "grammar": "pronoun, plural, accusative, with particle -то"
+  },
   "свой": {
     "def": "my; your; his; her; our; their",
     "grammar": "adjective, masculine, singular, accusative"
@@ -99180,8 +100636,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "свойственно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "(is) natural, characteristic (of); человеку свойственно ошибаться = to err is human",
+    "grammar": "predicative adverb (short adjective, neuter)"
   },
   "свойственное": {
     "def": "(form of свойственный: peculiar)",
@@ -99228,8 +100684,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "своэ": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "distorted spelling of своего 'his, one's own' (German colonel's accent, Война и мир)",
+    "grammar": "possessive pronoun, masculine, singular, genitive (accent spelling)"
   },
   "свою": {
     "def": "(form of свой: my; your; his; her; our; their)",
@@ -99332,8 +100788,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "святост": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "sanctity, sacredness (= святость; German-accented spelling)",
+    "grammar": "noun, feminine, singular, nominative (accent spelling)"
   },
   "святотатственные": {
     "def": "(form of святотатственный)",
@@ -99555,6 +101011,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of сделать: make; do)",
     "grammar": "short participle, perfective, past, passive, plural"
   },
+  "сделаны,и": {
+    "def": "(were) made, put (of questions) — short passive participle of сделать; 'и' (and) stuck on by missing space",
+    "grammar": "participle, short form, passive, plural (+ conjunction и)"
+  },
   "сделать": {
     "def": "make; do",
     "grammar": "infinitive, perfective, transitive"
@@ -99586,6 +101046,14 @@ const LOCAL_DICTIONARY = {
   "сдержанною": {
     "def": "(form of сдержать: hold in, keep back, restrain, hold in check, contain, deter, hold, keep in, suppress, check)",
     "grammar": "participle, perfective, past, passive, transitive, feminine, singular, instrumental"
+  },
+  "сдержанно‑спокойным": {
+    "def": "calm in a restrained way, with restrained composure",
+    "grammar": "adjective, masculine, singular, instrumental (compound)"
+  },
+  "сдержанно‑страстное": {
+    "def": "restrainedly passionate (of attention)",
+    "grammar": "adjective, neuter, singular, nominative (compound)"
   },
   "сдержать": {
     "def": "hold in, keep back, restrain, hold in check, contain, deter, hold, keep in, suppress, check",
@@ -99823,6 +101291,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of секрет: secret, listening post, secretion)",
     "grammar": "noun, masculine, plural, nominative"
   },
+  "секреты‑то": {
+    "def": "secrets (секреты) with emphatic particle -то",
+    "grammar": "noun, masculine, plural, nominative, with particle -то"
+  },
   "секунд": {
     "def": "(form of секунда: second)",
     "grammar": "noun, feminine, plural, genitive"
@@ -99920,8 +101392,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "сем": {
-    "def": "",
-    "grammar": "particle"
+    "def": "this — prepositional of сей (obs.); о том, о сем = about this and that",
+    "grammar": "pronoun, neuter, singular, prepositional (obs. сей)"
   },
   "семейное": {
     "def": "(form of семейный: domestic, family)",
@@ -100000,8 +101472,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, nominative"
   },
   "семпель": {
-    "def": "[Proper Noun / Name / Place] Sempel",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "a simple (undoubled) stake in the card game faro, as opposed to пароль (gambling, obs.)",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "семь": {
     "def": "seven, 7",
@@ -100040,8 +101512,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, genitive"
   },
   "сенека": {
-    "def": "[Proper Noun / Name / Place] Seneka",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Сенека — Seneca, Roman Stoic philosopher",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "сени": {
     "def": "inner porch, outer entrance hall",
@@ -100140,8 +101612,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "сергей": {
-    "def": "[Proper Noun / Name / Place] Sergey",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Сергей — Sergei, male given name (Сергей Кузьмич in Война и мир)",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "сергею": {
     "def": "(form of сергей: [Proper Noun / Name / Place] Sergey)",
@@ -100156,7 +101628,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "сердечно": {
-    "def": "",
+    "def": "cordially, heartily, with all one's heart",
     "grammar": "adverb"
   },
   "сердечного": {
@@ -100226,6 +101698,10 @@ const LOCAL_DICTIONARY = {
   "сердитое": {
     "def": "(form of сердитый: angry, cross, strong)",
     "grammar": "adjective, neuter, singular, nominative"
+  },
+  "сердитое‑беличье": {
+    "def": "angry, squirrel-like (of the little princess's expression; Tolstoy's compound epithet)",
+    "grammar": "adjective, neuter, singular, nominative (compound)"
   },
   "сердитому": {
     "def": "(form of сердитый: angry, cross, strong)",
@@ -100348,7 +101824,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "середа": {
-    "def": "",
+    "def": "Wednesday (obs./colloq. for среда)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "середине": {
@@ -100547,6 +102023,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of сестра: sister; nurse)",
     "grammar": "noun, feminine, singular, instrumental"
   },
+  "сестрою‑красавицей": {
+    "def": "(with his) beautiful sister — instrumental of сестра-красавица",
+    "grammar": "noun, feminine, singular, instrumental (compound)"
+  },
   "сестру": {
     "def": "(form of сестра: sister; nurse)",
     "grammar": "noun, feminine, singular, accusative"
@@ -100732,8 +102212,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "сидоров": {
-    "def": "[Proper Noun / Name / Place] Sidorov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Сидоров — Sidorov, a soldier in Война и мир; common Russian surname",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "сидьмя": {
     "def": "(form of сидьмить)",
@@ -100756,8 +102236,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, genitive"
   },
   "сие": {
-    "def": "[Proper Noun / Name / Place] Sie",
-    "grammar": "adjective, neuter, singular, nominative"
+    "def": "this (neuter of сей; obs./bookish)",
+    "grammar": "pronoun, demonstrative, neuter, singular, nominative/accusative"
   },
   "сиживал": {
     "def": "(form of сиживать: be in habit of sitting, be wont to sit)",
@@ -100892,8 +102372,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "симметрично": {
-    "def": "",
+    "def": "symmetrically",
     "grammar": "adverb"
+  },
+  "симметрично‑выставленные": {
+    "def": "symmetrically set out, placed symmetrically (of Pierre's knees)",
+    "grammar": "participle, plural, accusative (compound)"
+  },
+  "симметрично‑наивное": {
+    "def": "symmetrically naive (of a pose, like an Egyptian statue)",
+    "grammar": "adjective, neuter, singular, accusative (compound)"
   },
   "симпатичны": {
     "def": "(form of симпатичный: likable, nice, attractive, cute)",
@@ -101160,7 +102648,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "сказывать": {
-    "def": "",
+    "def": "to say, tell (obs./colloq. imperfective of сказать)",
     "grammar": "infinitive, imperfective, transitive"
   },
   "сказывают": {
@@ -101312,8 +102800,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, intransitive, masculine, singular, genitive"
   },
   "сквег": {
-    "def": "[Proper Noun / Name / Place] Skveg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of сквег'но — Denisov's burred pronunciation of скверно 'badly, rotten' (Война и мир)",
+    "grammar": "word fragment (adverb скверно, burred speech)"
+  },
+  "сквег'ная": {
+    "def": "nasty, foul (= скверная; Denisov's burred r, Война и мир)",
+    "grammar": "adjective, feminine, singular, nominative (burred spelling)"
+  },
+  "сквег'но": {
+    "def": "bad, nasty, wretched (= скверно; Denisov's burr)",
+    "grammar": "predicative adverb (burred spelling)"
   },
   "скверная": {
     "def": "(form of скверный: bad, nasty, foul)",
@@ -101444,8 +102940,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "ског": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of ског'ей = скорей 'quicker' (Denisov's burred speech, Война и мир; split at apostrophe)",
+    "grammar": "word fragment (adverb)"
+  },
+  "ског'ей": {
+    "def": "quicker, sooner; hurry up (= скорей; Denisov's burr)",
+    "grammar": "adverb, comparative (burred spelling)"
   },
   "скок": {
     "def": "gallop",
@@ -101500,7 +103000,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "сконфуженно": {
-    "def": "",
+    "def": "in embarrassment, embarrassedly",
     "grammar": "adverb"
   },
   "сконфуженный": {
@@ -101580,16 +103080,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "скотный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "cattle- (adj.); скотный двор = cattle yard",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "скотов": {
     "def": "(form of скот: cattle, livestock, brute, beast)",
     "grammar": "noun, masculine, plural, accusative"
   },
   "скотт": {
-    "def": "[Proper Noun / Name / Place] Skott",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Скотт — Sir Walter Scott, Scottish novelist",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "скотта": {
     "def": "(form of скотт: [Proper Noun / Name / Place] Skott)",
@@ -101736,8 +103236,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "скрып": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "creak, creaking, squeak (obs. spelling of скрип)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "скрыпнула": {
     "def": "(form of скрыпнуть)",
@@ -101880,7 +103380,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "скучища": {
-    "def": "",
+    "def": "terrible boredom (augmentative of скука) (colloq.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "скучливого": {
@@ -101999,6 +103499,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of слабый: weak, faint, feeble, loose, slack, poor)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "слабо‑освещенной": {
+    "def": "dimly lit, weakly illuminated",
+    "grammar": "participle, feminine, singular, prepositional (compound)"
+  },
   "слабую": {
     "def": "(form of слабый: weak, faint, feeble, loose, slack, poor)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -102068,8 +103572,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, genitive"
   },
   "славой": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "glory, fame — instrumental of слава",
+    "grammar": "noun, feminine, singular, instrumental"
   },
   "славу": {
     "def": "(form of слава: glory, fame, name, reputation)",
@@ -102152,8 +103656,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "сладостно-усыпительный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "sweetly lulling, delightfully soporific",
+    "grammar": "adjective, masculine, singular, nominative (compound)"
   },
   "сладостной": {
     "def": "(form of сладостный: sweet, delightful)",
@@ -102190,6 +103694,10 @@ const LOCAL_DICTIONARY = {
   "слегка": {
     "def": "somewhat, slightly, gently",
     "grammar": "adverb"
+  },
+  "слегка‑презрительно": {
+    "def": "slightly contemptuously, with faint contempt",
+    "grammar": "adverb (compound)"
   },
   "след": {
     "def": "track, footprint, footstep, trace, sign, vestige, sole",
@@ -102248,8 +103756,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "следственно": {
-    "def": "[Proper Noun / Name / Place] Sledstvenno",
-    "grammar": "conjunction"
+    "def": "consequently, therefore (obs.; = следовательно)",
+    "grammar": "conjunction/parenthetical adverb"
   },
   "следствие": {
     "def": "consequence, corollary, investigation, inquest",
@@ -102488,7 +103996,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "слободка": {
-    "def": "[Proper Noun / Name / Place] Slobodka",
+    "def": "small settlement outside a town or fortress; suburb (dim. of слобода)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "слободки": {
@@ -102532,7 +104040,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, genitive"
   },
   "словечко": {
-    "def": "",
+    "def": "little word; witticism, bon mot (dim. of слово)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "словно": {
@@ -102600,8 +104108,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, plural, genitive"
   },
   "сложено": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "folded (up) — short passive participle of сложить; письмо сложено = the letter is folded",
+    "grammar": "participle, short form, passive, neuter, singular"
   },
   "сложившихся": {
     "def": "(form of сложиться: turn-out; get, have)",
@@ -102896,8 +104404,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, intransitive, singular"
   },
   "слушайте": {
-    "def": "[Proper Noun / Name / Place] Slushayte",
-    "grammar": "interjection"
+    "def": "listen! — imperative of слушать",
+    "grammar": "verb, imperative, 2nd person plural, imperfective"
   },
   "слушал": {
     "def": "(form of слушать: listen, hear, attend, examine chest, auscultate, obey)",
@@ -102919,6 +104427,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of слушатель: hearer, listener, student, audience, auditory)",
     "grammar": "noun, masculine, plural, nominative"
   },
+  "слушатели‑французы": {
+    "def": "the French listeners (compound: слушатели + французы)",
+    "grammar": "noun, masculine, plural, nominative (compound)"
+  },
   "слушателям": {
     "def": "(form of слушатель: hearer, listener, student, audience, auditory)",
     "grammar": "noun, masculine, plural, dative"
@@ -102938,6 +104450,10 @@ const LOCAL_DICTIONARY = {
   "слушающего": {
     "def": "(form of слушать: listen, hear, attend, examine chest, auscultate, obey)",
     "grammar": "participle, imperfective, present, active, transitive, masculine, singular, genitive"
+  },
+  "слушаю‑с": {
+    "def": "'yes, sir; very good, sir' — слушаю 'I obey' + deferential particle -с (obs.)",
+    "grammar": "verb, imperfective, present, 1st person singular, with particle -с"
   },
   "слушая": {
     "def": "(form of слушать: listen, hear, attend, examine chest, auscultate, obey)",
@@ -103320,7 +104836,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "смешанно": {
-    "def": "",
+    "def": "confusedly, in a mixed mass, pell-mell",
     "grammar": "adverb"
   },
   "смешанные": {
@@ -103535,6 +105051,10 @@ const LOCAL_DICTIONARY = {
     "def": "subdue, restrain, humble, abase",
     "grammar": "infinitive, imperfective, transitive"
   },
+  "смир‑р‑р‑р‑на": {
+    "def": "'Atten-tion!' — drawn-out drill command смирно (mil.)",
+    "grammar": "interjection (military command, expressive spelling)"
+  },
   "смита": {
     "def": "(form of смит: [Proper Noun / Name / Place] Smit)",
     "grammar": "noun, masculine, singular, accusative"
@@ -103544,15 +105064,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, perfective, past, intransitive"
   },
   "смолоду": {
-    "def": "",
+    "def": "from one's youth, since one was young",
     "grammar": "adverb"
   },
   "смолчать": {
-    "def": "",
+    "def": "to keep silent, hold one's tongue (pf.)",
     "grammar": "infinitive, perfective, intransitive"
   },
   "смоль": {
-    "def": "",
+    "def": "pitch, tar; вороной/чёрный как смоль = jet-black",
     "grammar": "noun, feminine, singular, nominative"
   },
   "сморкавшемся": {
@@ -103588,8 +105108,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "смотг": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fragment of смотг'ите (= смотрите 'look!'), Denisov's burred speech (Война и мир; split at apostrophe)",
+    "grammar": "word fragment (verb)"
+  },
+  "смотг'ите": {
+    "def": "look!, see here! (= смотрите; Denisov's burred r)",
+    "grammar": "verb, imperfective, imperative, 2nd person plural (burred spelling)"
   },
   "смотр": {
     "def": "review, inspection, public showing",
@@ -103820,8 +105344,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, active, intransitive, plural, nominative"
   },
   "смысль": {
-    "def": "[Proper Noun / Name / Place] Smysl",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "sense, meaning — mangled form of смысл (Chebutykin's mumbling in Три сестры)",
+    "grammar": "noun, masculine, singular, nominative (nonstandard)"
   },
   "смычку": {
     "def": "(form of смычка: union)",
@@ -103956,8 +105480,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "снежно": {
-    "def": "",
+    "def": "snowily, snow-white(ly) — adverb from снежный; also first element of compounds (снежно-белый)",
     "grammar": "adverb"
+  },
+  "снежно‑белыми": {
+    "def": "snow-white (of pillows)",
+    "grammar": "adjective, plural, instrumental (compound)"
   },
   "снежных": {
     "def": "(form of снежный: snow, snowy)",
@@ -104120,8 +105648,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, prepositional"
   },
   "снурок": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "cord, string (obs. = шнурок); here a bell-pull",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "сны": {
     "def": "(form of сон: dream; sleep)",
@@ -104547,6 +106075,18 @@ const LOCAL_DICTIONARY = {
     "def": "(form of совершенный: perfect, absolute)",
     "grammar": "adjective, masculine, singular, dative"
   },
+  "совершенно‑определительный": {
+    "def": "perfectly definite, quite precise (of an address; Tolstoy's compound)",
+    "grammar": "adjective, masculine, singular, nominative (compound)"
+  },
+  "совершенно‑противоположные": {
+    "def": "completely opposite, diametrically opposed (of reputations)",
+    "grammar": "adjective, plural, accusative (compound)"
+  },
+  "совершенно‑спокойно": {
+    "def": "completely calmly",
+    "grammar": "adverb (compound)"
+  },
   "совершенную": {
     "def": "(form of совершенный: perfect, absolute)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -104588,16 +106128,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "совершиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to take place, come to pass, be accomplished (pf.)",
+    "grammar": "infinitive, perfective, reflexive, intransitive"
   },
   "совести": {
     "def": "(form of совесть: conscience)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "совестно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "(feels) ashamed; ей совестно = she is ashamed",
+    "grammar": "predicative adverb"
   },
   "совесть": {
     "def": "conscience",
@@ -104688,8 +106228,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "совсим": {
-    "def": "[Proper Noun / Name / Place] Sovsim",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "at all, completely — dialect/accented form of совсем (peasant speech in Герой нашего времени)",
+    "grammar": "adverb (dial.)"
   },
   "совьет": {
     "def": "(form of свить: twist, weave)",
@@ -104804,8 +106344,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, masculine, singular, nominative"
   },
   "согреться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to warm oneself, get warm (pf.)",
+    "grammar": "infinitive, perfective, reflexive"
   },
   "согрешил": {
     "def": "(form of согрешить: sin)",
@@ -104884,8 +106424,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "соединиться": {
-    "def": "[Proper Noun / Name / Place] Soedinitsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to unite, join up, link up (of armies, forces)",
+    "grammar": "verb, infinitive, perfective, reflexive"
   },
   "соединявшей": {
     "def": "(form of соединять: join, unite, connect, put through, combine)",
@@ -105052,8 +106592,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "сокольница": {
-    "def": "[Proper Noun / Name / Place] Sokolnitsa",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Сокольниц — Sokolnitz, village near Austerlitz named in the 1805 battle disposition (Война и мир); genitive form",
+    "grammar": "noun (place name), masculine, singular, genitive"
   },
   "сокровенные": {
     "def": "(form of сокровенный: secret, concealed, innermost, inmost)",
@@ -105112,7 +106652,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "солдатски": {
-    "def": "",
+    "def": "in soldierly fashion, like a soldier (usu. по-солдатски)",
     "grammar": "adverb"
   },
   "солдатские": {
@@ -105155,6 +106695,14 @@ const LOCAL_DICTIONARY = {
     "def": "(form of солдат: soldier, regular, private)",
     "grammar": "noun, masculine, plural, nominative"
   },
+  "солдат‑артиллерист": {
+    "def": "artillery soldier, gunner (mil.)",
+    "grammar": "noun, masculine, singular, nominative (compound)"
+  },
+  "солдат‑песенников": {
+    "def": "soldier-singers (regimental singers) — form of солдаты-песенники (mil.)",
+    "grammar": "noun, masculine, plural, accusative (compound)"
+  },
   "соленого": {
     "def": "(form of солёный: salt, salty, salted)",
     "grammar": "adjective, masculine, singular, genitive"
@@ -105180,8 +106728,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, feminine, singular"
   },
   "солнечно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "sunny (predicative): на дворе солнечно = it is sunny outside",
+    "grammar": "predicative adverb"
   },
   "солнечный": {
     "def": "sun, solar, sunny",
@@ -105216,8 +106764,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "соловей-разбойник": {
-    "def": "[Proper Noun / Name / Place] Solovey-razboynik",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Соловей-разбойник — Nightingale the Robber, whistling monster of Russian byliny folklore",
+    "grammar": "noun (folklore name), masculine, singular, nominative"
   },
   "соломе": {
     "def": "(form of солома: straw, thatch, haulm)",
@@ -105308,7 +106856,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "сондирование": {
-    "def": "",
+    "def": "probing, sounding (of a wound) (med., obs. spelling of зондирование, from French sonder)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "соне": {
@@ -105346,6 +106894,10 @@ const LOCAL_DICTIONARY = {
   "соня": {
     "def": "sleepyhead, drowsy-head, dormouse",
     "grammar": "noun, feminine, singular, nominative"
+  },
+  "соня‑племянница": {
+    "def": "Sonya, the niece — Sonya, the count's niece in the Rostov household (Война и мир)",
+    "grammar": "proper noun, feminine, singular, nominative (compound)"
   },
   "соображал": {
     "def": "(form of соображать: think clearly, figure out, understand)",
@@ -105396,8 +106948,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "сообразно": {
-    "def": "",
-    "grammar": "preposition"
+    "def": "in accordance with, conformably (сообразно с + instrumental)",
+    "grammar": "adverb / preposition (with с + instrumental)"
   },
   "сообщалась": {
     "def": "(form of сообщаться: be communicated, communicate, be in communication)",
@@ -105503,8 +107055,12 @@ const LOCAL_DICTIONARY = {
     "def": "litter, sweepings",
     "grammar": "noun, masculine, singular, nominative"
   },
+  "сорoк": {
+    "def": "forty (= сорок; key contains a Latin 'o')",
+    "grammar": "numeral, cardinal"
+  },
   "соразмерно": {
-    "def": "",
+    "def": "proportionately, in proportion (to)",
     "grammar": "adverb"
   },
   "сорвавшимся": {
@@ -105680,8 +107236,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "сослан": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "exiled, banished — short passive participle of сослать",
+    "grammar": "participle, short form, passive, masculine, singular"
   },
   "сослуживцами": {
     "def": "(form of сослуживец: colleague, fellow-teacher, fellow-employee, fellow-clerk)",
@@ -105700,7 +107256,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "соснуть": {
-    "def": "",
+    "def": "to take a nap, have a doze (colloq., pf.)",
     "grammar": "infinitive, perfective, intransitive"
   },
   "сосны": {
@@ -105964,8 +107520,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "соте": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "sauté — dish braised in sauce (French loan; culinary)",
+    "grammar": "noun, neuter, indeclinable"
   },
   "сотен": {
     "def": "(form of сотня: a hundred, a hundred roubles, sotnia)",
@@ -105988,20 +107544,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, accusative"
   },
   "сотэ": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "sauté (= соте) — dish in sauce, e.g. sauté au madère (French loan; culinary)",
+    "grammar": "noun, neuter, indeclinable"
   },
   "софи": {
-    "def": "[Proper Noun / Name / Place] Sofi",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Софи — Sophie, French form of Софья; youngest of Count Bezukhov's nieces (Война и мир)",
+    "grammar": "noun (given name), feminine, indeclinable"
   },
   "софистика": {
     "def": "sophistry",
     "grammar": "noun, feminine, singular, nominative"
   },
   "софочка": {
-    "def": "[Proper Noun / Name / Place] Sofochka",
-    "grammar": "noun, neuter, singular, genitive"
+    "def": "Софочка — Sofochka, affectionate diminutive of Софья; Natasha's baby daughter in Три сестры",
+    "grammar": "noun (given name), feminine, singular, nominative"
   },
   "софочкой": {
     "def": "(form of софочка: [Proper Noun / Name / Place] Sofochka)",
@@ -106256,8 +107812,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "спасительно": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "salutarily; (it is) saving, beneficial (predicative)",
+    "grammar": "predicative adverb"
   },
   "спасительные": {
     "def": "(form of спасительный: salutary)",
@@ -106292,8 +107848,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "спб": {
-    "def": "[Proper Noun / Name / Place] Spb",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "СПб. — abbreviation of Санкт-Петербург, St Petersburg (used in book imprints)",
+    "grammar": "abbreviation (place name)"
   },
   "спектакле": {
     "def": "(form of спектакль: play, performance)",
@@ -106372,8 +107928,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "спин": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "backs — genitive plural of спина (back)",
+    "grammar": "noun, feminine, plural, genitive"
   },
   "спина": {
     "def": "back",
@@ -107056,7 +108612,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, perfective, past, passive, transitive, plural, nominative"
   },
   "спутать": {
-    "def": "",
+    "def": "to confuse, mix up (pf.); спутать фигуры = muddle the dance figures",
     "grammar": "infinitive, perfective, transitive"
   },
   "спутник": {
@@ -107356,8 +108912,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "ставрополь": {
-    "def": "[Proper Noun / Name / Place] Stavropol",
-    "grammar": "noun, masculine, singular, accusative"
+    "def": "Ставрополь — Stavropol, city in the North Caucasus",
+    "grammar": "noun (place name), masculine, singular, nominative/accusative"
   },
   "ставши": {
     "def": "(form of стать: figure; character, type; points of a horse; need, necessity)",
@@ -107415,6 +108971,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of стать: figure; character, type; points of a horse; need, necessity)",
     "grammar": "verb, perfective, past, intransitive, plural"
   },
+  "стали‑то": {
+    "def": "(they/we) stopped, halted — past pl. of стать + emphatic -то; Что стали-то? = why have we stopped?",
+    "grammar": "verb, perfective, past, plural, with particle -то"
+  },
   "сталкиваясь": {
     "def": "(form of сталкиваться: collide, come into collision, run, bump, clash, conflict)",
     "grammar": "gerund, imperfective, present, intransitive"
@@ -107426,6 +108986,10 @@ const LOCAL_DICTIONARY = {
   "сталось": {
     "def": "(form of статься: become, happen)",
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
+  },
+  "стало‑быть": {
+    "def": "so, then, consequently, that means (colloq. parenthetic)",
+    "grammar": "parenthetic phrase (conjunction)"
   },
   "стальные": {
     "def": "(form of стальной: steel, iron)",
@@ -107679,6 +109243,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of старик: old man)",
     "grammar": "noun, masculine, singular, dative"
   },
+  "старик‑слуга": {
+    "def": "old manservant (compound: старик + слуга)",
+    "grammar": "noun, masculine, singular, nominative (compound)"
+  },
   "старина": {
     "def": "old times, antiquity, antiquities, antique",
     "grammar": "noun, feminine, singular, nominative"
@@ -107728,7 +109296,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "старичишка": {
-    "def": "",
+    "def": "wretched little old man (pejorative dim. of старик) (colloq.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "старичка": {
@@ -107747,9 +109315,17 @@ const LOCAL_DICTIONARY = {
     "def": "(form of старичок: little old man)",
     "grammar": "noun, masculine, singular, dative"
   },
+  "старичку‑полковнику": {
+    "def": "little old colonel — dative of старичок-полковник",
+    "grammar": "noun, masculine, singular, dative (compound)"
+  },
   "старичок": {
     "def": "little old man",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "старичок‑мельник": {
+    "def": "little old miller (compound: старичок + мельник)",
+    "grammar": "noun, masculine, singular, nominative (compound)"
   },
   "старо": {
     "def": "(form of старый: old, ancient, the old, the past)",
@@ -107831,8 +109407,12 @@ const LOCAL_DICTIONARY = {
     "def": "(form of старушка: old lady, old woman, old dame)",
     "grammar": "noun, feminine, singular, accusative"
   },
+  "старушку‑баронессу": {
+    "def": "old baroness — accusative of старушка-баронесса",
+    "grammar": "noun, feminine, singular, accusative (compound)"
+  },
   "старчески": {
-    "def": "",
+    "def": "in an old man's way, senilely",
     "grammar": "adverb"
   },
   "старческие": {
@@ -107842,6 +109422,10 @@ const LOCAL_DICTIONARY = {
   "старческим": {
     "def": "(form of старческий: senile)",
     "grammar": "adjective, masculine, singular, instrumental"
+  },
+  "старчески‑едким": {
+    "def": "caustic in an old man's way, senilely biting",
+    "grammar": "adjective, masculine, singular, instrumental (compound)"
   },
   "старческого": {
     "def": "(form of старческий: senile)",
@@ -107936,7 +109520,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "статский": {
-    "def": "",
+    "def": "civil, civilian (of rank or service, opp. military); статский чиновник = civil official",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "статского": {
@@ -107980,8 +109564,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "ство": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "word fragment — abstract-noun suffix -ство (text-splitting artifact)",
+    "grammar": "word fragment (noun suffix)"
   },
   "ствол": {
     "def": "gun; trunk, stem, bole, barrel, mine shaft, tube, pipe",
@@ -107992,8 +109576,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "сте": {
-    "def": "",
-    "grammar": ""
+    "def": "hundred — obs. prepositional of сто; во сте саженях = a hundred sazhens away",
+    "grammar": "numeral, prepositional (obs. form of сто)"
   },
   "стебелек": {
     "def": "(form of стебелёк)",
@@ -108116,8 +109700,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "степенной": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "staid, sedate, sober-paced (of a mare)",
+    "grammar": "adjective, feminine, singular, prepositional"
   },
   "степень": {
     "def": "degree, extent, power",
@@ -108166,6 +109750,10 @@ const LOCAL_DICTIONARY = {
   "стерпится": {
     "def": "(form of стерпеться: get used, accept)",
     "grammar": "verb, perfective, future, intransitive, singular"
+  },
+  "стерпится‑слюбится": {
+    "def": "proverb: 'endure it and you'll come to love it' (стерпится — слюбится)",
+    "grammar": "proverbial phrase (impersonal reflexive verbs, future, 3rd person singular)"
   },
   "стеснения": {
     "def": "(form of стеснение: constraint, uneasiness)",
@@ -108668,7 +110256,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "стравить": {
-    "def": "",
+    "def": "to set (people) against each other, pit against each other (pf.)",
     "grammar": "infinitive, perfective, transitive"
   },
   "страдаем": {
@@ -108764,8 +110352,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "стражения": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "battles (soldier's colloq. distortion of сражения, pl. of сражение 'battle')",
+    "grammar": "noun, neuter, plural, nominative (colloq. for сражения)"
   },
   "страна": {
     "def": "country, land",
@@ -108880,7 +110468,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "страсбургский": {
-    "def": "",
+    "def": "Strasbourg (adj.); страсбургский пирог = Strasbourg goose-liver pâté",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "страстей": {
@@ -108911,6 +110499,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of страстный: passionate, impassioned, ardent, fervent)",
     "grammar": "adjective, feminine, singular, genitive"
   },
+  "страстно‑озлобленно": {
+    "def": "with passionate bitterness, in angry passion (compound adverb)",
+    "grammar": "adverb (compound)"
+  },
   "страстный": {
     "def": "passionate, impassioned, ardent, fervent",
     "grammar": "adjective, masculine, singular, nominative"
@@ -108930,6 +110522,10 @@ const LOCAL_DICTIONARY = {
   "страстью": {
     "def": "(form of страсть: passion, obsession; strong love between people; religion, plural only horror, suffering)",
     "grammar": "noun, feminine, singular, instrumental"
+  },
+  "страсть‑то": {
+    "def": "Страсть-то какая! = how dreadful!; страсть (colloq.) terror, dreadful thing, + emphatic ‑то",
+    "grammar": "noun, feminine, singular, nominative + emphatic particle ‑то (colloq.)"
   },
   "страстями": {
     "def": "(form of страсть: passion, obsession; strong love between people; religion, plural only horror, suffering)",
@@ -109184,8 +110780,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, nominative"
   },
   "стремлюся": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "I rush, strive, am drawn (arch./poetic for стремлюсь, from стремиться)",
+    "grammar": "verb, imperfective, present, 1st person singular, reflexive (arch. ‑ся)"
   },
   "стремнины": {
     "def": "(form of стремнина: rapid, chute)",
@@ -109212,8 +110808,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, feminine, singular"
   },
   "строганов": {
-    "def": "[Proper Noun / Name / Place] Stroganov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Строганов — Stroganov, count's family name; young courtier in Alexander I's circle (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "строгая": {
     "def": "(form of строгий: strict, severe, austere)",
@@ -109271,6 +110867,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of строгий: strict, severe, austere)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "строго‑вопросительно": {
+    "def": "sternly and questioningly (compound adverb)",
+    "grammar": "adverb (compound)"
+  },
   "строгую": {
     "def": "(form of строгий: strict, severe, austere)",
     "grammar": "adjective, feminine, singular, accusative"
@@ -109324,7 +110924,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "стройно": {
-    "def": "",
+    "def": "in good order, in orderly formation; harmoniously",
     "grammar": "adverb"
   },
   "стройного": {
@@ -109623,6 +111223,10 @@ const LOCAL_DICTIONARY = {
     "def": "it is a shame",
     "grammar": "adverb"
   },
+  "стыдно?да": {
+    "def": "run-together of стыдно 'it is shameful' + да 'well, yes' (punctuation artifact)",
+    "grammar": "predicative adverb + particle (tokenization artifact)"
+  },
   "стыдом": {
     "def": "(form of стыд: shame)",
     "grammar": "noun, masculine, singular, instrumental"
@@ -109640,8 +111244,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, nominative"
   },
   "стэ": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of манифэ стэ = манифесте 'manifesto' (German-accented speech spelling)",
+    "grammar": "noun fragment (accented-speech rendering of манифесте, prepositional)"
   },
   "стягиваем": {
     "def": "(form of стягивать: tighten, tie up, gather, draw up)",
@@ -109662,6 +111266,14 @@ const LOCAL_DICTIONARY = {
   "субалтерн": {
     "def": "(form of субалтёрн)",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "субалтерн‑офицер": {
+    "def": "subaltern, junior commissioned officer (mil., obs.)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "субалтерн‑офицеру": {
+    "def": "to a subaltern (junior) officer (mil., obs.; dative of субалтерн-офицер)",
+    "grammar": "noun, masculine, singular, dative"
   },
   "субботам": {
     "def": "(form of суббота: Saturday)",
@@ -109684,8 +111296,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "суворов": {
-    "def": "[Proper Noun / Name / Place] Suvorov",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Суворов — Alexander Suvorov, celebrated Russian field marshal",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "суворова": {
     "def": "(form of суворов: [Proper Noun / Name / Place] Suvorov)",
@@ -109768,8 +111380,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "судитэ": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "you judge, what is your opinion (German-accented spelling of судите, from судить)",
+    "grammar": "verb, imperfective, present, 2nd person plural (accented-speech spelling)"
   },
   "судно": {
     "def": "boat, ship, vessel, craft, bed-pan",
@@ -109864,7 +111476,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "суетня": {
-    "def": "",
+    "def": "bustle, fuss, commotion (colloq.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "суетой": {
@@ -110028,7 +111640,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "сундучок": {
-    "def": "",
+    "def": "small chest, little trunk (dim. of сундук)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "сунув": {
@@ -110163,6 +111775,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of сухарик)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "сухарика‑то": {
+    "def": "a bit of rusk, dried bread (gen. of сухарик, dim. of сухарь) + emphatic ‑то (colloq.)",
+    "grammar": "noun, masculine, singular, genitive + emphatic particle ‑то"
+  },
   "сухие": {
     "def": "(form of сухой: dry, arid)",
     "grammar": "adjective, plural, nominative"
@@ -110207,13 +111823,17 @@ const LOCAL_DICTIONARY = {
     "def": "(form of сухоядение: dry food)",
     "grammar": "noun, neuter, singular, prepositional"
   },
+  "сухо‑неприятно": {
+    "def": "drily and unpleasantly (compound adverb)",
+    "grammar": "adverb (compound)"
+  },
   "сухтелен": {
     "def": "(form of сухтельный: [Proper Noun / Name / Place] Sukhtelnyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "сухтелена": {
-    "def": "[Proper Noun / Name / Place] Sukhtelena",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Сухтелен — Sukhtelen, young lieutenant wounded at Austerlitz (Война и мир); genitive/accusative form",
+    "grammar": "noun (surname), masculine, singular, genitive/accusative"
   },
   "сучья": {
     "def": "(form of сук: bough, knot)",
@@ -110348,8 +111968,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "схватиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to grab hold of, clutch at (за + acc.)",
+    "grammar": "infinitive, perfective, reflexive"
   },
   "схватывал": {
     "def": "(form of схватывать: grip, catch, grasp)",
@@ -110518,6 +112138,10 @@ const LOCAL_DICTIONARY = {
   "счастливою": {
     "def": "(form of счастливый: happy, fortunate, lucky)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "счастливо‑отбытого": {
+    "def": "successfully got-through, safely completed (of the review; счастливо + отбытый, from отбыть)",
+    "grammar": "participle (passive, past), masculine, singular, genitive"
   },
   "счастливую": {
     "def": "(form of счастливый: happy, fortunate, lucky)",
@@ -110748,8 +112372,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "сынов": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "of sons (gen. pl. of сын; colloq./arch. variant of сыновей)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "сыновей": {
     "def": "(form of сын: son)",
@@ -110816,8 +112440,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "сю": {
-    "def": "",
-    "grammar": "interjection"
+    "def": "this (arch. fem. acc. of сей); по сю сторону = on this side",
+    "grammar": "pronoun (demonstrative сей), feminine, singular, accusative (arch.)"
   },
   "сюда": {
     "def": "here",
@@ -110848,7 +112472,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "сюртучок": {
-    "def": "",
+    "def": "little frock coat (dim. of сюртук)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "сяду": {
@@ -110867,6 +112491,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of сякнуть)",
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
+  "с‑глазу‑на‑глаз": {
+    "def": "in private, tête-à-tête, alone together (old hyphenated spelling of с глазу на глаз)",
+    "grammar": "adverbial phrase"
+  },
   "т": {
     "def": "(form of так: so, thus, like this, this way, then)",
     "grammar": "adverb"
@@ -110876,8 +112504,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "та-ра-ра-бумбия": {
-    "def": "[Proper Noun / Name / Place] Ta-ra-ra-bumbiya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "ta-ra-ra-boom-de-ay — refrain of a popular music-hall song hummed by Chebutykin (Три сестры)",
+    "grammar": "interjection (song refrain)"
   },
   "табакерке": {
     "def": "(form of табакерка: snuff-box)",
@@ -110903,6 +112531,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of табак: tobacco, tobacco-plant)",
     "grammar": "noun, masculine, singular"
   },
+  "табаку‑то": {
+    "def": "some tobacco (partitive gen. табаку of табак) + emphatic ‑то (colloq.)",
+    "grammar": "noun, masculine, singular, genitive (partitive) + emphatic particle ‑то"
+  },
   "табачным": {
     "def": "(form of табачный: tobacco)",
     "grammar": "adjective, masculine, singular, instrumental"
@@ -110912,8 +112544,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "таборский": {
-    "def": "[Proper Noun / Name / Place] Taborskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Таборский мост — the Tabor Bridge over the Danube at Vienna (Война и мир); adjective from Tabor",
+    "grammar": "adjective (from place name), masculine, singular, nominative"
   },
   "таборским": {
     "def": "(form of таборский: [Proper Noun / Name / Place] Taborskiy)",
@@ -110956,7 +112588,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "таинственно": {
-    "def": "[Proper Noun / Name / Place] Tainstvenno",
+    "def": "mysteriously, enigmatically",
     "grammar": "adverb"
   },
   "таинственного": {
@@ -111076,8 +112708,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "conjunction"
   },
   "так-с": {
-    "def": "[Proper Noun / Name / Place] Tak-s",
-    "grammar": "conjunction"
+    "def": "'so then...', 'well now' — так with the deferential particle -с (polite/obsequious, obs. colloq.)",
+    "grammar": "particle (adverb так + polite particle -с)"
   },
   "так-то": {
     "def": "so",
@@ -111090,6 +112722,10 @@ const LOCAL_DICTIONARY = {
   "такая-то": {
     "def": "(form of такой-то: so-and-so, such person, such-and-such)",
     "grammar": "adjective, feminine, singular, nominative"
+  },
+  "такая‑то": {
+    "def": "such-and-such, so-and-so (fem.); placeholder for an unnamed name",
+    "grammar": "pronoun (indefinite), feminine, singular, nominative"
   },
   "также": {
     "def": "also, as well, too, either",
@@ -111135,6 +112771,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of такой: such, so, that sort of)",
     "grammar": "adjective, neuter, singular, genitive"
   },
+  "такого‑то": {
+    "def": "so-and-so, such-and-such (masc.); placeholder for an unnamed person",
+    "grammar": "pronoun (indefinite), masculine, singular, accusative (animate)"
+  },
   "такое": {
     "def": "(form of такой: such, so, that sort of)",
     "grammar": "adjective, neuter, singular, nominative"
@@ -111178,6 +112818,18 @@ const LOCAL_DICTIONARY = {
   "такую": {
     "def": "(form of такой: such, so, that sort of)",
     "grammar": "adjective, feminine, singular, accusative"
+  },
+  "так‑так": {
+    "def": "well, well!; there now (interjection of surprise or agreement; вот так-так! = well I never!)",
+    "grammar": "interjection"
+  },
+  "так‑таки": {
+    "def": "really, actually, after all (colloq. emphatic particle)",
+    "grammar": "particle (colloq.)"
+  },
+  "так‑то": {
+    "def": "so that's how it is; well then; так-то лучше = that's better (colloq.)",
+    "grammar": "particle (colloq.)"
   },
   "талант": {
     "def": "talent, gift, man of talent, gifted person, great talent",
@@ -111236,19 +112888,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "тамань": {
-    "def": "[Proper Noun / Name / Place] Taman",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Тамань — Taman, small port town on the Taman peninsula; setting and title of a chapter of Герой нашего времени",
+    "grammar": "noun (place name), feminine, singular, nominative"
   },
   "тамбов": {
-    "def": "[Proper Noun / Name / Place] Tambov",
-    "grammar": "noun, masculine, singular, accusative"
+    "def": "Тамбов — Tambov, provincial city in central Russia",
+    "grammar": "noun (place name), masculine, singular, nominative/accusative"
   },
   "тамбова": {
     "def": "(form of тамбов: [Proper Noun / Name / Place] Tambov)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тамбовский": {
-    "def": "",
+    "def": "of Tambov (Russian provincial town); Tambov (adj.)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "тамошная": {
@@ -111259,13 +112911,17 @@ const LOCAL_DICTIONARY = {
     "def": "(form of тамошний: of that place, of those places, local)",
     "grammar": "adjective, neuter, singular, nominative"
   },
+  "там‑то": {
+    "def": "there, that's just where (там + emphatic ‑то)",
+    "grammar": "adverb + emphatic particle ‑то"
+  },
   "тане": {
     "def": "(form of таня: [Proper Noun / Name / Place] Tanya)",
     "grammar": "noun, feminine, singular, dative"
   },
   "таней": {
-    "def": "[Proper Noun / Name / Place] Taney",
-    "grammar": "noun, feminine, singular, instrumental"
+    "def": "Таней — instrumental of Таня, pet form of Татьяна (Tatyana Larina in Евгений Онегин)",
+    "grammar": "noun (given name), feminine, singular, instrumental"
   },
   "танец": {
     "def": "dance",
@@ -111296,8 +112952,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "танцовал": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "danced (old spelling of танцевал, from танцевать 'to dance')",
+    "grammar": "verb, imperfective, past, masculine, singular (old orthography)"
   },
   "танцовала": {
     "def": "(form of танцовал)",
@@ -111316,8 +112972,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, passive, transitive, masculine, singular, nominative"
   },
   "танцовать": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to dance (old spelling of танцевать)",
+    "grammar": "infinitive, imperfective, intransitive (old orthography)"
   },
   "танцовывали": {
     "def": "(form of танцовывалить)",
@@ -111352,8 +113008,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "таня": {
-    "def": "[Proper Noun / Name / Place] Tanya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Таня — Tanya, affectionate form of Татьяна (Tatyana Larina in Евгений Онегин)",
+    "grammar": "noun (given name), feminine, singular, nominative"
   },
   "таперича": {
     "def": "(form of таперич)",
@@ -111376,12 +113032,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "тарара": {
-    "def": "[Proper Noun / Name / Place] Tarara",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "tarara — hummed snatch of the song 'Ta-ra-ra-boom-de-ay' (Три сестры)",
+    "grammar": "interjection (song refrain)"
   },
   "тарас": {
-    "def": "[Proper Noun / Name / Place] Taras",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тарас — Taras, male given name; the Rostovs' cook in Война и мир",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "тараску": {
     "def": "(form of тараска: [Proper Noun / Name / Place] Taraska)",
@@ -111428,12 +113084,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "тасс": {
-    "def": "[Proper Noun / Name / Place] Tass",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тасс — Torquato Tasso, Italian poet, author of Jerusalem Delivered (obs. Russian form of the name)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "тат": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "rat-tat — onomatopoeia of crackling musket fire",
+    "grammar": "interjection (onomatopoeia)"
   },
   "татар": {
     "def": "(form of татарин: Tatar)",
@@ -111516,8 +113172,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "татьяна": {
-    "def": "[Proper Noun / Name / Place] Tatyana",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Татьяна — Tatyana Larina, heroine of Евгений Онегин; female given name",
+    "grammar": "noun (given name), feminine, singular, nominative"
   },
   "татьяне": {
     "def": "(form of татьяна: [Proper Noun / Name / Place] Tatyana)",
@@ -111540,8 +113196,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "тафа": {
-    "def": "[Proper Noun / Name / Place] Tafa",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "nonsense syllable — mock-foreign gibberish chattered by a soldier (Война и мир); not a real word",
+    "grammar": "interjection / nonsense word"
+  },
+  "тафа‑лафа": {
+    "def": "nonsense syllables — a soldier mimicking the general's unintelligible mumbling",
+    "grammar": "interjection (nonce mimicry)"
   },
   "тафтой": {
     "def": "(form of тафта: taffeta)",
@@ -111552,11 +113212,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "таш": {
-    "def": "",
-    "grammar": ""
+    "def": "truncated ташка 'sabretache' in Rostov's drowsy wordplay (Наташка… ташка)",
+    "grammar": "noun fragment (truncated ташка)"
   },
   "ташка": {
-    "def": "",
+    "def": "sabretache — hussar's flat bag hung from the sword-belt (mil., from German Tasche)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "ташки": {
@@ -111608,8 +113268,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "тащиться": {
-    "def": "[Proper Noun / Name / Place] Tashchitsya",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to drag oneself along, trudge, plod (colloq.)",
+    "grammar": "verb, infinitive, imperfective, reflexive"
   },
   "тащусь": {
     "def": "(form of тащиться: [Proper Noun / Name / Place] Tashchitsya)",
@@ -111708,8 +113368,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "тверской": {
-    "def": "[Proper Noun / Name / Place] Tverskoy",
-    "grammar": "adjective, feminine, singular, genitive"
+    "def": "Тверская — Tverskaya Street in Moscow (по Тверской 'along the Tverskaya'); adjective from Тверь",
+    "grammar": "adjective (from place name), feminine, singular, dative"
   },
   "твое": {
     "def": "(form of твой: your, yours, thy, thine, your people)",
@@ -111750,6 +113410,10 @@ const LOCAL_DICTIONARY = {
   "твой": {
     "def": "your, yours, thy, thine, your people",
     "grammar": "adjective, masculine, singular, accusative"
+  },
+  "твой‑то": {
+    "def": "that ... of yours (твой + emphatic ‑то, colloq.)",
+    "grammar": "pronoun (possessive), masculine, singular, nominative + emphatic particle ‑то"
   },
   "творений": {
     "def": "(form of творение: creation, creature, being, work)",
@@ -111814,6 +113478,10 @@ const LOCAL_DICTIONARY = {
   "тебе": {
     "def": "(form of ты: you)",
     "grammar": "pronoun, singular, dative"
+  },
+  "тебе‑то": {
+    "def": "to you, you at least (dative of ты + emphatic ‑то, colloq.)",
+    "grammar": "pronoun, 2nd person singular, dative + emphatic particle ‑то"
   },
   "тебя": {
     "def": "(form of ты: you)",
@@ -111932,12 +113600,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "телянин": {
-    "def": "[Proper Noun / Name / Place] Telyanin",
-    "grammar": "noun, feminine, plural, genitive"
+    "def": "Телянин — Telyanin, lieutenant who steals Denisov's purse (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "телянина": {
-    "def": "[Proper Noun / Name / Place] Telyanina",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Телянин — Telyanin, the purse-stealing lieutenant (Война и мир); genitive/accusative form",
+    "grammar": "noun (surname), masculine, singular, genitive/accusative"
   },
   "телянину": {
     "def": "(form of телянина: [Proper Noun / Name / Place] Telyanina)",
@@ -112114,6 +113782,10 @@ const LOCAL_DICTIONARY = {
   "теперь": {
     "def": "now, nowadays, today",
     "grammar": "adverb"
+  },
+  "теперь.о": {
+    "def": "run-together of теперь 'now' + following О (punctuation artifact)",
+    "grammar": "adverb (tokenization artifact)"
   },
   "тепла": {
     "def": "(form of тепло: heat, warmth, cordiality, warmly, cordially)",
@@ -112452,8 +114124,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "теша": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "amusing, pleasing, gladdening (gerund of тешить)",
+    "grammar": "verbal adverb (gerund), imperfective, present"
   },
   "тешить": {
     "def": "indulge, entertain, please, gratify",
@@ -112464,12 +114136,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "ти": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "numeral ending in 15‑ти, 10‑ти (= пятнадцати, десяти); not an independent word",
+    "grammar": "numeral inflection ending (‑ти)"
   },
   "тимохин": {
-    "def": "[Proper Noun / Name / Place] Timokhin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тимохин — Timokhin, red-nosed infantry company commander (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "тимохина": {
     "def": "(form of тимохин: [Proper Noun / Name / Place] Timokhin)",
@@ -112500,12 +114172,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "тиссо": {
-    "def": "[Proper Noun / Name / Place] Tisso",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Тиссо — Tissot, 18th-century Swiss physician and author read by Onegin (Евгений Онегин)",
+    "grammar": "noun (surname), masculine, indeclinable"
   },
   "тит": {
-    "def": "[Proper Noun / Name / Place] Tit",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тит — Tit (Titus), peasant male name in the teasing rhyme «Тит, а Тит?» (Война и мир)",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "титом": {
     "def": "(form of тит: [Proper Noun / Name / Place] Tit)",
@@ -112528,20 +114200,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, instrumental"
   },
   "титысячная": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "fragment of восьмидесятитысячная '80,000-strong' (of the army mass)",
+    "grammar": "adjective fragment, feminine, singular, nominative"
   },
   "титысячной": {
     "def": "(form of титысячная)",
     "grammar": "noun, feminine, singular, genitive"
   },
   "тить": {
-    "def": "",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "verb fragment: infinitive ending ‑тить (hyphenation artifact); not an independent word",
+    "grammar": "verb fragment (infinitive ending)"
   },
   "тифлис": {
-    "def": "[Proper Noun / Name / Place] Tiflis",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тифлис — Tiflis, old name of Tbilisi, Georgia",
+    "grammar": "noun (place name), masculine, singular, nominative/accusative"
   },
   "тифлиса": {
     "def": "(form of тифлис: [Proper Noun / Name / Place] Tiflis)",
@@ -112592,8 +114264,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "тихо-тихо": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "very quietly, ever so softly (reduplicated тихо)",
+    "grammar": "adverb (reduplicated)"
   },
   "тихого": {
     "def": "(form of тихий: quiet, low, silent, still, soft; peaceful, unhurried, calm)",
@@ -112604,8 +114276,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "тихон": {
-    "def": "[Proper Noun / Name / Place] Tikhon",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тихон — Tikhon, old Prince Bolkonsky's valet (Война и мир); male given name",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "тихона": {
     "def": "(form of тихон: [Proper Noun / Name / Place] Tikhon)",
@@ -112652,7 +114324,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "тишком": {
-    "def": "",
+    "def": "quietly, on the sly, stealthily (colloq.)",
     "grammar": "adverb"
   },
   "ткань": {
@@ -112662,6 +114334,14 @@ const LOCAL_DICTIONARY = {
   "то": {
     "def": "then",
     "grammar": "conjunction"
+  },
+  "то,что": {
+    "def": "run-together of то, что 'the fact that; that which' (missing space artifact)",
+    "grammar": "pronoun + conjunction (tokenization artifact)"
+  },
+  "то,чтобы": {
+    "def": "run-together of то, чтобы '(directed) toward doing; in order that' (missing space artifact)",
+    "grammar": "pronoun + conjunction (tokenization artifact)"
   },
   "то-то": {
     "def": "then",
@@ -112699,9 +114379,25 @@ const LOCAL_DICTIONARY = {
     "def": "(form of товарищ: comrade, friend, companion, colleague, Comrade, assistant, under-)",
     "grammar": "noun, masculine, plural, instrumental"
   },
+  "товарищами‑сослуживцами": {
+    "def": "(among his) comrades and fellow-officers (instr. pl. of товарищ-сослуживец)",
+    "grammar": "noun, masculine, plural, instrumental (compound)"
+  },
+  "товарища‑дипломата": {
+    "def": "of a fellow diplomat (gen. of товарищ-дипломат)",
+    "grammar": "noun, masculine, singular, genitive (compound)"
+  },
   "товарищей": {
     "def": "(form of товарищ: comrade, friend, companion, colleague, Comrade, assistant, under-)",
     "grammar": "noun, masculine, plural, genitive"
+  },
+  "товарищей‑гвардейцев": {
+    "def": "his fellow Guardsmen (acc. pl. of товарищ-гвардеец)",
+    "grammar": "noun, masculine, plural, accusative (animate, compound)"
+  },
+  "товарищей‑гусаров": {
+    "def": "(from his) fellow hussars (gen. pl. of товарищ-гусар)",
+    "grammar": "noun, masculine, plural, genitive (compound)"
   },
   "товарищем": {
     "def": "(form of товарищ: comrade, friend, companion, colleague, Comrade, assistant, under-)",
@@ -112718,6 +114414,10 @@ const LOCAL_DICTIONARY = {
   "товарищу": {
     "def": "(form of товарищ: comrade, friend, companion, colleague, Comrade, assistant, under-)",
     "grammar": "noun, masculine, singular, dative"
+  },
+  "товарищу,дежурному": {
+    "def": "run-together of товарищу, дежурному (адъютанту) 'to his comrade, the duty adjutant' (missing space)",
+    "grammar": "noun + adjective, dative (tokenization artifact)"
   },
   "товары": {
     "def": "(form of товар: commodity, article, goods, wares)",
@@ -112748,8 +114448,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, genitive"
   },
   "тож": {
-    "def": "",
-    "grammar": ""
+    "def": "also, likewise; the same (arch./colloq. = тоже)",
+    "grammar": "particle/adverb (arch. colloq.)"
   },
   "тоже": {
     "def": "also, as well, too",
@@ -112828,7 +114528,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "толкователь": {
-    "def": "",
+    "def": "interpreter, expounder (e.g. толкователь снов = interpreter of dreams)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "толковать": {
@@ -112944,8 +114644,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "толстой": {
-    "def": "[Proper Noun / Name / Place] Tolstoy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "fat, stout — oblique feminine form of толстый (толстой княгини 'of the fat princess'); not the author's name here",
+    "grammar": "adjective, feminine, singular, genitive/dative/instrumental"
   },
   "толстом": {
     "def": "(form of толстой: [Proper Noun / Name / Place] Tolstoy)",
@@ -113007,6 +114707,10 @@ const LOCAL_DICTIONARY = {
     "def": "only; just, simply",
     "grammar": "adverb"
   },
+  "только‑что": {
+    "def": "just, just now, barely (old hyphenated spelling of только что)",
+    "grammar": "adverb/conjunction (old orthography)"
+  },
   "толю": {
     "def": "(form of толь: tar paper)",
     "grammar": "noun, masculine, singular, dative"
@@ -113032,8 +114736,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "томила": {
-    "def": "[Proper Noun / Name / Place] Tomila",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(she/it) wearied, oppressed — past tense of томить ('Томила жизнь обоих нас' — life wearied us both)",
+    "grammar": "verb, past tense, feminine, singular, imperfective"
   },
   "томило": {
     "def": "(form of томить: weary, tire, wear out, torment, torture, cement, stew)",
@@ -113080,7 +114784,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "томность": {
-    "def": "",
+    "def": "languor, languidness",
     "grammar": "noun, feminine, singular, nominative"
   },
   "томною": {
@@ -113096,7 +114800,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, plural"
   },
   "томный": {
-    "def": "",
+    "def": "languid, languorous",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "томным": {
@@ -113114,6 +114818,10 @@ const LOCAL_DICTIONARY = {
   "томясь": {
     "def": "(form of томиться: pine, languish, stew)",
     "grammar": "gerund, imperfective, present, intransitive"
+  },
+  "том‑то": {
+    "def": "в том-то и дело = that's just the point (том, prep. of тот, + emphatic ‑то)",
+    "grammar": "pronoun, neuter, singular, prepositional + emphatic particle ‑то"
   },
   "тон": {
     "def": "tone",
@@ -113212,8 +114920,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "топ": {
-    "def": "",
-    "grammar": "noun, masculine, singular, accusative"
+    "def": "stamp, tramp, clatter (of feet or hooves); конский топ = hoofbeats",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "топает": {
     "def": "(form of топать: stamp, tramp, go, walk)",
@@ -113596,7 +115304,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, transitive, singular"
   },
   "точь-в-точь": {
-    "def": "[Proper Noun / Name / Place] Toch-v-toch",
+    "def": "exactly, to a T, word for word",
+    "grammar": "adverb"
+  },
+  "точь‑в‑точь": {
+    "def": "exactly, precisely, to a T",
     "grammar": "adverb"
   },
   "тошен": {
@@ -113615,13 +115327,21 @@ const LOCAL_DICTIONARY = {
     "def": "(form of той)",
     "grammar": "noun, masculine, singular, dative"
   },
+  "то‑есть": {
+    "def": "that is, i.e. (old hyphenated spelling of то есть)",
+    "grammar": "conjunction (old orthography)"
+  },
+  "то‑то": {
+    "def": "that's just it; there you see (expresses emphasis, satisfaction or warning; colloq.)",
+    "grammar": "particle (colloq.)"
+  },
   "тра-ра-ра": {
     "def": "(form of тра-ра-р: [Proper Noun / Name / Place] Tra-ra-r)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "тра-та-та": {
-    "def": "[Proper Noun / Name / Place] Tra-ta-ta",
-    "grammar": "interjection"
+    "def": "rat-a-tat — onomatopoeic/nonsense refrain hummed between Masha and Vershinin (Три сестры)",
+    "grammar": "interjection (onomatopoeia)"
   },
   "трав": {
     "def": "(form of трава: grass; weed; herb)",
@@ -113638,6 +115358,10 @@ const LOCAL_DICTIONARY = {
   "травником": {
     "def": "(form of травник)",
     "grammar": "noun, masculine, singular, instrumental"
+  },
+  "травником‑то": {
+    "def": "herb-infused vodka, herbal liqueur (instr. of травник) + emphatic ‑то (colloq.)",
+    "grammar": "noun, masculine, singular, instrumental + emphatic particle ‑то"
   },
   "травничку": {
     "def": "(form of травничка: [Proper Noun / Name / Place] Travnichka)",
@@ -113692,7 +115416,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "трактирный": {
-    "def": "",
+    "def": "tavern- (adj. of трактир 'tavern, inn'); трибун трактирный = tavern orator",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "трактиров": {
@@ -113700,8 +115424,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "трам-там": {
-    "def": "[Proper Noun / Name / Place] Tram-tam",
-    "grammar": "adverb"
+    "def": "tram-tam — hummed nonsense refrain in Masha and Vershinin's coded exchange (Три сестры)",
+    "grammar": "interjection (song refrain)"
   },
   "трам-там-там": {
     "def": "(form of трам-там-т: [Proper Noun / Name / Place] Tram-tam-t)",
@@ -113720,8 +115444,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "тратта": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "rat-a-tat — onomatopoeia of scattered gunfire",
+    "grammar": "interjection (onomatopoeia)"
   },
   "трауне": {
     "def": "(form of трауна: [Proper Noun / Name / Place] Trauna)",
@@ -113876,8 +115600,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "трепачка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "lively Russian folk dance (gen. of трепачок, dim. of трепак)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "трепет": {
     "def": "trembling, quivering, trepidation",
@@ -114200,8 +115924,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "numeral, genitive"
   },
   "троицын": {
-    "def": "[Proper Noun / Name / Place] Troitsyn",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Троицын день — Trinity Sunday (Whitsun); possessive adjective from Троица",
+    "grammar": "adjective, possessive, masculine, singular, nominative"
   },
   "тройка": {
     "def": "three, troika, carriage-and-three, three-piece suit, tram",
@@ -114272,8 +115996,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "тронутый": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "touched, moved (with emotion); past passive participle of тронуть",
+    "grammar": "participle (passive, past), masculine, singular, accusative (= nom. form)"
   },
   "тронуть": {
     "def": "touch",
@@ -114528,8 +116252,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "трын-трава": {
-    "def": "",
-    "grammar": "predicative, present"
+    "def": "(colloq.) всё трын-трава = nothing matters, it's all the same, not worth a straw",
+    "grammar": "noun, feminine, singular, nominative (idiomatic predicative)"
   },
   "трюмо": {
     "def": "cheval-glass, pier-glass, pier",
@@ -114611,6 +116335,10 @@ const LOCAL_DICTIONARY = {
     "def": "hither and thither, it will do, it is passable, it will pass muster; back and forth",
     "grammar": "adverb"
   },
+  "туда‑то": {
+    "def": "to that very place, that's just where (туда + emphatic ‑то)",
+    "grammar": "adverb + emphatic particle ‑то"
+  },
   "туже": {
     "def": "(form of тугой: tight, taut)",
     "grammar": "comparative"
@@ -114628,12 +116356,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "тузенбах": {
-    "def": "[Proper Noun / Name / Place] Tuzenbakh",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тузенбах — Baron Tuzenbach, lieutenant in love with Irina (Три сестры)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "тузенбах-кроне-альтшауер": {
-    "def": "[Proper Noun / Name / Place] Tuzenbakh-krone-altshauer",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тузенбах-Кроне-Альтшауер — Baron Tuzenbach's full German surname (Три сестры)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "тузенбаха": {
     "def": "(form of тузенбах: [Proper Noun / Name / Place] Tuzenbakh)",
@@ -114656,16 +116384,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "туллий": {
-    "def": "[Proper Noun / Name / Place] Tulliy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Туллий — Tullius: Marcus Tullius Cicero, Roman orator and statesman (Герой нашего времени)",
+    "grammar": "noun (name), masculine, singular, nominative"
   },
   "туловищем": {
     "def": "(form of туловище: trunk, body, torso)",
     "grammar": "noun, neuter, singular, instrumental"
   },
   "тулон": {
-    "def": "[Proper Noun / Name / Place] Tulon",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тулон — Toulon, French port of Napoleon's first triumph; Prince Andrei's symbol of a decisive moment of glory",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "тулона": {
     "def": "(form of тулон: [Proper Noun / Name / Place] Tulon)",
@@ -114764,7 +116492,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "тупоумие": {
-    "def": "",
+    "def": "dull-wittedness, obtuseness, stupidity",
     "grammar": "noun, neuter, singular, nominative"
   },
   "тупые": {
@@ -114836,8 +116564,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "тут-то": {
-    "def": "[Proper Noun / Name / Place] Tut-to",
-    "grammar": "adverb"
+    "def": "right then/there (emphatic); не тут-то было — nothing of the sort, no such luck",
+    "grammar": "adverb with emphatic particle -то"
   },
   "туфли": {
     "def": "(form of туфля: shoe (high heels))",
@@ -114908,8 +116636,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, transitive, plural"
   },
   "тушин": {
-    "def": "[Proper Noun / Name / Place] Tushin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тушин — Captain Tushin, modest artillery hero of Schöngrabern (Война и мир)",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "тушина": {
     "def": "(form of тушино: [Proper Noun / Name / Place] Tushino)",
@@ -114924,8 +116652,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, dative"
   },
   "тхе": {
-    "def": "",
-    "grammar": ""
+    "def": "Turkic word in the Tatars' speech overheard at the shed (Герой нашего времени); part of a foreign phrase",
+    "grammar": "foreign word (Turkic), transcription"
   },
   "тщательно": {
     "def": "carefully, thoroughly, closely",
@@ -115000,8 +116728,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "тысячная": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "thousandth; as compound element ‑тысячная = '-thousand-strong' (e.g. восьмидесятитысячная армия)",
+    "grammar": "adjective (ordinal), feminine, singular, nominative"
   },
   "тысячных": {
     "def": "(form of тысячная)",
@@ -115016,12 +116744,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "ть": {
-    "def": "",
-    "grammar": ""
+    "def": "numeral ending in old-style 10‑ть, 9‑ть (= десять, девять); not an independent word",
+    "grammar": "numeral inflection ending (‑ть)"
   },
   "тьер": {
-    "def": "[Proper Noun / Name / Place] Ter",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Тьер — Adolphe Thiers, French historian of Napoleon, quoted in Война и мир",
+    "grammar": "noun (surname), masculine, indeclinable"
   },
   "тьма": {
     "def": "dark, darkness, ten thousand, thousands, a multitude, a host",
@@ -115036,7 +116764,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "тьфу": {
-    "def": "[Proper Noun / Name / Place] Tfu",
+    "def": "pah! ugh! — spitting sound of disgust or annoyance",
     "grammar": "interjection"
   },
   "тюлевый": {
@@ -115056,8 +116784,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "тюрк": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "abbrev. тюрк. = Turkic (marks Turkic words in the novel's footnotes)",
+    "grammar": "abbreviation (of тюркский 'Turkic')"
   },
   "тюрьме": {
     "def": "(form of тюрьма: prison, jail, gaol)",
@@ -115080,7 +116808,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, plural"
   },
   "тягость": {
-    "def": "",
+    "def": "burden, heaviness; быть в тягость = to be a burden (to someone)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "тяготили": {
@@ -115096,8 +116824,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "тягучесть": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "drawn-out, treacly quality; unctuous slowness (of a voice); viscosity",
+    "grammar": "noun, feminine, singular, accusative"
   },
   "тяжбы": {
     "def": "(form of тяжба: suit, lawsuit, competition)",
@@ -115176,16 +116904,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "тяжко": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "heavily, grievously; (predic.) тяжко жить = life is hard",
+    "grammar": "adverb/predicative"
   },
   "тяжкую": {
     "def": "(form of тяжкий: heavy, grave, terrible, distressing, painful, excruciating)",
     "grammar": "adjective, feminine, singular, accusative"
   },
   "тям": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment: dative-plural ending ‑тям (e.g. детям, гостям); not an independent word",
+    "grammar": "noun fragment (dative plural ending)"
   },
   "тянет": {
     "def": "(form of тянуть: to pull, draw, haul, drag; to lay a cable; to draw a wire; to drawl, drag out speak slowly; to drag out, delay, protract, procrastinate; to make someone go, force to go; to weigh; to draw up; attracted to)",
@@ -115236,8 +116964,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "preposition"
   },
   "убай": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Tatar word/cry in the Tatars' speech (Кавказский пленник); foreign exclamation",
+    "grammar": "foreign word (Tatar), interjection"
   },
   "убегает": {
     "def": "(form of убегать: run away; boil over)",
@@ -115284,7 +117012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "убедительно": {
-    "def": "",
+    "def": "convincingly, persuasively; (here) earnestly, imploringly",
     "grammar": "adverb"
   },
   "убедительное": {
@@ -115568,8 +117296,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "убраться": {
-    "def": "[Proper Noun / Name / Place] Ubratsya",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to clear off, get away, make oneself scarce (colloq.)",
+    "grammar": "verb, infinitive, perfective, reflexive"
   },
   "убьет": {
     "def": "(form of убить: kill, murder, assassinate, slay)",
@@ -115784,7 +117512,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, genitive"
   },
   "увеселять": {
-    "def": "",
+    "def": "to amuse, entertain, divert",
     "grammar": "infinitive, imperfective, transitive"
   },
   "увещаниям": {
@@ -115812,8 +117540,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, transitive"
   },
   "увидаться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to see one another, to meet (colloq. = увидеться)",
+    "grammar": "infinitive, perfective, reflexive (colloq.)"
   },
   "увидев": {
     "def": "(form of увидеть: see)",
@@ -115952,8 +117680,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "уг": {
-    "def": "",
-    "grammar": ""
+    "def": "word fragment (truncation/OCR artifact, e.g. of угол or угрюмо); not an independent word",
+    "grammar": "fragment"
   },
   "угадал": {
     "def": "(form of угадать: guess)",
@@ -116092,8 +117820,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "уговориться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to agree, arrange, come to an understanding (with someone)",
+    "grammar": "infinitive, perfective, reflexive"
   },
   "угодно": {
     "def": "(form of угодный: pleasing)",
@@ -116260,11 +117988,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, masculine, singular"
   },
   "удалиться": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to withdraw, go away, retire",
+    "grammar": "infinitive, perfective, reflexive"
   },
   "удалость": {
-    "def": "[Proper Noun / Name / Place] Udalost",
+    "def": "daring, boldness, reckless bravado (obs.; = удаль)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "удалось": {
@@ -116928,11 +118656,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "ужели": {
-    "def": "[Proper Noun / Name / Place] Uzheli",
+    "def": "really? can it be? (interrogative particle, obs.)",
     "grammar": "particle"
   },
   "ужель": {
-    "def": "[Proper Noun / Name / Place] Uzhel",
+    "def": "really? can it be? (poetic short form of ужели, obs.)",
     "grammar": "particle"
   },
   "ужился": {
@@ -116984,7 +118712,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "ужок": {
-    "def": "",
+    "def": "small grass snake (dim. of уж) (dial./colloq.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "узаконенное": {
@@ -117008,8 +118736,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "уздцы": {
-    "def": "",
-    "grammar": "noun, plural, accusative"
+    "def": "only in под уздцы = by the bridle (взять лошадь под уздцы)",
+    "grammar": "noun, plural, accusative (only in под уздцы)"
   },
   "узел": {
     "def": "knot; node, hub, junction; unit, assembly",
@@ -117288,7 +119016,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
   "укладывание": {
-    "def": "",
+    "def": "laying (down), placing (act of laying someone onto stretchers); verbal noun of укладывать",
     "grammar": "noun, neuter, singular, nominative"
   },
   "укладываются": {
@@ -117312,7 +119040,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "укоризненно": {
-    "def": "",
+    "def": "reproachfully",
     "grammar": "adverb"
   },
   "укором": {
@@ -117515,6 +119243,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of улыбаться: smile)",
     "grammar": "verb, imperfective, past, intransitive, masculine, singular"
   },
+  "улыбался.несмотря": {
+    "def": "run-together of улыбался 'was smiling' + Несмотря (punctuation artifact)",
+    "grammar": "verb, imperfective, past, masculine, singular, reflexive (tokenization artifact)"
+  },
   "улыбаться": {
     "def": "smile",
     "grammar": "infinitive, imperfective, intransitive"
@@ -117656,12 +119388,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "улья": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "of a beehive (gen. sg. of улей 'beehive')",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "уляшин": {
-    "def": "[Proper Noun / Name / Place] Ulyashin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Уляшин — Ulyashin, name of the master's fierce watchdog in Кавказский пленник",
+    "grammar": "noun (dog's name), masculine, singular, nominative"
   },
   "уляшина": {
     "def": "(form of уляшин: [Proper Noun / Name / Place] Ulyashin)",
@@ -117676,7 +119408,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "умалить": {
-    "def": "",
+    "def": "to diminish, lessen, belittle",
     "grammar": "infinitive, perfective, transitive"
   },
   "умах": {
@@ -117816,7 +119548,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "умильно": {
-    "def": "[Proper Noun / Name / Place] Umilno",
+    "def": "touchingly, sweetly, with fond tenderness",
     "grammar": "adverb"
   },
   "умильной": {
@@ -118084,8 +119816,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "умэ": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of умэ р-р-рэт = умереть 'to die' (German-accented speech spelling)",
+    "grammar": "verb fragment (accented-speech rendering)"
   },
   "ундина": {
     "def": "undine, water nymph",
@@ -118138,6 +119870,10 @@ const LOCAL_DICTIONARY = {
   "унизительною": {
     "def": "(form of унизительный: humiliating, degrading)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "унизи‑тельной": {
+    "def": "humiliating (= унизительной, gen. fem. of унизительный; hyphenation artifact)",
+    "grammar": "adjective, feminine, singular, genitive (hyphenation artifact)"
   },
   "унимать": {
     "def": "take away, soothe",
@@ -118220,8 +119956,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "унтер": {
-    "def": "[Proper Noun / Name / Place] Unter",
+    "def": "non-commissioned officer, NCO (mil. colloq., short for унтер-офицер)",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "унтер‑офицер": {
+    "def": "non-commissioned officer, NCO (mil., from German Unteroffizier)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "унтер‑офицера": {
+    "def": "non-commissioned officer, NCO (mil., from German Unteroffizier); form of унтер-офицер",
+    "grammar": "noun, masculine, singular, genitive/accusative"
+  },
+  "унтер‑офицером": {
+    "def": "non-commissioned officer, NCO (mil., from German Unteroffizier); form of унтер-офицер",
+    "grammar": "noun, masculine, singular, instrumental"
   },
   "унывать": {
     "def": "lose heart, be cast down",
@@ -118272,7 +120020,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, intransitive, singular"
   },
   "упадший": {
-    "def": "",
+    "def": "fallen, sunken, ruined (obs. participial adj. of упасть; упадший кредит = ruined standing)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "упал": {
@@ -118560,7 +120308,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "упрямо": {
-    "def": "[Proper Noun / Name / Place] Upryamo",
+    "def": "stubbornly, obstinately",
     "grammar": "adverb"
   },
   "упрямой": {
@@ -118606,6 +120354,10 @@ const LOCAL_DICTIONARY = {
   "уравномеренное": {
     "def": "(form of уравномеренный)",
     "grammar": "adjective, neuter, singular, nominative"
+  },
+  "ура‑а‑а‑а": {
+    "def": "hurra-a-ah! prolonged battle cry, drawn-out 'hurrah' (interjection)",
+    "grammar": "interjection"
   },
   "урной": {
     "def": "(form of урна: urn, ballot-box, refuse bin, litter receptacle)",
@@ -118672,15 +120424,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "урра": {
-    "def": "[Proper Noun / Name / Place] Urra",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "hurrah! — battle cry / cheer (spelling variant of ура)",
+    "grammar": "interjection"
   },
   "урус": {
     "def": "(form of урусый: [Proper Noun / Name / Place] Urusyy)",
     "grammar": "short adjective, masculine, singular"
   },
   "урывочками": {
-    "def": "",
+    "def": "in little snatches, in fits and starts (colloq., dim. of урывками)",
     "grammar": "adverb"
   },
   "урядник": {
@@ -118980,8 +120732,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, plural"
   },
   "услыхать": {
-    "def": "[Proper Noun / Name / Place] Uslykhat",
-    "grammar": "infinitive, perfective, transitive"
+    "def": "to hear, catch the sound of (colloq. perfective; = услышать)",
+    "grammar": "verb, infinitive, perfective, transitive"
   },
   "услышав": {
     "def": "(form of услышать: hear)",
@@ -119048,8 +120800,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, perfective, intransitive"
   },
   "усов": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "moustache, whiskers (form of ус; не носил усов = wore no moustache)",
+    "grammar": "noun, masculine, plural, genitive"
   },
   "усовершенствование": {
     "def": "improvement, perfection",
@@ -119168,11 +120920,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "успокоивать": {
-    "def": "",
+    "def": "to calm, soothe, reassure (obs. 19th-c. form of успокаивать)",
     "grammar": "infinitive, imperfective, transitive"
   },
   "успокоиваться": {
-    "def": "",
+    "def": "to calm down, grow calm (obs. 19th-c. form of успокаиваться)",
     "grammar": "infinitive, imperfective, intransitive"
   },
   "успокоивая": {
@@ -119313,6 +121065,10 @@ const LOCAL_DICTIONARY = {
   },
   "усталый": {
     "def": "tired, weary, fatigued",
+    "grammar": "adjective, masculine, singular, nominative"
+  },
+  "усталый(несмотря": {
+    "def": "tired, weary (усталый; typographic run-on with the following '(несмотря')",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "усталым": {
@@ -119816,7 +121572,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, feminine, singular"
   },
   "утопить": {
-    "def": "",
+    "def": "to drown (someone), sink; here: they wanted to drown me",
     "grammar": "infinitive, perfective, transitive"
   },
   "утоптали": {
@@ -119888,7 +121644,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, present, active, transitive, plural, genitive"
   },
   "ух": {
-    "def": "[Proper Noun / Name / Place] Ukh",
+    "def": "oof! ugh! whew! — exclamation of strain, relief or amazement",
     "grammar": "interjection"
   },
   "ухабы": {
@@ -119900,7 +121656,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "ухарски": {
-    "def": "",
+    "def": "dashingly, jauntily, with reckless swagger (colloq., from ухарь 'daredevil')",
     "grammar": "adverb"
   },
   "ухарскую": {
@@ -120244,8 +122000,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, prepositional"
   },
   "ушед": {
-    "def": "[Proper Noun / Name / Place] Ushed",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "having left, having escaped — archaic past gerund of уйти",
+    "grammar": "gerund (past adverbial participle), perfective (arch.)"
   },
   "ушей": {
     "def": "(form of ухо: ear)",
@@ -120315,16 +122071,20 @@ const LOCAL_DICTIONARY = {
     "def": "pinch, tweak",
     "grammar": "infinitive, perfective, transitive"
   },
+  "у‑у‑у": {
+    "def": "oo-oo-oo! prolonged howl or roar of a crowd (onomatopoeic interjection)",
+    "grammar": "interjection"
+  },
   "ф": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "the Cyrillic letter ф (ef); here a truncated text fragment, not a full word",
+    "grammar": "noun, letter name, indeclinable"
   },
   "фабричного": {
     "def": "(form of фабричный: industrial, manufacturing, factory-made, factory worker)",
     "grammar": "adjective, masculine, singular, genitive"
   },
   "фагот": {
-    "def": "[Proper Noun / Name / Place] Fagot",
+    "def": "bassoon (musical instrument)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фазана": {
@@ -120352,7 +122112,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "participle, imperfective, past, active, intransitive, plural, genitive"
   },
   "фальшиво": {
-    "def": "",
+    "def": "falsely, out of tune; insincerely (пропел фальшиво = sang off-key)",
     "grammar": "adverb"
   },
   "фальшивую": {
@@ -120392,7 +122152,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "short adjective, masculine, singular"
   },
   "фамильярно": {
-    "def": "",
+    "def": "familiarly, with easy over-familiarity, without ceremony",
     "grammar": "adverb"
   },
   "фамильярной": {
@@ -120416,7 +122176,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "фанаберия": {
-    "def": "",
+    "def": "arrogance, haughty conceit, standing on one's dignity (colloq., from Polish)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "фанагорию": {
@@ -120444,7 +122204,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "фармазон": {
-    "def": "",
+    "def": "freemason; freethinker, suspicious character (obs. colloq. distortion of франкмасон)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фарсом": {
@@ -120476,7 +122236,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "фаталист": {
-    "def": "[Proper Noun / Name / Place] Fatalist",
+    "def": "fatalist, believer in predestined fate; title of the final chapter of Герой нашего времени",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фаталистом": {
@@ -120500,16 +122260,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "федешоу": {
-    "def": "[Proper Noun / Name / Place] Fedeshou",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "Федешоу — Fedeshou, soldier's surname called out on the march (Война и мир)",
+    "grammar": "noun (surname), masculine, indeclinable"
   },
   "федор": {
     "def": "(form of фёдор: [Proper Noun / Name / Place] Fyodor)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "федотик": {
-    "def": "[Proper Noun / Name / Place] Fedotik",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Федотик — Fedotik, second lieutenant in Три сестры",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "федотика": {
     "def": "(form of федотик: [Proper Noun / Name / Place] Fedotik)",
@@ -120532,11 +122292,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "федя": {
-    "def": "[Proper Noun / Name / Place] Fedya",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Федя — Fedya, pet form of Фёдор; Masha's husband Kulygin (Три сестры)",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "фейерверкер": {
-    "def": "",
+    "def": "feuerwerker: artillery NCO, sergeant of gunners (mil. obs., from German Feuerwerker)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фейерверкера": {
@@ -120592,8 +122352,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "ферапонт": {
-    "def": "[Proper Noun / Name / Place] Ferapont",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ферапонт — Ferapont, old deaf porter from the district council (Три сестры)",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "ферапонта": {
     "def": "(form of ферапонт: [Proper Noun / Name / Place] Ferapont)",
@@ -120608,8 +122368,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "фердинанд": {
-    "def": "[Proper Noun / Name / Place] Ferdinand",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Фердинанд — Archduke Ferdinand of Austria, nominal army commander in 1805 (Война и мир)",
+    "grammar": "noun (given name), masculine, singular, nominative"
   },
   "фердинанда": {
     "def": "(form of фердинанд: [Proper Noun / Name / Place] Ferdinand)",
@@ -120620,7 +122380,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "фиал": {
-    "def": "",
+    "def": "goblet, chalice, cup (poet. obs., from Greek phiale)",
     "grammar": "noun, masculine, singular, accusative"
   },
   "фигаро": {
@@ -120680,7 +122440,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "физически": {
-    "def": "",
+    "def": "physically, bodily (страдает физически и нравственно = suffers in body and mind)",
     "grammar": "adverb"
   },
   "физические": {
@@ -120708,7 +122468,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "философистика": {
-    "def": "",
+    "def": "'philosophistics': mock coinage for empty pseudo-philosophizing (Solyony's jibe, Три сестры)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "философических": {
@@ -120760,8 +122520,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "финмуш": {
-    "def": "[Proper Noun / Name / Place] Finmush",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Финмуш — Monsieur Finemouche, Pelageya Nikolavna's perennial house friend (Евгений Онегин)",
+    "grammar": "noun (surname), masculine, indeclinable"
   },
   "финским": {
     "def": "(form of финский: Finnish)",
@@ -120796,7 +122556,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "фланговый": {
-    "def": "",
+    "def": "flank (attrib.), stationed on the flank (mil.; фланговый унтер-офицер = flank NCO)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "флангом": {
@@ -120835,6 +122595,18 @@ const LOCAL_DICTIONARY = {
     "def": "wing, outbuilding, outhouse",
     "grammar": "noun, masculine, singular, nominative"
   },
+  "флигель‑адъютант": {
+    "def": "fligel-adjutant: aide-de-camp on the emperor's suite (mil. obs., from German Flügeladjutant)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "флигель‑адъютанта": {
+    "def": "fligel-adjutant: aide-de-camp on the emperor's suite (mil. obs., from German Flügeladjutant)",
+    "grammar": "noun, masculine, singular, genitive/accusative"
+  },
+  "флигель‑адъютантом": {
+    "def": "fligel-adjutant: aide-de-camp on the emperor's suite (mil. obs., from German Flügeladjutant)",
+    "grammar": "noun, masculine, singular, instrumental"
+  },
   "флигелю": {
     "def": "(form of флигель: wing, outbuilding, outhouse)",
     "grammar": "noun, masculine, singular, dative"
@@ -120860,8 +122632,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, genitive"
   },
   "фобласа": {
-    "def": "[Proper Noun / Name / Place] Foblasa",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Фоблас — Faublas, libertine hero of Louvet de Couvray's French novel; a byword for a seducer of wives",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "фокусник": {
     "def": "conjurer, juggler",
@@ -120892,15 +122664,23 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "фонвизин": {
-    "def": "[Proper Noun / Name / Place] Fonvizin",
+    "def": "Фонвизин — Denis Fonvizin (1745–1792), Russian satirical playwright ('друг свободы' in Onegin)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фонтенеля": {
     "def": "(form of фонтенель: [Proper Noun / Name / Place] Fontenel)",
     "grammar": "noun, masculine, singular, genitive"
   },
+  "фон‑маутерн": {
+    "def": "von Mautern — part of the name of Prince Auersperg von Mautern, Austrian general (Война и мир)",
+    "grammar": "proper noun, surname element, indeclinable"
+  },
+  "фон‑толь": {
+    "def": "von Toll — surname of Captain von Toll, staff officer at Austerlitz (Война и мир)",
+    "grammar": "proper noun, masculine, singular, nominative"
+  },
   "форейтор": {
-    "def": "[Proper Noun / Name / Place] Foreytor",
+    "def": "postilion — rider mounted on the lead horse of a carriage team (obs.)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "форма": {
@@ -120920,8 +122700,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "формио": {
-    "def": "[Proper Noun / Name / Place] Formio",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Формио — Campo Formio, Italian town; site of the 1797 Franco-Austrian peace treaty (Кампо Формио)",
+    "grammar": "noun (place name), indeclinable"
   },
   "формируются": {
     "def": "(form of формироваться: shape, develop into)",
@@ -120944,7 +122724,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "форшпан": {
-    "def": "",
+    "def": "requisitioned transport cart or wagon with team (mil. obs., from German Vorspann)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "форшпанах": {
@@ -120968,8 +122748,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "фр": {
-    "def": "[Proper Noun / Name / Place] Fr",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "phrr! — onomatopoeic snorting or spluttering sound",
+    "grammar": "interjection (onomatopoeia)"
   },
   "фраз": {
     "def": "(form of фраза: phrase, sentence)",
@@ -121012,7 +122792,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "франтик": {
-    "def": "",
+    "def": "little dandy, young fop (colloq. dim. of франт)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "франтиков": {
@@ -121036,7 +122816,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "франц": {
-    "def": "[Proper Noun / Name / Place] Frants",
+    "def": "Франц — Franz, male given name (German); Emperor Franz I of Austria, also a manservant, in War and Peace",
     "grammar": "noun, masculine, singular, nominative"
   },
   "франца": {
@@ -121092,8 +122872,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "французишка": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "wretched little Frenchman (contemptuous dim. of француз)",
+    "grammar": "noun, masculine (fem.-type declension), singular, nominative"
   },
   "французов": {
     "def": "(form of француз: Frenchman, the French)",
@@ -121108,7 +122888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "французски": {
-    "def": "",
+    "def": "in French, in the French manner (component of по-французски)",
     "grammar": "adverb"
   },
   "французские": {
@@ -121163,9 +122943,13 @@ const LOCAL_DICTIONARY = {
     "def": "(form of француз: Frenchman, the French)",
     "grammar": "noun, masculine, plural, nominative"
   },
-  "фрейлен": {
-    "def": "",
+  "француз‑доктор": {
+    "def": "the French doctor, Frenchman-doctor (appositional compound)",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "фрейлен": {
+    "def": "Fräulein: Miss, young (German) lady (from German; obs. spelling of фрейлейн)",
+    "grammar": "noun, feminine, indeclinable"
   },
   "фрейлина": {
     "def": "maid of honour",
@@ -121192,7 +122976,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "фридрих": {
-    "def": "[Proper Noun / Name / Place] Fridrikh",
+    "def": "Фридрих — Frederick (the Great), King of Prussia, cited as a great commander in War and Peace",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фронт": {
@@ -121224,15 +123008,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "фрунт": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "front, formed line of troops (obs. mil. variant of фронт; перед фрунт = before the ranks)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "фрунтовым": {
     "def": "(form of фрунтовый)",
     "grammar": "adjective, masculine, singular, instrumental"
   },
   "фу": {
-    "def": "[Proper Noun / Name / Place] Fu",
+    "def": "ugh!, phew!, pah! — exclamation of disgust, fatigue or relief",
     "grammar": "interjection"
   },
   "функе": {
@@ -121240,8 +123024,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "фураж": {
-    "def": "[Proper Noun / Name / Place] Furazh",
-    "grammar": "noun, masculine, singular, accusative"
+    "def": "forage, fodder for army horses (mil.)",
+    "grammar": "noun, masculine, singular, nominative/accusative"
   },
   "фуража": {
     "def": "(form of фураж: [Proper Noun / Name / Place] Furazh)",
@@ -121280,7 +123064,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "фурштат": {
-    "def": "",
+    "def": "baggage-train soldier, army transport driver (mil. obs., from German Fuhrstaat)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "фурштатским": {
@@ -121336,16 +123120,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, neuter, singular"
   },
   "х": {
-    "def": "[Proper Noun / Name / Place] Kh",
-    "grammar": ""
+    "def": "the letter х (kha); here in '4-х' (four) and in the Roman numeral XL",
+    "grammar": "letter of the alphabet, indeclinable"
   },
   "ха": {
     "def": "ha",
     "grammar": "interjection"
   },
   "хаджи": {
-    "def": "",
-    "grammar": "noun, masculine, singular, genitive"
+    "def": "hajji: Muslim who has made the pilgrimage to Mecca (from Arabic)",
+    "grammar": "noun, masculine, indeclinable"
   },
   "хаживал": {
     "def": "(form of хаживать)",
@@ -121399,6 +123183,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of характерный: typical, characteristic, distinctive, character)",
     "grammar": "short adjective, neuter, singular"
   },
+  "характерно‑благородными": {
+    "def": "distinctively noble, of characteristic nobility (compound adj.)",
+    "grammar": "adjective, plural, instrumental"
+  },
   "характером": {
     "def": "(form of характер: character, temper, disposition; type; nature)",
     "grammar": "noun, masculine, singular, instrumental"
@@ -121412,8 +123200,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, nominative"
   },
   "харликова": {
-    "def": "[Proper Noun / Name / Place] Kharlikova",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Харликов — Kharlikov, surname; Panfil Kharlikov, a country neighbour in Evgeny Onegin",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "харликову": {
     "def": "(form of харликова: [Proper Noun / Name / Place] Kharlikova)",
@@ -121430,6 +123218,10 @@ const LOCAL_DICTIONARY = {
   "хаты": {
     "def": "(form of хата: hut)",
     "grammar": "noun, feminine, singular, genitive"
+  },
+  "ха‑ха‑ха": {
+    "def": "ha-ha-ha! laughter (onomatopoeic interjection)",
+    "grammar": "interjection"
   },
   "хвалебный": {
     "def": "laudatory, eulogistic",
@@ -121472,8 +123264,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "хвастунишка": {
-    "def": "",
-    "grammar": "noun, singular, nominative"
+    "def": "petty braggart, little boaster (contemptuous dim. of хвастун)",
+    "grammar": "noun, masculine (fem.-type declension), singular, nominative"
   },
   "хват": {
     "def": "dashing fellow",
@@ -121527,9 +123319,13 @@ const LOCAL_DICTIONARY = {
     "def": "(form of хватить: be enough)",
     "grammar": "verb, perfective, future, transitive, plural"
   },
+  "хватите‑ка": {
+    "def": "go on, let fly! fire away! (colloq. imperative of хватить + particle -ка; here: try a shot)",
+    "grammar": "verb, perfective, imperative, 2nd person plural, with particle -ка"
+  },
   "хвать": {
-    "def": "",
-    "grammar": "interjection"
+    "def": "snatch! grab! (verbal interjection of sudden action: я хвать за пояс = I grabbed at my belt)",
+    "grammar": "interjection, verbal (predicative)"
   },
   "хватятся": {
     "def": "(form of хватиться: miss, notice the absence)",
@@ -121568,7 +123364,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, accusative"
   },
   "херувим": {
-    "def": "",
+    "def": "cherub (biblical angel; here of a picture-perfect face)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "хижина": {
@@ -121652,7 +123448,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "хладно": {
-    "def": "",
+    "def": "coldly (poet. obs. Church Slavonic form of холодно)",
     "grammar": "adverb"
   },
   "хладного": {
@@ -121680,8 +123476,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "хладный": {
-    "def": "",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "cold (poet. obs. Church Slavonic form of холодный; хладный ум = cool reason)",
+    "grammar": "adjective, masculine, singular, accusative"
   },
   "хладом": {
     "def": "(form of хлад)",
@@ -121692,11 +123488,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "хлеб-соль": {
-    "def": "",
-    "grammar": "noun, masculine, singular, accusative"
+    "def": "bread and salt: traditional Russian offering of hospitality; welcome, good cheer",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "хлеба": {
     "def": "(form of хлеб: bread, loaf, corn, crops, cereals, grain, living, means of subsistence, daily bread)",
+    "grammar": "noun, masculine, singular, genitive"
+  },
+  "хлеба‑соли": {
+    "def": "bread and salt, i.e. one's hospitality (form of хлеб-соль; предложить хлеба-соли = offer food)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "хлебец": {
@@ -121720,7 +123520,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "хлоп": {
-    "def": "",
+    "def": "bang! clap! slap! (onomatopoeic verbal interjection of a sharp blow or clap)",
     "grammar": "interjection"
   },
   "хлопает": {
@@ -121760,8 +123560,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "хлопотливо": {
-    "def": "",
+    "def": "fussily, bustlingly, busily",
     "grammar": "adverb"
+  },
+  "хлопотливо‑возбужденное": {
+    "def": "bustlingly excited, fussily agitated (compound adj., of headquarters activity)",
+    "grammar": "adjective, neuter, singular, nominative"
   },
   "хлопоты": {
     "def": "trouble, efforts, cares, bustle, fuss",
@@ -121788,7 +123592,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "хлыстик": {
-    "def": "",
+    "def": "small riding whip, riding crop (dim. of хлыст)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "хлыстом": {
@@ -121919,8 +123723,16 @@ const LOCAL_DICTIONARY = {
     "def": "(form of хозяин: master, boss, owner, proprietor, host, landlord, man, husband)",
     "grammar": "noun, masculine, singular, dative"
   },
+  "хозяин‑немец": {
+    "def": "the German master of the house, German landlord (appositional compound)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
   "хозяйка": {
     "def": "mistress, owner, proprientress, hostess, landlady, wife, missis, missus",
+    "grammar": "noun, feminine, singular, nominative"
+  },
+  "хозяйка‑немка": {
+    "def": "the German mistress of the house, German landlady (appositional compound)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "хозяйке": {
@@ -122040,8 +123852,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "холодное": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "cold; unfeeling, chilly (neuter form of холодный: холодное выражение = cold expression)",
+    "grammar": "adjective, neuter, singular, nominative/accusative"
   },
   "холодной": {
     "def": "(form of холодный: cold, cool)",
@@ -122260,8 +124072,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "хорошо-с": {
-    "def": "[Proper Noun / Name / Place] Khorosho-s",
-    "grammar": "adverb"
+    "def": "very well, sir — хорошо with the deferential particle -с (obs., polite)",
+    "grammar": "predicative adverb + polite particle -с"
   },
   "хорошую": {
     "def": "(form of хороший: good, beautiful, handsome)",
@@ -122316,8 +124128,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, transitive, plural"
   },
   "хофс": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "'Hofs-': first element (German Hof 'court') of the mock compound хофс-кригс-вурст-рат (Война и мир)",
+    "grammar": "noun element (part of compound), indeclinable"
+  },
+  "хофс‑кригс‑вурст‑раты": {
+    "def": "'court-war-sausage-councils': Kutuzov's mocking name for the Austrian Hofkriegsrat (war council)",
+    "grammar": "noun, masculine, plural, accusative"
+  },
+  "хофс‑кригс‑вурст‑шнапс‑рат": {
+    "def": "'court-war-sausage-schnapps-council': mocking name for the Austrian Hofkriegsrat hampering Suvorov",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "хохлатые": {
     "def": "(form of хохлатый)",
@@ -122348,7 +124168,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, intransitive"
   },
   "хохотня": {
-    "def": "",
+    "def": "loud laughter, guffawing (colloq.)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "хохотом": {
@@ -122460,8 +124280,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "хранцузски": {
-    "def": "",
+    "def": "in French (peasant/dial. distortion of (по-)французски)",
     "grammar": "adverb"
+  },
+  "хранцуз‑то": {
+    "def": "the Frenchman (dial. peasant distortion of француз + emphatic particle -то)",
+    "grammar": "noun, masculine, singular, nominative, with particle -то"
   },
   "храня": {
     "def": "(form of хранить: keep, save, guard)",
@@ -122712,12 +124536,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "ца": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of ца'я = царя 'tsar' (rendering Denisov's burred r, Война и мир)",
+    "grammar": "noun fragment"
+  },
+  "ца'я": {
+    "def": "= царя, 'the tsar' (spelling of Denisov's burred r; в ца'я влюбился = fell in love with the tsar)",
+    "grammar": "noun, masculine, singular, accusative"
   },
   "цап-царап": {
-    "def": "",
-    "grammar": "interjection"
+    "def": "snatch-grab! (onomatopoeic interjection of sudden seizing: he grabbed her in a flash)",
+    "grammar": "interjection, verbal (predicative)"
   },
   "цареграда": {
     "def": "(form of цареград: [Proper Noun / Name / Place] Tsaregrad)",
@@ -122764,8 +124592,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "царствие": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "kingdom, realm (Church Slavonic form of царство; царствие Божие = the Kingdom of God)",
+    "grammar": "noun, neuter, singular, accusative"
   },
   "царство": {
     "def": "reign, kingdom, realm",
@@ -122888,7 +124716,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "цезарь": {
-    "def": "[Proper Noun / Name / Place] Tsezar",
+    "def": "Цезарь — (Julius) Caesar, Roman general and statesman",
     "grammar": "noun, masculine, singular, nominative"
   },
   "цезаря": {
@@ -123184,7 +125012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "цесаревич": {
-    "def": "",
+    "def": "tsesarevich: heir apparent to the Russian throne, the crown prince",
     "grammar": "noun, masculine, singular, nominative"
   },
   "цесаревича": {
@@ -123228,7 +125056,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "цицерон": {
-    "def": "[Proper Noun / Name / Place] Tsitseron",
+    "def": "Цицерон — Cicero, Roman orator, writer and statesman",
     "grammar": "noun, masculine, singular, nominative"
   },
   "цицерона": {
@@ -123236,8 +125064,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "цицикар": {
-    "def": "[Proper Noun / Name / Place] Tsitsikar",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Цицикар — Qiqihar, city in Manchuria, mentioned in a newspaper note in Three Sisters",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "цнайм": {
     "def": "(form of цнаём: [Proper Noun / Name / Place] Tsnayom)",
@@ -123272,20 +125100,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "цугом": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "in tandem: with horses harnessed in single or paired file (of a carriage team)",
+    "grammar": "adverb (instrumental of цуг)"
   },
   "цып": {
-    "def": "[Proper Noun / Name / Place] Tsyp",
-    "grammar": ""
+    "def": "chick-chick! — call used to summon chickens",
+    "grammar": "interjection (animal call)"
   },
   "цыпочках": {
     "def": "(form of цыпочки: tiptoe)",
     "grammar": "noun, plural, prepositional"
   },
   "ч": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "the Cyrillic letter ч (che); here a truncated text fragment, not a full word",
+    "grammar": "noun, letter name, indeclinable"
   },
   "чавканье": {
     "def": "champing",
@@ -123296,8 +125124,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, plural, accusative"
   },
   "чадаев": {
-    "def": "[Proper Noun / Name / Place] Chadaev",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Чадаев — Pyotr Chaadaev (1794–1856), philosopher and famed dandy, to whom Onegin is compared",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "чадрой": {
     "def": "(form of чадра)",
@@ -123364,8 +125192,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "чарторижский": {
-    "def": "[Proper Noun / Name / Place] Chartorizhskiy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Чарторижский — Prince Adam Czartoryski, Russian foreign minister under Alexander I",
+    "grammar": "noun (surname, adjectival declension), masculine, singular, nominative"
   },
   "чарторижскому": {
     "def": "(form of чарторижский: [Proper Noun / Name / Place] Chartorizhskiy)",
@@ -123376,8 +125204,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "час-другой": {
-    "def": "",
-    "grammar": "adjective, feminine, singular, genitive"
+    "def": "an hour or two, an hour or so (approximate duration)",
+    "grammar": "noun, masculine, singular, nominative"
   },
   "часа": {
     "def": "(form of час: hour, time, hours)",
@@ -123388,8 +125216,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, dative"
   },
   "часами": {
-    "def": "",
-    "grammar": "adverb"
+    "def": "form of час 'hour': между 12 и 2 часами = between 12 and 2 o'clock; also 'for hours on end'",
+    "grammar": "noun, masculine, plural, instrumental"
   },
   "часах": {
     "def": "(form of часы: watch, wrist-watch, watch)",
@@ -123409,6 +125237,10 @@ const LOCAL_DICTIONARY = {
   },
   "часовой": {
     "def": "clock, watch, hour-long, sentry, sentinel",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "часовой‑артиллерист": {
+    "def": "artillery sentry, artilleryman on sentry duty (mil., appositional compound)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "часовому": {
@@ -123456,7 +125288,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adverb"
   },
   "часто-часто": {
-    "def": "",
+    "def": "very rapidly, thick and fast (intensifying reduplication of часто; here of quick jabbering)",
     "grammar": "adverb"
   },
   "частые": {
@@ -123508,8 +125340,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "чацкий": {
-    "def": "[Proper Noun / Name / Place] Chatskiy",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Чацкий — Chatsky, hero of Griboedov's Woe from Wit, alluded to in Evgeny Onegin",
+    "grammar": "noun (surname, adjectival declension), masculine, singular, nominative"
   },
   "чацкого": {
     "def": "(form of чацкий: [Proper Noun / Name / Place] Chatskiy)",
@@ -123568,8 +125400,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "чебутыкин": {
-    "def": "[Proper Noun / Name / Place] Chebutykin",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Чебутыкин — Chebutykin, the old army doctor in Three Sisters",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "чебутыкина": {
     "def": "(form of чебутыкин: [Proper Noun / Name / Place] Chebutykin)",
@@ -123588,8 +125420,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, dative"
   },
   "чег": {
-    "def": "",
-    "grammar": ""
+    "def": "fragment of чег'тям = чертям 'devils' (rendering Denisov's burred r, Война и мир)",
+    "grammar": "noun fragment"
+  },
+  "чег'тям": {
+    "def": "= чертям, 'devils' (dative pl. of чёрт; spelling of Denisov's burred r)",
+    "grammar": "noun, masculine, plural, dative"
   },
   "чего": {
     "def": "(form of что: what)",
@@ -123603,9 +125439,21 @@ const LOCAL_DICTIONARY = {
     "def": "(form of что-то: something, somehow, it looks as if)",
     "grammar": "pronoun, neuter, singular, genitive"
   },
+  "чего‑нибудь": {
+    "def": "anything, something or other (genitive of что-нибудь; ждал чего-нибудь = expected something)",
+    "grammar": "pronoun, indefinite, genitive"
+  },
+  "чего‑то": {
+    "def": "something (unspecified) (genitive of что-то)",
+    "grammar": "pronoun, indefinite, genitive"
+  },
   "чей": {
     "def": "whose",
     "grammar": "adjective, masculine, singular, nominative"
+  },
+  "чей‑то": {
+    "def": "someone's, somebody's (чей-то голос = someone's voice)",
+    "grammar": "pronoun, possessive-indefinite, masculine, singular, nominative"
   },
   "чек": {
     "def": "cheque, check, receipt, bill",
@@ -123696,7 +125544,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "человэк": {
-    "def": "",
+    "def": "= человек, 'man, fellow' (spelling the German colonel's accent: молодой человэк = young man)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "челом": {
@@ -123762,6 +125610,18 @@ const LOCAL_DICTIONARY = {
   "чему-то": {
     "def": "(form of что-то: something, somehow, it looks as if)",
     "grammar": "pronoun, neuter, singular, dative"
+  },
+  "чему‑то": {
+    "def": "something (unspecified) (dative of что-то; смеялись чему-то = were laughing at something)",
+    "grammar": "pronoun, indefinite, dative"
+  },
+  "чем‑нибудь": {
+    "def": "anything, something or other (instrumental of что-нибудь)",
+    "grammar": "pronoun, indefinite, instrumental"
+  },
+  "чем‑то": {
+    "def": "something (unspecified) (instrumental of что-то)",
+    "grammar": "pronoun, indefinite, instrumental"
   },
   "чепец": {
     "def": "cap",
@@ -123852,7 +125712,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "черемша": {
-    "def": "[Proper Noun / Name / Place] Cheremsha",
+    "def": "ramsons, wild garlic (an edible plant 'вроде нашего лука')",
     "grammar": "noun, feminine, singular, nominative"
   },
   "черемши": {
@@ -123912,8 +125772,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, future, transitive, singular"
   },
   "черкесов": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Circassians (form of черкес, member of a North Caucasus mountain people)",
+    "grammar": "noun, masculine, plural, genitive/accusative"
   },
   "черкесская": {
     "def": "(form of черкесский)",
@@ -123944,7 +125804,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "черкешенка": {
-    "def": "",
+    "def": "Circassian woman, Circassian girl (feminine of черкес)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "черкешенках": {
@@ -124020,7 +125880,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "черноватенький": {
-    "def": "",
+    "def": "darkish, swarthy little (colloq. affectionate dim. of черноватый)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "черноватого": {
@@ -124028,7 +125888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, genitive"
   },
   "черноватый": {
-    "def": "",
+    "def": "blackish, darkish, swarthy; here as noun: the swarthy one (the dark-haired Tatar)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "черноватым": {
@@ -124068,7 +125928,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "черноморский": {
-    "def": "",
+    "def": "Black Sea (attrib.); черноморский казак = Cossack of the Black Sea host",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "черноморского": {
@@ -124236,8 +126096,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, neuter, singular, nominative"
   },
   "честной": {
-    "def": "[Proper Noun / Name / Place] Chestnoy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "honourable, worthy (obs., folk variant of честный); 'честная компания' — the whole good company",
+    "grammar": "adjective, feminine, singular, genitive"
   },
   "честную": {
     "def": "(form of честной: [Proper Noun / Name / Place] Chestnoy)",
@@ -124424,7 +126284,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, prepositional"
   },
   "чешски": {
-    "def": "",
+    "def": "in Czech, in the Czech manner (component of по-чешски)",
     "grammar": "adverb"
   },
   "чешуею": {
@@ -124432,7 +126292,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "чикчиры": {
-    "def": "",
+    "def": "chakchiry: tight hussar riding breeches (mil. obs., from Turkish)",
     "grammar": "noun, plural, nominative"
   },
   "чильд-гарольдом": {
@@ -124476,7 +126336,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, plural"
   },
   "чинно": {
-    "def": "",
+    "def": "decorously, sedately, with prim propriety",
     "grammar": "adverb"
   },
   "чинною": {
@@ -124580,11 +126440,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, plural, nominative"
   },
   "чистенький": {
-    "def": "[Proper Noun / Name / Place] Chistenkiy",
+    "def": "nice and clean, neat, tidy (diminutive of чистый)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "чистенько": {
-    "def": "",
+    "def": "neatly, nice and cleanly (colloq. dim. of чисто; here: write it out neatly)",
     "grammar": "adverb"
   },
   "чистились": {
@@ -124768,12 +126628,24 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "чмоканье": {
-    "def": "",
+    "def": "smacking (of kisses or lips); чмоканье девиц = the girls' kissing noises",
     "grammar": "noun, neuter, singular, nominative"
   },
   "чог": {
-    "def": "[Proper Noun / Name / Place] Chog",
-    "grammar": ""
+    "def": "чорт ('devil') as pronounced in Denisov's burred speech (чог'т) in War and Peace (colloq.)",
+    "grammar": "noun, masculine, singular, nominative (distorted speech)"
+  },
+  "чог'т": {
+    "def": "= чёрт, 'devil, the deuce' (spelling of Denisov's burred r; чог'т меня дег'нул = the devil prompted me)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "чог'това": {
+    "def": "= чёртова, 'devil's, damned' (fem. of чёртов; Denisov's burred r: чог'това кукла = damned puppet)",
+    "grammar": "adjective, feminine, singular, nominative"
+  },
+  "чог'ту": {
+    "def": "= чёрту, dative of чёрт 'devil' (Denisov's burred r; гони его к чог'ту = send him to the devil)",
+    "grammar": "noun, masculine, singular, dative"
   },
   "чокались": {
     "def": "(form of чокаться: clink glasses)",
@@ -124788,7 +126660,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "чопорно": {
-    "def": "",
+    "def": "primly, stiffly, standoffishly",
     "grammar": "adverb"
   },
   "чопорный": {
@@ -124796,7 +126668,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, nominative"
   },
   "чорт": {
-    "def": "[Proper Noun / Name / Place] Chort",
+    "def": "devil (old spelling of чёрт); used in oaths: 'чорт возьми' — the devil take it",
     "grammar": "noun, masculine, singular, nominative"
   },
   "чорта": {
@@ -124820,8 +126692,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "чрез": {
-    "def": "[Proper Noun / Name / Place] Chrez",
-    "grammar": "preposition"
+    "def": "through, across, via (obs./poet. form of через)",
+    "grammar": "preposition (+ accusative)"
   },
   "чрезвычайно": {
     "def": "extraordinarily, extremely, utterly",
@@ -124891,12 +126763,24 @@ const LOCAL_DICTIONARY = {
     "def": "(form of чтопь)",
     "grammar": "noun, feminine, singular, genitive"
   },
+  "что‑либо": {
+    "def": "anything (at all), anything whatever (bookish indefinite pronoun)",
+    "grammar": "pronoun, indefinite, accusative"
+  },
+  "что‑нибудь": {
+    "def": "something, anything (indefinite pronoun: сказать что-нибудь = to say something)",
+    "grammar": "pronoun, indefinite, accusative"
+  },
+  "что‑то": {
+    "def": "something (indefinite pronoun: что + particle -то)",
+    "grammar": "pronoun, indefinite, neuter, singular, accusative"
+  },
   "чту": {
     "def": "(form of чтить: honour, revere)",
     "grammar": "verb, imperfective, present, transitive, singular"
   },
   "чу": {
-    "def": "[Proper Noun / Name / Place] Chu",
+    "def": "hark!, hush — listen! (calls attention to a sound)",
     "grammar": "interjection"
   },
   "чувств": {
@@ -125076,7 +126960,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "чудесно": {
-    "def": "[Proper Noun / Name / Place] Chudesno",
+    "def": "wonderfully, marvellously; (as predicate) it is wonderful",
     "grammar": "adverb"
   },
   "чудесный": {
@@ -125147,6 +127031,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of чудотворный: wonder-working)",
     "grammar": "adjective, feminine, singular, genitive"
   },
+  "чудо‑то": {
+    "def": "what a marvel! (чудо 'wonder, miracle' + emphatic particle -то: «Вот чудо-то!»)",
+    "grammar": "noun, neuter, singular, nominative + emphatic particle -то"
+  },
   "чужая": {
     "def": "(form of чужой: stranger)",
     "grammar": "adjective, feminine, singular, nominative"
@@ -125208,8 +127096,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, genitive"
   },
   "чужое": {
-    "def": "[Proper Noun / Name / Place] Chuzhoe",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "someone else's, another's, not one's own (neuter of чужой)",
+    "grammar": "adjective, neuter, singular, nominative/accusative"
   },
   "чужой": {
     "def": "stranger",
@@ -125259,6 +127147,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of чутьё: scent, flair)",
     "grammar": "noun, neuter, singular, instrumental"
   },
+  "чуть‑чуть": {
+    "def": "a tiny bit, just a little (colloq.)",
+    "grammar": "adverb"
+  },
   "чучела": {
     "def": "(form of чучело: stuffed animal, stuffed bird, scarecrow)",
     "grammar": "noun, neuter, singular, genitive"
@@ -125279,6 +127171,14 @@ const LOCAL_DICTIONARY = {
     "def": "(form of чей: whose)",
     "grammar": "adjective, masculine, singular, dative"
   },
+  "чьему‑то": {
+    "def": "someone's, somebody's (dat. of чей-то: «по чьему-то приказанию» = by someone's order)",
+    "grammar": "pronoun, possessive-indefinite, neuter, singular, dative"
+  },
+  "чье‑то": {
+    "def": "someone's, somebody's (neut. of чей-то: «чье-то чужое место» = someone else's place)",
+    "grammar": "pronoun, possessive-indefinite, neuter, singular, accusative"
+  },
   "чьи": {
     "def": "(form of чей: whose)",
     "grammar": "adjective, plural, nominative"
@@ -125286,6 +127186,10 @@ const LOCAL_DICTIONARY = {
   "чьим": {
     "def": "(form of чей: whose)",
     "grammar": "adjective, masculine, singular, instrumental"
+  },
+  "чьим‑то": {
+    "def": "someone's, somebody's (instr. of чей-то: «чьим-то дыханием» = like someone's breathing)",
+    "grammar": "pronoun, possessive-indefinite, neuter, singular, instrumental"
   },
   "чью": {
     "def": "(form of чей: whose)",
@@ -125298,6 +127202,10 @@ const LOCAL_DICTIONARY = {
   "чья-то": {
     "def": "(form of чей-то: whose)",
     "grammar": "adjective, feminine, singular, nominative"
+  },
+  "чья‑то": {
+    "def": "someone's, somebody's (fem. of чей-то: «чья-то карета» = someone's carriage)",
+    "grammar": "pronoun, possessive-indefinite, feminine, singular, nominative"
   },
   "ш": {
     "def": "(form of широта: width, breadth, latitude)",
@@ -125360,7 +127268,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "шажком": {
-    "def": "",
+    "def": "at a slow walk, at a gentle amble (dim. of шагом 'at a walking pace')",
     "grammar": "adverb"
   },
   "шайка": {
@@ -125392,7 +127300,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "шалашик": {
-    "def": "",
+    "def": "small hut of branches, little wattle shelter (dim. of шалаш)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шале": {
@@ -125424,7 +127332,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "шалун": {
-    "def": "[Proper Noun / Name / Place] Shalun",
+    "def": "mischievous boy, scamp, little rascal (playful)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шалуном": {
@@ -125456,8 +127364,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, genitive"
   },
   "шамфора": {
-    "def": "[Proper Noun / Name / Place] Shamfora",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Шамфор — Chamfort, French writer of maxims and epigrams, read by Onegin",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "шапка": {
     "def": "cap, banner headline; winter cotton warmer hat",
@@ -125478,6 +127386,10 @@ const LOCAL_DICTIONARY = {
   "шапкой": {
     "def": "(form of шапка: cap, banner headline; winter cotton warmer hat)",
     "grammar": "noun, feminine, singular, instrumental"
+  },
+  "шапкой‑невидимкой": {
+    "def": "cap of invisibility (Russian folklore; instr. of шапка-невидимка: hidden as if under it)",
+    "grammar": "noun, feminine, singular, instrumental (compound)"
   },
   "шапку": {
     "def": "(form of шапка: cap, banner headline; winter cotton warmer hat)",
@@ -125500,8 +127412,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "шарах": {
-    "def": "",
-    "grammar": "interjection"
+    "def": "balloons (loc. pl. of шар 'ball, balloon': «на воздушных шарах» = in air balloons)",
+    "grammar": "noun, masculine, plural, prepositional"
   },
   "шарахнулась": {
     "def": "(form of шарахнуться: dash aside, shy)",
@@ -125560,8 +127472,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, feminine, singular"
   },
   "шатобриан": {
-    "def": "[Proper Noun / Name / Place] Shatobrian",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Шатобриан — Chateaubriand, French Romantic writer",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "шатры": {
     "def": "(form of шатёр: marquee, tent, hipped roof)",
@@ -125576,8 +127488,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, plural, nominative"
   },
   "шаховской": {
-    "def": "[Proper Noun / Name / Place] Shakhovskoy",
-    "grammar": "adjective, masculine, singular, nominative"
+    "def": "Шаховской — Prince A. A. Shakhovskoy (1777–1846), comic playwright of the Petersburg stage",
+    "grammar": "noun (surname, adjectival declension), masculine, singular, nominative"
   },
   "шашка": {
     "def": "sabre, cavalry sword, draught, draughtsman, draughts, checkers",
@@ -125696,8 +127608,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, plural"
   },
   "шевырять": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "to poke about, rummage, stir (dial./colloq., = ковырять; here poking in the stove)",
+    "grammar": "verb, imperfective, infinitive"
   },
   "шедшая": {
     "def": "(form of идти: to go; to walk)",
@@ -125752,8 +127664,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "шекспир": {
-    "def": "[Proper Noun / Name / Place] Shekspir",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Шекспир — (William) Shakespeare, English playwright",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "шел": {
     "def": "(form of идти: to go; to walk)",
@@ -125808,8 +127720,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, genitive"
   },
   "шенграбен": {
-    "def": "[Proper Noun / Name / Place] Shengraben",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Шенграбен — Schöngrabern, Austrian village; site of Bagration's rearguard battle (1805) in War and Peace",
+    "grammar": "noun (place name), masculine, singular, nominative"
   },
   "шенграбена": {
     "def": "(form of шенграбен: [Proper Noun / Name / Place] Shengraben)",
@@ -125888,8 +127800,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "шерер": {
-    "def": "[Proper Noun / Name / Place] Sherer",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Шерер — Scherer; Anna Pavlovna Scherer, court salon hostess in War and Peace",
+    "grammar": "noun (surname), feminine, singular, indeclinable"
   },
   "шерстинку": {
     "def": "(form of шерстинка)",
@@ -125976,7 +127888,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, intransitive, singular"
   },
   "шиканье": {
-    "def": "",
+    "def": "hissing, shushing (sounds of disapproval from a crowd)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "шикать": {
@@ -125996,7 +127908,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, genitive"
   },
   "шильце": {
-    "def": "",
+    "def": "small awl (dim. of шило; part of a soldier's kit)",
     "grammar": "noun, neuter, singular, nominative"
   },
   "шинелей": {
@@ -126020,12 +127932,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, plural, prepositional"
   },
   "шиншин": {
-    "def": "[Proper Noun / Name / Place] Shinshin",
-    "grammar": "noun, feminine, plural, genitive"
+    "def": "Шиншин — Shinshin, Countess Rostova's cousin, a noted Moscow wit in War and Peace",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "шиншина": {
-    "def": "[Proper Noun / Name / Place] Shinshina",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Шиншин — Shinshin, Countess Rostova's cousin in War and Peace (genitive form)",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "шиншиной": {
     "def": "(form of шиншина: [Proper Noun / Name / Place] Shinshina)",
@@ -126223,9 +128135,13 @@ const LOCAL_DICTIONARY = {
     "def": "(form of школьник: schoolboy)",
     "grammar": "noun, masculine, plural, dative"
   },
+  "школьникам‑ученикам": {
+    "def": "to schoolboy-pupils (dat. pl.; Weyrother lecturing the generals like pupils)",
+    "grammar": "noun, masculine, plural, dative (compound)"
+  },
   "школьнич": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "don't play the schoolboy (clipped imperative of школьничать, in Denisov's burred speech)",
+    "grammar": "verb, imperfective, imperative, truncated (colloq.)"
   },
   "школьные": {
     "def": "(form of школьный: school, scholastic)",
@@ -126239,6 +128155,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of шкуга)",
     "grammar": "noun, feminine, plural, genitive"
   },
+  "шкуг`у": {
+    "def": "= шкуру, hide, skin (Denisov's guttural r; «спущу шкуру» = I'll flay the hide off him)",
+    "grammar": "noun, feminine, singular, accusative"
+  },
   "шкуру": {
     "def": "(form of шкура: skin, hide, fell)",
     "grammar": "noun, feminine, singular, accusative"
@@ -126248,19 +128168,19 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, past, intransitive, feminine, singular"
   },
   "шлапаниц": {
-    "def": "[Proper Noun / Name / Place] Shlapanits",
-    "grammar": "adverb"
+    "def": "Шлапаницы — Schlapanitz (Šlapanice), village near Austerlitz in War and Peace",
+    "grammar": "noun (place name), genitive"
   },
   "шлапанице": {
-    "def": "[Proper Noun / Name / Place] Shlapanitse",
-    "grammar": "noun, feminine, singular, dative"
+    "def": "Шлапаницы — Schlapanitz (Šlapanice), village near Austerlitz; Napoleon's vantage point in War and Peace",
+    "grammar": "noun (place name), prepositional"
   },
   "шлапаницем": {
     "def": "(form of шлапанице: [Proper Noun / Name / Place] Shlapanitse)",
     "grammar": "noun, neuter, singular, instrumental"
   },
   "шлафор": {
-    "def": "",
+    "def": "dressing gown, house robe (obs., from German Schlafrock; also шлафрок)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шлеп": {
@@ -126352,8 +128272,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, instrumental"
   },
   "шмит": {
-    "def": "[Proper Noun / Name / Place] Shmit",
-    "grammar": "verb, perfective, future, transitive, singular"
+    "def": "Шмит — Schmidt, Austrian general killed at Dürnstein (1805), mourned in War and Peace",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "шмита": {
     "def": "(form of шмит: [Proper Noun / Name / Place] Shmit)",
@@ -126364,16 +128284,20 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "шмитом": {
-    "def": "[Proper Noun / Name / Place] Shmitom",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Шмит — Schmidt, Austrian general killed at Dürnstein in War and Peace (instrumental form)",
+    "grammar": "noun (surname), masculine, singular, instrumental"
   },
   "шнапс": {
-    "def": "",
+    "def": "schnapps, strong German liquor (from German Schnaps)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шнурки": {
     "def": "(form of шнурок: lace)",
     "grammar": "noun, masculine, plural, accusative"
+  },
+  "шнурки‑то": {
+    "def": "the cords, laces (pl. of шнурок + emphatic -то; a hussar's uniform cords wearing out)",
+    "grammar": "noun, masculine, plural, nominative + emphatic particle -то"
   },
   "шныряли": {
     "def": "(form of шнырять: dart in and out)",
@@ -126388,11 +128312,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "шопот": {
-    "def": "",
+    "def": "whisper (old spelling of шёпот)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шопотом": {
-    "def": "",
+    "def": "in a whisper (old spelling of шёпотом)",
     "grammar": "adverb"
   },
   "шопоты": {
@@ -126404,8 +128328,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "шос": {
-    "def": "[Proper Noun / Name / Place] Shos",
-    "grammar": ""
+    "def": "Шос — Madame Schoss, governess in the Rostov household in War and Peace",
+    "grammar": "noun (surname), feminine, indeclinable"
   },
   "шоссе": {
     "def": "highway, macadam road",
@@ -126444,11 +128368,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "шпиц": {
-    "def": "",
+    "def": "spitz, Pomeranian lap-dog (from German Spitz)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "шпор": {
-    "def": "[Proper Noun / Name / Place] Shpor",
+    "def": "spurs (genitive plural of шпора): 'звон шпор' — the jingle of spurs",
     "grammar": "noun, feminine, plural, genitive"
   },
   "шпорами": {
@@ -126496,8 +128420,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "штабс": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "staff- (mil.; first element of rank compounds штабс-капитан, штабс-ротмистр; from German Stabs-)",
+    "grammar": "combining form (indeclinable, in compound military ranks)"
   },
   "штабс-капитан": {
     "def": "staff-captain",
@@ -126516,12 +128440,40 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "штабс-пакитана": {
-    "def": "",
+    "def": "staff captain (mil.; misprint for штабс-капитана, gen. of штабс-капитан)",
+    "grammar": "noun, masculine, singular, genitive"
+  },
+  "штабс‑капитан": {
+    "def": "staff captain (mil., obs.; Imperial rank between lieutenant and captain)",
     "grammar": "noun, masculine, singular, nominative"
+  },
+  "штабс‑капитана": {
+    "def": "staff captain (mil., obs.; acc./gen. of штабс-капитан — here Captain Tushin)",
+    "grammar": "noun, masculine, singular, accusative (animate)"
   },
   "штабы": {
     "def": "(form of штаб: staff, headquarters)",
     "grammar": "noun, masculine, plural, nominative"
+  },
+  "штаб‑офицер": {
+    "def": "staff officer, field officer (mil., obs.; rank from major to colonel)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "штаб‑офицера": {
+    "def": "staff officer, field officer (mil., obs.; acc./gen. of штаб-офицер)",
+    "grammar": "noun, masculine, singular, accusative (animate)"
+  },
+  "штаб‑офицеру": {
+    "def": "(to the) staff officer, field officer (mil., obs.; dat. of штаб-офицер)",
+    "grammar": "noun, masculine, singular, dative"
+  },
+  "штаб‑ротмистр": {
+    "def": "staff cavalry captain (mil., obs.; cavalry equivalent of штабс-капитан)",
+    "grammar": "noun, masculine, singular, nominative"
+  },
+  "штаб‑ротмистра": {
+    "def": "staff cavalry captain (mil., obs.; gen. of штаб-ротмистр)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "штанах": {
     "def": "(form of штаны: trousers, breeches)",
@@ -126568,8 +128520,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "штосса": {
-    "def": "",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "shtoss (obs.; card gambling game, like faro; gen. of штосс: «лучше банка и штосса»)",
+    "grammar": "noun, masculine, singular, genitive"
   },
   "штофные": {
     "def": "(form of штофный)",
@@ -126624,8 +128576,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, dative"
   },
   "шуберт": {
-    "def": "[Proper Noun / Name / Place] Shubert",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Шуберт — Karl Bogdanovich Schubert, colonel of the Pavlograd hussars in War and Peace",
+    "grammar": "noun (surname), masculine, singular, nominative"
   },
   "шубке": {
     "def": "(form of шубка)",
@@ -126644,7 +128596,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "шулерство": {
-    "def": "",
+    "def": "card-sharping, cheating at cards; (fig.) sharp practice, swindling",
     "grammar": "noun, neuter, singular, nominative"
   },
   "шум": {
@@ -126808,7 +128760,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "шутливо": {
-    "def": "",
+    "def": "jokingly, playfully, in a bantering tone",
     "grammar": "adverb"
   },
   "шутливой": {
@@ -126848,7 +128800,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "шуточно": {
-    "def": "",
+    "def": "jestingly, in a joking manner (obs./colloq. variant of шутливо)",
     "grammar": "adverb"
   },
   "шутя": {
@@ -126864,8 +128816,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, imperfective, present, intransitive, singular"
   },
   "шушуканье": {
-    "def": "",
+    "def": "whispering, hushed gossiping (colloq.)",
     "grammar": "noun, neuter, singular, nominative"
+  },
+  "ш‑ш‑ш‑шлеп": {
+    "def": "whizz... splat! (onomatopoeia: a shell's whistle ending in a wet thud) (mil.)",
+    "grammar": "interjection (onomatopoeia)"
   },
   "щадило": {
     "def": "(form of щадить: spare)",
@@ -126988,8 +128944,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, transitive, masculine, singular"
   },
   "щелконуть": {
-    "def": "",
-    "grammar": "infinitive, perfective, intransitive"
+    "def": "to give a flick, snap at; (fig.) to snub, take someone down a peg (colloq. variant of щёлкнуть)",
+    "grammar": "verb, perfective, infinitive"
   },
   "щелку": {
     "def": "(form of щёлка)",
@@ -127032,8 +128988,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, accusative"
   },
   "щетиниться": {
-    "def": "",
-    "grammar": "infinitive, imperfective, intransitive"
+    "def": "to bristle, get one's hackles up (like an animal); (fig.) to be prickly, hostile",
+    "grammar": "verb, imperfective, infinitive"
   },
   "щетки": {
     "def": "(form of щётка: brush, fetlock)",
@@ -127056,7 +129012,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "infinitive, imperfective, transitive"
   },
   "щипчики": {
-    "def": "",
+    "def": "small pincers, tweezers (dim. of щипцы)",
     "grammar": "noun, plural, nominative"
   },
   "щит": {
@@ -127076,36 +129032,36 @@ const LOCAL_DICTIONARY = {
     "grammar": "gerund, imperfective, present, intransitive"
   },
   "ъ": {
-    "def": "",
-    "grammar": ""
+    "def": "the letter 'hard sign' (Cyrillic ъ; a German officer pronounces ъ instead of ь)",
+    "grammar": "noun, letter name, indeclinable"
   },
   "ы": {
-    "def": "",
-    "grammar": "noun, neuter, singular, nominative"
+    "def": "the letter ы; here a fragment of мы 'we' (Latin M in «Mы» caused a mis-split)",
+    "grammar": "noun, letter name, indeclinable (here: fragment of pronoun мы)"
   },
   "ысе": {
-    "def": "",
-    "grammar": ""
+    "def": "text fragment, not a standard word (likely от все/всё mis-split with a Latin letter)",
+    "grammar": "fragment (tokenization artifact, no standalone meaning)"
   },
   "ысыо": {
     "def": "(form of ысыый)",
     "grammar": "short adjective, neuter, singular"
   },
   "ь": {
-    "def": "",
-    "grammar": ""
+    "def": "the letter 'soft sign' (Cyrillic ь; a German officer pronounces ъ instead of ь)",
+    "grammar": "noun, letter name, indeclinable"
   },
   "э": {
-    "def": "[Proper Noun / Name / Place] E",
+    "def": "eh!, hey!, ah! — exclamation of surprise, reproach or dismissal",
     "grammar": "interjection"
   },
   "эва": {
-    "def": "[Proper Noun / Name / Place] Eva",
+    "def": "well I never!, look at that! (colloq. exclamation of surprise)",
     "grammar": "interjection"
   },
   "эву": {
-    "def": "[Proper Noun / Name / Place] Evu",
-    "grammar": ""
+    "def": "Эва — Eve, the biblical first woman ('прародительница Эва' in Evgeny Onegin)",
+    "grammar": "noun, feminine, singular, accusative"
   },
   "эгоизм": {
     "def": "selfishness, egoism",
@@ -127124,7 +129080,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "эдак": {
-    "def": "",
+    "def": "like that, that way; at that rate (colloq.; «он эдак скоро...» = at this rate he'll soon...)",
     "grammar": "adverb"
   },
   "эй": {
@@ -127132,11 +129088,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "interjection"
   },
   "эк": {
-    "def": "[Proper Noun / Name / Place] Ek",
-    "grammar": "adverb"
+    "def": "look how!, what a...! (colloq. particle of surprise or emphasis)",
+    "grammar": "particle"
   },
   "эка": {
-    "def": "[Proper Noun / Name / Place] Eka",
+    "def": "what a...!, just look at...! (colloq. emphatic particle, feminine form of экий)",
     "grammar": "particle"
   },
   "экая": {
@@ -127160,8 +129116,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, accusative"
   },
   "эки": {
-    "def": "[Proper Noun / Name / Place] Eki",
-    "grammar": ""
+    "def": "what (crazy)...! (colloq. plural of экий): 'эки черти' — what devils!",
+    "grammar": "pronominal adjective, plural, nominative (colloq.)"
   },
   "экий": {
     "def": "extreme, such a, what a",
@@ -127196,7 +129152,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, nominative"
   },
   "эклога": {
-    "def": "",
+    "def": "eclogue (a pastoral poem, classical genre)",
     "grammar": "noun, feminine, singular, nominative"
   },
   "экое": {
@@ -127268,11 +129224,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, neuter, singular, instrumental"
   },
   "элен": {
-    "def": "[Proper Noun / Name / Place] Elen",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Элен — Hélène (Kuragina), Prince Vasily's beautiful daughter, later Pierre's wife, in War and Peace",
+    "grammar": "noun, feminine, singular, indeclinable"
   },
   "элоиза": {
-    "def": "[Proper Noun / Name / Place] Eloiza",
+    "def": "Элоиза — Héloïse; old Prince Bolkonsky's mocking name (after Rousseau's New Héloïse) for Julie",
     "grammar": "noun, feminine, singular, nominative"
   },
   "элоизы": {
@@ -127288,7 +129244,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, prepositional"
   },
   "эльвина": {
-    "def": "[Proper Noun / Name / Place] Elvina",
+    "def": "Эльвина — Elvina, conventional poetic female name addressed in Evgeny Onegin",
     "grammar": "noun, feminine, singular, nominative"
   },
   "эманципации": {
@@ -127304,7 +129260,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, instrumental"
   },
   "энгиенский": {
-    "def": "[Proper Noun / Name / Place] Engienskiy",
+    "def": "Энгиенский — d'Enghien: герцог Энгиенский, the Duc d'Enghien, executed by Napoleon in 1804",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "энгиенского": {
@@ -127332,7 +129288,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "энергически": {
-    "def": "",
+    "def": "energetically, vigorously (obs. form of энергично)",
     "grammar": "adverb"
   },
   "энергичнее": {
@@ -127348,15 +129304,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, nominative"
   },
   "энс": {
-    "def": "[Proper Noun / Name / Place] Ens",
-    "grammar": ""
+    "def": "Энс — Enns, river and town in Austria crossed by the Russian army in War and Peace",
+    "grammar": "noun (place name), masculine, singular, nominative/accusative"
   },
   "энса": {
     "def": "(form of энс: [Proper Noun / Name / Place] Ens)",
     "grammar": "noun, masculine, singular, genitive"
   },
   "энский": {
-    "def": "[Proper Noun / Name / Place] Enskiy",
+    "def": "of the Enns; Энский мост — the bridge over the river Enns in War and Peace",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "энском": {
@@ -127424,8 +129380,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "эполет": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "epaulettes (gen. pl. of эполета: «без эполет» = without epaulettes) (mil.)",
+    "grammar": "noun, plural, genitive"
   },
   "эполетах": {
     "def": "(form of эполет)",
@@ -127440,7 +129396,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, accusative"
   },
   "эрцгерцог": {
-    "def": "[Proper Noun / Name / Place] Ertsgertsog",
+    "def": "archduke — title of Austrian princes (e.g. Archduke Ferdinand)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "эрцгерцога": {
@@ -127452,7 +129408,7 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "эрцгерцогиня": {
-    "def": "[Proper Noun / Name / Place] Ertsgertsoginya",
+    "def": "archduchess — female member of the Austrian imperial house",
     "grammar": "noun, feminine, singular, nominative"
   },
   "эрцгерцогом": {
@@ -127468,8 +129424,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "эскадг": {
-    "def": "[Proper Noun / Name / Place] Eskadg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "эскадрон ('squadron', cavalry unit) in Denisov's burred speech (эскадг'он) in War and Peace",
+    "grammar": "noun, masculine, singular, nominative (distorted speech)"
+  },
+  "эскадг'ону": {
+    "def": "= эскадрону, (for the) squadron (mil.; dat. of эскадрон, in Denisov's burred speech)",
+    "grammar": "noun, masculine, singular, dative"
   },
   "эскадрон": {
     "def": "squadron, troop",
@@ -127504,8 +129464,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, dative"
   },
   "эссена": {
-    "def": "[Proper Noun / Name / Place] Essena",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "Эссен — Essen, a Russian general of the 1805 campaign mentioned in War and Peace (genitive form)",
+    "grammar": "noun (surname), masculine, singular, genitive"
   },
   "эта": {
     "def": "(form of этот: this)",
@@ -127539,6 +129499,10 @@ const LOCAL_DICTIONARY = {
     "def": "(form of этакий: such, like this, what)",
     "grammar": "adjective, feminine, singular, instrumental"
   },
+  "эта‑то": {
+    "def": "this very, precisely this (fem.; эта + emphatic particle -то)",
+    "grammar": "pronoun, demonstrative, feminine, singular, nominative + particle -то"
+  },
   "эти": {
     "def": "(form of этот: this)",
     "grammar": "adjective, plural, nominative"
@@ -127551,9 +129515,17 @@ const LOCAL_DICTIONARY = {
     "def": "(form of этот: this)",
     "grammar": "adjective, plural, instrumental"
   },
+  "этим‑то": {
+    "def": "by/with this very (thing) (instr. of этот + emphatic -то: «этим-то пользуется» = exploits just this)",
+    "grammar": "pronoun, demonstrative, singular, instrumental + particle -то"
+  },
   "этих": {
     "def": "(form of этот: this)",
     "grammar": "adjective, plural, genitive"
+  },
+  "эти‑то": {
+    "def": "these very, precisely these (эти + emphatic -то: «вот эти-то люди» = these are the very people)",
+    "grammar": "pronoun, demonstrative, plural, nominative + particle -то"
   },
   "это": {
     "def": "this is; that is; it",
@@ -127562,6 +129534,10 @@ const LOCAL_DICTIONARY = {
   "этого": {
     "def": "(form of это: this is; that is; it)",
     "grammar": "pronoun, neuter, singular, genitive"
+  },
+  "этого‑то": {
+    "def": "of/from this very (gen. of этот + emphatic -то: «от этого-то я и боюсь» = that is just why I fear)",
+    "grammar": "pronoun, demonstrative, singular, genitive + particle -то"
   },
   "этой": {
     "def": "(form of этот: this)",
@@ -127579,13 +129555,25 @@ const LOCAL_DICTIONARY = {
     "def": "(form of этот: this)",
     "grammar": "adjective, masculine, singular, dative"
   },
+  "этом‑то": {
+    "def": "in this very (prep. of этот + emphatic -то: «в этом-то и дело» = that's just the point)",
+    "grammar": "pronoun, demonstrative, singular, prepositional + particle -то"
+  },
   "этот": {
     "def": "this",
     "grammar": "adjective, masculine, singular, accusative"
   },
+  "этот‑то": {
+    "def": "this very, precisely this (masc.; этот + emphatic particle -то)",
+    "grammar": "pronoun, demonstrative, masculine, singular, nominative + particle -то"
+  },
   "этою": {
     "def": "(form of этот: this)",
     "grammar": "adjective, feminine, singular, instrumental"
+  },
+  "это‑то": {
+    "def": "just this, this very thing (это + emphatic -то: «это-то не понравилось» = it was just this that displeased)",
+    "grammar": "pronoun, demonstrative, neuter, singular, nominative + particle -то"
   },
   "эту": {
     "def": "(form of этот: this)",
@@ -127616,8 +129604,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "ю": {
-    "def": "",
-    "grammar": ""
+    "def": "ending of the ordinal in «3-ю роту» = третью роту 'the third company'; not a standalone word",
+    "grammar": "fragment: ordinal numeral ending, feminine, singular, accusative"
   },
   "юбка": {
     "def": "skirt",
@@ -127640,8 +129628,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "ювенале": {
-    "def": "[Proper Noun / Name / Place] Yuvenale",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "Ювенал — Juvenal, Roman satirical poet; Onegin could 'потолковать об Ювенале'",
+    "grammar": "noun, masculine, singular, prepositional"
   },
   "юге": {
     "def": "(form of юг: south)",
@@ -127680,11 +129668,11 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, feminine, singular, genitive"
   },
   "юлий": {
-    "def": "[Proper Noun / Name / Place] Yuliy",
+    "def": "Юлий — Julius; Юлий Цезарь — Julius Caesar",
     "grammar": "noun, masculine, singular, nominative"
   },
   "юлия": {
-    "def": "[Proper Noun / Name / Place] Yuliya",
+    "def": "Юлия — Julia/Julie, female given name; Julie Karagina, Marya's correspondent in War and Peace",
     "grammar": "noun, feminine, singular, nominative"
   },
   "юная": {
@@ -127692,8 +129680,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, feminine, singular, nominative"
   },
   "юнкег": {
-    "def": "[Proper Noun / Name / Place] Yunkeg",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "юнкер ('junker, officer cadet') in Denisov's burred speech (юнкег') in War and Peace",
+    "grammar": "noun, masculine, singular, nominative (distorted speech)"
   },
   "юнкер": {
     "def": "cadet, junker",
@@ -127752,8 +129740,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "юноша-поэт": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "youth-poet, young poet (apposition; from Lensky's imagined epitaph: «Покойся, юноша-поэт!»)",
+    "grammar": "noun, masculine, singular, nominative (compound apposition)"
   },
   "юноше": {
     "def": "(form of юноша: young man; youth)",
@@ -127799,6 +129787,10 @@ const LOCAL_DICTIONARY = {
     "def": "I",
     "grammar": "pronoun, singular, nominative"
   },
+  "я,ты": {
+    "def": "= я, ты: 'I' and 'you' run together by a missing space («Я, ты знаешь, ...» = I, you know, ...)",
+    "grammar": "pronouns, personal, 1st + 2nd person singular, nominative (typo, missing space)"
+  },
   "я-с": {
     "def": "I",
     "grammar": "pronoun, singular, nominative"
@@ -127836,8 +129828,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "verb, perfective, past, intransitive, plural"
   },
   "явилися": {
-    "def": "[Proper Noun / Name / Place] Yavilisya",
-    "grammar": "noun, feminine, singular, nominative"
+    "def": "(they) appeared, came into view (archaic/poetic form of явились)",
+    "grammar": "verb, reflexive, past tense, plural (archaic -ся form)"
   },
   "явился": {
     "def": "(form of явиться: appear, present oneself, report, register, arrive, be)",
@@ -127908,8 +129900,12 @@ const LOCAL_DICTIONARY = {
     "grammar": "comparative"
   },
   "явственно": {
-    "def": "",
+    "def": "distinctly, clearly, plainly",
     "grammar": "adverb"
+  },
+  "явственно‑видневшаяся": {
+    "def": "clearly visible, plainly seen (явственно + fem. participle of виднеться)",
+    "grammar": "participle, imperfective, past active, feminine, singular, nominative (compound)"
   },
   "ягоду": {
     "def": "(form of ягода: berry)",
@@ -127954,6 +129950,10 @@ const LOCAL_DICTIONARY = {
   "ядром": {
     "def": "(form of ядро: core, nucleus, main body, shot, ball)",
     "grammar": "noun, neuter, singular, instrumental"
+  },
+  "ядро‑то": {
+    "def": "the cannonball (ядро + emphatic particle -то) (mil.)",
+    "grammar": "noun, neuter, singular, nominative + emphatic particle -то"
   },
   "ядры": {
     "def": "(form of ядр)",
@@ -128004,15 +130004,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, nominative"
   },
   "яким": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "= каким, 'what, which' (Ukr. dial.; «яким узлом» = with what knot)",
+    "grammar": "pronoun, interrogative, masculine, singular, instrumental (dial.)"
   },
   "якобинец": {
-    "def": "",
+    "def": "Jacobin (French revolutionary radical; here said of Pierre's dangerous talk)",
     "grammar": "noun, masculine, singular, nominative"
   },
   "яков": {
-    "def": "[Proper Noun / Name / Place] Yakov",
+    "def": "Яков — Yakov, male given name; a servant called for in War and Peace",
     "grammar": "noun, masculine, singular, nominative"
   },
   "якши": {
@@ -128028,8 +130028,8 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, plural, instrumental"
   },
   "яман": {
-    "def": "",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "bad (Turkic/Tatar loan, dial.: «Урус яман» = the Russian is bad; «яман будет твоя башка»)",
+    "grammar": "adjective, predicative, indeclinable (Turkic loan)"
   },
   "ямба": {
     "def": "(form of ямб: iambus)",
@@ -128076,16 +130076,16 @@ const LOCAL_DICTIONARY = {
     "grammar": "noun, masculine, singular, prepositional"
   },
   "янко": {
-    "def": "[Proper Noun / Name / Place] Yanko",
-    "grammar": "noun, singular, nominative"
+    "def": "Янко — Yanko, the fearless smuggler in 'Taman' (Hero of Our Time)",
+    "grammar": "noun (name), masculine, singular, nominative"
   },
   "янтарь": {
     "def": "amber",
     "grammar": "noun, masculine, singular, nominative"
   },
   "ярем": {
-    "def": "[Proper Noun / Name / Place] Yarem",
-    "grammar": "noun, masculine, singular, nominative"
+    "def": "yoke (arch./poet. form of ярмо); 'ярем барщины' — the yoke of corvée labour",
+    "grammar": "noun, masculine, singular, nominative/accusative"
   },
   "яркая": {
     "def": "(form of яркий: bright, blazing, gaudy, striking, brilliant, vivid, lively)",
@@ -128119,12 +130119,16 @@ const LOCAL_DICTIONARY = {
     "def": "(form of ярок)",
     "grammar": "noun, masculine, singular, instrumental"
   },
+  "ярко‑зеленым": {
+    "def": "bright green (instr. of ярко-зелёный)",
+    "grammar": "adjective, compound, masculine/neuter, singular, instrumental"
+  },
   "ярманку": {
     "def": "(form of ярманка)",
     "grammar": "noun, feminine, singular, accusative"
   },
   "ярославский": {
-    "def": "",
+    "def": "Yaroslavl (adj.), from Yaroslavl province («ярославский мужик» = a Yaroslavl peasant)",
     "grammar": "adjective, masculine, singular, nominative"
   },
   "ярусы": {
@@ -128248,11 +130252,15 @@ const LOCAL_DICTIONARY = {
     "grammar": "adjective, masculine, singular, dative"
   },
   "яю": {
-    "def": "",
-    "grammar": ""
+    "def": "text fragment, not a standalone word (likely a verb ending -яю, 1st sg. present, e.g. теря-ю)",
+    "grammar": "fragment (verb ending, 1st person singular present)"
+  },
+  "я‑то": {
+    "def": "as for me, I for my part (я + emphatic -то: «что ж я-то?» = but what about me?)",
+    "grammar": "pronoun, personal, 1st person singular, nominative + particle -то"
   },
   "ё": {
-    "def": "",
-    "grammar": ""
+    "def": "= её, her/it (colloq./dial. clipped form: «кто ё знает» = who knows)",
+    "grammar": "pronoun, personal, 3rd person feminine, singular, accusative (colloq.)"
   }
 };

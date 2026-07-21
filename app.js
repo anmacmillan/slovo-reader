@@ -7,6 +7,8 @@ const state = {
   books: [],
   currentBookIndex: 0,
   currentChapterIndex: 0,
+  overviewBookIndex: null,
+  completed: {},
   vocabList: [],
   synth: window.speechSynthesis,
   ruVoice: null,
@@ -29,6 +31,7 @@ const STORAGE_KEYS = {
   CUSTOM_BOOKS: "slovo_custom_library",
   THEME: "slovo_active_theme",
   PROGRESS: "slovo_reading_progress",
+  COMPLETED: "slovo_completed_v1",
   GIST_FILE: "slovo_progress.json",
   GIST_ID: "slovo_gist_id",
   AUDIOBOOK_DIR: "slovo_audiobook_dir",
@@ -223,6 +226,109 @@ function speakText(text, lang) {
   state.synth.speak(utterance);
 }
 
+// ── Chapter Completion (per unit, keyed by book title) ───────────────────────
+function loadCompletedFromStorage() {
+  try {
+    state.completed = JSON.parse(localStorage.getItem(STORAGE_KEYS.COMPLETED) || "{}") || {};
+  } catch {
+    state.completed = {};
+  }
+  // one-time migration from the old index-based progress counter
+  if (!localStorage.getItem(STORAGE_KEYS.COMPLETED)) {
+    state.books.forEach((book, idx) => {
+      const saved = parseInt(localStorage.getItem(`book_${idx}_progress`) || "0");
+      if (saved > 0 && !state.completed[book.title]) {
+        state.completed[book.title] = Array.from(
+          { length: Math.min(saved, book.chapters.length) }, (_, i) => i);
+      }
+    });
+    saveCompletedToStorage();
+  }
+}
+
+function saveCompletedToStorage() {
+  localStorage.setItem(STORAGE_KEYS.COMPLETED, JSON.stringify(state.completed));
+}
+
+function completedChapterSet(book) {
+  return new Set(state.completed[book.title] || []);
+}
+
+function isChapterCompleted(book, chapterIdx) {
+  return completedChapterSet(book).has(chapterIdx);
+}
+
+function setChapterCompleted(book, chapterIdx, done) {
+  const set = completedChapterSet(book);
+  if (done) set.add(chapterIdx); else set.delete(chapterIdx);
+  state.completed[book.title] = [...set].sort((a, b) => a - b);
+  saveCompletedToStorage();
+  syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
+}
+
+function firstUncompletedChapter(book) {
+  const set = completedChapterSet(book);
+  for (let i = 0; i < book.chapters.length; i++) {
+    if (!set.has(i)) return i;
+  }
+  return 0;
+}
+
+// ── Confetti ─────────────────────────────────────────────────────────────────
+let confettiCanvas = null;
+let confettiParticles = [];
+let confettiFrame = null;
+
+function launchConfetti(originEl, count = 70) {
+  if (!confettiCanvas) {
+    confettiCanvas = document.createElement("canvas");
+    confettiCanvas.className = "confetti-canvas";
+    document.body.appendChild(confettiCanvas);
+  }
+  confettiCanvas.width = window.innerWidth;
+  confettiCanvas.height = window.innerHeight;
+  const rect = originEl.getBoundingClientRect();
+  const ox = rect.left + rect.width / 2;
+  const oy = rect.top + rect.height / 2;
+  const colors = ["#6366f1", "#f59e0b", "#e0592a", "#7cc47f", "#f3eada"];
+  for (let i = 0; i < count; i++) {
+    const angle = -Math.PI / 2 + (Math.random() - 0.5) * Math.PI * 1.2;
+    const speed = 5 + Math.random() * 9;
+    confettiParticles.push({
+      x: ox, y: oy,
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed,
+      size: 4 + Math.random() * 5,
+      color: colors[i % colors.length],
+      rot: Math.random() * Math.PI,
+      vr: (Math.random() - 0.5) * 0.3,
+      opacity: 1,
+    });
+  }
+  if (!confettiFrame) confettiFrame = requestAnimationFrame(confettiLoop);
+}
+
+function confettiLoop() {
+  const ctx = confettiCanvas.getContext("2d");
+  ctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+  confettiParticles.forEach((p) => {
+    p.x += p.vx; p.y += p.vy; p.vy += 0.25; p.vx *= 0.99;
+    p.rot += p.vr; p.opacity -= 0.012;
+  });
+  confettiParticles = confettiParticles.filter((p) => p.opacity > 0 && p.y < confettiCanvas.height + 20);
+  for (const p of confettiParticles) {
+    ctx.save();
+    ctx.globalAlpha = p.opacity;
+    ctx.translate(p.x, p.y);
+    ctx.rotate(p.rot);
+    ctx.fillStyle = p.color;
+    ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+    ctx.restore();
+  }
+  confettiFrame = confettiParticles.length ? requestAnimationFrame(confettiLoop) : null;
+  if (!confettiFrame) ctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+}
+
 // ── Library Loading ───────────────────────────────────────────────────────────
 function loadLibrary() {
   // Load the preloaded books into state
@@ -241,6 +347,8 @@ function loadLibrary() {
     }
   }
   
+  loadCompletedFromStorage();
+
   // Render splash screen with book tiles
   renderSplash();
 }
@@ -249,45 +357,108 @@ function renderSplash() {
   const grid = document.getElementById("book-grid");
   if (!grid) return;
   grid.innerHTML = "";
-  
+
+  if (state.overviewBookIndex !== null) {
+    renderBookOverview(grid, state.overviewBookIndex);
+    return;
+  }
+
   state.books.forEach((book, idx) => {
     const card = document.createElement("div");
     card.className = "book-card";
-    
+
     const totalCh = book.chapters.length;
-    const completedCh = parseInt(localStorage.getItem(`book_${idx}_progress`) || "0");
+    const completedCh = completedChapterSet(book).size;
     const pct = Math.round((completedCh / totalCh) * 100);
-    
+    const isDone = completedCh === totalCh;
+    if (isDone) card.classList.add("book-done");
+
     card.innerHTML = `
-      <div class="book-icon">📚</div>
+      <div class="book-icon">${isDone ? "\u{1F3C6}" : "\u{1F4DA}"}</div>
       <h3>${book.title}</h3>
       <div class="book-meta">
         <span>${book.author}</span>
         <span>· ${book.year}</span>
-        <span>· ${totalCh} chapters</span>
+        <span>· ${completedCh}/${totalCh} глав</span>
       </div>
       <div class="book-progress">
         <div class="progress-track">
           <div class="progress-bar" style="width: ${pct}%"></div>
         </div>
-        <span class="progress-text">${pct}%</span>
+        <span class="progress-text">${isDone ? "✓" : pct + "%"}</span>
       </div>
     `;
-    
+
     card.addEventListener("click", () => {
-      localStorage.setItem("_selected_book", idx);
-      document.getElementById("splash-screen").classList.add("hidden");
-      document.getElementById("app-workspace").hidden = false;
-      enterBook(idx);
+      state.overviewBookIndex = idx;
+      renderSplash();
     });
-    
+
     grid.appendChild(card);
   });
 }
 
-function enterBook(bookIdx) {
+// ── Book Overview: chapter grid with completion states ───────────────────────
+function renderBookOverview(grid, idx) {
+  const book = state.books[idx];
+  const set = completedChapterSet(book);
+  const totalCh = book.chapters.length;
+  const pct = Math.round((set.size / totalCh) * 100);
+  const nextIdx = firstUncompletedChapter(book);
+  const allDone = set.size === totalCh;
+
+  const heading = document.createElement("div");
+  heading.className = "overview-heading";
+  heading.innerHTML = `
+    <button class="btn-icon overview-back" title="Back to Library">←</button>
+    <div>
+      <h1>${book.title}</h1>
+      <p>${book.author} · ${totalCh} глав</p>
+      <div class="overview-progress ${allDone ? "overview-progress-done" : ""}">
+        <div class="progress-track"><div class="progress-bar" style="width: ${pct}%"></div></div>
+        <span class="progress-text">${allDone ? "\u{1F3C6} Прочитано!" : `${set.size}/${totalCh} прочитано`}</span>
+      </div>
+    </div>
+  `;
+  heading.querySelector(".overview-back").addEventListener("click", () => {
+    state.overviewBookIndex = null;
+    renderSplash();
+  });
+  grid.appendChild(heading);
+
+  const units = document.createElement("div");
+  units.className = "unit-grid";
+  book.chapters.forEach((ch, ci) => {
+    const tile = document.createElement("div");
+    const done = set.has(ci);
+    const isNext = !done && ci === nextIdx && !allDone;
+    tile.className = "unit-tile" + (done ? " unit-done" : "") + (isNext ? " unit-next" : "");
+    const paraCount = (ch.russian || []).length;
+    tile.innerHTML = `
+      <div class="unit-top">
+        <span class="unit-num">${ci + 1}</span>
+        <span class="unit-state">${done ? "✓" : isNext ? "▶" : ""}</span>
+      </div>
+      <span class="unit-title">${ch.titleRus || `Глава ${ch.chapterNum || ci + 1}`}</span>
+      <span class="unit-meta">${ch.titleEng || ""}${isNext ? " · продолжить" : ""}</span>
+    `;
+    tile.addEventListener("click", () => {
+      localStorage.setItem("_selected_book", idx);
+      document.getElementById("splash-screen").classList.add("hidden");
+      document.getElementById("app-workspace").hidden = false;
+      enterBook(idx, ci);
+    });
+    units.appendChild(tile);
+  });
+  grid.appendChild(units);
+}
+
+function enterBook(bookIdx, chapterIdx) {
   state.currentBookIndex = parseInt(bookIdx);
-  state.currentChapterIndex = 0;
+  const book0 = state.books[state.currentBookIndex];
+  state.currentChapterIndex = Number.isInteger(chapterIdx)
+    ? chapterIdx
+    : firstUncompletedChapter(book0);
   
   // Populate book and chapter selectors
   populateBookSelector();
@@ -442,10 +613,65 @@ function renderChapter() {
     innerWrap.appendChild(row);
   });
 
+  innerWrap.appendChild(buildCompletionFooter(book));
+
   setupHoverHighlights();
-  
+
   // Apply Layout Mode
   applyLayoutMode();
+}
+
+// ── Chapter Completion Footer ────────────────────────────────────────────────
+function buildCompletionFooter(book) {
+  const ci = state.currentChapterIndex;
+  const footer = document.createElement("div");
+  footer.className = "chapter-complete-footer";
+
+  const render = () => {
+    const done = isChapterCompleted(book, ci);
+    const set = completedChapterSet(book);
+    const allDone = set.size === book.chapters.length;
+    const nextIdx = book.chapters.findIndex((_, i) => !set.has(i) && i !== ci);
+    footer.innerHTML = "";
+
+    const btn = document.createElement("button");
+    btn.className = "complete-btn" + (done ? " complete-btn-done" : "");
+    btn.textContent = done ? "✓ Прочитано" : "Отметить как прочитанное";
+    btn.addEventListener("click", () => {
+      const nowDone = !isChapterCompleted(book, ci);
+      setChapterCompleted(book, ci, nowDone);
+      if (nowDone) {
+        const allNow = completedChapterSet(book).size === book.chapters.length;
+        launchConfetti(btn, allNow ? 180 : 70);
+      }
+      render();
+    });
+    footer.appendChild(btn);
+
+    if (done && allDone) {
+      const msg = document.createElement("span");
+      msg.className = "complete-all-msg";
+      msg.textContent = `\u{1F3C6} «${book.title}» прочитана!`;
+      footer.appendChild(msg);
+    } else if (done && nextIdx >= 0) {
+      const next = document.createElement("button");
+      next.className = "next-chapter-btn";
+      const nextCh = book.chapters[nextIdx];
+      next.textContent = `Далее: ${nextCh.titleRus || `Глава ${nextIdx + 1}`} →`;
+      next.addEventListener("click", () => {
+        state.currentChapterIndex = nextIdx;
+        const chSelect = document.getElementById("chapter-select");
+        if (chSelect) chSelect.value = nextIdx;
+        renderChapter();
+        const pane = document.getElementById("reader-pane");
+        if (pane) pane.scrollTo({ top: 0 });
+      });
+      footer.appendChild(next);
+    }
+  };
+
+  render();
+  return footer;
 }
 
 function applyLayoutMode() {
@@ -1390,9 +1616,25 @@ async function githubFetch(url, options = {}) {
 
 async function syncProgressToGist() {
   const gistId = localStorage.getItem(STORAGE_KEYS.GIST_ID);
-  
-  // Build progress data
-  const progressData = {
+
+  // Read the existing gist first so foreign keys (e.g. the classics reader's
+  // "classics" section, which shares this file) are preserved, not clobbered.
+  let progressData = {};
+  if (gistId) {
+    try {
+      const existing = await githubFetch(`https://api.github.com/gists/${gistId}`);
+      if (existing && existing.ok) {
+        const gist = await existing.json();
+        if (gist.files && gist.files[GIST_FILE]) {
+          progressData = JSON.parse(gist.files[GIST_FILE].content) || {};
+        }
+      }
+    } catch (e) {
+      console.warn("Could not read existing gist before sync:", e);
+    }
+  }
+
+  Object.assign(progressData, {
     version: 2,
     lastUpdated: new Date().toISOString(),
     books: state.books.map((book, idx) => ({
@@ -1401,9 +1643,10 @@ async function syncProgressToGist() {
       chaptersRead: parseInt(localStorage.getItem(`book_${idx}_progress`) || "0"),
       totalChapters: book.chapters.length
     })),
+    completed: state.completed,
     vocab: state.vocabList,
     highlights: state.highlightsList
-  };
+  });
 
   try {
     // Write to gist via GitHub API
@@ -1474,7 +1717,17 @@ async function loadProgressFromGist() {
 
 function mergeGistProgress(cloudData) {
   if (!cloudData || !cloudData.books) return;
-  
+
+  // Merge chapter completion (union per book title)
+  if (cloudData.completed && typeof cloudData.completed === "object") {
+    for (const [title, chapters] of Object.entries(cloudData.completed)) {
+      if (!Array.isArray(chapters)) continue;
+      const merged = new Set([...(state.completed[title] || []), ...chapters]);
+      state.completed[title] = [...merged].sort((a, b) => a - b);
+    }
+    saveCompletedToStorage();
+  }
+
   // Merge book progress
   cloudData.books.forEach((cloudBook, idx) => {
     const localRead = parseInt(localStorage.getItem(`book_${idx}_progress`) || "0");
@@ -1710,12 +1963,12 @@ function bindEvents() {
     }
   });
 
-  // Back to Library
+  // Back to Library (via the current book's chapter overview)
   document.getElementById("back-to-splash").addEventListener("click", () => {
-    document.getElementById("splash-screen").classList.remove("remove");
     document.getElementById("splash-screen").classList.remove("hidden");
     document.getElementById("app-workspace").hidden = true;
-    // Restore chapter selector and progress
+    localStorage.removeItem("_selected_book");
+    state.overviewBookIndex = state.currentBookIndex;
     renderSplash();
   });
 
